@@ -34,7 +34,8 @@ plotly_config = {
     'displayModeBar': False,
     'staticPlot': False,
     'doubleClick': False,
-    'scrollZoom': False
+    'scrollZoom': False,
+    'modeBarButtonsToRemove': ['zoom2d', 'pan2d', 'select2d', 'lasso2d', 'zoomIn2d', 'zoomOut2d', 'autoScale2d', 'resetScale2d']
 }
 
 # Load data
@@ -567,7 +568,7 @@ with tab1:
             cliponaxis=False
         ))
     
-        fig_part.update_layout(
+        fig_part.update_layout(dragmode=False, 
             height=350,
             showlegend=False,
             yaxis=dict(title='Teams per 100 Students'),
@@ -596,7 +597,7 @@ with tab1:
             cliponaxis=False
         ))
     
-        fig_ret.update_layout(
+        fig_ret.update_layout(dragmode=False, 
             height=350,
             showlegend=False,
             yaxis=dict(title='Retention %'),
@@ -624,7 +625,7 @@ with tab1:
         cliponaxis=False
     ))
     
-    fig_growth.update_layout(
+    fig_growth.update_layout(dragmode=False, 
         height=350,
         showlegend=False,
         yaxis=dict(title='Growth %'),
@@ -659,7 +660,7 @@ with tab1:
         cliponaxis=False
     ))
     
-    fig_win.update_layout(
+    fig_win.update_layout(dragmode=False, 
         height=350,
         showlegend=False,
         yaxis=dict(range=[25, 70], title='Win %'),
@@ -691,7 +692,7 @@ with tab1:
             cliponaxis=False
         ))
     
-        fig_gd.update_layout(
+        fig_gd.update_layout(dragmode=False, 
             height=350,
             showlegend=False,
             yaxis=dict(title='Goal Diff'),
@@ -721,7 +722,7 @@ with tab1:
             cliponaxis=False
         ))
     
-        fig_gf.update_layout(
+        fig_gf.update_layout(dragmode=False, 
             height=350,
             showlegend=False,
             yaxis=dict(title='Goals For'),
@@ -751,7 +752,7 @@ with tab1:
             cliponaxis=False
         ))
     
-        fig_ga.update_layout(
+        fig_ga.update_layout(dragmode=False, 
             height=350,
             showlegend=False,
             yaxis=dict(title='Goals Against'),
@@ -790,7 +791,7 @@ with tab1:
             cliponaxis=False
         ))
     
-        fig_gb.update_layout(
+        fig_gb.update_layout(dragmode=False, 
             height=350,
             showlegend=False,
             yaxis=dict(range=[0, 100], title='% Girls (50% = Perfect)'),
@@ -821,7 +822,7 @@ with tab1:
             cliponaxis=False
         ))
     
-        fig_div.update_layout(
+        fig_div.update_layout(dragmode=False, 
             height=350,
             showlegend=False,
             yaxis=dict(title='Division (1=Highest, 4=Lowest)'),
@@ -1013,7 +1014,7 @@ with tab1:
                                    hovertemplate='%{y:.1f}%<extra></extra>',
                                    showlegend=False), row=3, col=2)
     
-    fig_time.update_layout(
+    fig_time.update_layout(dragmode=False, 
         height=800,
         margin=dict(t=40, b=10, l=10, r=10),
         font=dict(size=11),
