@@ -253,10 +253,10 @@ with tab2:
     st.markdown("---")
     st.markdown("### 📊 Data Sources")
     st.markdown("""
-    - **Team Performance Data**: [BAYS (Bay State Youth Soccer League)](https://bays.org) records, 2021-2025
-    - **School Enrollment**: [Massachusetts Department of Elementary and Secondary Education](https://profiles.doe.mass.edu/), 2024-25
-    - **Population Data**: [U.S. Census Bureau](https://www.census.gov/), 2020 Census
-    """, unsafe_allow_html=True)
+    - [BAYS (Bay State Youth Soccer League)](https://bays.org) - Team performance records, 2021-2025
+    - [Massachusetts Department of Elementary and Secondary Education](https://profiles.doe.mass.edu/) - School enrollment data, 2024-25
+    - [U.S. Census Bureau](https://www.census.gov/) - Population data, 2020 Census
+    """)
 
 # Sidebar - Filters (outside tabs, always visible)
 st.sidebar.header("Filter Options")
@@ -1317,7 +1317,7 @@ with tab1:
         st.markdown("#### **Program Leadership & Development**")
         st.markdown("""
         - **Coach Education**: Provide ongoing training for volunteer and paid coaches in age-appropriate coaching methods and player-centered approaches, including offering to pay for coaching certifications and licenses
-        - **Player Assessment**: Evaluate player growth through a combination of coach assessments and modern evaluation tools focused on observable skills and development milestones, moving beyond win-loss records
+        - **Player Assessment**: Evaluate player growth through a combination of coach assessments and modern evaluation tools focused on observable skills and development milestones
         - **Structured Practice Plans**: Implement consistent, age-appropriate practice plans developed by professional coaches that focus on technical skills, tactical understanding, and progressive development
         """)
     
@@ -1331,7 +1331,7 @@ with tab1:
     with col2:
         st.markdown("#### **Player-Centered Programming**")
         st.markdown("""
-        - **Age-Appropriate Focus**: Emphasize fundamental skill development and technical training in younger ages (U8-U10) through structured practice and positive reinforcement
+        - **Age-Appropriate Focus**: Emphasize fundamental skill development and technical training in younger ages (K-2) through structured practice and positive reinforcement
         - **Developmental Opportunities**: Expand training sessions, clinics, and skill-specific workshops to supplement game play and accelerate player improvement
         - **Positive Environment**: Emphasize sportsmanship, teamwork, and personal growth alongside competitive results
         - **Retention Strategies**: Survey families who don't return between seasons to understand barriers and implement targeted improvements
@@ -1339,7 +1339,7 @@ with tab1:
     
         st.markdown("#### **Data & Continuous Improvement**")
         st.markdown("""
-        - **Regular Reporting**: Share program metrics with town leadership and families to demonstrate value and identify trends
+        - **Regular Reporting**: Share program metrics with board of directors and coaches to demonstrate value and identify trends
         - **Benchmarking**: Compare performance against BAYS league averages to set realistic goals and celebrate achievements
         - **Feedback Loops**: Create channels for coaches, parents, and players to share input on program improvements
         - **Goal Setting**: Establish annual targets for participation, retention, and player development aligned with town resources
@@ -1401,7 +1401,7 @@ with tab1:
     st.markdown("---")
     st.markdown("### 📊 Data Sources")
     st.markdown("""
-    - **Team Performance Data**: [BAYS (Bay State Youth Soccer League)](https://bays.org) records, 2021-2025
-    - **School Enrollment**: [Massachusetts Department of Elementary and Secondary Education](https://profiles.doe.mass.edu/), 2024-25
-    - **Population Data**: [U.S. Census Bureau](https://www.census.gov/), 2020 Census
-    """, unsafe_allow_html=True)
+    - [BAYS (Bay State Youth Soccer League)](https://bays.org) - Team performance records, 2021-2025
+    - [Massachusetts Department of Elementary and Secondary Education](https://profiles.doe.mass.edu/) - School enrollment data, 2024-25
+    - [U.S. Census Bureau](https://www.census.gov/) - Population data, 2020 Census
+    """)
