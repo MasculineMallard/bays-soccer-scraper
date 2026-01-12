@@ -17,6 +17,11 @@ st.set_page_config(
     layout="wide"
 )
 
+# Disable zoom on mobile
+st.markdown("""
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+""", unsafe_allow_html=True)
+
 # Load data
 @st.cache_data(ttl=600, show_spinner=False)
 def load_data():
@@ -115,15 +120,13 @@ def calculate_metrics(filtered_metrics_input, towns_list):
     return df_result
 
 # Title and intro
-st.markdown("<h1 style='margin-bottom: 5px;'>⚽ Foxboro Soccer Analysis Dashboard</h1>", unsafe_allow_html=True)
-st.markdown("<h3 style='margin-top: 0px; margin-bottom: 10px;'>Compared to 7 Comparable Massachusetts Towns</h3>", unsafe_allow_html=True)
+st.markdown("<h1 style='margin-bottom: 5px;'>⚽ Foxboro Soccer Analysis</h1>", unsafe_allow_html=True)
 
 # Create tabs
 tab1, tab2 = st.tabs(["📊 Dashboard", "📖 Definitions & Assumptions"])
 
 with tab2:
     st.markdown("## 📖 Definitions & Assumptions")
-    st.markdown("---")
 
     st.markdown("### 🏘️ Comparable Towns")
     st.markdown("""
@@ -360,8 +363,8 @@ with tab1:
     with grade_col1:
         color = get_grade_color(competitive_grade)
         st.markdown(f"""
-        <div style='border: 3px solid {color}; padding: 10px; border-radius: 10px; text-align: center; background-color: rgba{tuple(list(bytes.fromhex(color[1:])) + [0.1])};'>
-            <h4 style='margin: 0; margin-bottom: 3px;'>Competitive Performance</h4>
+        <div style='border: 3px solid {color}; padding: 8px; border-radius: 10px; text-align: center; background-color: rgba{tuple(list(bytes.fromhex(color[1:])) + [0.1])};'>
+            <h4 style='margin: 0; margin-bottom: 1px;'>Competitive Performance</h4>
             <h1 style='margin: 0; color: {color}; font-size: 64px; font-weight: bold;'>{competitive_grade}</h1>
         </div>
         """, unsafe_allow_html=True)
@@ -369,8 +372,8 @@ with tab1:
     with grade_col2:
         color = get_grade_color(participation_grade)
         st.markdown(f"""
-        <div style='border: 3px solid {color}; padding: 10px; border-radius: 10px; text-align: center; background-color: rgba{tuple(list(bytes.fromhex(color[1:])) + [0.1])};'>
-            <h4 style='margin: 0; margin-bottom: 3px;'>Participation & Growth</h4>
+        <div style='border: 3px solid {color}; padding: 8px; border-radius: 10px; text-align: center; background-color: rgba{tuple(list(bytes.fromhex(color[1:])) + [0.1])};'>
+            <h4 style='margin: 0; margin-bottom: 1px;'>Participation & Growth</h4>
             <h1 style='margin: 0; color: {color}; font-size: 64px; font-weight: bold;'>{participation_grade}</h1>
         </div>
         """, unsafe_allow_html=True)
@@ -378,8 +381,8 @@ with tab1:
     with grade_col3:
         color = get_grade_color(balance_grade)
         st.markdown(f"""
-        <div style='border: 3px solid {color}; padding: 10px; border-radius: 10px; text-align: center; background-color: rgba{tuple(list(bytes.fromhex(color[1:])) + [0.1])};'>
-            <h4 style='margin: 0; margin-bottom: 3px;'>Program Balance</h4>
+        <div style='border: 3px solid {color}; padding: 8px; border-radius: 10px; text-align: center; background-color: rgba{tuple(list(bytes.fromhex(color[1:])) + [0.1])};'>
+            <h4 style='margin: 0; margin-bottom: 1px;'>Program Balance</h4>
             <h1 style='margin: 0; color: {color}; font-size: 64px; font-weight: bold;'>{balance_grade}</h1>
         </div>
         """, unsafe_allow_html=True)
