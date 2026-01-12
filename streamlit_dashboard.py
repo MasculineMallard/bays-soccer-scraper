@@ -1002,10 +1002,29 @@ with tab1:
     # Don't invert Goals Against axis - the subtitle explains lower is better
     # fig_time.update_yaxes(autorange="reversed", row=2, col=2)
 
-    # Force integer year labels (no .5 values)
-    fig_time.update_xaxes(title_text="Year", row=3, col=1, dtick=1)
-    fig_time.update_xaxes(title_text="Year", row=3, col=2, dtick=1)
-    fig_time.update_xaxes(dtick=1)  # Apply to all x-axes
+    # Show only integer year labels (keep all data points, just control tick labels)
+    fig_time.update_xaxes(
+        title_text="Year",
+        row=3,
+        col=1,
+        tickmode='array',
+        tickvals=[2021, 2022, 2023, 2024, 2025],
+        ticktext=['2021', '2022', '2023', '2024', '2025']
+    )
+    fig_time.update_xaxes(
+        title_text="Year",
+        row=3,
+        col=2,
+        tickmode='array',
+        tickvals=[2021, 2022, 2023, 2024, 2025],
+        ticktext=['2021', '2022', '2023', '2024', '2025']
+    )
+    # Apply to all other x-axes
+    fig_time.update_xaxes(
+        tickmode='array',
+        tickvals=[2021, 2022, 2023, 2024, 2025],
+        ticktext=['2021', '2022', '2023', '2024', '2025']
+    )
     
     st.plotly_chart(fig_time, use_container_width=True)
     
