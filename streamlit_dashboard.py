@@ -918,7 +918,7 @@ with tab1:
     fig_time = make_subplots(
         rows=3, cols=2,
         subplot_titles=('Win %', 'Goal Differential', 'Goals For', 'Goals Against (Lower is Better)',
-                        'Participation Rate', 'Retention %'),
+                        'Participation Rate', 'Spring Retention Rate'),
         vertical_spacing=0.10,
         horizontal_spacing=0.12
     )
