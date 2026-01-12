@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-BAYS Soccer Analysis Dashboard
-Interactive Streamlit dashboard for visualizing core metrics
+Foxboro Youth Soccer Analytics Dashboard
+Interactive Streamlit dashboard comparing Foxboro's BAYS soccer program
+performance against 7 comparable Massachusetts towns across key metrics
+including participation, competitive performance, and program balance.
 """
 
 import streamlit as st
@@ -9,10 +11,11 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
+from PIL import Image
 
 # Page config
 st.set_page_config(
-    page_title="BAYS Soccer Analysis",
+    page_title="Foxboro Youth Soccer Analytics",
     page_icon="⚽",
     layout="wide"
 )
@@ -135,13 +138,21 @@ def calculate_metrics(filtered_metrics_input, towns_list):
 
     return df_result
 
-# Title and intro
-st.markdown("<h1 style='margin-bottom: 5px;'>⚽ Foxboro Soccer Analysis</h1>", unsafe_allow_html=True)
+# Title with logo
+col_logo, col_title = st.columns([1, 9])
+with col_logo:
+    try:
+        logo = Image.open('fox-logo_3.png')
+        st.image(logo, width=80)
+    except:
+        st.markdown("⚽")
+with col_title:
+    st.markdown("<h1 style='margin-bottom: 5px; margin-top: 0px; display: flex; align-items: center; height: 80px;'>Foxboro Youth Soccer Analytics</h1>", unsafe_allow_html=True)
 
 # Create tabs
-tab1, tab2 = st.tabs(["📊 Dashboard", "📖 Definitions & Assumptions"])
+tab1, tab2, tab3, tab4 = st.tabs(["📊 Dashboard", "📈 Trends Over Time", "📖 Definitions & Assumptions", "📋 Appendix"])
 
-with tab2:
+with tab3:
     st.markdown("## 📖 Definitions & Assumptions")
 
     st.markdown("### 🏘️ Comparable Towns")
@@ -248,8 +259,8 @@ with tab2:
     st.markdown("### 🔢 Key Assumptions")
     st.markdown("""
     1. **Data Period**: Analysis covers 10 seasons from Spring 2021 through Fall 2025
-    2. **Teams Counted**: All BAYS-registered teams (recreational and competitive) for the 8 comparable towns
-    3. **Enrollment Data**: K-12 public school enrollment from 2024-25 school year (does not include private school students)
+    2. **Teams Counted**: All BAYS-registered teams for the 8 comparable towns
+    3. **Enrollment Data**: K-12 public school enrollment from 2024-25 school year (private school data was investigated but was not statistically significant)
     4. **Season Division**: Each year has Fall and Spring seasons
     5. **Ranking Method**: Lower rank number is better (1 is best, 8 is worst)
     6. **League Average**: Calculated as mean of the 7 comparison towns (excludes Foxboro)
@@ -262,19 +273,11 @@ with tab2:
     st.markdown("---")
     st.markdown("### ⚠️ Limitations & Considerations")
     st.markdown("""
-    - **Competition Quality**: Win % and Goal Diff affected by strength of opponents faced
+    - **Grade Levels**: Analysis includes only Grade 3 and above; does not include town recreation programs
     - **Team Size Variations**: Some towns may have larger or smaller team rosters
     - **Age Group Differences**: Some age groups may be more competitive than others
-    - **Participation Factors**: Enrollment doesn't capture private school students or homeschoolers (estimated 6-10% of students in these communities based on state averages)
+    - **Participation Factors**: Enrollment doesn't capture homeschoolers (private school data was investigated but was not statistically significant)
     - **Seasonal Variations**: Spring seasons typically have lower participation than Fall
-    """)
-
-    st.markdown("---")
-    st.markdown("### 📊 Data Sources")
-    st.markdown("""
-    - [BAYS (Bay State Youth Soccer League)](https://bays.org) - Team performance records, 2021-2025
-    - [Massachusetts Department of Elementary and Secondary Education](https://profiles.doe.mass.edu/) - School enrollment data, 2024-25
-    - [U.S. Census Bureau](https://www.census.gov/) - Population data, 2020 Census
     """)
 
 # Sidebar - Filters (outside tabs, always visible)
@@ -320,7 +323,7 @@ st.sidebar.markdown(f"Years: {', '.join(map(str, selected_years))}")
 st.sidebar.markdown(f"Towns: {len(selected_towns)} selected")
 st.sidebar.markdown("Seasons: Fall & Spring (both included)")
 
-# Tab 1: Dashboard content
+# Tab 1: Dashboard
 with tab1:
     # Calculate all ranks for Overall Program Assessment (displayed at top)
     fox_metrics = metrics_df.loc['FOX']
@@ -372,31 +375,31 @@ with tab1:
     st.markdown("<h2 style='margin-bottom: 10px;'>📊 Overall Program Assessment</h2>", unsafe_allow_html=True)
     
     grade_col1, grade_col2, grade_col3 = st.columns(3)
-    
+
     with grade_col1:
-        color = get_grade_color(competitive_grade)
-        st.markdown(f"""
-        <div style='border: 3px solid {color}; padding: 8px; border-radius: 10px; text-align: center; background-color: rgba{tuple(list(bytes.fromhex(color[1:])) + [0.1])};'>
-            <h4 style='margin: 0; margin-bottom: 1px;'>Competitive Performance</h4>
-            <h1 style='margin: 0; color: {color}; font-size: 64px; font-weight: bold;'>{competitive_grade}</h1>
-        </div>
-        """, unsafe_allow_html=True)
-    
-    with grade_col2:
         color = get_grade_color(participation_grade)
         st.markdown(f"""
-        <div style='border: 3px solid {color}; padding: 8px; border-radius: 10px; text-align: center; background-color: rgba{tuple(list(bytes.fromhex(color[1:])) + [0.1])};'>
-            <h4 style='margin: 0; margin-bottom: 1px;'>Participation & Growth</h4>
-            <h1 style='margin: 0; color: {color}; font-size: 64px; font-weight: bold;'>{participation_grade}</h1>
+        <div style='border: 3px solid {color}; padding: 6px; border-radius: 10px; text-align: center; background-color: rgba{tuple(list(bytes.fromhex(color[1:])) + [0.1])};'>
+            <h4 style='margin: 0; margin-bottom: 1px; font-size: 14px;'>Participation & Growth</h4>
+            <h1 style='margin: 0; color: {color}; font-size: 48px; font-weight: bold;'>{participation_grade}</h1>
+        </div>
+        """, unsafe_allow_html=True)
+
+    with grade_col2:
+        color = get_grade_color(competitive_grade)
+        st.markdown(f"""
+        <div style='border: 3px solid {color}; padding: 6px; border-radius: 10px; text-align: center; background-color: rgba{tuple(list(bytes.fromhex(color[1:])) + [0.1])};'>
+            <h4 style='margin: 0; margin-bottom: 1px; font-size: 14px;'>Competitive Performance</h4>
+            <h1 style='margin: 0; color: {color}; font-size: 48px; font-weight: bold;'>{competitive_grade}</h1>
         </div>
         """, unsafe_allow_html=True)
 
     with grade_col3:
         color = get_grade_color(balance_grade)
         st.markdown(f"""
-        <div style='border: 3px solid {color}; padding: 8px; border-radius: 10px; text-align: center; background-color: rgba{tuple(list(bytes.fromhex(color[1:])) + [0.1])};'>
-            <h4 style='margin: 0; margin-bottom: 1px;'>Program Balance</h4>
-            <h1 style='margin: 0; color: {color}; font-size: 64px; font-weight: bold;'>{balance_grade}</h1>
+        <div style='border: 3px solid {color}; padding: 6px; border-radius: 10px; text-align: center; background-color: rgba{tuple(list(bytes.fromhex(color[1:])) + [0.1])};'>
+            <h4 style='margin: 0; margin-bottom: 1px; font-size: 14px;'>Program Balance</h4>
+            <h1 style='margin: 0; color: {color}; font-size: 48px; font-weight: bold;'>{balance_grade}</h1>
         </div>
         """, unsafe_allow_html=True)
     
@@ -437,86 +440,82 @@ with tab1:
             return "orange"
         else:
             return "red"
-    
-    # Competitive Performance Section
-    st.markdown("<h4 style='margin-bottom: 5px;'>🏆 Competitive Performance</h4>", unsafe_allow_html=True)
-    col1, col2, col3, col4 = st.columns(4)
-    
-    with col1:
-        win_pct = fox_metrics['Win %']
-        fox_rank = (metrics_df['Win %'] >= win_pct).sum()
-        rank_color = get_rank_color(fox_rank)
-        st.markdown(f"""<div style='border: 1px solid lightgray; padding: 8px; border-radius: 5px;'>
-        <p style='margin-bottom: 0px;'><strong>Win % <span style='color: {rank_color};'>#{fox_rank}</span></strong></p>
-        <h2 style='margin-top: 0; margin-bottom: 0;'>{win_pct:.1f}%</h2>
-        </div>""", unsafe_allow_html=True)
-    
-    with col2:
-        gd = fox_metrics['Goal Diff']
-        gd_rank = (metrics_df['Goal Diff'] >= gd).sum()
-        rank_color = get_rank_color(gd_rank)
-        st.markdown(f"""<div style='border: 1px solid lightgray; padding: 8px; border-radius: 5px;'>
-        <p style='margin-bottom: 0px;'><strong>Goal Diff <span style='color: {rank_color};'>#{gd_rank}</span></strong></p>
-        <h2 style='margin-top: 0; margin-bottom: 0;'>{gd:+.1f}</h2>
-        </div>""", unsafe_allow_html=True)
-    
-    with col3:
-        gf = fox_metrics['Goals For']
-        gf_rank = (metrics_df['Goals For'] >= gf).sum()
-        rank_color = get_rank_color(gf_rank)
-        st.markdown(f"""<div style='border: 1px solid lightgray; padding: 8px; border-radius: 5px;'>
-        <p style='margin-bottom: 0px;'><strong>Goals For <span style='color: {rank_color};'>#{gf_rank}</span></strong></p>
-        <h2 style='margin-top: 0; margin-bottom: 0;'>{gf:.1f}</h2>
-        </div>""", unsafe_allow_html=True)
-    
-    with col4:
-        ga = fox_metrics['Goals Against']
-        ga_rank = (metrics_df['Goals Against'] <= ga).sum()  # Lower is better
-        rank_color = get_rank_color(ga_rank)
-        st.markdown(f"""<div style='border: 1px solid lightgray; padding: 8px; border-radius: 5px;'>
-        <p style='margin-bottom: 0px;'><strong>Goals Against <span style='color: {rank_color};'>#{ga_rank}</span></strong></p>
-        <h2 style='margin-top: 0; margin-bottom: 0;'>{ga:.1f}</h2>
-        </div>""", unsafe_allow_html=True)
-    
+
     # Participation & Growth Section
-    st.markdown("<h4 style='margin-top: 10px; margin-bottom: 5px;'>👥 Participation & Growth</h4>", unsafe_allow_html=True)
-    col1, col2, col3, col4 = st.columns(4)
-    
+    st.markdown("<h4 style='margin-bottom: 5px;'>👥 Participation & Growth</h4>", unsafe_allow_html=True)
+    col1, col2, col3 = st.columns(3)
+
     with col1:
         part_rate = fox_metrics['Participation Rate']
         part_rank = (metrics_df['Participation Rate'] >= part_rate).sum()
         rank_color = get_rank_color(part_rank)
-        st.markdown(f"""<div style='border: 1px solid lightgray; padding: 8px; border-radius: 5px;'>
-        <p style='margin-bottom: 0px;'><strong>Participation <span style='color: {rank_color};'>#{part_rank}</span></strong></p>
+        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
+        <p style='margin-bottom: 0px;'><strong>Participation Rate <span style='color: {rank_color};'>#{part_rank}</span></strong></p>
         <h2 style='margin-top: 0; margin-bottom: 0;'>{part_rate:.1f}</h2>
+        <p style='margin: 0; font-size: 10px; color: gray;'>per 100 students</p>
         </div>""", unsafe_allow_html=True)
-    
+
     with col2:
         retention = fox_metrics['Retention %']
         ret_rank = (metrics_df['Retention %'] >= retention).sum()
         rank_color = get_rank_color(ret_rank)
-        st.markdown(f"""<div style='border: 1px solid lightgray; padding: 8px; border-radius: 5px;'>
-        <p style='margin-bottom: 0px;'><strong>Retention <span style='color: {rank_color};'>#{ret_rank}</span></strong></p>
+        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
+        <p style='margin-bottom: 0px;'><strong>Spring Retention <span style='color: {rank_color};'>#{ret_rank}</span></strong></p>
         <h2 style='margin-top: 0; margin-bottom: 0;'>{retention:.1f}%</h2>
         </div>""", unsafe_allow_html=True)
-    
+
     with col3:
         growth = fox_metrics['Growth %']
         growth_rank = (metrics_df['Growth %'] >= growth).sum()
         rank_color = get_rank_color(growth_rank)
-        st.markdown(f"""<div style='border: 1px solid lightgray; padding: 8px; border-radius: 5px;'>
+        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
         <p style='margin-bottom: 0px;'><strong>Growth <span style='color: {rank_color};'>#{growth_rank}</span></strong></p>
         <h2 style='margin-top: 0; margin-bottom: 0;'>{growth:+.1f}%</h2>
         </div>""", unsafe_allow_html=True)
-    
-    with col4:
-        enrollment = fox_metrics['Enrollment']
-        enroll_rank = (metrics_df['Enrollment'] >= enrollment).sum()
-        st.markdown(f"""<div style='border: 1px solid lightgray; padding: 8px; border-radius: 5px;'>
-        <p style='margin-bottom: 0px;'><strong>School Enrollment <span style='color: gray;'>#{enroll_rank}</span></strong></p>
-        <h2 style='margin-top: 0; margin-bottom: 0;'>{int(enrollment)}</h2>
+
+    # Competitive Performance Section
+    st.markdown("<h4 style='margin-top: 10px; margin-bottom: 5px;'>🏆 Competitive Performance</h4>", unsafe_allow_html=True)
+    col1, col2, col3, col4 = st.columns(4)
+
+    with col1:
+        win_pct = fox_metrics['Win %']
+        fox_rank = (metrics_df['Win %'] >= win_pct).sum()
+        rank_color = get_rank_color(fox_rank)
+        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
+        <p style='margin-bottom: 0px;'><strong>Win % <span style='color: {rank_color};'>#{fox_rank}</span></strong></p>
+        <h2 style='margin-top: 0; margin-bottom: 0;'>{win_pct:.1f}%</h2>
         </div>""", unsafe_allow_html=True)
-    
+
+    with col2:
+        gd = fox_metrics['Goal Diff']
+        gd_rank = (metrics_df['Goal Diff'] >= gd).sum()
+        rank_color = get_rank_color(gd_rank)
+        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
+        <p style='margin-bottom: 0px;'><strong>Goal Differential <span style='color: {rank_color};'>#{gd_rank}</span></strong></p>
+        <h2 style='margin-top: 0; margin-bottom: 0;'>{gd:+.1f}</h2>
+        <p style='margin: 0; font-size: 10px; color: gray;'>avg per team</p>
+        </div>""", unsafe_allow_html=True)
+
+    with col3:
+        gf = fox_metrics['Goals For']
+        gf_rank = (metrics_df['Goals For'] >= gf).sum()
+        rank_color = get_rank_color(gf_rank)
+        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
+        <p style='margin-bottom: 0px;'><strong>Goals Scored <span style='color: {rank_color};'>#{gf_rank}</span></strong></p>
+        <h2 style='margin-top: 0; margin-bottom: 0;'>{gf:.1f}</h2>
+        <p style='margin: 0; font-size: 10px; color: gray;'>avg per team</p>
+        </div>""", unsafe_allow_html=True)
+
+    with col4:
+        ga = fox_metrics['Goals Against']
+        ga_rank = (metrics_df['Goals Against'] <= ga).sum()  # Lower is better
+        rank_color = get_rank_color(ga_rank)
+        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
+        <p style='margin-bottom: 0px;'><strong>Goals Allowed <span style='color: {rank_color};'>#{ga_rank}</span></strong></p>
+        <h2 style='margin-top: 0; margin-bottom: 0;'>{ga:.1f}</h2>
+        <p style='margin: 0; font-size: 10px; color: gray;'>avg per team</p>
+        </div>""", unsafe_allow_html=True)
+
     # Program Balance Section
     st.markdown("<h4 style='margin-top: 10px; margin-bottom: 5px;'>⚖️ Program Balance</h4>", unsafe_allow_html=True)
     col1, col2, col3, col4 = st.columns(4)
@@ -528,7 +527,7 @@ with tab1:
         fox_dist = distance_from_50(gb)
         gb_rank = (metrics_df['Gender Balance'].apply(distance_from_50) <= fox_dist).sum()
         rank_color = get_rank_color(gb_rank)
-        st.markdown(f"""<div style='border: 1px solid lightgray; padding: 8px; border-radius: 5px;'>
+        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
         <p style='margin-bottom: 0px;'><strong>% Girls <span style='color: {rank_color};'>#{gb_rank}</span></strong></p>
         <h2 style='margin-top: 0; margin-bottom: 0;'>{gb:.1f}%</h2>
         </div>""", unsafe_allow_html=True)
@@ -537,20 +536,20 @@ with tab1:
         div = fox_metrics['Avg Division']
         div_rank = (metrics_df['Avg Division'] <= div).sum()  # Lower is better
         rank_color = get_rank_color(div_rank)
-        st.markdown(f"""<div style='border: 1px solid lightgray; padding: 8px; border-radius: 5px;'>
+        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
         <p style='margin-bottom: 0px;'><strong>Avg Division <span style='color: {rank_color};'>#{div_rank}</span></strong></p>
         <h2 style='margin-top: 0; margin-bottom: 0;'>{div:.1f}</h2>
         </div>""", unsafe_allow_html=True)
     
     st.markdown("---")
     
-    # SECTION 1: Are kids participating and having fun?
+    # Are kids participating and having fun?
     st.markdown("<h2 style='margin-top: 10px; margin-bottom: 10px;'>🎉 Are Kids Participating and Having Fun?</h2>", unsafe_allow_html=True)
     
     col1, col2 = st.columns(2)
     
     with col1:
-        st.subheader("📈 Participation Rate")
+        st.subheader("📈 Participation Rate (Teams per 100 Students)")
     
         part_sorted = filtered_metrics.sort_values('Participation Rate', ascending=False).reset_index(drop=True)
         part_sorted['rank'] = range(1, len(part_sorted) + 1)
@@ -638,7 +637,7 @@ with tab1:
     
     st.markdown("---")
     
-    # SECTION 2: Is the program competitive? Are kids learning soccer?
+    # Is the program competitive? Are kids learning soccer?
     st.markdown("<h2 style='margin-top: 10px; margin-bottom: 10px;'>🏆 Is the Program Competitive? Are Kids Learning Soccer?</h2>", unsafe_allow_html=True)
     
     # Win Percentage - full width
@@ -668,14 +667,14 @@ with tab1:
         margin=dict(t=30, b=30, l=40, r=40),
         font=dict(size=14)
     )
-    fig_win.add_hline(y=50, line_dash="dash", line_color="gray", annotation_text="50% (Break Even)")
+    fig_win.add_hline(y=50, line_dash="dash", line_color="gray")
     st.plotly_chart(fig_win, use_container_width=True, config=plotly_config)
     
     # Three columns for competitive metrics
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        st.subheader("⚡ Goal Differential")
+        st.subheader("⚡ Goal Differential (Avg per Team)")
     
         gd_sorted = filtered_metrics.sort_values('Goal Diff', ascending=False).reset_index(drop=True)
         gd_sorted['rank'] = range(1, len(gd_sorted) + 1)
@@ -704,7 +703,7 @@ with tab1:
         st.plotly_chart(fig_gd, use_container_width=True, config=plotly_config)
     
     with col2:
-        st.subheader("⚽ Goals For")
+        st.subheader("⚽ Goals Scored (Avg per Team)")
     
         gf_sorted = filtered_metrics.sort_values('Goals For', ascending=False).reset_index(drop=True)
         gf_sorted['rank'] = range(1, len(gf_sorted) + 1)
@@ -733,7 +732,7 @@ with tab1:
         st.plotly_chart(fig_gf, use_container_width=True, config=plotly_config)
     
     with col3:
-        st.subheader("🛡️ Goals Against")
+        st.subheader("🛡️ Goals Allowed (Avg per Team)")
     
         # For goals against, LOWER is BETTER
         ga_sorted = filtered_metrics.sort_values('Goals Against', ascending=True).reset_index(drop=True)
@@ -764,8 +763,8 @@ with tab1:
     
     st.markdown("---")
     
-    # SECTION 3: Other Metrics (Gender, Division)
-    st.markdown("<h2 style='margin-top: 10px; margin-bottom: 10px;'>📋 Other Program Metrics</h2>", unsafe_allow_html=True)
+    # Program Structure & Balance
+    st.markdown("<h2 style='margin-top: 10px; margin-bottom: 10px;'>⚖️ Program Structure & Balance</h2>", unsafe_allow_html=True)
     
     col1, col2 = st.columns(2)
     
@@ -799,11 +798,11 @@ with tab1:
             margin=dict(t=30, b=30, l=40, r=40),
             font=dict(size=14)
         )
-        fig_gb.add_hline(y=50, line_dash="dash", line_color="gray", annotation_text="50% (Perfect Balance)")
+        fig_gb.add_hline(y=50, line_dash="dash", line_color="gray")
         st.plotly_chart(fig_gb, use_container_width=True, config=plotly_config)
     
     with col2:
-        st.subheader("🏅 Average Division Level")
+        st.subheader("🏅 Competitive Level (Avg Division)")
     
         # For division, LOWER is BETTER (1 is highest division)
         div_sorted = filtered_metrics.sort_values('Avg Division', ascending=True).reset_index(drop=True)
@@ -831,317 +830,7 @@ with tab1:
             font=dict(size=14)
         )
         st.plotly_chart(fig_div, use_container_width=True, config=plotly_config)
-    
-    st.markdown("---")
-    
-    # Multi-metric time series
-    st.markdown("<h2 style='margin-top: 10px; margin-bottom: 10px;'>🎯 Performance Trends Over Time</h2>", unsafe_allow_html=True)
-    st.caption("Foxboro vs League Average (7 Comparable Towns)")
-    
-    # Calculate metrics by year
-    years = sorted(filtered_metrics_data['season_year'].unique())
-    
-    # Data structure for time series - 6 most relevant metrics
-    time_series_data = {
-        'Win %': {'Fox': [], 'Avg': []},
-        'Goal Diff': {'Fox': [], 'Avg': []},
-        'Goals For': {'Fox': [], 'Avg': []},
-        'Goals Against': {'Fox': [], 'Avg': []},
-        'Participation Rate': {'Fox': [], 'Avg': []},
-        'Retention %': {'Fox': [], 'Avg': []}
-        }
-    
-    for year in years:
-        year_data = filtered_metrics_data[filtered_metrics_data['season_year'] == year]
-    
-        # Calculate Foxboro metrics for this year
-        fox_year = year_data[year_data['town_code'] == 'FOX']
-        if len(fox_year) > 0:
-            total_games = fox_year['wins'].sum() + fox_year['losses'].sum() + fox_year['ties'].sum()
-            fox_win_pct = (fox_year['wins'].sum() + 0.5 * fox_year['ties'].sum()) / total_games * 100 if total_games > 0 else 0
-            fox_gd = fox_year['goal_differential'].sum() / len(fox_year)
-            fox_gf = fox_year['goals_for'].sum() / len(fox_year)
-            fox_ga = fox_year['goals_against'].sum() / len(fox_year)
-    
-            # Participation rate for this year
-            fox_enrollment = enrollment_map.get('FOX', 2485)
-            fox_part = (len(fox_year) / 10) / fox_enrollment * 100
-    
-            # Retention for this year (Fall to Spring)
-            fox_fall = len(year_data[(year_data['town_code'] == 'FOX') & (year_data['season_period'] == 'Fall')])
-            fox_spring = len(year_data[(year_data['town_code'] == 'FOX') & (year_data['season_period'] == 'Spring')])
-            fox_ret = (fox_spring / fox_fall * 100) if fox_fall > 0 else None
-        else:
-            fox_win_pct = fox_gd = fox_gf = fox_ga = fox_part = fox_ret = None
-    
-        # Calculate league average for this year (excluding Foxboro)
-        other_year = year_data[year_data['town_code'] != 'FOX']
-        if len(other_year) > 0:
-            avg_win_pct = 0
-            avg_gd = 0
-            avg_gf = 0
-            avg_ga = 0
-            avg_part = 0
-            avg_ret = 0
-            town_count = 0
-    
-            for town in [t for t in towns if t != 'FOX']:
-                town_year = other_year[other_year['town_code'] == town]
-                if len(town_year) > 0:
-                    total_games = town_year['wins'].sum() + town_year['losses'].sum() + town_year['ties'].sum()
-                    if total_games > 0:
-                        avg_win_pct += (town_year['wins'].sum() + 0.5 * town_year['ties'].sum()) / total_games * 100
-                        avg_gd += town_year['goal_differential'].sum() / len(town_year)
-                        avg_gf += town_year['goals_for'].sum() / len(town_year)
-                        avg_ga += town_year['goals_against'].sum() / len(town_year)
-    
-                        # Participation and retention
-                        town_enrollment = enrollment_map.get(town, 2500)
-                        avg_part += (len(town_year) / 10) / town_enrollment * 100
-    
-                        town_fall = len(year_data[(year_data['town_code'] == town) & (year_data['season_period'] == 'Fall')])
-                        town_spring = len(year_data[(year_data['town_code'] == town) & (year_data['season_period'] == 'Spring')])
-                        if town_fall > 0:
-                            avg_ret += (town_spring / town_fall * 100)
-    
-                        town_count += 1
-    
-            if town_count > 0:
-                avg_win_pct /= town_count
-                avg_gd /= town_count
-                avg_gf /= town_count
-                avg_ga /= town_count
-                avg_part /= town_count
-                avg_ret /= town_count
-            else:
-                avg_win_pct = avg_gd = avg_gf = avg_ga = avg_part = avg_ret = None
-        else:
-            avg_win_pct = avg_gd = avg_gf = avg_ga = avg_part = avg_ret = None
-    
-        time_series_data['Win %']['Fox'].append(fox_win_pct)
-        time_series_data['Win %']['Avg'].append(avg_win_pct)
-        time_series_data['Goal Diff']['Fox'].append(fox_gd)
-        time_series_data['Goal Diff']['Avg'].append(avg_gd)
-        time_series_data['Goals For']['Fox'].append(fox_gf)
-        time_series_data['Goals For']['Avg'].append(avg_gf)
-        time_series_data['Goals Against']['Fox'].append(fox_ga)
-        time_series_data['Goals Against']['Avg'].append(avg_ga)
-        time_series_data['Participation Rate']['Fox'].append(fox_part)
-        time_series_data['Participation Rate']['Avg'].append(avg_part)
-        time_series_data['Retention %']['Fox'].append(fox_ret)
-        time_series_data['Retention %']['Avg'].append(avg_ret)
-    
-    # Create subplots for 6 metrics
-    from plotly.subplots import make_subplots
-    
-    fig_time = make_subplots(
-        rows=3, cols=2,
-        subplot_titles=('Win %', 'Goal Differential', 'Goals For', 'Goals Against (Lower is Better)',
-                        'Participation Rate', 'Spring Retention Rate'),
-        vertical_spacing=0.10,
-        horizontal_spacing=0.12
-    )
-    
-    # Win %
-    fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Win %']['Fox'],
-                                   name='Foxboro', mode='lines+markers',
-                                   line=dict(color='rgba(155, 89, 230, 0.9)', width=3),
-                                   hovertemplate='%{y:.1f}%<extra></extra>',
-                                   showlegend=True), row=1, col=1)
-    fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Win %']['Avg'],
-                                   name='League Avg', mode='lines+markers',
-                                   line=dict(color='lightgray', width=2, dash='dash'),
-                                   hovertemplate='%{y:.1f}%<extra></extra>',
-                                   showlegend=True), row=1, col=1)
 
-    # Goal Diff
-    fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Goal Diff']['Fox'],
-                                   name='Foxboro', mode='lines+markers',
-                                   line=dict(color='rgba(155, 89, 230, 0.9)', width=3),
-                                   hovertemplate='%{y:+.1f}<extra></extra>',
-                                   showlegend=False), row=1, col=2)
-    fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Goal Diff']['Avg'],
-                                   name='League Avg', mode='lines+markers',
-                                   line=dict(color='lightgray', width=2, dash='dash'),
-                                   hovertemplate='%{y:+.1f}<extra></extra>',
-                                   showlegend=False), row=1, col=2)
-
-    # Goals For
-    fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Goals For']['Fox'],
-                                   name='Foxboro', mode='lines+markers',
-                                   line=dict(color='rgba(155, 89, 230, 0.9)', width=3),
-                                   hovertemplate='%{y:.1f}<extra></extra>',
-                                   showlegend=False), row=2, col=1)
-    fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Goals For']['Avg'],
-                                   name='League Avg', mode='lines+markers',
-                                   line=dict(color='lightgray', width=2, dash='dash'),
-                                   hovertemplate='%{y:.1f}<extra></extra>',
-                                   showlegend=False), row=2, col=1)
-
-    # Goals Against (inverted - lower is better)
-    fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Goals Against']['Fox'],
-                                   name='Foxboro', mode='lines+markers',
-                                   line=dict(color='rgba(155, 89, 230, 0.9)', width=3),
-                                   hovertemplate='%{y:.1f}<extra></extra>',
-                                   showlegend=False), row=2, col=2)
-    fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Goals Against']['Avg'],
-                                   name='League Avg', mode='lines+markers',
-                                   line=dict(color='lightgray', width=2, dash='dash'),
-                                   hovertemplate='%{y:.1f}<extra></extra>',
-                                   showlegend=False), row=2, col=2)
-
-    # Participation Rate
-    fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Participation Rate']['Fox'],
-                                   name='Foxboro', mode='lines+markers',
-                                   line=dict(color='rgba(155, 89, 230, 0.9)', width=3),
-                                   hovertemplate='%{y:.1f}<extra></extra>',
-                                   showlegend=False), row=3, col=1)
-    fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Participation Rate']['Avg'],
-                                   name='League Avg', mode='lines+markers',
-                                   line=dict(color='lightgray', width=2, dash='dash'),
-                                   hovertemplate='%{y:.1f}<extra></extra>',
-                                   showlegend=False), row=3, col=1)
-
-    # Retention %
-    fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Retention %']['Fox'],
-                                   name='Foxboro', mode='lines+markers',
-                                   line=dict(color='rgba(155, 89, 230, 0.9)', width=3),
-                                   hovertemplate='%{y:.1f}%<extra></extra>',
-                                   showlegend=False), row=3, col=2)
-    fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Retention %']['Avg'],
-                                   name='League Avg', mode='lines+markers',
-                                   line=dict(color='lightgray', width=2, dash='dash'),
-                                   hovertemplate='%{y:.1f}%<extra></extra>',
-                                   showlegend=False), row=3, col=2)
-    
-    fig_time.update_layout(dragmode=False, 
-        height=800,
-        margin=dict(t=40, b=10, l=10, r=10),
-        font=dict(size=11),
-        legend=dict(
-            orientation="h",
-            yanchor="bottom",
-            y=1.02,
-            xanchor="center",
-            x=0.5
-        )
-    )
-    
-    # Don't invert Goals Against axis - the subtitle explains lower is better
-    # fig_time.update_yaxes(autorange="reversed", row=2, col=2)
-
-    # Show only integer year labels (keep all data points, just control tick labels)
-    fig_time.update_xaxes(
-        title_text="Year",
-        row=3,
-        col=1,
-        tickmode='array',
-        tickvals=[2021, 2022, 2023, 2024, 2025],
-        ticktext=['2021', '2022', '2023', '2024', '2025']
-    )
-    fig_time.update_xaxes(
-        title_text="Year",
-        row=3,
-        col=2,
-        tickmode='array',
-        tickvals=[2021, 2022, 2023, 2024, 2025],
-        ticktext=['2021', '2022', '2023', '2024', '2025']
-    )
-    # Apply to all other x-axes
-    fig_time.update_xaxes(
-        tickmode='array',
-        tickvals=[2021, 2022, 2023, 2024, 2025],
-        ticktext=['2021', '2022', '2023', '2024', '2025']
-    )
-    
-    st.plotly_chart(fig_time, use_container_width=True, config=plotly_config)
-    
-    st.markdown("---")
-    
-    # Data table with heatmap styling
-    st.markdown("<h2 style='margin-top: 10px; margin-bottom: 10px;'>📋 Complete Metrics Table</h2>", unsafe_allow_html=True)
-    
-    # Create a copy for display with proper formatting
-    display_df = filtered_metrics.copy()
-    # Remove any blank rows
-    display_df = display_df.dropna(how='all')
-    # Remove Enrollment column
-    if 'Enrollment' in display_df.columns:
-        display_df = display_df.drop(columns=['Enrollment'])
-    
-    # Apply gradient styling (gentle heatmap based on average)
-    def highlight_vs_avg(s, col_name):
-        """Apply color gradient based on comparison to average"""
-        avg = s.mean()
-        styles = []
-    
-        for val in s:
-            if col_name in ['Win %', 'Goal Diff', 'Participation Rate', 'Retention %',
-                            'Goals For', 'Growth %']:
-                # Higher is better - green if above avg, red if below
-                if val > avg:
-                    diff = (val - avg) / (s.max() - avg) if s.max() > avg else 0
-                    intensity = min(diff * 0.5, 0.5)  # Cap at 0.5
-                    color = f'background-color: rgba(0, 200, 0, {intensity})'
-                elif val < avg:
-                    diff = (avg - val) / (avg - s.min()) if avg > s.min() else 0
-                    intensity = min(diff * 0.5, 0.5)  # Cap at 0.5
-                    color = f'background-color: rgba(255, 100, 100, {intensity})'
-                else:
-                    color = ''
-            elif col_name in ['Goals Against', 'Avg Division']:
-                # Lower is better - green if below avg, red if above
-                if val < avg:
-                    diff = (avg - val) / (avg - s.min()) if avg > s.min() else 0
-                    intensity = min(diff * 0.5, 0.5)
-                    color = f'background-color: rgba(0, 200, 0, {intensity})'
-                elif val > avg:
-                    diff = (val - avg) / (s.max() - avg) if s.max() > avg else 0
-                    intensity = min(diff * 0.5, 0.5)
-                    color = f'background-color: rgba(255, 100, 100, {intensity})'
-                else:
-                    color = ''
-            elif col_name == 'Gender Balance':
-                # Closeness to 50 is better
-                dist_from_50 = abs(val - 50)
-                avg_dist = abs(s - 50).mean()
-                if dist_from_50 < avg_dist:
-                    diff = (avg_dist - dist_from_50) / avg_dist if avg_dist > 0 else 0
-                    intensity = min(diff * 0.5, 0.5)
-                    color = f'background-color: rgba(0, 200, 0, {intensity})'
-                elif dist_from_50 > avg_dist:
-                    diff = (dist_from_50 - avg_dist) / (abs(s - 50).max() - avg_dist) if abs(s - 50).max() > avg_dist else 0
-                    intensity = min(diff * 0.5, 0.5)
-                    color = f'background-color: rgba(255, 100, 100, {intensity})'
-                else:
-                    color = ''
-            else:
-                color = ''
-            styles.append(color)
-    
-        return styles
-    
-    # Apply styling and formatting
-    styled_df = display_df.style.format({
-        'Win %': '{:.1f}',
-        'Goal Diff': '{:+.1f}',
-        'Participation Rate': '{:.1f}',
-        'Retention %': '{:.1f}',
-        'Goals For': '{:.1f}',
-        'Goals Against': '{:.1f}',
-        'Avg Division': '{:.1f}',
-        'Gender Balance': '{:.1f}',
-        'Growth %': '{:+.1f}',
-        'Enrollment': '{:.0f}'
-    })
-    
-    # Apply heat map to each numeric column
-    for col in display_df.select_dtypes(include=['float64', 'int64']).columns:
-        if col != 'Enrollment':  # Skip enrollment
-            styled_df = styled_df.apply(highlight_vs_avg, col_name=col, subset=[col])
-    
-    st.dataframe(styled_df, use_container_width=True, height=350)
-    
     st.markdown("---")
     
     # Key findings with detailed analysis
@@ -1356,7 +1045,6 @@ with tab1:
         st.markdown("#### **Data & Continuous Improvement**")
         st.markdown("""
         - **Regular Reporting**: Share program metrics with board of directors and coaches to demonstrate value and identify trends
-        - **Benchmarking**: Compare performance against BAYS league averages to set realistic goals and celebrate achievements
         - **Feedback Loops**: Create channels for coaches, parents, and players to share input on program improvements
         - **Goal Setting**: Establish annual targets for participation, retention, and player development aligned with town resources
         """)
@@ -1402,8 +1090,456 @@ with tab1:
     
     for i, priority in enumerate(priorities, 1):
         st.markdown(f"{i}. {priority}")
-    
+
+# Tab 2: Trends Over Time
+with tab2:
+    st.markdown("<h2 style='margin-top: 10px; margin-bottom: 10px;'>📈 Performance Trends Over Time</h2>", unsafe_allow_html=True)
+    st.caption("Foxboro vs League Average (7 Comparable Towns)")
+
+    # Calculate metrics by year
+    years = sorted(filtered_metrics_data['season_year'].unique())
+
+    # Data structure for time series - all core metrics
+    time_series_data = {
+        'Win %': {'Fox': [], 'Avg': []},
+        'Goal Diff': {'Fox': [], 'Avg': []},
+        'Goals For': {'Fox': [], 'Avg': []},
+        'Goals Against': {'Fox': [], 'Avg': []},
+        'Participation Rate': {'Fox': [], 'Avg': []},
+        'Retention %': {'Fox': [], 'Avg': []},
+        'Growth %': {'Fox': [], 'Avg': []},
+        'Gender Balance': {'Fox': [], 'Avg': []},
+        'Avg Division': {'Fox': [], 'Avg': []}
+        }
+
+    for year in years:
+        year_data = filtered_metrics_data[filtered_metrics_data['season_year'] == year]
+
+        # Calculate Foxboro metrics for this year
+        fox_year = year_data[year_data['town_code'] == 'FOX']
+        if len(fox_year) > 0:
+            total_games = fox_year['wins'].sum() + fox_year['losses'].sum() + fox_year['ties'].sum()
+            fox_win_pct = (fox_year['wins'].sum() + 0.5 * fox_year['ties'].sum()) / total_games * 100 if total_games > 0 else 0
+            fox_gd = fox_year['goal_differential'].sum() / len(fox_year)
+            fox_gf = fox_year['goals_for'].sum() / len(fox_year)
+            fox_ga = fox_year['goals_against'].sum() / len(fox_year)
+
+            # Participation rate for this year
+            fox_enrollment = enrollment_map.get('FOX', 2485)
+            fox_part = (len(fox_year) / 10) / fox_enrollment * 100
+
+            # Retention for this year (Fall to Spring)
+            fox_fall = len(year_data[(year_data['town_code'] == 'FOX') & (year_data['season_period'] == 'Fall')])
+            fox_spring = len(year_data[(year_data['town_code'] == 'FOX') & (year_data['season_period'] == 'Spring')])
+            fox_ret = (fox_spring / fox_fall * 100) if fox_fall > 0 else None
+
+            # Growth: compare current year's fall to first year's fall
+            first_year = min(years)
+            if year > first_year:
+                first_fall = len(filtered_metrics_data[(filtered_metrics_data['town_code'] == 'FOX') &
+                                                       (filtered_metrics_data['season_year'] == first_year) &
+                                                       (filtered_metrics_data['season_period'] == 'Fall')])
+                current_fall = len(year_data[(year_data['town_code'] == 'FOX') & (year_data['season_period'] == 'Fall')])
+                fox_growth = ((current_fall - first_fall) / first_fall * 100) if first_fall > 0 else None
+            else:
+                fox_growth = 0
+
+            # Gender balance
+            girls_teams = len(fox_year[fox_year['gender'].str.upper() == 'GIRLS']) if 'gender' in fox_year.columns else 0
+            fox_gender = (girls_teams / len(fox_year) * 100) if len(fox_year) > 0 else None
+
+            # Average division
+            fox_div = fox_year['division_level'].mean() if 'division_level' in fox_year.columns else None
+        else:
+            fox_win_pct = fox_gd = fox_gf = fox_ga = fox_part = fox_ret = fox_growth = fox_gender = fox_div = None
+
+        # Calculate league average for this year (excluding Foxboro)
+        other_year = year_data[year_data['town_code'] != 'FOX']
+        if len(other_year) > 0:
+            avg_win_pct = 0
+            avg_gd = 0
+            avg_gf = 0
+            avg_ga = 0
+            avg_part = 0
+            avg_ret = 0
+            avg_growth = 0
+            avg_gender = 0
+            avg_div = 0
+            town_count = 0
+
+            for town in [t for t in towns if t != 'FOX']:
+                town_year = other_year[other_year['town_code'] == town]
+                if len(town_year) > 0:
+                    total_games = town_year['wins'].sum() + town_year['losses'].sum() + town_year['ties'].sum()
+                    if total_games > 0:
+                        avg_win_pct += (town_year['wins'].sum() + 0.5 * town_year['ties'].sum()) / total_games * 100
+                        avg_gd += town_year['goal_differential'].sum() / len(town_year)
+                        avg_gf += town_year['goals_for'].sum() / len(town_year)
+                        avg_ga += town_year['goals_against'].sum() / len(town_year)
+
+                        # Participation and retention
+                        town_enrollment = enrollment_map.get(town, 2500)
+                        avg_part += (len(town_year) / 10) / town_enrollment * 100
+
+                        town_fall = len(year_data[(year_data['town_code'] == town) & (year_data['season_period'] == 'Fall')])
+                        town_spring = len(year_data[(year_data['town_code'] == town) & (year_data['season_period'] == 'Spring')])
+                        if town_fall > 0:
+                            avg_ret += (town_spring / town_fall * 100)
+
+                        # Growth
+                        first_year = min(years)
+                        if year > first_year:
+                            first_fall = len(filtered_metrics_data[(filtered_metrics_data['town_code'] == town) &
+                                                                   (filtered_metrics_data['season_year'] == first_year) &
+                                                                   (filtered_metrics_data['season_period'] == 'Fall')])
+                            current_fall = len(year_data[(year_data['town_code'] == town) & (year_data['season_period'] == 'Fall')])
+                            if first_fall > 0:
+                                avg_growth += ((current_fall - first_fall) / first_fall * 100)
+
+                        # Gender balance
+                        girls_teams = len(town_year[town_year['gender'].str.upper() == 'GIRLS']) if 'gender' in town_year.columns else 0
+                        avg_gender += (girls_teams / len(town_year) * 100) if len(town_year) > 0 else 0
+
+                        # Average division
+                        if 'division_level' in town_year.columns:
+                            avg_div += town_year['division_level'].mean()
+
+                        town_count += 1
+
+            if town_count > 0:
+                avg_win_pct /= town_count
+                avg_gd /= town_count
+                avg_gf /= town_count
+                avg_ga /= town_count
+                avg_part /= town_count
+                avg_ret /= town_count
+                avg_growth /= town_count
+                avg_gender /= town_count
+                avg_div /= town_count
+            else:
+                avg_win_pct = avg_gd = avg_gf = avg_ga = avg_part = avg_ret = avg_growth = avg_gender = avg_div = None
+        else:
+            avg_win_pct = avg_gd = avg_gf = avg_ga = avg_part = avg_ret = avg_growth = avg_gender = avg_div = None
+
+        time_series_data['Win %']['Fox'].append(fox_win_pct)
+        time_series_data['Win %']['Avg'].append(avg_win_pct)
+        time_series_data['Goal Diff']['Fox'].append(fox_gd)
+        time_series_data['Goal Diff']['Avg'].append(avg_gd)
+        time_series_data['Goals For']['Fox'].append(fox_gf)
+        time_series_data['Goals For']['Avg'].append(avg_gf)
+        time_series_data['Goals Against']['Fox'].append(fox_ga)
+        time_series_data['Goals Against']['Avg'].append(avg_ga)
+        time_series_data['Participation Rate']['Fox'].append(fox_part)
+        time_series_data['Participation Rate']['Avg'].append(avg_part)
+        time_series_data['Retention %']['Fox'].append(fox_ret)
+        time_series_data['Retention %']['Avg'].append(avg_ret)
+        time_series_data['Growth %']['Fox'].append(fox_growth)
+        time_series_data['Growth %']['Avg'].append(avg_growth)
+        time_series_data['Gender Balance']['Fox'].append(fox_gender)
+        time_series_data['Gender Balance']['Avg'].append(avg_gender)
+        time_series_data['Avg Division']['Fox'].append(fox_div)
+        time_series_data['Avg Division']['Avg'].append(avg_div)
+
+    # Section 1: Participation & Growth (Light Orange)
+    st.markdown("<div style='background-color: rgba(255, 200, 150, 0.3); padding: 15px; border-radius: 8px; margin-top: 15px; margin-bottom: 15px;'>", unsafe_allow_html=True)
+    st.markdown("<h3 style='margin-top: 0; color: rgba(230, 120, 50, 1);'>👥 Participation & Growth</h3>", unsafe_allow_html=True)
+
+    fig_participation = make_subplots(
+        rows=1, cols=3,
+        subplot_titles=('Participation Rate (per 100 students)', 'Spring Retention Rate (%)', 'Growth Rate (%)'),
+        horizontal_spacing=0.10
+    )
+
+    # Participation Rate
+    fig_participation.add_trace(go.Scatter(x=years, y=time_series_data['Participation Rate']['Fox'],
+                                   name='Foxboro', mode='lines+markers',
+                                   line=dict(color='rgba(230, 120, 50, 0.9)', width=3),
+                                   hovertemplate='%{y:.1f}<extra></extra>',
+                                   showlegend=True), row=1, col=1)
+    fig_participation.add_trace(go.Scatter(x=years, y=time_series_data['Participation Rate']['Avg'],
+                                   name='League Avg', mode='lines+markers',
+                                   line=dict(color='lightgray', width=2, dash='dash'),
+                                   hovertemplate='%{y:.1f}<extra></extra>',
+                                   showlegend=True), row=1, col=1)
+
+    # Retention %
+    fig_participation.add_trace(go.Scatter(x=years, y=time_series_data['Retention %']['Fox'],
+                                   name='Foxboro', mode='lines+markers',
+                                   line=dict(color='rgba(230, 120, 50, 0.9)', width=3),
+                                   hovertemplate='%{y:.1f}%<extra></extra>',
+                                   showlegend=False), row=1, col=2)
+    fig_participation.add_trace(go.Scatter(x=years, y=time_series_data['Retention %']['Avg'],
+                                   name='League Avg', mode='lines+markers',
+                                   line=dict(color='lightgray', width=2, dash='dash'),
+                                   hovertemplate='%{y:.1f}%<extra></extra>',
+                                   showlegend=False), row=1, col=2)
+
+    # Growth %
+    fig_participation.add_trace(go.Scatter(x=years, y=time_series_data['Growth %']['Fox'],
+                                   name='Foxboro', mode='lines+markers',
+                                   line=dict(color='rgba(230, 120, 50, 0.9)', width=3),
+                                   hovertemplate='%{y:+.1f}%<extra></extra>',
+                                   showlegend=False), row=1, col=3)
+    fig_participation.add_trace(go.Scatter(x=years, y=time_series_data['Growth %']['Avg'],
+                                   name='League Avg', mode='lines+markers',
+                                   line=dict(color='lightgray', width=2, dash='dash'),
+                                   hovertemplate='%{y:+.1f}%<extra></extra>',
+                                   showlegend=False), row=1, col=3)
+
+    fig_participation.update_layout(dragmode=False,
+        height=350,
+        margin=dict(t=60, b=10, l=10, r=10),
+        font=dict(size=11),
+        legend=dict(
+            orientation="h",
+            yanchor="bottom",
+            y=1.05,
+            xanchor="center",
+            x=0.5
+        )
+    )
+
+    fig_participation.update_xaxes(
+        tickmode='array',
+        tickvals=[2021, 2022, 2023, 2024, 2025],
+        ticktext=['2021', '2022', '2023', '2024', '2025']
+    )
+
+    st.plotly_chart(fig_participation, use_container_width=True, config=plotly_config)
+    st.markdown("</div>", unsafe_allow_html=True)
+
+    # Section 2: Competitive Performance (Light Blue)
+    st.markdown("<div style='background-color: rgba(173, 216, 230, 0.3); padding: 15px; border-radius: 8px; margin-bottom: 15px;'>", unsafe_allow_html=True)
+    st.markdown("<h3 style='margin-top: 0; color: rgba(70, 130, 180, 1);'>🏆 Competitive Performance</h3>", unsafe_allow_html=True)
+
+    fig_competitive = make_subplots(
+        rows=2, cols=2,
+        subplot_titles=('Win % (%)', 'Goal Differential (avg per team)', 'Goals Scored (avg per team)', 'Goals Allowed (avg per team)'),
+        vertical_spacing=0.12,
+        horizontal_spacing=0.10
+    )
+
+    # Win %
+    fig_competitive.add_trace(go.Scatter(x=years, y=time_series_data['Win %']['Fox'],
+                                   name='Foxboro', mode='lines+markers',
+                                   line=dict(color='rgba(70, 130, 180, 0.9)', width=3),
+                                   hovertemplate='%{y:.1f}%<extra></extra>',
+                                   showlegend=True), row=1, col=1)
+    fig_competitive.add_trace(go.Scatter(x=years, y=time_series_data['Win %']['Avg'],
+                                   name='League Avg', mode='lines+markers',
+                                   line=dict(color='lightgray', width=2, dash='dash'),
+                                   hovertemplate='%{y:.1f}%<extra></extra>',
+                                   showlegend=True), row=1, col=1)
+
+    # Goal Diff
+    fig_competitive.add_trace(go.Scatter(x=years, y=time_series_data['Goal Diff']['Fox'],
+                                   name='Foxboro', mode='lines+markers',
+                                   line=dict(color='rgba(70, 130, 180, 0.9)', width=3),
+                                   hovertemplate='%{y:+.1f}<extra></extra>',
+                                   showlegend=False), row=1, col=2)
+    fig_competitive.add_trace(go.Scatter(x=years, y=time_series_data['Goal Diff']['Avg'],
+                                   name='League Avg', mode='lines+markers',
+                                   line=dict(color='lightgray', width=2, dash='dash'),
+                                   hovertemplate='%{y:+.1f}<extra></extra>',
+                                   showlegend=False), row=1, col=2)
+
+    # Goals For
+    fig_competitive.add_trace(go.Scatter(x=years, y=time_series_data['Goals For']['Fox'],
+                                   name='Foxboro', mode='lines+markers',
+                                   line=dict(color='rgba(70, 130, 180, 0.9)', width=3),
+                                   hovertemplate='%{y:.1f}<extra></extra>',
+                                   showlegend=False), row=2, col=1)
+    fig_competitive.add_trace(go.Scatter(x=years, y=time_series_data['Goals For']['Avg'],
+                                   name='League Avg', mode='lines+markers',
+                                   line=dict(color='lightgray', width=2, dash='dash'),
+                                   hovertemplate='%{y:.1f}<extra></extra>',
+                                   showlegend=False), row=2, col=1)
+
+    # Goals Against (light red to indicate higher is bad)
+    fig_competitive.add_trace(go.Scatter(x=years, y=time_series_data['Goals Against']['Fox'],
+                                   name='Foxboro', mode='lines+markers',
+                                   line=dict(color='rgba(255, 100, 100, 0.9)', width=3),
+                                   hovertemplate='%{y:.1f}<extra></extra>',
+                                   showlegend=False), row=2, col=2)
+    fig_competitive.add_trace(go.Scatter(x=years, y=time_series_data['Goals Against']['Avg'],
+                                   name='League Avg', mode='lines+markers',
+                                   line=dict(color='lightgray', width=2, dash='dash'),
+                                   hovertemplate='%{y:.1f}<extra></extra>',
+                                   showlegend=False), row=2, col=2)
+
+    fig_competitive.update_layout(dragmode=False,
+        height=600,
+        margin=dict(t=60, b=10, l=10, r=10),
+        font=dict(size=11),
+        legend=dict(
+            orientation="h",
+            yanchor="bottom",
+            y=1.03,
+            xanchor="center",
+            x=0.5
+        )
+    )
+
+    fig_competitive.update_xaxes(
+        tickmode='array',
+        tickvals=[2021, 2022, 2023, 2024, 2025],
+        ticktext=['2021', '2022', '2023', '2024', '2025']
+    )
+
+    st.plotly_chart(fig_competitive, use_container_width=True, config=plotly_config)
+    st.markdown("</div>", unsafe_allow_html=True)
+
+    # Section 3: Program Balance (Light Purple)
+    st.markdown("<div style='background-color: rgba(200, 180, 230, 0.2); padding: 15px; border-radius: 8px; margin-bottom: 15px;'>", unsafe_allow_html=True)
+    st.markdown("<h3 style='margin-top: 0; color: rgba(150, 100, 200, 1);'>⚖️ Program Balance</h3>", unsafe_allow_html=True)
+
+    fig_balance = make_subplots(
+        rows=1, cols=2,
+        subplot_titles=('Gender Balance (% Girls)', 'Average Division Level'),
+        horizontal_spacing=0.12
+    )
+
+    # Gender Balance
+    fig_balance.add_trace(go.Scatter(x=years, y=time_series_data['Gender Balance']['Fox'],
+                                   name='Foxboro', mode='lines+markers',
+                                   line=dict(color='rgba(150, 100, 200, 0.9)', width=3),
+                                   hovertemplate='%{y:.1f}%<extra></extra>',
+                                   showlegend=True), row=1, col=1)
+    fig_balance.add_trace(go.Scatter(x=years, y=time_series_data['Gender Balance']['Avg'],
+                                   name='League Avg', mode='lines+markers',
+                                   line=dict(color='lightgray', width=2, dash='dash'),
+                                   hovertemplate='%{y:.1f}%<extra></extra>',
+                                   showlegend=True), row=1, col=1)
+
+    # Add 50% reference line for gender balance
+    fig_balance.add_hline(y=50, line_dash="dot", line_color="gray", opacity=0.5, row=1, col=1)
+
+    # Average Division
+    fig_balance.add_trace(go.Scatter(x=years, y=time_series_data['Avg Division']['Fox'],
+                                   name='Foxboro', mode='lines+markers',
+                                   line=dict(color='rgba(150, 100, 200, 0.9)', width=3),
+                                   hovertemplate='%{y:.2f}<extra></extra>',
+                                   showlegend=False), row=1, col=2)
+    fig_balance.add_trace(go.Scatter(x=years, y=time_series_data['Avg Division']['Avg'],
+                                   name='League Avg', mode='lines+markers',
+                                   line=dict(color='lightgray', width=2, dash='dash'),
+                                   hovertemplate='%{y:.2f}<extra></extra>',
+                                   showlegend=False), row=1, col=2)
+
+    fig_balance.update_layout(dragmode=False,
+        height=350,
+        margin=dict(t=60, b=10, l=10, r=10),
+        font=dict(size=11),
+        legend=dict(
+            orientation="h",
+            yanchor="bottom",
+            y=1.05,
+            xanchor="center",
+            x=0.5
+        )
+    )
+
+    fig_balance.update_xaxes(
+        tickmode='array',
+        tickvals=[2021, 2022, 2023, 2024, 2025],
+        ticktext=['2021', '2022', '2023', '2024', '2025']
+    )
+
+    # Reverse y-axis for Average Division (lower is better)
+    fig_balance.update_yaxes(autorange="reversed", row=1, col=2)
+
+    st.plotly_chart(fig_balance, use_container_width=True, config=plotly_config)
+    st.markdown("</div>", unsafe_allow_html=True)
+
+# Tab 4: Appendix
+with tab4:
+    st.markdown("## 📋 Appendix")
+
+    # Complete Metrics Table
+    st.markdown("<h3 style='margin-top: 10px; margin-bottom: 10px;'>📊 Complete Metrics Table</h3>", unsafe_allow_html=True)
+
+    # Create a copy for display with proper formatting
+    display_df = filtered_metrics.copy()
+    display_df = display_df.dropna(how='all')
+    if 'Enrollment' in display_df.columns:
+        display_df = display_df.drop(columns=['Enrollment'])
+
+    # Apply gradient styling
+    def highlight_vs_avg(s, col_name):
+        """Apply color gradient based on comparison to average"""
+        avg = s.mean()
+        styles = []
+
+        for val in s:
+            if col_name in ['Win %', 'Goal Diff', 'Participation Rate', 'Retention %',
+                            'Goals For', 'Growth %']:
+                # Higher is better
+                if val > avg:
+                    diff = (val - avg) / (s.max() - avg) if s.max() > avg else 0
+                    intensity = min(diff * 0.5, 0.5)
+                    color = f'background-color: rgba(0, 200, 0, {intensity})'
+                elif val < avg:
+                    diff = (avg - val) / (avg - s.min()) if avg > s.min() else 0
+                    intensity = min(diff * 0.5, 0.5)
+                    color = f'background-color: rgba(255, 100, 100, {intensity})'
+                else:
+                    color = ''
+            elif col_name in ['Goals Against', 'Avg Division']:
+                # Lower is better
+                if val < avg:
+                    diff = (avg - val) / (avg - s.min()) if avg > s.min() else 0
+                    intensity = min(diff * 0.5, 0.5)
+                    color = f'background-color: rgba(0, 200, 0, {intensity})'
+                elif val > avg:
+                    diff = (val - avg) / (s.max() - avg) if s.max() > avg else 0
+                    intensity = min(diff * 0.5, 0.5)
+                    color = f'background-color: rgba(255, 100, 100, {intensity})'
+                else:
+                    color = ''
+            elif col_name == 'Gender Balance':
+                # Closeness to 50 is better
+                dist_from_50 = abs(val - 50)
+                avg_dist = abs(s - 50).mean()
+                if dist_from_50 < avg_dist:
+                    diff = (avg_dist - dist_from_50) / avg_dist if avg_dist > 0 else 0
+                    intensity = min(diff * 0.5, 0.5)
+                    color = f'background-color: rgba(0, 200, 0, {intensity})'
+                elif dist_from_50 > avg_dist:
+                    diff = (dist_from_50 - avg_dist) / (abs(s - 50).max() - avg_dist) if abs(s - 50).max() > avg_dist else 0
+                    intensity = min(diff * 0.5, 0.5)
+                    color = f'background-color: rgba(255, 100, 100, {intensity})'
+                else:
+                    color = ''
+            else:
+                color = ''
+            styles.append(color)
+
+        return styles
+
+    # Apply styling and formatting
+    styled_df = display_df.style.format({
+        'Win %': '{:.1f}',
+        'Goal Diff': '{:+.1f}',
+        'Participation Rate': '{:.1f}',
+        'Retention %': '{:.1f}',
+        'Goals For': '{:.1f}',
+        'Goals Against': '{:.1f}',
+        'Avg Division': '{:.1f}',
+        'Gender Balance': '{:.1f}',
+        'Growth %': '{:+.1f}',
+        'Enrollment': '{:.0f}'
+    })
+
+    # Apply heat map to each numeric column
+    for col in display_df.select_dtypes(include=['float64', 'int64']).columns:
+        if col != 'Enrollment':
+            styled_df = styled_df.apply(highlight_vs_avg, col_name=col, subset=[col])
+
+    st.dataframe(styled_df, use_container_width=True, height=350)
+
     st.markdown("---")
+
+    # Research Sources
     st.markdown("### 📚 Research Sources")
     st.markdown("""
     This assessment incorporates best practices from leading youth soccer organizations and 2025 industry trends:
@@ -1412,9 +1548,10 @@ with tab1:
     - [Youth Soccer Trends 2025: Lower Costs, Better Pathways](https://ussoccerparent.com/blog-youth-soccer-trends-2025/)
     - [State of Play 2025: Annual Report on Trends in Youth Sports](https://projectplay.org/state-of-play-2025/introduction)
     """)
-    
-    # Footer
+
     st.markdown("---")
+
+    # Data Sources
     st.markdown("### 📊 Data Sources")
     st.markdown("""
     - [BAYS (Bay State Youth Soccer League)](https://bays.org) - Team performance records, 2021-2025
