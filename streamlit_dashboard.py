@@ -29,6 +29,14 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+# Plotly config to disable interactions on mobile
+plotly_config = {
+    'displayModeBar': False,
+    'staticPlot': False,
+    'doubleClick': False,
+    'scrollZoom': False
+}
+
 # Load data
 @st.cache_data(ttl=600, show_spinner=False)
 def load_data():
@@ -271,8 +279,8 @@ with tab2:
 # Sidebar - Filters (outside tabs, always visible)
 st.sidebar.header("Filter Options")
 
-# Season filter
-st.sidebar.subheader("📅 Season Filter")
+# Year filter
+st.sidebar.subheader("📅 Year Filter")
 all_years = sorted(df['season_year'].unique())
 selected_years = st.sidebar.multiselect(
     "Select Years",
@@ -280,14 +288,11 @@ selected_years = st.sidebar.multiselect(
     default=all_years
 )
 
+# Include both Fall and Spring (no season filter)
 all_periods = ['Fall', 'Spring']
-selected_periods = st.sidebar.multiselect(
-    "Select Seasons",
-    options=all_periods,
-    default=all_periods
-)
+selected_periods = all_periods
 
-# Apply season filters to dataframe
+# Apply filters to dataframe
 filtered_metrics_data = df[
     (df['season_year'].isin(selected_years)) &
     (df['season_period'].isin(selected_periods))
@@ -311,8 +316,8 @@ filtered_metrics = metrics_df[metrics_df['Town'].isin(selected_towns)]
 st.sidebar.markdown("---")
 st.sidebar.markdown("**Active Filters:**")
 st.sidebar.markdown(f"Years: {', '.join(map(str, selected_years))}")
-st.sidebar.markdown(f"Seasons: {', '.join(selected_periods)}")
 st.sidebar.markdown(f"Towns: {len(selected_towns)} selected")
+st.sidebar.markdown("Seasons: Fall & Spring (both included)")
 
 # Tab 1: Dashboard content
 with tab1:
@@ -570,7 +575,7 @@ with tab1:
             margin=dict(t=30, b=30, l=40, r=40),
             font=dict(size=14)
         )
-        st.plotly_chart(fig_part, use_container_width=True)
+        st.plotly_chart(fig_part, use_container_width=True, config=plotly_config)
     
     with col2:
         st.subheader("🔄 Spring Retention Rate")
@@ -599,7 +604,7 @@ with tab1:
             margin=dict(t=30, b=30, l=40, r=40),
             font=dict(size=14)
         )
-        st.plotly_chart(fig_ret, use_container_width=True)
+        st.plotly_chart(fig_ret, use_container_width=True, config=plotly_config)
     
     # Growth chart spanning full width
     st.subheader("📊 Growth Rate (2021 → 2025)")
@@ -628,7 +633,7 @@ with tab1:
         font=dict(size=14)
     )
     fig_growth.add_hline(y=0, line_dash="dash", line_color="black")
-    st.plotly_chart(fig_growth, use_container_width=True)
+    st.plotly_chart(fig_growth, use_container_width=True, config=plotly_config)
     
     st.markdown("---")
     
@@ -663,7 +668,7 @@ with tab1:
         font=dict(size=14)
     )
     fig_win.add_hline(y=50, line_dash="dash", line_color="gray", annotation_text="50% (Break Even)")
-    st.plotly_chart(fig_win, use_container_width=True)
+    st.plotly_chart(fig_win, use_container_width=True, config=plotly_config)
     
     # Three columns for competitive metrics
     col1, col2, col3 = st.columns(3)
@@ -695,7 +700,7 @@ with tab1:
             font=dict(size=14)
         )
         fig_gd.add_hline(y=0, line_dash="dash", line_color="black")
-        st.plotly_chart(fig_gd, use_container_width=True)
+        st.plotly_chart(fig_gd, use_container_width=True, config=plotly_config)
     
     with col2:
         st.subheader("⚽ Goals For")
@@ -724,7 +729,7 @@ with tab1:
             margin=dict(t=30, b=30, l=40, r=40),
             font=dict(size=14)
         )
-        st.plotly_chart(fig_gf, use_container_width=True)
+        st.plotly_chart(fig_gf, use_container_width=True, config=plotly_config)
     
     with col3:
         st.subheader("🛡️ Goals Against")
@@ -754,7 +759,7 @@ with tab1:
             margin=dict(t=30, b=30, l=40, r=40),
             font=dict(size=14)
         )
-        st.plotly_chart(fig_ga, use_container_width=True)
+        st.plotly_chart(fig_ga, use_container_width=True, config=plotly_config)
     
     st.markdown("---")
     
@@ -794,7 +799,7 @@ with tab1:
             font=dict(size=14)
         )
         fig_gb.add_hline(y=50, line_dash="dash", line_color="gray", annotation_text="50% (Perfect Balance)")
-        st.plotly_chart(fig_gb, use_container_width=True)
+        st.plotly_chart(fig_gb, use_container_width=True, config=plotly_config)
     
     with col2:
         st.subheader("🏅 Average Division Level")
@@ -824,7 +829,7 @@ with tab1:
             margin=dict(t=30, b=30, l=40, r=40),
             font=dict(size=14)
         )
-        st.plotly_chart(fig_div, use_container_width=True)
+        st.plotly_chart(fig_div, use_container_width=True, config=plotly_config)
     
     st.markdown("---")
     
@@ -1048,7 +1053,7 @@ with tab1:
         ticktext=['2021', '2022', '2023', '2024', '2025']
     )
     
-    st.plotly_chart(fig_time, use_container_width=True)
+    st.plotly_chart(fig_time, use_container_width=True, config=plotly_config)
     
     st.markdown("---")
     
