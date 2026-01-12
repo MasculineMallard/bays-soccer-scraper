@@ -1,0 +1,31 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Spirit	31936	Girls 8 2/D2	7	2	1	0	22	23	14	9	Paul Foley	Kathy Martinez
+Power	31937	Girls 8 3/L	8	2	0	0	24	32	13	19	Jon Paul Sydnor	Wayan Suwena
+Courage	31938	Girls 8 4/C	4	3	3	0	15	22	14	8	Brian Horwitz	Terry Doherty
+Reign	31939	Girls 8 4/G2	1	2	5	0	8	7	15	-8	Peter Ellis	Darwin Cevallos
+Hawks	31940	Girls 6 2/B	0	8	2	0	2	9	37	-28	Kate Procaccini	Courtney Kelleher
+Warriors	31941	Girls 6 3/F	6	3	1	0	19	28	15	13	Heidi Graceffa	David Miles
+Eagles	31942	Girls 6 4/C	6	1	3	1	20	22	10	12	Mike Pagnotta	Jeannette Wehrenberg
+Cyclones	31943	Girls 6 4/J	1	9	0	0	3	6	54	-48	Bernie Smith	Thomas Dietel
+Storm	31944	Girls 5 1/B	2	5	2	0	8	12	20	-8	Kellee Senic	Daniel Blackstock
+Hurricanes	31945	Girls 5 3/E	3	4	2	0	11	13	15	-2	Robert DeGirolamo	Jennifer Adams
+Thorns	31946	Girls 5 4/A	2	6	1	0	7	14	34	-20	Brian Flynn	CJ Vasani
+Aces	31947	Girls 4 2/A2	3	4	1	0	10	19	21	-2	Timothy McElaney	Colleen Campbell
+Breakers	31948	Girls 4 2/A2	0	8	0	0	0	4	24	-20	Jamie Hernon	Sarah Madden
+Dash	31949	Girls 4 3/F	4	2	4	0	16	19	11	8	Maura Beverly	Stephanie Ellard
+Pride	31950	Girls 4 4/D2	3	4	1	0	10	10	19	-9	Anissa Ellis	Melody Hugo
+Wave	31951	Girls 4 4/D2	4	2	2	0	14	20	14	6	Kevin Teller	None
+Warriors	31992	Boys 8 2/D	2	2	1	0	7	8	10	-2	Kevin Bock	Seth Hochberg
+Legends	32035	Boys 8 3/F	2	6	2	0	8	15	21	-6	Alex Danesco	None
+Force	32036	Boys 8 4/B	6	0	4	0	22	39	23	16	Karen Conway	Marc Todisco
+Thunder	32037	Boys 8 4/D2	4	1	3	0	15	22	18	4	Robert Grabowy	None
+United	32001	Boys 6 2/A	1	8	1	0	4	13	31	-18	John Hurley	Nicholas Kakas
+Blues	32000	Boys 6 3/H	6	3	1	0	19	30	19	11	Bill Hamilton	Keith Jacobsen
+Crew	31999	Boys 6 4/G	0	9	1	0	1	11	46	-35	Jim Robertson	Frank Michienzi
+Spurs	31998	Boys 5 2/B	1	7	2	0	5	16	34	-18	Dana Niles	Michael Finocchi
+Barcelona	32034	Boys 5 3/D	6	2	2	0	20	31	24	7	Oscar Butragueno	Horacio Caneja
+City	32033	Boys 5 4/C	4	5	0	0	12	26	23	3	Aaron Price	Dan O'Driscoll
+Hammers	31997	Boys 4 2/D	5	3	2	0	17	28	15	13	Muiz Khir	None
+Milan	31995	Boys 4 3/L	0	10	0	0	0	6	35	-29	None	None
+Juventus	31996	Boys 4 3/L	6	3	1	0	19	29	14	15	James Craig Westmoreland	Khalil Samara
+Roma	31994	Boys 4 4/G	7	2	1	0	22	36	17	19	Barton Centauro	None

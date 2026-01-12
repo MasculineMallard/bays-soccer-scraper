@@ -1,0 +1,1722 @@
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:02:46
+TOWN: HOP | SEASON: Fall 2025
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Fire	34490	Girls 8 2/A	3	3	4	0	13	11	14	-3	Dave Fine	Denis Murphy
+Strikers	34344	Girls 8 4/D2	6	2	0	0	18	24	10	14	Marilyn Gibbs	Derek Pszybysz
+Lightning	34491	Girls 8 4/D2	4	4	0	0	12	20	22	-2	Dave Salerno	David Kubiak
+G7/8 Academy	34492	Girls 8 4/E	8	1	1	0	25	34	14	20	Davi Dias	Florent Martin
+G6 United	33668	Girls 6 2/B	6	1	3	0	21	18	8	10	Bryan Memmelaar	Ryan Jones
+G6 Academy	33699	Girls 6 3/C	3	7	0	0	9	12	22	-10	Florent Martin	Davi Dias
+Strikers	33667	Girls 6 4/C2	6	2	2	0	20	23	18	5	Ken O'Toole	Lindsey Baumer
+Havoc	34342	Girls 5 3/A	8	2	0	0	24	31	10	21	Courtney Elsen	Dave Salerno
+Hawks	34343	Girls 5 4/B	3	1	1	0	10	9	6	3	Peter Fogg	Jason DeSisto
+G4 Academy	33697	Girls 4 3/E	4	4	2	0	14	23	18	5	Gabriel Cumplido	Florent Martin
+Hillers	33661	Girls 4 4/C	7	1	2	0	23	36	15	21	John Roach	Liz Roach
+Sparks	34339	Girls 4 4/C	7	1	2	0	23	44	15	29	John Jannino	Jamas LaFreniere
+Legacy FC	34337	Girls 3 3/B	3	0	1	0	10	14	4	10	Anthony Iannone	Aico Van Nunen
+G3 Academy	34338	Girls 3 3/C2	4	3	3	0	15	17	16	1	Stephen Farias	Florent Martin
+Hillcats	34334	Girls 3 4/A	6	3	1	0	19	23	22	1	David Weibe	Emily Lee
+Hillers	34925	Boys 912 3/C	5	2	0	0	15	36	28	8	Michelle Midkiff	None
+United	33696	Boys 8 2/B	3	4	3	1	11	20	22	-2	Kristin Dykstra	Colleen Rommel
+B8 Academy	33711	Boys 8 3/M	6	3	0	0	18	25	18	7	Gabriel Cumplido	Florent Martin
+Avengers	33694	Boys 8 4/H	7	2	1	0	22	36	31	5	Kailey Mulvihill	Matt Hodges
+Galaxy	34088	Boys 8 4/J	3	1	1	0	10	16	11	5	Doug Linn	Bradford Verrecchia
+B6 Hawks	34332	Boys 6 3/B	6	3	1	0	19	30	21	9	Drew Griffin	Liz Fleming
+B6 Academy	34333	Boys 6 3/F	2	6	2	0	8	24	29	-5	Davi Dias	Florent Martin
+B6 Dynamo	34180	Boys 6 4/C	2	7	1	0	7	17	35	-18	Andrew Siber	John DelPrete
+B6 Revolution	33690	Boys 6 4/C	2	4	4	1	9	20	25	-5	Suraj Saraswat	None
+B5 Rebels	34181	Boys 5 3/B	7	3	0	0	21	37	17	20	Jose Laguarta 	Leigh Murray
+B5 Academy	33709	Boys 5 3/C	4	0	1	0	13	19	6	13	Stephen Farias	Florent Martin
+Breakers	33692	Boys 5 4/D	7	3	0	0	21	29	10	19	David Weibe	Josh Burton
+B5 Avengers	33685	Boys 5 4/D	3	7	0	0	9	25	31	-6	Michelle Midkiff	Jonathan Haddad
+B4 Academy	33708	Boys 4 3/A	5	4	1	0	16	30	30	0	Florent Martin	Davi Dias
+Ajax	33679	Boys 4 4/A	2	6	1	0	7	22	39	-17	Grant Van Ranst	Patrick Davis
+B4 Dynamo	34329	Boys 4 4/A	9	1	0	0	27	55	28	27	Pietro Panza	Tim Damianidis
+Bay State Warriors FC	33678	Boys 4 4/B	8	2	0	0	24	44	20	24	Tim Wilson	Daniel Hausermann
+B4 UNITED	34330	Boys 4 4/B	9	1	0	0	27	49	22	27	Erik Wolf	Travis Reed
+FC Orange Crush	33680	Boys 4 4/C	5	4	1	0	16	26	31	-5	Sal Mangano	None
+Real 	34331	Boys 4 4/C	1	6	2	0	5	18	31	-13	Mark Haranas	Miles Cahill
+B3 Academy	34325	Boys 3 2/D	6	0	0	0	18	28	11	17	Juan Lozano	Florent Martin
+Hotspur	34326	Boys 3 3/D	6	0	1	0	19	23	9	14	Sean Gilroy	TJ Paparazzo
+Revs	34327	Boys 3 3/E	4	1	1	0	13	24	15	9	Ken O'Toole	Colleen Rommel
+Rebels	34328	Boys 3 4/B	7	3	0	0	21	41	19	22	Alicia Griesmyer	Bradley Leyshon
+
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:02:46
+TOWN: HOP | SEASON: Spring 2025
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Lady Hillers	34250	Girls 912 3/B1	2	3	1	0	7	10	10	0	Edward Lucy	Michelle Midkiff
+Fire	33674	Girls 8 2/B	4	3	3	2	13	10	12	-2	Dave Fine	Denis Murphy
+G8 Academy	33701	Girls 8 4/A	6	2	2	0	20	28	10	18	Devin Ramos	Florent Martin
+Lightning	33673	Girls 8 4/H	2	5	2	0	8	22	37	-15	Michael Twardowski	Gino Spinelli
+Reign	33670	Girls 6 2/C	4	3	3	0	15	25	21	4	Ryan Jones	Mark Haranas
+G6 Academy	33700	Girls 6 3/F	6	2	2	0	20	36	22	14	Davi Dias	Florent Martin
+Blaze	33669	Girls 6 4/E	2	5	3	0	9	13	30	-17	David Kubiak	None
+United	33668	Girls 5 2/A	1	8	1	1	3	8	22	-14	Bryan Memmelaar	Heather Smith
+G5 Academy	33699	Girls 5 2/D	3	4	3	0	12	21	23	-2	Iain Martin	Florent Martin
+Strikers	33667	Girls 5 3/G	0	9	1	1	0	9	33	-24	Ken O'Toole	Amy Steppacher
+Hawks	33666	Girls 5 4/E	0	9	1	1	0	9	36	-27	Lindsey Baumer	Tim French
+Kicks	33663	Girls 4 3/C	2	8	0	0	6	16	35	-19	Kristin Dykstra	Gayl Weinmann
+Blizzards	33665	Girls 4 3/D	3	6	0	0	9	15	36	-21	Dave Salerno	Mark Gordon
+G4 Academy	33698	Girls 4 3/E	2	1	1	0	7	11	6	5	Florent Martin	Devin Ramos
+G3 Academy	33697	Girls 3 3/E	9	1	0	0	27	41	17	24	Gabriel Cumplido	Florent Martin
+Hillers	33661	Girls 3 4/B	1	6	1	0	4	7	22	-15	John Roach	Liz Roach
+Hyenas	33662	Girls 3 4/B	5	5	0	0	15	37	36	1	Jamas LaFreniere 	Margot LaFreniere
+Hillers	64	Boys 10 2/A	3	4	0	0	9	15	17	-2	Todd Garron	Patrick Morrissey
+Galaxy	34088	Boys 8 3/G	3	3	0	0	9	15	18	-3	Patrick Morrissey	Shaun Fitzgibbon
+B8 Academy	33711	Boys 8 4/A	6	4	0	0	18	30	24	6	David Samson	Florent Martin
+United	33696	Boys 6 3/A	6	2	2	0	20	25	18	7	Kristin Dykstra	None
+B6 Academy	33710	Boys 6 3/F	4	6	0	0	12	31	32	-1	Gabriel Cumplido	Florent Martin
+Avengers	33694	Boys 6 4/C	3	6	1	0	10	25	42	-17	Ambikesh Khiriya	Heather Wellington
+B5 Academy	33709	Boys 5 3/C	2	1	1	0	7	17	14	3	Davi Dias	Florent Martin
+Hooligans	34180	Boys 5 4/A	6	3	1	1	18	34	16	18	Raymond Shehata	None
+Revolution	33690	Boys 5 4/F1	6	2	0	0	18	30	17	13	Suraj Saraswat	Amar Prabhu
+B4 Academy	33708	Boys 4 3/E1	3	0	1	0	10	19	7	12	Devin Ramos	Florent Martin
+Rebels	34181	Boys 4 4/A2	5	2	0	0	15	24	16	8	Jose Laguarta 	None
+Breakers	33692	Boys 4 4/B	6	4	0	0	18	36	31	5	David Weibe	None
+Avengers	33685	Boys 4 4/B	4	6	0	0	12	41	38	3	Michelle Midkiff	Steven Gargolinski
+B3 Academy	33707	Boys 3 2/C	1	2	1	0	4	7	10	-3	Florent Martin	Devin Ramos
+Ajax	33679	Boys 3 3/F	1	8	1	0	4	17	37	-20	Grant Van Ranst	Patrick Davis
+Bay State Warriors	33678	Boys 3 3/G	7	2	1	0	21	49	27	22	Mark Haranas	Tim Damianidis
+FC Orange Crush	33680	Boys 3 3/G	2	6	1	0	7	15	27	-12	Sal Mangano	None
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:02:47
+TOWN: HOP | SEASON: Fall 2024
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Fire	33674	Girls 8 1/B	8	1	0	0	24	42	14	28	Dave Fine	Denis Murphy
+Lightning	33673	Girls 8 3/E	0	3	1	0	1	1	9	-8	Gino Spinelli	Derek Pszybysz
+G8 Academy	33701	Girls 8 4/C	7	1	2	0	23	27	10	17	Devin Ramos	Iain Martin
+Cyclones	33671	Girls 8 4/L	0	4	0	0	0	3	19	-16	Michael Twardowski	None
+Reign	33670	Girls 6 2/C	5	4	1	0	16	17	13	4	Ryan Jones	Marilyn Gibbs
+G6 Academy	33700	Girls 6 4/A	5	0	0	0	15	20	5	15	David Samson	Iain Martin
+Blaze	33669	Girls 6 4/E	1	3	1	0	4	6	9	-3	David Kubiak	Courtney Galvani
+G5 Academy	33699	Girls 5 2/C	2	8	0	0	6	10	30	-20	Iain Martin	Florent Martin
+United	33668	Girls 5 2/D	3	4	3	0	12	17	15	2	Heather Smith	Bryan Memmelaar
+Strikers	33667	Girls 5 3/E	1	8	1	0	4	12	35	-23	Ken O'Toole	Amy Steppacher
+Hawks	33666	Girls 5 4/F	0	10	0	0	0	3	46	-43	Gayla Langlois	Lindsey Baumer
+G4 Academy	33698	Girls 4 3/C	4	6	0	0	12	20	37	-17	Florent Martin	Iain Martin
+Hurricanes	33664	Girls 4 3/F	2	8	0	0	6	14	34	-20	Peter Fogg	Dan Gyllstrom
+Amber Aces	33665	Girls 4 3/F	7	2	1	0	22	36	20	16	John Jannino	Dave Salerno
+Kicks	33663	Girls 4 3/G	10	0	0	0	30	27	5	22	Kristin Dykstra	Gayl Weinmann
+G3 Academy	33697	Girls 3 3/E	5	4	1	0	16	33	27	6	Gabriel Cumplido	Iain Martin
+Hillers	33661	Girls 3 4/A1	6	4	0	0	18	17	9	8	John Roach	Liz Roach
+Solar Sparks	33662	Girls 3 4/A1	3	5	2	0	11	30	30	0	John Jannino	Fredy Huezo
+Hillers	34170	Boys 912 3/C	3	4	0	0	7	34	32	2	Stacie Kirkwood	Steven Jackson
+Galaxy	34088	Boys 8 2/D	3	7	0	0	9	14	26	-12	Patrick Morrissey	Steve Quinn
+Revolution	34087	Boys 8 3/M	1	5	0	0	3	7	27	-20	Gary Miloscia	TJ Paparazzo
+B8 Academy	33711	Boys 8 4/C2	5	3	0	0	15	19	8	11	David Samson	Iain Martin
+United	34086	Boys 8 4/K	2	5	3	0	9	18	30	-12	Raymond Shehata	None
+United	33696	Boys 6 2/A	5	4	1	0	16	33	20	13	Brad Wilson	Kristin Dykstra
+Raptors	33695	Boys 6 3/D	4	6	0	0	12	19	34	-15	Peter Fogg	Matt Hodges
+B6 Academy	33710	Boys 6 3/H	4	2	3	0	15	32	22	10	Gabriel Cumplido	Iain Martin
+Avengers	33694	Boys 6 4/H1	6	2	2	0	20	44	22	22	Ambikesh Khiriya	Kailey Mulvihill
+B5 Academy	33709	Boys 5 2/E	2	7	1	0	7	16	43	-27	Iain Martin	Florent Martin
+Hurricanes	33693	Boys 5 3/E	7	0	1	0	22	31	17	14	Drew Griffin	Liz Fleming
+Dynamo	33691	Boys 5 4/E2	2	3	0	1	5	6	10	-4	Jeff Bucci	Sami Chogle
+Revolution	33690	Boys 5 4/F	1	8	1	0	4	15	38	-23	Suraj Saraswat	Amar Prabhu
+B4 Academy	33708	Boys 4 3/A	1	7	2	0	5	27	41	-14	Devin Ramos	Iain Martin
+Lightning	33689	Boys 4 3/J	7	1	2	0	23	35	15	20	Marilyn Gibbs	Steven Gargolinski
+Breakers	33692	Boys 4 3/J	3	5	2	0	11	36	38	-2	David Weibe	Josh Burton
+Hurricanes	33688	Boys 4 3/K	5	2	3	0	18	29	17	12	Leigh Murray	Sara Labrecque
+Avengers	33685	Boys 4 4/A	2	2	1	0	7	19	17	2	Michelle Midkiff	Dana Passante
+B3 Academy	33707	Boys 3 3/A	2	1	1	0	7	14	11	3	Florent Martin	Iain Martin
+United	33677	Boys 3 3/F	5	5	0	0	15	39	38	1	Erik Wolf	Steve Quinn
+Ajax	33679	Boys 3 3/F	6	2	2	0	20	33	27	6	Grant Van Ranst	Patrick Davis
+Bay State Warriors	33678	Boys 3 3/G	8	2	0	0	24	32	16	16	Tim Wilson	Daniel Hausermann
+FC Orange Crush	33680	Boys 3 3/G	1	8	1	0	4	17	44	-27	Sal Mangano	Mark Haranas
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:05:40
+TOWN: HOP | SEASON: Spring 2024
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+G8 Academy	32872	Girls 8 3/H	2	8	0	0	6	19	35	-16	Iain Martin	None
+Hawks (G8)	32886	Girls 8 4/J	8	1	0	0	24	37	13	24	Joe Eagley	Adele Haber
+Fire	32885	Girls 6 1/B	7	3	0	0	21	22	15	7	Dave Fine	Denis Murphy
+Cyclones	32883	Girls 6 3/F	3	4	3	0	12	15	19	-4	Michael Twardowski	Randy Sanborn
+G6 Academy	32871	Girls 6 3/H	0	7	3	0	3	6	27	-21	Devin Ramos	Iain Martin
+Blaze	33586	Girls 5 3/F	6	2	2	0	20	28	19	9	Dave Salerno	David Kubiak
+Reign	33585	Girls 5 3/G	7	2	1	0	22	33	12	21	Mark Haranas	James Casady
+G5 Academy	32870	Girls 5 4/A	6	2	2	0	20	31	18	13	Devin Lacroix	Iain Martin
+G4 Academy	33398	Girls 4 2/E	7	1	2	0	23	26	12	14	Heather DeLude	Iain Martin
+United (G4)	32879	Girls 4 3/G	9	1	0	1	26	31	8	23	Bryan Memmelaar	Jaime Vivian
+Hawks (G4)	33566	Girls 4 4/B	0	5	5	0	5	15	33	-18	Gayla Langlois	Amy Steppacher
+Strikers	33587	Girls 4 4/B	7	3	0	0	21	39	18	21	Nima Fatouretchi	Ken O'Toole
+G3 Academy	32868	Girls 3 3/C	3	1	1	0	10	18	13	5	Florent Martin	Iain Martin
+Hurricanes (G3)	32874	Girls 3 3/G	2	2	1	0	7	12	11	1	Dan Gyllstrom	Peter Fogg
+Blizzards	32875	Girls 3 4/A1	7	2	1	0	22	49	22	27	John Jannino	Dave Salerno
+Hillers	64	Boys 10 2/B	3	1	3	0	12	17	9	8	Todd Garron	Doug Gordon
+Galaxy (B8)	32907	Boys 8 2/A	2	5	3	0	9	20	29	-9	Patrick Morrissey	Shaun Fitzgibbon
+B8 Academy	32912	Boys 8 3/K	2	7	1	0	7	11	20	-9	Heather DeLude	Iain Martin
+Hurricanes (B8)	32906	Boys 8 4/D	3	5	2	0	11	21	30	-9	Eric Wieland	Steven Jackson
+United (B6)	32903	Boys 6 3/E	1	4	1	0	4	16	26	-10	TJ Paparazzo	Colleen Rommel
+B6 Academy Orange	32911	Boys 6 4/A	1	3	2	0	5	10	18	-8	Florent Martin	Iain Martin
+B6 Academy White	32910	Boys 6 4/B	3	5	2	0	11	22	32	-10	Devin Lacroix	Iain Martin
+United (B5)	33404	Boys 5 2/A	4	5	1	0	13	33	34	-1	Jarred Sakakeeny	Kristin Dykstra
+Avengers (B5)	32900	Boys 5 4/B	2	7	1	0	7	27	44	-17	Ambikesh Khiriya	None
+B4 Academy	33408	Boys 4 3/A1	5	4	1	0	16	30	28	2	Iain Martin	None
+Revolution (B4)	32896	Boys 4 4/A	3	6	1	1	9	24	31	-7	Emily Jackson-Unger	Tom St.Pierre
+Dynamo	33401	Boys 4 4/A	0	9	1	0	1	23	58	-35	Carlos Henkle	Amar Prabhu
+United (B4)	32897	Boys 4 4/B2	1	6	1	0	4	11	27	-16	Kayhan Yegenoglu	Jamie Yegenoglu
+B3 Academy	33407	Boys 3 3/B	5	4	1	0	16	32	26	6	Devin Ramos	Iain Martin
+Breakers	32890	Boys 3 3/C2	2	7	1	0	7	31	59	-28	David Weibe	Jeff Strassman
+Avengers (B3)	33588	Boys 3 3/C2	1	6	2	0	5	27	48	-21	Michelle Midkiff	None
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:05:40
+TOWN: HOP | SEASON: Fall 2023
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hawks Green	33399	Girls 8 3/E	3	2	0	0	9	9	8	1	Joe Eagley	Heather Smith
+G8 Academy	32872	Girls 8 4/B	6	2	2	0	20	29	25	4	Iain Martin	Florent Martin
+Hawks Orange	32886	Girls 8 4/K	1	8	1	0	4	6	30	-24	Adele Haber	None
+Fire	32885	Girls 6 2/B1	7	1	2	0	23	33	16	17	Dave Fine	Denis Murphy
+Cyclones	32883	Girls 6 3/F	2	8	0	0	6	11	30	-19	Michael Twardowski	Jennifer Vale
+Lightning (G6)	32884	Girls 6 3/F	5	5	0	0	15	16	11	5	Randy Sanborn	Heather Vinci
+G6 Academy	32871	Girls 6 4/B	5	5	0	0	15	26	24	2	Devin Ramos	Iain Martin
+Storm	32882	Girls 5 2/C	1	8	1	0	4	5	18	-13	Matt Tighe	Dave Salerno
+Reign	32881	Girls 5 4/B	3	2	1	0	10	21	20	1	Allison Pachecho	Heather Marusa
+G5 Academy	32870	Girls 5 4/C	7	2	1	0	22	31	15	16	Devin Lacroix	Iain Martin
+Blaze	32880	Girls 5 4/F	5	3	2	0	17	21	20	1	James Casady	None
+G4 Academy	33398	Girls 4 2/D	3	5	1	0	10	14	21	-7	Heather DeLude	Iain Martin
+United (G4)	32879	Girls 4 3/F	3	6	1	0	10	19	34	-15	Meaghan Alexander	Jaime Vivian
+Tornadoes	32877	Girls 4 4/B	3	7	0	0	9	23	38	-15	Miranda Ippolito	None
+Rays	32878	Girls 4 4/B	7	1	2	0	23	36	14	22	Heather Smith	Masilo Grant
+Stars	32876	Girls 4 4/E2	2	5	1	0	7	17	21	-4	Nima Fatouretchi	None
+G3 Academy	32868	Girls 3 2/A2	3	5	0	0	9	24	32	-8	Florent Martin	Iain Martin
+Hurricanes (G3)	32874	Girls 3 3/E	3	7	0	0	9	30	35	-5	Mark Gordon	Kristin Dykstra
+Blizzards	32875	Girls 3 3/E	3	7	0	0	9	22	31	-9	Dave Salerno	None
+Huskies	32873	Girls 3 3/F	8	2	0	0	24	38	13	25	Peter Fogg	None
+Boys HS	33438	Boys 912 3/B	2	5	0	0	6	17	31	-14	Michelle Midkiff	None
+Galaxy (B8)	32907	Boys 8 2/C	5	2	3	0	18	18	14	4	Patrick Morrissey	Shaun Fitzgibbon
+Hurricanes (B8)	32906	Boys 8 4/C	1	1	3	0	6	7	8	-1	Eric Wieland	Ed O'Donnell
+B8 Academy	32912	Boys 8 4/G	9	0	1	0	28	30	5	25	Heather DeLude	Iain Martin
+Thunder (B8)	33406	Boys 8 4/M	1	8	1	0	4	11	43	-32	David Howell	None
+Revolution (B6)	32904	Boys 6 2/D1	7	2	1	0	22	34	15	19	Steve Quinn	Brian Heaton
+B6 Academy Orange	32911	Boys 6 3/F	3	7	0	0	9	19	32	-13	Florent Martin	Iain Martin
+B6 Academy White	32910	Boys 6 4/A	2	4	0	0	6	16	20	-4	Devin Lacroix	Iain Martin
+United (B6)	32903	Boys 6 4/C	4	5	1	0	13	27	29	-2	TJ Paparazzo	None
+Athletics	33391	Boys 6 4/C	5	3	2	0	17	37	25	12	Greg Gilson	Melissa Recos
+Fury	33403	Boys 5 2/D	8	1	1	0	25	34	18	16	Brad Wilson	Ed O'Donnell
+Hooligans (B5)	33404	Boys 5 2/E	10	0	0	0	30	40	14	26	Jarred Sakakeeny	Aico Van Nunen
+Raptors	32900	Boys 5 3/J	2	6	2	0	8	13	24	-11	Peter Fogg	Matt Hodges
+Avengers	33405	Boys 5 4/J	0	6	0	0	0	11	41	-30	Michelle Midkiff	None
+B4 Academy	33408	Boys 4 3/C	3	2	5	0	14	39	38	1	Iain Martin	Florent Martin
+Hillers	33402	Boys 4 3/J	5	3	2	0	17	34	27	7	Nate Repucci	Tom St.Pierre
+Revolution (B4)	32896	Boys 4 3/K	3	6	1	0	10	18	28	-10	Liz Fleming	Jill Spinale
+United (B4)	32897	Boys 4 3/K	5	3	2	0	17	37	31	6	John DelPrete	None
+Huskies (B4)	33400	Boys 4 4/A	4	0	0	0	12	21	9	12	Drew Griffin	Bradley Leyshon
+Dynamo	33401	Boys 4 4/A	0	4	0	1	-1	4	12	-8	Carlos Henkle	Kai Wittpennig
+B3 Academy	33407	Boys 3 2/D	0	9	1	0	1	10	51	-41	Devin Ramos	Iain Martin
+Galaxy (B3)	32888	Boys 3 3/A	1	6	3	1	5	17	29	-12	Marilyn Gibbs	None
+Thunder (B3)	32889	Boys 3 3/A	3	7	0	0	9	17	35	-18	Ted Smith	None
+Breakers	32890	Boys 3 3/B	3	7	0	1	8	25	44	-19	David Weibe	Hugh Gregg
+Hurricanes (B3)	32891	Boys 3 3/B	7	3	0	2	19	37	18	19	Leigh Murray	Sara Labrecque
+Lightning (B3)	32892	Boys 3 3/D	4	4	2	0	12	40	26	14	Aico Van Nunen	Jitender Kataria
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:05:40
+TOWN: HOP | SEASON: Spring 2023
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Girls HS Academy	32867	Girls 10 2/A	2	2	3	0	9	16	15	1	Heather DeLude	Iain Martin
+G8 Academy	31779	Girls 8 3/D	4	5	1	0	13	14	19	-5	Florent Martin	Iain Martin
+Dynamo	31701	Girls 8 4/F	4	6	0	0	12	21	32	-11	Marc Mauricio	None
+G6 Academy	31777	Girls 6 3/F	1	8	1	0	4	11	27	-16	Jack Soucy	Iain Martin
+Hawks	31700	Girls 6 4/A 	9	1	0	0	27	32	13	19	Bryan Memmelaar	Adele Haber
+Fire	31698	Girls 5 2/B	5	3	2	0	17	29	17	12	Dave Fine	Denis Murphy
+G5 Academy	31776	Girls 5 4/A2	3	5	0	0	9	21	26	-5	Iain Martin	None
+Lightning	31697	Girls 5 4/C	7	1	2	0	23	34	20	14	Randy Sanborn	Heather Vinci
+Junior Storm	31695	Girls 4 2/C	7	2	1	0	22	23	10	13	Matt Tighe	Dave Salerno
+Fireworks	31693	Girls 4 4/C	4	2	4	0	16	18	16	2	James Casady	Mark Haranas
+G4 Academy	31770	Girls 4 4/D	7	1	2	0	23	36	13	23	Devin Ramos	Iain Martin
+Stars	31692	Girls 4 4/G2	1	7	0	0	3	11	37	-26	Mohammad Mahdi Agheli Hajiabadi	Stephen Moorehead
+G3 Academy	31769	Girls 3 2/C	3	1	2	0	11	13	7	6	Heather DeLude	Iain Martin
+Tornadoes	31691	Girls 3 4/B	3	5	2	0	11	18	23	-5	Netra Srikanth	Miranda Ippolito
+Hornets	31690	Girls 3 4/C	2	4	4	0	10	20	26	-6	John Gavula	Marissa Gentile
+United	31689	Girls 3 4/C	7	0	3	0	24	37	13	24	Meaghan Alexander	Scott Inglis
+Boys High School	32914	Boys 12 2/B	5	2	0	1	14	37	23	14	Amy Mick	None
+Hillers	31765	Boys 8 3/A	8	2	0	0	24	29	17	12	Todd Garron	Tom Click
+Thunder	31763	Boys 8 4/B	3	5	2	0	11	15	14	1	George Selibas	Eric Wieland
+Athletics	31762	Boys 8 4/J	0	10	0	0	0	10	47	-37	David Howell	Steven Jackson
+B6 Academy Orange	31790	Boys 6 3/B	6	3	1	0	19	27	24	3	Jack Soucy	Iain Martin
+B6 Academy White	31789	Boys 6 4/A 	0	4	1	0	1	5	15	-10	Devin Ramos	Iain Martin
+Rovers	31760	Boys 6 4/F	8	2	0	0	24	49	22	27	Jesus Amadori	Masilo Grant
+Revolution	31758	Boys 5 4/G	3	5	1	0	10	29	33	-4	Gayl Weinmann	Jitender Kataria
+Fury	31757	Boys 4 1/A1	3	2	0	0	9	9	8	1	Keith Gilbreath	Kristin Dykstra
+Raptors	31753	Boys 4 3/C	7	1	1	0	22	35	12	23	Peter Fogg	John Murray
+B4 Academy	31788	Boys 4 3/F	2	3	0	0	6	12	16	-4	Florent Martin	Iain Martin
+Hooligans	31755	Boys 4 4/B	3	6	0	0	9	12	19	-7	Patrick Maiella	Keeley Maiella
+Junior Hillers	32766	Boys 4 4/F	0	8	2	1	1	14	30	-16	Ellie Driscoll	Emme Joy
+B3 Academy	31782	Boys 3 3/B	5	4	1	0	16	37	36	1	Iain Martin	None
+Lions	31750	Boys 3 4/A	3	5	1	0	10	29	31	-2	Carlos Henkle	Bradley Leyshon
+Hornets	31752	Boys 3 4/B2	1	2	1	0	4	11	15	-4	Liz Fleming	Kai Wittpennig
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:05:40
+TOWN: HOP | SEASON: Fall 2022
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Breakers	31702	Girls 8 2/D1	2	7	1	0	7	9	30	-21	Frank Fiore	Sarah Hopkins
+G8 Academy	31779	Girls 8 3/E2	4	4	2	0	14	18	18	0	Florent Martin	Iain Martin
+Dynamo	31701	Girls 8 4/F	2	3	0	0	6	8	11	-3	Marc Mauricio	None
+Hawks	31700	Girls 6 3/A	6	2	2	0	20	18	6	12	Bryan Memmelaar	Heather Smith
+G6 Academy	31777	Girls 6 4/C	6	2	2	0	20	27	17	10	Cameron Young	Iain Martin
+Express	31699	Girls 6 4/G	5	5	0	0	15	19	21	-2	Adele Haber	Ray Fryer
+Fire	31698	Girls 5 2/A	3	4	3	0	12	18	18	0	Dave Fine	Gino Spinelli
+Lightning	31697	Girls 5 4/A	0	7	1	0	1	16	41	-25	Nate Repucci	Pradeep Veldurthi
+G5 Academy	31776	Girls 5 4/A	2	2	0	0	6	12	7	5	Iain Martin	Florent Martin
+Power (DROPPED)	31696	Girls 5 4/X	0	0	0	0	0	0	0	0	Adam Feigen	Randy Sanborn
+Junior Storm	31695	Girls 4 2/A2	4	2	2	0	14	15	8	7	Matt Tighe	Ryan Jones
+Hurricanes (G4)	31694	Girls 4 3/C	1	8	1	0	4	9	32	-23	Dave Salerno	None
+G4 Academy	31770	Girls 4 3/H	2	6	2	0	8	11	22	-11	Devin Ramos	Iain Martin
+Fireworks	31693	Girls 4 4/D2	0	4	0	0	0	3	11	-8	Mark Haranas	Kaitlyn Mullen
+Stars (G4)	31692	Girls 4 4/E	2	4	0	1	5	13	16	-3	Jenn Kirkland	Joseph Mercurio
+G3 Academy	31769	Girls 3 2/B2	5	5	0	0	15	25	18	7	Michael Gomes	Iain Martin
+Hurricanes (G3)	31691	Girls 3 3/E	4	6	0	0	12	18	25	-7	Leanna Cockburn	Miranda Ippolito
+Hornets	31690	Girls 3 3/G	4	4	2	0	13	24	18	6	John Gavula	Marissa Gentile
+Stars (G3)	31689	Girls 3 4/B	0	4	1	0	1	7	17	-10	Meaghan Alexander	Jaime Vivian
+Hillers	31765	Boys 8 3/B	8	1	1	0	25	37	7	30	Todd Garron	Gino Spinelli
+Hurricanes (B8)	31764	Boys 8 3/L	9	1	0	0	27	39	14	25	Eric Wieland	Tom Click
+Thunder (B8)	31763	Boys 8 4/D2	3	3	2	0	11	16	15	1	George Selibas	Steven Jackson
+Athletics	31762	Boys 8 4/H	2	8	0	0	6	19	48	-29	Aimee Cole	Laney Hammond
+Galaxy	31761	Boys 6 2/B	5	2	3	0	18	27	21	6	Patrick Morrissey	Shaun Fitzgibbon
+B6 Academy Orange	31790	Boys 6 3/C	4	5	1	1	12	33	22	11	Michael Gomes	Iain Martin
+Rovers	31760	Boys 6 4/C	0	4	2	0	2	8	29	-21	Gayla Langlois	None
+B6 Academy White	31789	Boys 6 4/C	7	2	1	0	20	30	13	17	Devin Ramos	Iain Martin
+United	31759	Boys 5 3/A	5	3	2	0	16	41	21	20	Brian Heaton	Melissa Recos
+Revolution	31758	Boys 5 4/B1	1	6	1	0	4	9	25	-16	Greg Gilson	Patrick Tripp
+Fury	31757	Boys 4 2/C	8	0	2	0	26	42	12	30	Keith Gilbreath	Jarred Sakakeeny
+Hooligans	31755	Boys 4 3/D	4	6	0	0	12	21	30	-9	Patrick Maiella	John Murray
+Junior Hillers	31756	Boys 4 3/D	1	6	3	0	6	10	27	-17	Hugh Gregg	Jason Sweet
+B4 Academy	31788	Boys 4 3/J	7	2	1	0	22	48	22	26	Florent Martin	Iain Martin
+Raptors	31753	Boys 4 3/M	2	7	1	0	7	11	36	-25	Peter Fogg	Dave Holborn
+Avengers	31754	Boys 4 3/M	7	3	0	0	21	30	21	9	Michelle Midkiff	Matt Hodges
+Thunder (B3)	31751	Boys 3 3/B	1	3	0	0	3	7	16	-9	Heath Guay	Mike DeCandia
+B3 Academy	31782	Boys 3 3/B	5	4	1	0	16	41	30	11	Cameron Young	Iain Martin
+Hornets	31752	Boys 3 3/E	5	5	0	0	15	29	26	3	Drew Griffin	Tom St.Pierre
+Lions	31750	Boys 3 3/G	5	5	0	0	15	29	31	-2	Nate Repucci	Jill Spinale
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:05:40
+TOWN: HOP | SEASON: Spring 2022
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+GHS Academy	32711	Girls 11 2/A	1	6	0	0	3	7	33	-26	Michael Gomes	Iain Martin
+G8 Academy Orange	30336	Girls 8 2/A	0	10	0	0	0	6	32	-26	Iain Martin	None
+G8 Academy White	30335	Girls 8 3/G	2	8	0	0	6	4	17	-13	Michael Gomes	Iain Martin
+Dynamo (G7/8)	31666	Girls 8 4/D	5	3	2	0	17	11	12	-1	Brad Wilson	Michelle Midkiff
+G6 Academy Orange	30333	Girls 6 3/H	2	8	0	0	6	20	34	-14	Florent Martin	Iain Martin
+Breakers	30989	Girls 6 4/B	1	9	0	1	2	12	29	-17	Juliana Grontzos	Ana Tomas
+Hawks	30988	Girls 5 2/E	4	0	1	0	13	20	8	12	Jarrod Clement	Bryan Memmelaar
+Hurricanes (G5)	31665	Girls 5 4/E	1	6	2	0	5	5	21	-16	Emme Joy	Ellie Driscoll
+Fire	30978	Girls 4 2/A2	3	2	5	0	14	17	16	1	Denis Murphy	Dave Fine
+G4 Academy Orange	30332	Girls 4 3/E	1	2	1	0	4	4	11	-7	Iain Martin	None
+Cheetahs	31664	Girls 4 3/G	1	8	1	0	4	5	22	-17	Jennifer Vale	Eric Gangl
+Lightning	31663	Girls 4 4/G	0	5	0	0	0	7	25	-18	Randy Sanborn	Terry O'Callaghan
+Huskies	31595	Girls 3 3/B	1	9	0	0	3	12	42	-30	Louis Boulanger	Lauren Melton
+Hillers (G3)	31596	Girls 3 3/B	4	3	3	0	15	24	19	5	Matt Tighe	Ryan Jones
+Orange Crush	31593	Girls 3 3/D	3	4	3	0	12	19	30	-11	Dave Salerno	Marilyn Gibbs
+Firebirds	31594	Girls 3 3/D	6	1	3	0	21	29	16	13	Kaitlyn Mullen	Courtney Galvani
+BHS Academy	32709	Boys 12 2/A	2	4	1	0	7	20	22	-2	Florent Martin	Iain Martin
+Hillers (B8)	31006	Boys 8 3/C	7	0	3	0	24	42	8	34	Todd Garron	Doug Gordon
+Athletics	31005	Boys 8 4/B	2	7	1	0	7	16	24	-8	Gary Miloscia	Mark Logan
+Thunder (B8)	31004	Boys 8 4/G2	4	1	2	0	14	24	16	8	George Selibas	Stacie Kirkwood
+B6 Academy Orange	30339	Boys 6 3/D	6	2	2	1	19	25	8	17	Iain Martin	None
+Hurricanes (B6)	31669	Boys 6 3/E	3	5	0	0	9	23	23	0	Jason Pritchard	Eric Wieland
+B6 Academy White	30924	Boys 6 4/E2	5	3	2	0	17	17	15	2	Cameron Young	Iain Martin
+Rovers	30999	Boys 5 4/C	1	3	2	1	4	13	17	-4	Nate Thomas	Peter Thomas
+B4 Academy Orange	30338	Boys 4 3/D	9	0	0	0	27	38	10	28	Florent Martin	Iain Martin
+B4 Academy White	30337	Boys 4 3/H	2	2	6	0	12	22	20	2	Michael Gomes	Iain Martin
+Revolution	31668	Boys 4 4/A	2	5	2	0	6	27	27	0	Cameron Young	None
+United	31667	Boys 4 4/F	0	0	1	0	1	1	1	0	Veronica White	Katrina Provencher
+Hooligans	30994	Boys 3 3/A	8	0	2	0	26	43	16	27	Jarred Sakakeeny	Patrick Maiella
+Dynamo (B3)	30996	Boys 3 3/A	5	2	3	0	18	24	24	0	Keith Gilbreath	Brad Wilson
+Raptors	30995	Boys 3 3/B	6	3	1	0	19	40	32	8	Peter Fogg	Jason Sweet
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:06:50
+TOWN: HOP | SEASON: Fall 2021
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+G8 Academy Orange	30336	Girls 8 2/C	4	4	2	0	14	15	16	-1	Iain Martin	Michael Gomes
+United (G8)	30992	Girls 8 3/J	7	2	0	0	21	22	10	12	Brad Wilson	Mark Valutkevich
+G8 Academy White	30335	Girls 8 4/A	9	0	1	0	28	26	6	20	Michael Gomes	Iain Martin
+Thunder (G8)	30991	Girls 8 4/H	1	7	2	0	5	10	31	-21	Michelle Midkiff	None
+Hurricanes (G6)	30990	Girls 6 3/B	10	0	0	0	30	31	1	30	Ken Abrahamsen	Martha Godfroy
+G6 Academy Orange	30333	Girls 6 3/F	1	8	0	0	3	16	31	-15	Florent Martin	Iain Martin
+Breakers	30989	Girls 6 4/A	4	4	1	0	13	19	27	-8	Brian Skaff	Tess Hanson
+Hawks	30988	Girls 5 2/C	0	8	2	0	2	8	27	-19	Heather Smith	Eric Gangl
+FC Hillers	30987	Girls 5 4/A1	2	6	2	0	8	15	25	-10	Bryan Memmelaar	Joey Fonseca
+Express	30981	Girls 5 4/E1	0	9	0	0	0	2	25	-23	Carly Seidewand	Jennifer Carter
+Fire	30978	Girls 4 2/D	8	1	1	0	25	28	14	14	Dave Fine	Gino Spinelli
+G4 Academy Orange	30332	Girls 4 3/H	8	0	2	0	26	42	22	20	Steve Patino	Iain Martin
+Honey Badgers	30976	Girls 4 4/A	0	5	1	0	1	11	41	-30	Jennifer Vale	Keith Gilbreath
+Lightning	30977	Girls 4 4/A	3	3	0	0	9	19	14	5	Randy Sanborn	Eric Benson
+Junior Storm	30975	Girls 3 2/A	0	4	2	0	2	4	19	-15	Matt Tighe	Dave Salerno
+Fireworks	30973	Girls 3 3/E	5	0	0	0	15	16	6	10	Dawn McNerney	Marilyn Gibbs
+Stars	30972	Girls 3 3/G	5	5	0	0	15	32	34	-2	Kaitlyn Mullen	Courtney Galvani
+Hurricanes (G3)	30974	Girls 3 3/G	3	6	0	0	9	27	22	5	Louis Boulanger	None
+Hillers (B8)	31006	Boys 8 3/A	5	3	2	0	17	24	22	2	Doug Gordon	Todd Garron
+Athletics	31005	Boys 8 3/H	3	5	2	0	11	27	27	0	Gary Miloscia	Jessica Bruce
+United (B8)	31003	Boys 8 4/A2	1	9	0	0	3	12	49	-37	Nate Repucci	Kevin Stacey
+Thunder (B8)	31004	Boys 8 4/H	1	4	0	0	3	6	12	-6	George Selibas	Stacie Kirkwood
+Hillers (B6)	31002	Boys 6 2/F	7	1	2	0	23	32	14	18	Dave Fine	Jason Pritchard
+B6 Academy Orange	30339	Boys 6 3/E	6	2	2	0	20	32	13	19	Steve Patino	Iain Martin
+B6 Academy White	30924	Boys 6 3/G2	0	8	1	0	1	3	35	-32	Cameron Mullins	Iain Martin
+Revolution (B6)	31001	Boys 6 4/C	1	3	1	0	4	9	15	-6	Anthony Gonzalez	Rob Benson
+Galaxy	31000	Boys 5 2/A	2	5	3	0	9	19	28	-9	Patrick Morrissey	Shaun Fitzgibbon
+Rovers	30999	Boys 5 4/H	3	2	0	0	9	12	7	5	Gayla Langlois	Ted Behrens
+B4 Academy Orange	30338	Boys 4 2/D	2	8	0	0	6	21	43	-22	Florent Martin	Iain Martin
+B4 Academy White	30337	Boys 4 3/J	5	1	0	0	15	18	9	9	Michael Gomes	Iain Martin
+United (B4)	30998	Boys 4 3/J	8	2	0	1	23	39	10	29	Brian Heaton	Matt Colleran
+Revolution (B4)	30997	Boys 4 4/D	0	5	0	0	0	2	24	-22	Greg Gilson	None
+Raptors	30994	Boys 3 3/C	9	0	1	0	28	40	7	33	Peter Fogg	Aico Van Nunen
+Hooligans	30995	Boys 3 3/C	7	3	0	0	21	34	13	21	Jarred Sakakeeny	Hugh Gregg
+Dynamo	30996	Boys 3 3/C	6	3	1	1	18	25	12	13	Keith Gilbreath	Ed O'Donnell
+Avengers	30993	Boys 3 3/H	5	0	0	0	15	12	2	10	Michelle Midkiff	Krystal Avila
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:06:50
+TOWN: HOP | SEASON: Spring 2021
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+G8 Academy Orange	30336	Girls 8 2/E	3	3	4	0	13	11	14	-3	Michael Gomes	Kevin Friel
+United (G7/8)	30313	Girls 8 3/D	1	6	2	0	5	5	20	-15	Chris Michaud	Brad Wilson
+G8 Academy White	30335	Girls 8 3/H	1	9	0	0	3	8	30	-22	Steve Patino	Kevin Friel
+Cheetahs	30312	Girls 8 4/E	0	7	3	0	3	3	20	-17	Jamie Devlin	Paul McCarthy
+G6 Academy Orange	30334	Girls 6 2/E	2	5	2	0	8	19	29	-10	Kevin Friel	Florent Martin
+G6 Academy White	30333	Girls 6 3/F1	3	3	2	0	11	21	19	2	Florent Martin	Kevin Friel
+Junior Hillers	30311	Girls 6 4/E	3	6	1	0	10	27	35	-8	Kylie Davis	None
+Hawks	30309	Girls 4 3/A	2	7	1	0	7	20	35	-15	Jimmy Odierna	Heather Smith
+G4 Academy Orange	30332	Girls 4 3/F	1	6	0	0	3	15	30	-15	Joel Cordeiro	Kevin Friel
+FC Hillers	30308	Girls 4 3/G1	1	6	1	0	4	3	29	-26	Alexis Viehl	Amanda Normandeau
+Orange Crush	30305	Girls 3 3/C1	2	5	1	0	7	16	27	-11	Denis Murphy	Kelly Toomer
+Fire	30306	Girls 3 3/C1	5	0	3	0	18	29	7	22	Dave Fine	Gino Spinelli
+BHS Academy	30840	Boys 12 1/B2	1	5	1	1	3	13	22	-9	Steve Patino	Kevin Friel
+Athletics	30331	Boys 8 3/D	9	0	1	0	28	49	19	30	Todd Garron	Doug Gordon
+B8 Academy Orange	30340	Boys 8 3/G	2	5	3	0	9	21	29	-8	Florent Martin	Kevin Friel
+B6 Academy Orange	30339	Boys 6 3/E	4	4	1	0	13	17	18	-1	Joel Cordeiro	Kevin Friel
+Thunder	30330	Boys 6 4/A	6	4	0	0	18	22	16	6	Todd Garron	George Selibas
+Revolution	30325	Boys 5 3/D	4	6	0	0	12	23	28	-5	Rob Benson	Jason Pritchard
+B4 Academy Orange	30338	Boys 4 2/D	1	7	1	0	4	11	36	-25	Steve Patino	Kevin Friel
+Rovers	30315	Boys 4 3/D	1	2	0	0	3	3	11	-8	Hugh Gregg	Steven Levandosky
+B3 Academy White	30337	Boys 3 3/E	7	1	2	1	22	33	11	22	Michael Gomes	Kevin Friel
+United (B3)	30314	Boys 3 3/F	5	4	1	1	15	41	26	15	Brian Heaton	Matt Colleran
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:16:35
+TOWN: HOL | SEASON: Fall 2025
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+G7/8 Panthers Black	34295	Girls 8 1/B	2	7	1	0	7	6	17	-11	Brendan Malvey	Danielle Charlot
+G7/8 Panthers Red	34296	Girls 8 3/E	6	2	2	0	20	12	10	2	Tim Howden	Ryan Ferguson
+G7/8 Panthers White	34297	Girls 8 4/A	4	4	2	0	14	18	11	7	Jessica Black	Gabe Huseman
+G7/8 Panthers Gray	34298	Girls 8 4/G	1	8	1	0	4	8	31	-23	Ella Coughlin	Joseph Gelzhiser
+G6 Panthers Black 	32106	Girls 6 2/B	1	4	3	0	6	6	16	-10	Peter Guellnitz	Chris King
+G6 Panthers Red	32947	Girls 6 3/C	5	4	1	0	16	22	18	4	Daniel Gonzalez	Rick Gallimore
+G6 Panthers White	32107	Girls 6 4/F	7	2	1	0	22	36	17	19	Dan Brainerd	John Matz
+G5 Panthers Black	32946	Girls 5 2/B	7	0	3	0	24	22	8	14	Chris Levasseur	Paul DellaRocca
+G5 Panthers Red	33817	Girls 5 3/E	1	8	1	0	4	7	29	-22	Patrick Donohue	John Swift
+G4 Panthers Black	33816	Girls 4 2/B	8	1	1	0	25	28	17	11	Craig Worby	Chris King
+G4 Panthers Red	34293	Girls 4 3/E	3	2	5	0	14	16	18	-2	Dan Kane	Michelle Skeldon
+G4 Panthers White	34294	Girls 4 4/F	3	5	2	0	11	19	32	-13	Mike Marien	Brian Simons
+B 7/8 (Stanley)	30355	Boys 8 1/A	6	2	2	0	20	28	20	8	Jason Stanley	None
+B 7/8 (Looney/Aldredge)	30356	Boys 8 3/D	1	3	1	0	4	5	10	-5	Alissa Looney	Tyler Aldredge
+Hotspur	34801	Boys 8 3/K	1	3	0	0	3	4	20	-16	Jason Morrissey	None
+B 7/8 (Catherine & Ann)	33748	Boys 8 4/L	8	1	1	0	25	42	19	23	Mary Catherine Savard	Ann Polack
+B 7/8 (Tony & Duvan)	31056	Boys 8 4/N	3	5	2	0	11	13	15	-2	Tony Fortunato	Duvan Ramirez
+Mayhem	33095	Boys 6 2/C	5	4	1	0	16	25	23	2	Dave Cohen	Ben Pratt
+Strikers	33096	Boys 6 3/E	2	8	0	0	6	14	29	-15	Drew Wagner	None
+Hydra 	33749	Boys 6 4/D	1	9	0	0	3	20	48	-28	Drew Kennedy	Chris Carson
+Panthers	33750	Boys 5 2/B	7	3	0	0	21	30	21	9	Duvan Ramirez	Chris Alexis
+FC	33751	Boys 5 3/D	6	2	2	1	19	39	16	23	Lee Mottard	None
+B5 (Lisi)	34784	Boys 5 3/G	2	7	1	0	7	20	40	-20	Margo Lisi	Michael Alessi
+B5 (Peterson)	34786	Boys 5 4/D	0	9	1	0	1	14	48	-34	Mark Peterson	Sinhara Silva
+B4 (Roberts)	34795	Boys 4 2/B	5	2	3	0	18	32	16	16	Charlie Roberts	Peter Guellnitz
+Fury	34796	Boys 4 2/D	2	8	0	0	6	26	37	-11	Anthony Fioravanti	Lukasz Jaroszewicz
+Red Storm	34797	Boys 4 3/B	3	5	2	0	11	20	31	-11	Eric Higgens	Taylor Lehman
+Black Flames	34798	Boys 4 4/E	4	5	0	0	12	22	25	-3	Charles Bronner	None
+Shadows	34800	Boys 4 4/H	4	6	0	0	12	15	26	-11	Melissa Bendixsen	Allyson Watson
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:17:12
+TOWN: HOL | SEASON: Spring 2025
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+G7/8 Panthers Red	11057	Girls 8 2/A	8	1	0	0	24	25	9	16	Andy Downin	Brendan Malvey
+G7/8 Panthers White	10297	Girls 8 3/E	7	0	3	0	24	25	9	16	Jason Dufault	Dave Cohen
+G 7/8 Panthers Black	11640	Girls 8 4/A	7	2	1	0	22	27	8	19	Gabe Huseman	Jessica Black
+G7/8 Panthers Grey	30969	Girls 8 4/L	4	0	0	0	12	9	1	8	Lucinda Coughlin	Ella Coughlin
+G6 Panthers Red	32106	Girls 6 3/A	4	4	2	0	14	15	13	2	Danielle Charlot	Tim Howden
+G6 Panthers White	32947	Girls 6 4/C	2	6	0	0	6	13	29	-16	Mike Sullivan	Joseph Gelzhiser
+G5 Panthers Red	32946	Girls 5 2/B	6	0	4	0	22	15	5	10	Peter Guellnitz	Chris King
+G5 Panthers White	33817	Girls 5 3/D	4	3	3	0	15	17	16	1	Daniel Gonzalez	Bryan Mulik
+G5 Panthers Black	32107	Girls 5 4/E	5	4	1	0	16	19	21	-2	Dan Brainerd	John Matz
+G4 Panthers	33816	Girls 4 2/B2	2	6	0	0	6	13	22	-9	Chris Levasseur	Paul DellaRocca
+B7/8 - Ferguson/Capela	30355	Boys 8 1/B	5	3	2	0	17	22	16	6	Ryan Ferguson	Anthony Capela
+B7/8 - Kanavich	30356	Boys 8 3/G	4	6	0	0	12	16	17	-1	Jonathan Kanavich	David Ginnings
+B7/8 - Holliston Hotspur (Morrissey)	31056	Boys 8 4/J	6	4	0	0	18	27	22	5	Jason Morrissey	Jeff Lesica
+B7/8 - Fields	33748	Boys 8 4/J	7	2	1	0	22	30	10	20	Colin Fields	Duvan Ramirez
+B6 - Holliston FC	31720	Boys 6 2/B	6	3	1	0	19	23	14	9	Tyler Aldredge	Alissa Looney
+B6 - Holliston Hawks	31721	Boys 6 4/C	8	0	1	0	25	44	12	32	Will Chamberlin	Anthony Cataldo
+B6 - Savard	33094	Boys 6 4/G	2	6	0	0	6	11	23	-12	Mary Catherine Savard	Jamie Errickson
+B5 - Cohen	33095	Boys 5 2/B	3	7	0	0	9	26	33	-7	Dave Cohen	None
+B5- Holliston Strikers	33096	Boys 5 3/C	2	8	0	0	6	16	31	-15	Alissa Looney	Chris Levasseur
+B5 - Holliston Hydra 	33749	Boys 5 4/F1	4	2	2	0	14	24	21	3	Drew Kennedy	None
+B4 - Ramirez	33750	Boys 4 2/B	5	4	1	0	16	26	19	7	Duvan Ramirez	Chris Alexis
+B4- HC Panthers	33751	Boys 4 3/D	3	7	0	0	9	26	37	-11	Margo Lisi	Lee Mottard
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:17:12
+TOWN: HOL | SEASON: Fall 2024
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+G7/8 Panthers Red	11057	Girls 8 1/B	2	4	4	0	10	14	19	-5	Andy Downin	Brendan Malvey
+G7/8 Panthers White	10297	Girls 8 3/C	3	1	0	0	9	8	4	4	Jason Dufault	Dave Cohen
+G 7/8 Panthers Black	11640	Girls 8 4/A	5	1	2	0	17	13	7	6	Jacqueline Miranda	Gabe Huseman
+G7/8 Panthers Grey	30969	Girls 8 4/E	1	8	0	0	3	4	27	-23	Karen Haynes	Ella Coughlin
+G6 Panthers Red	32106	Girls 6 3/A	4	4	2	0	14	14	16	-2	Danielle Charlot	Tim Howden
+G6 Panthers White	32947	Girls 6 4/A	1	8	1	0	4	10	26	-16	Mike Sullivan	Joseph Gelzhiser
+G5 Panthers Red	32946	Girls 5 2/B	4	3	3	0	15	16	13	3	Peter Guellnitz	Chris King
+G5 Panthers White	33817	Girls 5 3/E	5	2	3	0	18	19	9	10	Daniel Gonzalez	Bryan Mulik
+G5 Panthers Black	32107	Girls 5 4/G	3	1	1	0	10	11	6	5	Dan Brainerd	John Matz
+G4 Panthers	33816	Girls 4 2/C	3	6	1	0	10	13	26	-13	Chris Levasseur	Paul DellaRocca
+B7/8 - Ferguson/Capela	30355	Boys 8 2/A2	5	4	1	0	16	20	11	9	Ryan Ferguson	Anthony Capela
+B7/8 - Kanavich	30356	Boys 8 3/B	2	6	2	0	8	15	33	-18	Jonathan Kanavich	David Ginnings
+B7/8 - Holliston Hotspur (Morrissey)	31056	Boys 8 4/E	4	5	1	0	13	21	27	-6	Jason Morrissey	Jeff Lesica
+B7/8 - Fortunato	33748	Boys 8 4/E	1	7	2	0	5	15	36	-21	Tony Fortunato	Duvan Ramirez
+B6 - Aldredge/Looney	31720	Boys 6 3/A	8	0	2	0	26	36	13	23	Tyler Aldredge	Alissa Looney
+B6 - Holliston Hawks (Snow)	31721	Boys 6 3/H	2	7	1	0	7	22	27	-5	Lisa Snow	Jose Cordero
+B6 - Savard	33094	Boys 6 4/H1	4	5	1	0	13	19	26	-7	Mary Catherine Savard	Jamie Errickson
+B5 - Cohen	33095	Boys 5 2/C	6	2	2	0	20	32	22	10	Dave Cohen	Lukasz Jaroszewicz
+B5- Looney/Levasseur	33096	Boys 5 3/B	1	7	2	0	5	11	34	-23	Alissa Looney	Chris Levasseur
+B5 - Holliston Hydra (Burke/Kennedy)	33749	Boys 5 4/F	4	3	3	0	15	32	23	9	Drew Kennedy	Brian Burke
+B4 - Ramirez	33750	Boys 4 2/D	5	3	2	0	17	28	25	3	Duvan Ramirez	Chris Alexis
+B4 - Lisi	33751	Boys 4 3/J	4	1	1	0	13	16	10	6	Margo Lisi	Lee Mottard
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:18:01
+TOWN: HOL | SEASON: Spring 2024
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Panthers G7/8	11057	Girls 8 2/A	5	5	0	0	15	15	13	2	Brendan Malvey	Andy Downin
+G7/8 Dufault/Cohen 	10297	Girls 8 3/A	6	2	1	0	19	14	12	2	Jason Dufault	Dave Cohen
+G7/8 Anastasia	11640	Girls 8 4/C	0	8	2	0	2	9	36	-27		None
+United G6	30969	Girls 6 1/A	3	5	2	0	11	13	15	-2	Steve Bigelow	
+Panthers G6 Black	32107	Girls 6 3/F	7	2	1	0	22	24	9	15	Jessica Black	Gabe Huseman
+Panthers G5	32106	Girls 5 2/C	2	6	2	1	7	5	22	-17	Danielle Charlot	Tim Howden
+G5 Sullivan	32947	Girls 5 4/A	6	2	2	0	20	24	19	5	Mike Sullivan	Jared Lindros
+Panthers G4	32946	Girls 4 2/C	5	3	2	0	17	13	9	4	Peter Guellnitz	Chris King
+B7/8 - McDonald	30355	Boys 8 1/B	5	2	3	0	18	10	8	2	Ben McDonald	Ryan Ferguson
+B7/8 - Capela	30356	Boys 8 3/F	6	3	1	0	19	32	20	12	Anthony Capela	AJ Hemaratne
+B7/8 - Cataldo	31056	Boys 8 4/J	6	4	0	0	18	33	21	12	Anthony Cataldo	Andy Downin
+B6 - Stanley	31057	Boys 6 1/B	5	5	0	0	15	23	17	6	Jason Stanley	Anthony Porciello
+B6 - Morrissey	31059	Boys 6 3/B	2	8	0	0	6	19	38	-19	Jason Morrissey	Kevin Secaur
+B6 - Beers	31722	Boys 6 4/D	6	3	1	0	19	27	27	0	Chris Beers	None
+B5 - Aldredge/Looney	31720	Boys 5 3/A	6	3	1	0	19	33	25	8	Tyler Aldredge	Alissa Looney
+B5 - Snow	31721	Boys 5 4/B	8	1	1	0	25	33	17	16	Lisa Snow	Jose Cordero
+B5 - Savard	33094	Boys 5 4/G	2	5	1	0	7	19	32	-13	Mary Catherine Savard	Jamie Errickson
+B4 - Cohen	33095	Boys 4 2/D	3	6	1	0	10	23	26	-3	Dave Cohen	None
+B4 - Looney/Levasseur	33096	Boys 4 3/A2	1	7	2	0	5	13	33	-20	Alissa Looney	Chris Levasseur
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:18:01
+TOWN: HOL | SEASON: Fall 2023
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Panthers G7/8	11057	Girls 8 2/A	4	3	2	0	14	22	17	5	Brendan Malvey	Andy Downin
+G7/8 Dufault/Cohen 	10297	Girls 8 3/J1	5	1	2	0	17	17	3	14	Jason Dufault	Dave Cohen
+G7/8 Anastasia	11640	Girls 8 4/K	8	0	2	0	26	39	12	27		Kathryn Thompson
+United G6	30969	Girls 6 1/A2	6	1	1	0	19	22	11	11	Steve Bigelow	
+Panthers G6 Black	32107	Girls 6 3/G	3	3	4	0	13	15	17	-2	Jessica Black	Gabe Huseman
+Panthers G6	30971	Girls 6 4/F	4	5	0	0	12	19	24	-5	Karen Haynes	Charlie Coughlin
+Panthers G5	32106	Girls 5 2/B	0	6	0	0	0	3	22	-19	Matt Cicciari	Craig Worby
+G5 Sullivan	32947	Girls 5 3/G	1	7	2	0	5	7	29	-22	Mike Sullivan	Jared Lindros
+Panthers G4	32946	Girls 4 2/C	2	1	1	0	7	8	5	3	Peter Guellnitz	Chris King
+B7/8 - McDonald	30355	Boys 8 2/A	6	1	3	0	21	16	9	7	Ben McDonald	Ryan Ferguson
+B7/8 - Capela	30356	Boys 8 3/G	2	2	1	0	7	12	14	-2	Anthony Capela	AJ Hemaratne
+B7/8 - Cataldo	31056	Boys 8 4/J	5	1	4	0	19	33	20	13	Anthony Cataldo	Tod Pierce
+B6 - Stanley	31057	Boys 6 1/A	2	6	2	0	8	13	26	-13	Jason Stanley	Anthony Porciello
+B6 - Morrissey	31059	Boys 6 3/F	7	3	0	0	21	24	18	6	Jason Morrissey	Kevin Secaur
+B6 - Beers	31722	Boys 6 4/E	2	4	4	0	10	19	22	-3	Chris Beers	Duvan Ramirez
+B5 - Aldredge/Looney	31720	Boys 5 2/C	1	8	1	0	4	17	40	-23	Tyler Aldredge	Alissa Looney
+B5 - Snow	31721	Boys 5 3/J	1	7	2	0	5	10	27	-17	Lisa Snow	Jose Cordero
+B5 - Savard	33094	Boys 5 4/G	0	8	2	0	2	12	45	-33	Mary Catherine Savard	Jamie Errickson
+B4 - Cohen	33095	Boys 4 2/C	5	4	1	0	16	21	17	4	Dave Cohen	Lukasz Jaroszewicz
+B4 - Looney/Levasseur	33096	Boys 4 3/L	5	1	1	0	16	26	11	15	Alissa Looney	Chris Levasseur
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:18:01
+TOWN: HOL | SEASON: Spring 2023
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Panthers G7/8	11057	Girls 8 2/A	3	5	2	0	11	19	26	-7	Brendan Malvey	None
+United G7/8 	10297	Girls 8 3/H	5	4	1	0	16	18	16	2	Samir Kailani	Alan Plante
+FC G7/8	11640	Girls 8 4/F	3	6	1	0	10	13	25	-12	Derek Cordon	Oisin McAuley
+FC G6	11630	Girls 6 2/A	2	7	1	0	7	7	21	-14	Andy Downin	Charles Kerchner
+G6 Cohen	30970	Girls 6 3/C	3	5	2	0	11	11	25	-14	Dave Cohen	Jason Dufault
+G6 Koshivaki	30971	Girls 6 4/H	6	3	1	0	19	21	19	2	Lindsay Koshivaki	None
+United G5	30969	Girls 5 1/A	6	3	1	0	19	13	12	1	Steve Bigelow	
+Panthers G5	32107	Girls 5 4/A2	5	2	1	0	16	30	13	17	Jessica Black	Gabe Huseman
+G4 Cicciari	32106	Girls 4 1/A2	5	1	4	0	19	24	17	7	Matt Cicciari	Danielle Charlot
+B7/8 McDonald/Dufault	30355	Boys 8 2/A	4	4	2	0	14	18	20	-2	Ben McDonald	Jason Dufault
+B7/8 Ross	30356	Boys 8 3/K	7	3	0	0	21	33	8	25	Jamie Ross	Eric Woodhouse
+B7/8 Downin	31056	Boys 8 4/C	5	4	1	0	16	23	19	4	Andy Downin	Nicole Downin
+B6 Fioravanti	30357	Boys 6 2/C	6	3	1	0	19	17	10	7	Anthony Fioravanti	Ryan Ferguson
+B6 Peters	30358	Boys 6 3/F2	1	8	1	0	4	11	34	-23	Stephen Peters	Tony Ricupero
+B5 Stanley	31057	Boys 5 1/AA	5	3	2	0	17	22	16	6	Jason Stanley	Anthony Porciello
+B5 Morrissey	31059	Boys 5 4/A	7	2	1	0	22	29	15	14	Jason Morrissey	Kevin Secaur
+B5 Beers	31722	Boys 5 4/G	2	5	3	0	9	29	34	-5	Chris Beers	Duvan Ramirez
+B4 Aldredge/Looney	31720	Boys 4 2/D	5	4	1	0	16	32	25	7	Tyler Aldredge	Alissa Looney
+B4 Errickson	31721	Boys 4 4/A	1	8	1	0	4	11	29	-18	Jamie Errickson	Lisa Snow
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:19:11
+TOWN: HOL | SEASON: Fall 2022
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Panthers G7/8	11057	Girls 8 2/A	5	3	2	0	17	21	19	2	Brendan Malvey	None
+United G7/8 	10297	Girls 8 3/G	2	2	1	0	7	7	4	3	Samir Kailani	Alan Plante
+FC G7/8	11640	Girls 8 4/G2	0	3	5	0	5	8	12	-4	Derek Cordon	Mike Carvalho
+FC G6	11630	Girls 6 2/A	3	5	2	0	11	15	16	-1	Andy Downin	Nicole Lessard
+G6 Cohen	30970	Girls 6 3/C	4	6	0	0	12	10	20	-10	Dave Cohen	Jason Dufault
+G6 Koshivaki	30971	Girls 6 4/F	1	8	1	0	4	12	43	-31	Lindsay Koshivaki	Tiffany Polney
+United G5	30969	Girls 5 1/B	1	6	3	0	6	11	17	-6	Steve Bigelow	
+Panthers G5	32107	Girls 5 3/G	0	4	0	0	0	2	10	-8	Jessica Black	Gabe Huseman
+Dropped Team	32108	Girls 5 4/C	0	0	0	0	0	0	0	0	None	None
+G4 Cicciari	32106	Girls 4 2/A2	7	0	1	0	22	21	5	16	Matt Cicciari	Danielle Charlot
+B7/8 McDonald/Dufault	30355	Boys 8 2/A	5	0	1	0	16	19	7	12	Ben McDonald	Jason Dufault
+B7/8 Ross	30356	Boys 8 3/D	2	2	1	0	7	10	13	-3	Jamie Ross	Eric Woodhouse
+B7/8 Downin	31056	Boys 8 4/D2	4	1	3	0	15	20	9	11	Nicole Downin	Andy Downin
+B6 Fioravanti	30357	Boys 6 2/B	4	5	1	0	13	17	20	-3	Anthony Fioravanti	Ryan Ferguson
+B6 Peterson	30358	Boys 6 3/A	1	8	1	0	4	10	25	-15	Mark Peterson	AJ Hemaratne
+Dropped Team	30488	Boys 6 4/G	1	5	4	0	7	5	22	-17	Ileana Utke	Jeff Heidleberg
+B5 Stanley	31057	Boys 5 2/A	8	2	0	0	24	35	11	24	Jason Stanley	Anthony Porciello
+B5 Morrissey	31059	Boys 5 4/B1	4	0	0	0	12	16	2	14	Jason Morrissey	Kevin Secaur
+B5 Beers	31722	Boys 5 4/C	0	9	1	0	1	7	48	-41	Chris Beers	Jeff Lesica
+B4 Aldredge/Looney	31720	Boys 4 2/B	1	3	2	0	5	12	19	-7	Tyler Aldredge	Alissa Looney
+B4 Errickson	31721	Boys 4 3/J	3	5	1	0	10	19	32	-13	Jamie Errickson	Lisa Snow
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:19:11
+TOWN: HOL | SEASON: Spring 2022
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hammers G7/8	11057	Girls 8 2/D	7	3	0	0	21	24	13	11	Kevin Fitzgerald	Heather Sipsma
+G7/8 Laingen	10297	Girls 8 3/G	7	0	3	0	24	15	2	13	Karl Laingen	Michael Kaufman
+United G7/8 	11056	Girls 8 4/D	6	4	0	0	18	19	12	7	Samir Kailani	Alan Plante
+FC G7/8	11640	Girls 8 4/D	6	3	1	0	19	19	11	8	Derek Cordon	Kathryn Thompson
+Predators G6	11054	Girls 6 1/A2	2	7	1	0	7	17	29	-12	Brendan Malvey	None
+Hornets G6	11639	Girls 6 4/B	3	5	2	1	10	7	12	-5	Oisin McAuley	Brian McShane
+FC G5	11630	Girls 5 2/C	8	1	1	0	25	25	7	18	Andy Downin	Charles Kerchner
+G5 Cohen	30970	Girls 5 3/F	7	0	3	0	24	21	5	16	Dave Cohen	Jason Dufault
+G5 Anastasia	30971	Girls 5 4/E	3	4	2	0	11	11	13	-2		Dan Himick
+United G4	30969	Girls 4 1/A2	5	5	0	0	15	14	17	-3	Steve Bigelow	None
+B7/8 MacLeod	30350	Boys 8 2/A	2	6	2	1	7	13	24	-11	Brad MacLeod	None
+B7/8 Dufault	30351	Boys 8 3/C	4	2	3	0	15	23	16	7	Jason Dufault	Matthew Pollard
+B7/8 Scaramella	31056	Boys 8 4/B	6	4	0	0	18	34	21	13	Jed Scaramella	John McFadyen
+B6 McDonald/Dupuis	30355	Boys 6 2/A	5	4	1	1	15	19	11	8	Ben McDonald	Jay Dupuis
+B6 Ross	30356	Boys 6 3/B	4	4	2	0	14	22	24	-2	Jamie Ross	Nicole Downin
+B6 Capela	30488	Boys 6 4/G	3	7	0	0	9	21	28	-7	Anthony Capela	Tod Pierce
+B5 Fioravanti	30357	Boys 5 2/A	2	6	2	0	8	10	27	-17	Anthony Fioravanti	Stephen Peters
+B5 Peterson	30358	Boys 5 3/A	2	6	1	0	7	14	32	-18	Mark Peterson	AJ Hemaratne
+B4 Stanley	31057	Boys 4 2/A	4	4	2	0	14	25	19	6	Jason Stanley	Anthony Porciello
+B4 Morrissey	31059	Boys 4 3/H	3	5	2	0	11	13	25	-12	Jason Morrissey	None
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:19:11
+TOWN: HOL | SEASON: Fall 2021
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hammers G7/8	11057	Girls 8 2/A	2	8	0	0	6	12	25	-13	Kevin Fitzgerald	Heather Sipsma
+G7/8 Laingen	10297	Girls 8 3/F	4	4	2	0	14	10	9	1	Karl Laingen	Michael Kaufman
+United G7/8 	11056	Girls 8 4/A	2	4	4	0	10	11	16	-5	Samir Kailani	Alan Plante
+G7/8 DCordon	11640	Girls 8 4/A	3	6	1	0	10	9	16	-7	Derek Cordon	Kathryn Thompson
+Predators G6	11054	Girls 6 1/A	4	6	0	0	12	15	21	-6	Brendan Malvey	Rich Mancuso
+Hornets G6	11639	Girls 6 3/D	1	7	2	1	4	4	35	-31	Oisin McAuley	Brian McShane
+FC G5	11630	Girls 5 2/A2	2	6	2	0	8	15	18	-3	Andy Downin	Charles Kerchner
+G5 Cohen	30970	Girls 5 3/B	0	8	2	0	2	10	34	-24	Dave Cohen	Jason Dufault
+G5 Anastasia	30971	Girls 5 4/D	1	5	4	0	7	10	22	-12		Dan Himick
+United G4	30969	Girls 4 2/A	7	2	0	0	21	14	6	8	Steve Bigelow	
+B7/8 MacLeod	30350	Boys 8 2/A2	6	2	0	0	18	32	13	19	Brad MacLeod	Jeremy Cordon
+B7/8 Dufault	30351	Boys 8 3/F	5	3	2	0	17	27	20	7	Jason Dufault	Matthew Pollard
+B7/8 Scaramella	31056	Boys 8 4/C	6	3	1	0	19	25	23	2	Jed Scaramella	John McFadyen
+B6 McDonald/Dupuis	30355	Boys 6 2/A	7	2	1	0	22	31	11	20	Jay Dupuis	Ben McDonald
+B6 Ross	30356	Boys 6 3/B	2	6	2	0	8	14	20	-6	Jamie Ross	Nicole Downin
+B6 Capela	30488	Boys 6 4/D	3	6	1	0	10	20	26	-6	Anthony Capela	Tod Pierce
+B5 Fioravanti	30357	Boys 5 2/A	4	6	0	0	12	13	20	-7	Anthony Fioravanti	Stephen Peters
+B5 Peterson	30358	Boys 5 3/A	1	7	2	1	4	16	26	-10	Mark Peterson	AJ Hemaratne
+B5 Venkatachalam	31058	Boys 5 4/D	2	8	0	0	6	14	32	-18	Karthi Venkatachalam	Stephen Bukow
+B4 Stanley	31057	Boys 4 2/A	6	4	0	0	18	44	26	18	Jason Stanley	Anthony Porciello
+B4 Morrissey	31059	Boys 4 3/E	2	8	0	0	6	17	38	-21	Jason Morrissey	Kevin Secaur
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:19:11
+TOWN: HOL | SEASON: Spring 2021
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+G7/8 Hastings	11057	Girls 8 2/A	5	5	0	0	15	18	10	8	Kevin Hastings	Kevin Fitzgerald
+G7/8 Capela	11058	Girls 8 3/E2	6	1	1	0	19	22	7	15	Anthony Capela	Karl Laingen
+G8 Panthers Kaufman	11055	Girls 8 4/A	2	2	6	0	12	18	16	2	Michael Kaufman	Jon Tapper
+G6 Hornettes Arnold	10297	Girls 6 2/B	3	5	2	0	11	14	15	-1	Shawn Arnold	Josh Kaplan
+G6 United Kailani	11056	Girls 6 3/F1	3	4	1	0	10	11	16	-5	Samir Kailani	Alan Plante
+G6 DCordon	11640	Girls 6 4/C	4	5	1	0	13	14	21	-7	Derek Cordon	Kathryn Thompson
+G5 Predators BMalvey	11054	Girls 5 1/A	5	4	1	0	16	21	24	-3	Brendan Malvey	Rich Mancuso
+G5 Hornets McAuley	11639	Girls 5 3/G	7	2	1	0	22	26	16	10	Oisin McAuley	Brian McShane
+G4 FC ADownin	11630	Girls 4 2/B	4	4	1	0	13	20	17	3	Andy Downin	Charles Kerchner
+B7/8 Burke	30350	Boys 8 2/B	9	1	0	0	27	25	6	19	Scott Burke	Jeremy Cordon
+B7/8 Morelli	30351	Boys 8 3/G	2	7	1	0	7	22	36	-14	Jim Morelli	Kate O'Donnell
+B6 MacLeod	30353	Boys 6 2/A	5	1	4	0	19	35	21	14	Brad MacLeod	Neil Kuchman
+B6 Scaramella	30354	Boys 6 4/A	4	3	3	0	15	12	13	-1	Jed Scaramella	Jared Lindros
+B5 McDonald/Dupuis	30355	Boys 5 2/A	6	2	2	0	20	23	11	12	Ben McDonald	Jay Dupuis
+B5 Ross	30356	Boys 5 4/A2	6	1	0	0	18	21	8	13	Jamie Ross	Kevin Secaur
+B5 Mustangs NDownin	30488	Boys 5 4/A2	3	4	0	0	9	20	21	-1	Nicole Downin	Kevin Rokus
+B4 Fioravanti	30357	Boys 4 2/B	3	6	1	0	10	18	28	-10	Anthony Fioravanti	Stephen Peters
+B4 Panthers Peterson	30358	Boys 4 3/A	5	3	2	0	17	32	21	11	Mark Peterson	Jamie Sipsma
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:24:11
+TOWN: MAN | SEASON: Fall 2025
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hornets I	34657	Girls 8 2/B	4	2	3	0	15	14	15	-1	Jeffrey Ward	Mark McGuire
+Hornets II	34658	Girls 8 3/G	10	0	0	0	30	29	1	28	Jerred Campbell	Jim Stevens
+Hornets III	34659	Girls 8 4/D2	8	0	0	0	24	36	4	32	Chris Joynes	Hank Kurtzman
+Hornets IV	34660	Girls 8 4/K	5	4	1	0	16	24	18	6	Paul Miao	None
+Hornets I	34661	Girls 6 2/A	6	1	3	0	21	17	7	10	Robert Faria	Tina Atallah
+Hornets II	34662	Girls 6 3/D	0	7	3	0	3	7	18	-11	Chris Chery	Sarah Joynes
+Hornets I	34671	Girls 5 3/B	10	0	0	0	30	33	4	29	Meghan Murphy	Robert Faria
+Hornets II	34672	Girls 5 3/C2	2	8	0	0	6	17	29	-12	Paul Hebard Jr.	Will Reynolds
+Hornets III	34885	Girls 5 4/D	4	5	1	0	13	17	20	-3	Erik Woulfe	Rory Flynn
+Hornets I	34677	Girls 4 3/B1	10	0	0	0	30	44	14	30	Bryan Trout	Jen Morse
+Hornets II	34678	Girls 4 3/G	4	0	2	0	14	16	3	13	Betsy Bauler	None
+Hornets	34682	Girls 3 3/C1	8	0	2	0	26	27	15	12	Graham Wilson	None
+Green Hornets	34683	Girls 3 3/C1	6	3	1	0	17	26	11	15	Jaclyn Shavel	Brooke Hernon
+Swarm - DROPPED	34684	Girls 3 4/X	0	0	0	0	0	0	0	0	None	None
+Hornets I	34654	Boys 8 1/B	1	7	2	0	5	13	23	-10	Jessica Grey	Mohamed Driss
+Hornets II	34655	Boys 8 3/H2	4	5	1	0	13	21	28	-7	Brian Levesque	Meghan Murphy
+Hornets III	34656	Boys 8 4/H	0	5	1	0	1	10	30	-20	Jeff Kobs	None
+Hornets IV	34884	Boys 8 4/K	2	7	1	0	7	12	30	-18	Justin Abreu	None
+Hornets I	34663	Boys 6 3/C	3	2	5	0	14	22	15	7	Danielle Correia	Greg DeSista
+Grade 5/6 Hornets	34665	Boys 6 4/G	6	2	0	0	18	35	24	11	John Fitts	Jordin Spolidoro
+Grade 5/6 Hornets - Green DROPPED	34664	Boys 6 4/X	0	0	0	0	0	0	0	0	None	None
+Hornets I	34667	Boys 5 3/B	3	5	2	0	11	22	33	-11	George Apazidis	Derek Power
+Swarm	34670	Boys 5 4/G	10	0	0	0	30	52	19	33	Scott Ames	Bryan Grossi
+Hornets I	34673	Boys 4 3/A	7	2	1	0	22	44	22	22	Stephen Brown	Chris Karanicolas
+Hornets II	34674	Boys 4 3/D	5	0	1	0	16	19	5	14	Kevin Levinson	None
+Hornets III	34675	Boys 4 4/F	6	3	0	0	18	29	16	13	Tina McGrane	Aaron Gallagher
+Hornets IV	34676	Boys 4 4/H	6	3	1	0	19	24	19	5	Patrick Mullen	Philip Quinn
+Hornets	34679	Boys 3 3/D	1	7	2	0	5	17	29	-12	Scott Dunn	None
+Green Hornets	34680	Boys 3 3/D	3	6	1	0	10	19	23	-4	Tom Herrick	David Smith
+Buzz	34681	Boys 3 4/F	3	5	0	0	9	17	23	-6	Katie Emrich	None
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:25:05
+TOWN: MAN | SEASON: Fall 2025
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hornets I	34657	Girls 8 2/B	4	2	3	0	15	14	15	-1	Jeffrey Ward	Mark McGuire
+Hornets II	34658	Girls 8 3/G	10	0	0	0	30	29	1	28	Jerred Campbell	Jim Stevens
+Hornets III	34659	Girls 8 4/D2	8	0	0	0	24	36	4	32	Chris Joynes	Hank Kurtzman
+Hornets IV	34660	Girls 8 4/K	5	4	1	0	16	24	18	6	Paul Miao	None
+Hornets I	34661	Girls 6 2/A	6	1	3	0	21	17	7	10	Robert Faria	Tina Atallah
+Hornets II	34662	Girls 6 3/D	0	7	3	0	3	7	18	-11	Chris Chery	Sarah Joynes
+Hornets I	34671	Girls 5 3/B	10	0	0	0	30	33	4	29	Meghan Murphy	Robert Faria
+Hornets II	34672	Girls 5 3/C2	2	8	0	0	6	17	29	-12	Paul Hebard Jr.	Will Reynolds
+Hornets III	34885	Girls 5 4/D	4	5	1	0	13	17	20	-3	Erik Woulfe	Rory Flynn
+Hornets I	34677	Girls 4 3/B1	10	0	0	0	30	44	14	30	Bryan Trout	Jen Morse
+Hornets II	34678	Girls 4 3/G	4	0	2	0	14	16	3	13	Betsy Bauler	None
+Hornets	34682	Girls 3 3/C1	8	0	2	0	26	27	15	12	Graham Wilson	None
+Green Hornets	34683	Girls 3 3/C1	6	3	1	0	17	26	11	15	Jaclyn Shavel	Brooke Hernon
+Swarm - DROPPED	34684	Girls 3 4/X	0	0	0	0	0	0	0	0	None	None
+Hornets I	34654	Boys 8 1/B	1	7	2	0	5	13	23	-10	Jessica Grey	Mohamed Driss
+Hornets II	34655	Boys 8 3/H2	4	5	1	0	13	21	28	-7	Brian Levesque	Meghan Murphy
+Hornets III	34656	Boys 8 4/H	0	5	1	0	1	10	30	-20	Jeff Kobs	None
+Hornets IV	34884	Boys 8 4/K	2	7	1	0	7	12	30	-18	Justin Abreu	None
+Hornets I	34663	Boys 6 3/C	3	2	5	0	14	22	15	7	Danielle Correia	Greg DeSista
+Grade 5/6 Hornets	34665	Boys 6 4/G	6	2	0	0	18	35	24	11	John Fitts	Jordin Spolidoro
+Grade 5/6 Hornets - Green DROPPED	34664	Boys 6 4/X	0	0	0	0	0	0	0	0	None	None
+Hornets I	34667	Boys 5 3/B	3	5	2	0	11	22	33	-11	George Apazidis	Derek Power
+Swarm	34670	Boys 5 4/G	10	0	0	0	30	52	19	33	Scott Ames	Bryan Grossi
+Hornets I	34673	Boys 4 3/A	7	2	1	0	22	44	22	22	Stephen Brown	Chris Karanicolas
+Hornets II	34674	Boys 4 3/D	5	0	1	0	16	19	5	14	Kevin Levinson	None
+Hornets III	34675	Boys 4 4/F	6	3	0	0	18	29	16	13	Tina McGrane	Aaron Gallagher
+Hornets IV	34676	Boys 4 4/H	6	3	1	0	19	24	19	5	Patrick Mullen	Philip Quinn
+Hornets	34679	Boys 3 3/D	1	7	2	0	5	17	29	-12	Scott Dunn	None
+Green Hornets	34680	Boys 3 3/D	3	6	1	0	10	19	23	-4	Tom Herrick	David Smith
+Buzz	34681	Boys 3 4/F	3	5	0	0	9	17	23	-6	Katie Emrich	None
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:26:33
+TOWN: MAN | SEASON: Spring 2025
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hornets I	3170	Girls 8 1/B	7	1	2	0	23	21	12	9	Doug LaCamera	Jeffrey Ward
+Hornets II 	3171	Girls 8 3/E	4	1	2	0	14	14	6	8	James Morris	Matthew Cressy
+Hornets III	3163	Girls 8 4/A	4	3	3	0	15	16	14	2	Greg DeSista	Brian Levesque
+Hornets IV	33590	Girls 8 4/K	4	4	1	0	13	13	10	3	Traci Mazur	Chris Joynes
+Hornets I	3175	Girls 6 1/B	1	7	2	0	5	13	26	-13	David Kobasa	Nicole Mannarino
+Hornets II	3176	Girls 6 3/C	0	10	0	0	0	3	36	-33	Paul Miao	Sergio Martin
+Hornets I	3188	Girls 5 2/A	5	5	0	0	15	11	15	-4	Dennis Sykes	Robert Faria
+Hornets II	3190	Girls 5 3/D	2	6	0	0	6	11	22	-11	Chris Chery	Jamie Mullen
+Hornets I	3216	Girls 4 1/A	2	6	2	0	8	17	31	-14	Jennifer Urso	Robert Faria
+Hornets II	3218	Girls 4 3/C	6	3	1	0	19	28	16	12	Stephanie Fennell	Mike DAmico
+Hornets III	3219	Girls 4 4/B	2	3	5	0	11	23	23	0	Paul Hebard Jr.	Will Reynolds
+Hornets IV	33612	Girls 4 4/H1	1	7	0	0	3	5	22	-17	Erik Woulfe	Rory Flynn
+Hornets	33610	Girls 3 3/A	3	6	1	0	10	14	28	-14	Hank Kurtzman	Jen Morse
+Green Hornets	33611	Girls 3 3/A	4	3	3	0	15	26	20	6	Bryan Trout	Betsy Bauler
+Hornets I	3222	Boys 8 1/A	1	5	4	0	7	17	20	-3	Richard Copp	Christian Franco
+Hornets II	3226	Boys 8 3/C2	4	3	1	1	12	20	7	13	Joshua Correia	Danielle Correia
+Hornets III 	4410	Boys 8 3/E	3	5	2	0	11	12	19	-7	Rick McMaster	None
+Hornets IV	31748	Boys 8 4/K	6	4	0	0	18	26	25	1	Jeff Kobs	Patrick Curley
+Hornets I	3236	Boys 6 1/B	4	4	2	0	14	27	24	3	Jessica Grey	Mohamed Driss
+Hornets II	3238	Boys 6 4/B	1	7	2	0	5	13	36	-23	Derek Power	Scott Dunn
+Hornets I	3239	Boys 5 3/D	8	1	1	0	25	33	17	16	Danielle Correia	Greg DeSista
+Hornets II	3243	Boys 5 4/F2	2	4	1	0	7	21	21	0	Dana Cooney	None
+Hornets I	3250	Boys 4 2/A	7	3	0	0	21	48	37	11	George Apazidis	Edward Gardner
+Hornets II	3249	Boys 4 3/D	4	6	0	0	12	32	34	-2	John Fitts	Graham Wilson
+Hornets III	33184	Boys 4 4/F	4	6	0	0	12	25	28	-3	Mohamed Suraij Mohamed Rousdeen	Scott Ames
+Hornets	33606	Boys 3 3/A	7	0	3	0	24	35	24	11	Stephen Brown	Andrew Kastanotis
+Green Hornets	33607	Boys 3 3/A	2	8	0	0	6	21	35	-14	Chris Karanicolas	Christopher Conley
+Buzz	33608	Boys 3 4/C	3	6	1	0	10	18	22	-4	Patrick Mullen	None
+Swarm	33609	Boys 3 4/C	2	7	1	0	7	19	35	-16	Philip Quinn	Tina McGrane
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:26:33
+TOWN: MAN | SEASON: Fall 2024
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hornets I	3170	Girls 8 2/B	7	2	1	0	22	29	14	15	Doug LaCamera	Jeffrey Ward
+Hornets II 	3171	Girls 8 3/E	6	1	3	0	21	19	4	15	Meg Lanagan	James Morris
+Hornets III	3163	Girls 8 4/C	3	1	0	0	9	11	6	5	Greg DeSista	Brian Levesque
+Hornets IV	33590	Girls 8 4/H	5	4	1	0	16	24	13	11	Traci Mazur	Chris Joynes
+Hornets I	3175	Girls 6 2/A	6	3	1	0	19	20	13	7	David Kobasa	Nicole Mannarino
+Hornets II	3176	Girls 6 3/D	0	7	2	0	2	3	21	-18	Sergio Martin	Paul Miao
+Hornets I	3188	Girls 5 2/A	5	4	1	0	16	17	17	0	Dennis Sykes	Robert Faria
+Hornets II	3190	Girls 5 3/A	0	9	1	0	1	12	39	-27	Traci Mazur	Jamie Mullen
+Hornets I	3216	Girls 4 1/A1	3	4	3	0	12	18	21	-3	Jennifer Urso	Robert Faria
+Hornets II	3218	Girls 4 3/C	5	2	3	0	18	31	20	11	Stephanie Fennell	Mike DAmico
+Hornets III	3219	Girls 4 4/J	9	1	0	0	27	40	4	36	Paul Hebard Jr.	Mario Harrison
+Hornets IV	33612	Girls 4 4/K	2	7	1	0	7	8	24	-16	Michael Reardon	Erik Woulfe
+Hornets	33610	Girls 3 3/B	4	5	1	0	13	26	32	-6	Hank Kurtzman	Jennifer Urso
+Green Hornets	33611	Girls 3 3/B	3	6	1	0	10	22	39	-17	Bryan Trout	Betsy Bauler
+Hornets I	3222	Boys 8 1/B	6	4	0	0	18	21	16	5	Mario Harrison	Richard Copp
+Hornets II	3226	Boys 8 3/F	8	1	1	0	25	35	11	24	Joshua Correia	Danielle Correia
+Hornets III 	4410	Boys 8 3/M	7	1	2	0	23	32	13	19	Rick McMaster	None
+Hornets IV	31748	Boys 8 4/K	8	1	1	0	25	36	18	18	Jeff Kobs	Patrick Curley
+Hornets I	3236	Boys 6 1/A	4	5	1	0	13	14	25	-11	Jessica Grey	Mohamed Driss
+Hornets II	3238	Boys 6 4/A	6	1	3	0	21	32	20	12	Derek Power	Scott Dunn
+Hornets I	3239	Boys 5 3/F	5	5	0	0	15	25	19	6	Danielle Correia	Greg DeSista
+Hornets II	3243	Boys 5 4/J	4	5	1	0	13	23	15	8	Greg Quinn	Jim Mackinaw
+Hornets I	3250	Boys 4 2/B	6	3	1	0	19	37	27	10	George Apazidis	Edward Gardner
+Hornets II	3249	Boys 4 3/F	7	1	2	0	23	37	10	27	Derek Power	Graham Wilson
+Hornets III	33184	Boys 4 4/F	4	1	0	0	12	18	10	8	John Fitts	John-David McElderry
+Hornets	33606	Boys 3 3/C	8	2	0	0	24	43	20	23	Stephen Brown	Andrew Kastanotis
+Green Hornets	33607	Boys 3 3/C	9	1	0	0	27	35	22	13	Chris Karanicolas	Christopher Conley
+Buzz	33608	Boys 3 4/D	8	2	0	0	24	35	16	19	Patrick Mullen	Brittany Mangini
+Swarm	33609	Boys 3 4/D	6	4	0	0	18	29	24	5	Christina Vargas	Philip Quinn
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:26:33
+TOWN: MAN | SEASON: Spring 2024
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hornets I	3155	Girls 8 2/B	9	1	0	0	27	31	6	25	Mark Powers	Doug LaCamera
+Hornets II	3159	Girls 8 3/B	1	3	1	0	4	3	15	-12	Meg Lanagan	James Morris
+Hornets III	3163	Girls 8 4/G	7	1	2	0	23	18	7	11	Greg DeSista	Will Reynolds
+Hornets I	3170	Girls 6 2/B	5	1	4	0	19	23	15	8	Jeffrey Ward	Mark McGuire
+Hornets II 	3171	Girls 6 3/H	7	2	1	0	22	24	6	18	Christopher Herrick	Dennis Cook
+Hornets III	33590	Girls 6 4/C	5	2	3	0	18	22	20	2	Chris Joynes	Hank Kurtzman
+Hornets I	3175	Girls 5 2/A	1	5	4	0	7	8	21	-13	David Kobasa	Jim Stevens
+Hornets II	3176	Girls 5 3/G	1	8	0	0	3	5	28	-23	Paul Miao	Jessica Mullett
+Hornets I	3188	Girls 4 2/B	2	6	2	0	8	18	23	-5	Dennis Sykes	Robert Faria
+Hornets II	3190	Girls 4 3/B	4	4	2	0	14	25	26	-1	Traci Mazur	Sarah Joynes
+Hornets III	3193	Girls 4 4/C	8	1	1	0	25	34	10	24	Chris Chery	Jamie Mullen
+Green Hornets	3216	Girls 3 2/B	8	1	1	0	25	44	17	27	Robert Faria	Meghan Murphy
+Hornets	3218	Girls 3 3/A	6	3	1	0	19	28	19	9	Mike DAmico	Kyle McMorrow
+Buzz	3219	Girls 3 4/D	1	6	2	0	5	12	23	-11	Paul Hebard Jr.	Brian Sexton
+Hornets I	3222	Boys 8 1/B	3	7	0	1	8	14	18	-4	Jessica Grey	Christian Franco
+Hornets II	3226	Boys 8 3/D	2	7	1	0	7	10	28	-18	Joshua Correia	Teri Fleming
+Hornets III 	4410	Boys 8 3/K	6	3	1	0	19	16	11	5	David Kobasa	Brian Sexton
+Hornets - Green	31748	Boys 8 4/J	1	8	0	0	3	7	42	-35	Josh Curry	Jerred Campbell
+Hornets - White	33179	Boys 8 4/K	5	4	1	0	16	26	21	5	Rick McMaster	Patrick Curley
+Hornets I	3232	Boys 6 1/A	3	7	0	3	6	21	24	-3	Daniel Cooper	Mohamed Driss
+Hornets II	3233	Boys 6 3/D	2	7	1	0	7	18	31	-13	Jeff Kobs	Jaeson Kawadler
+Hornets I	3236	Boys 5 1/B	7	3	0	0	21	33	17	16	Jessica Grey	Mohamed Driss
+Hornets II	3238	Boys 5 3/B	1	6	3	0	6	14	34	-20	Derek Clinton	Brian Levesque
+Hornets III	33183	Boys 5 4/G	5	4	1	0	15	28	25	3	Derek Power	Sanyam Mittal
+Hornets I	3239	Boys 4 3/C	1	7	2	0	5	14	23	-9	Danielle Correia	Greg DeSista
+Hornets II	3243	Boys 4 4/D	4	2	4	0	13	38	26	12	Greg Quinn	Nithin Mohan
+Hornets	3250	Boys 3 2/D	2	4	0	0	6	14	22	-8	George Apazidis	Derek Power
+Green Hornets	3249	Boys 3 3/C1	8	1	0	0	24	42	13	29	Jonathan Holmes	Edward Gardner
+Buzz	33184	Boys 3 4/C	3	1	1	0	10	16	9	7	Joshua Sweeney	John-David McElderry
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:30:47
+TOWN: MAN | SEASON: Fall 2023
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hornets I	3155	Girls 8 2/E	8	1	1	0	25	19	2	17	Mark Powers	Doug LaCamera
+Hornets II	3159	Girls 8 3/E	7	1	2	0	23	18	3	15	Meg Lanagan	James Morris
+Hornets III	3163	Girls 8 3/J2	1	5	2	0	5	5	11	-6	Sergio Martin	Greg DeSista
+Hornets IV	3166	Girls 8 4/H	8	2	0	0	24	29	10	19	Traci Mazur	None
+Hornets I	3170	Girls 6 2/B1	3	4	3	0	12	15	27	-12	Maggie Gentili	Jeffrey Ward
+Hornets II 	3171	Girls 6 3/G	5	1	4	0	19	28	16	12	Chris Joynes	Hank Kurtzman
+Hornets I	3175	Girls 5 2/C	7	2	1	0	22	20	13	7	David Kobasa	Jim Stevens
+Hornets II	3176	Girls 5 4/C	6	2	2	0	20	33	9	24	Sergio Martin	Paul Miao
+Hornets I	3188	Girls 4 2/D	8	1	1	0	25	28	4	24	Dennis Sykes	Robert Faria
+Hornets II	3190	Girls 4 3/G	8	1	1	0	25	32	10	22	Traci Mazur	Sarah Joynes
+Hornets III	3193	Girls 4 4/B	3	1	0	0	9	14	8	6	Chris Chery	Jamie Mullen
+Green Hornets	3216	Girls 3 3/B	8	1	1	0	25	39	13	26	Robert Faria	Meghan Murphy
+Hornets	3218	Girls 3 3/B	3	4	3	0	12	30	31	-1	Mike DAmico	Kyle McMorrow
+Buzz	3219	Girls 3 4/B	2	7	1	0	7	19	27	-8	Paul Hebard Jr.	Brian Sexton
+Hornets I	3222	Boys 8 2/C	6	0	4	0	22	27	11	16	Jessica Grey	Christian Franco
+Hornets II	3226	Boys 8 3/C1	5	3	0	0	15	23	9	14	Teri Fleming	Joshua Correia
+Hornets III 	4410	Boys 8 3/J	5	5	0	0	15	21	19	2	David Kobasa	Brian Sexton
+Hornets - Green	31748	Boys 8 4/K	6	3	1	0	19	36	24	12	Josh Curry	Jerred Campbell
+Hornets - White	33179	Boys 8 4/L	3	5	2	0	11	13	22	-9	Rick McMaster	Patrick Curley
+Hornets I	3232	Boys 6 1/A	4	3	2	0	14	23	19	4	John McPherson	Daniel Cooper
+Hornets II	3233	Boys 6 3/C	1	8	1	0	4	17	42	-25	Jeff Kobs	Jaeson Kawadler
+Hornets I	3236	Boys 5 1/A1	4	4	2	0	14	20	21	-1	Jessica Grey	Mohamed Driss
+Hornets II	3238	Boys 5 3/C	1	4	0	0	3	7	16	-9	Derek Clinton	Brian Levesque
+Hornets III	33183	Boys 5 4/H	2	8	0	0	6	16	29	-13	Joseph Agnello	Derek Power
+Hornets I	3239	Boys 4 2/F	0	3	2	0	2	2	8	-6	Danielle Correia	Greg DeSista
+Hornets II	3243	Boys 4 3/H	2	7	1	0	7	12	42	-30	Jose Dolores	Keith Kerr
+Hornets III	3245	Boys 4 4/K	6	2	2	0	20	31	15	16	Greg Quinn	Nithin Mohan
+Green Hornets	3249	Boys 3 3/D	4	2	4	0	16	37	22	15	Jonathan Holmes	Edward Gardner
+Hornets	3250	Boys 3 3/D	8	1	1	0	25	38	13	25	George Apazidis	Genevieve Salzsieder
+Buzz	33184	Boys 3 4/E	5	4	0	0	15	35	23	12	Derek Power	Carlos Cortejoso
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:30:47
+TOWN: MAN | SEASON: Spring 2023
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hornets I	3155	Girls 8 2/A	8	1	1	0	25	30	10	20	Desmond Doyle	Brian Znoj
+Hornets II	3159	Girls 8 3/A	2	8	0	0	6	9	21	-12	Chris Joynes	Mark Powers
+Hornets III	3163	Girls 8 3/H	1	4	0	0	3	7	12	-5	Sergio Martin	Edward Cosgrove
+Hornets IV	3166	Girls 8 4/K	5	3	2	0	17	21	9	12	Will Reynolds	Sahar Forghan
+Hornets I	3170	Girls 6 2/A	6	2	2	0	20	16	9	7	Douglas Robinson	Nancy Cremins
+Hornets II 	3171	Girls 6 4/D	7	1	2	0	23	30	7	23	Greg DeSista	Brian Levesque
+Hornets I	3175	Girls 5 1/AA	2	1	2	0	8	9	7	2	Maggie Gentili	Jeffrey Ward
+Hornets II	3176	Girls 5 3/C	1	7	1	1	3	9	25	-16	Matthew Cressy	Dennis Cook
+Hornets III	31747	Girls 5 3/F	1	6	3	0	6	19	33	-14	Chris Joynes	Hank Kurtzman
+Hornets I	3188	Girls 4 2/B	3	5	2	0	11	13	22	-9	David Kobasa	Ryan Shanahan
+Hornets II	3190	Girls 4 3/A	5	2	3	0	18	12	9	3	Chris DiPetrillo	Nicole Mannarino
+Hornets III	3193	Girls 4 4/B	2	6	2	0	8	15	19	-4	Sergio Martin	Paul Miao
+Green Hornets	3216	Girls 3 3/B	2	8	0	0	6	20	32	-12	Robert Faria	None
+Hornets	3218	Girls 3 3/B	4	4	2	0	14	20	22	-2	Traci Mazur	None
+Buzz	3219	Girls 3 4/B	6	4	0	0	18	31	23	8	Dennis Sykes	Chris Chery
+Hornets I	3222	Boys 8 2/E	6	2	2	0	20	24	15	9	Teri Fleming	Alexander Nosovitski
+Hornets II	3226	Boys 8 3/C	3	5	2	0	11	13	25	-12	Paul Miao	None
+Hornets III 	4410	Boys 8 3/H	3	5	2	0	11	12	23	-11	David Kobasa	Scott Dunn
+Hornets IV	31748	Boys 8 4/J	5	5	0	0	15	36	20	16	Scott O'Connor	Jeff Kobs
+Hornets I	3232	Boys 6 2/B2	8	1	1	0	25	27	12	15	Christian Franco	Richard Copp
+Hornets II	3233	Boys 6 3/F1	8	1	1	0	25	39	12	27	Christopher Conley	Joshua Correia
+Hornets III	5301	Boys 6 4/G	6	3	1	1	18	45	20	25	Patrick Curley	None
+Hornets I	3236	Boys 5 1/AA	5	3	2	0	17	23	15	8	John McPherson	Daniel Cooper
+Hornets II	3238	Boys 5 3/B	2	7	1	0	7	25	37	-12	Jeff Kobs	Jaeson Kawadler
+Hornets I	3239	Boys 4 1/A1	6	2	2	0	20	26	14	12	Jessica Grey	Mohamed Driss
+Hornets II	3243	Boys 4 3/K	4	6	0	0	12	27	32	-5	Derek Clinton	Genevieve Salzsieder
+Hornets III	3245	Boys 4 4/G	1	9	0	0	3	11	42	-31	Derek Power	Joseph Agnello
+Green Hornets	3249	Boys 3 3/C	1	8	1	0	4	20	42	-22	Danielle Correia	Jose Dolores
+Hornets	3250	Boys 3 3/C	2	6	1	1	6	14	27	-13	Amanda Waldron	None
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:30:48
+TOWN: MAN | SEASON: Fall 2022
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hornets I	3155	Girls 8 2/A	6	2	2	0	20	24	12	12	Desmond Doyle	Brian Znoj
+Hornets II	3159	Girls 8 3/D	8	1	1	0	25	17	4	13	Chris Joynes	Mark Powers
+Hornets III	3163	Girls 8 4/C	9	1	0	0	27	36	14	22	Sergio Martin	Edward Cosgrove
+Hornets IV	3166	Girls 8 4/G2	2	1	5	0	11	10	8	2	Will Reynolds	Sahar Forghan
+Hornets I	3170	Girls 6 1/A	1	4	0	0	3	5	12	-7	Douglas Robinson	Nancy Cremins
+Hornets II 	3171	Girls 6 3/A	1	9	0	0	3	6	30	-24	Greg DeSista	Meg Lanagan
+Hornets III 	3173	Girls 6 4/D	2	4	0	0	6	6	11	-5	Brian Levesque	Ed Charlton
+Hornets I	3175	Girls 5 1/B	3	2	4	0	13	15	17	-2	Maggie Gentili	Jeffrey Ward
+Hornets II	3176	Girls 5 3/C	4	4	1	0	13	17	15	2	Matthew Cressy	Dennis Cook
+Hornets III	31747	Girls 5 4/A	8	1	0	0	24	31	12	19	Chris Joynes	Hank Kurtzman
+Hornets I	3188	Girls 4 2/D	7	0	3	0	24	30	12	18	David Kobasa	Timothy Eitas
+Hornets II	3190	Girls 4 3/D	8	0	2	0	26	27	5	22	Chris DiPetrillo	Nicole Mannarino
+Hornets III	3193	Girls 4 4/B	4	5	1	1	12	19	21	-2	Sergio Martin	Paul Miao
+Green Hornets	3216	Girls 3 3/B	2	4	4	0	10	17	17	0	Robert Faria	Stephen Brown
+Hornets	3218	Girls 3 3/B	3	4	3	0	12	13	17	-4	Traci Mazur	None
+Buzz	3219	Girls 3 4/B	3	2	5	0	14	26	22	4	Dennis Sykes	Chris Chery
+Hornets I	3222	Boys 8 2/B	1	8	1	0	4	11	34	-23	Teri Fleming	Alexander Nosovitski
+Hornets II	3226	Boys 8 3/F	3	4	3	0	12	13	15	-2	Robin O'Brien	Paul Miao
+Hornets III 	4410	Boys 8 4/B	6	2	2	0	20	31	17	14	David Kobasa	Scott Dunn
+Hornets IV	31748	Boys 8 4/L	1	5	0	0	3	11	18	-7	Dana Cooney	Scott O'Connor
+Hornets I	3232	Boys 6 2/B	4	5	1	0	13	13	18	-5	Christian Franco	Richard Copp
+Hornets II	3233	Boys 6 3/E	5	1	4	0	19	26	14	12	Christopher Conley	Joshua Correia
+Hornets III	5301	Boys 6 4/C	0	9	1	0	1	11	39	-28	Patrick Curley	John Ings
+Hornets I	3236	Boys 5 1/A2	5	2	1	0	16	22	16	6	John McPherson	Daniel Cooper
+Hornets II	3238	Boys 5 3/A	2	6	2	0	8	17	32	-15	Jeff Kobs	Joseph Andruzzi
+Hornets I	3239	Boys 4 1/A2	8	1	1	0	25	27	15	12	Jessica Grey	Mohamed Driss
+Hornets II	3243	Boys 4 3/J	0	4	1	0	1	6	19	-13	Derek Clinton	Genevieve Salzsieder
+Hornets III	3245	Boys 4 4/E	2	7	1	0	7	11	33	-22	Derek Power	Joseph Agnello
+Green Hornets	3249	Boys 3 3/A	2	8	0	1	5	7	26	-19	Danielle Correia	Jose Dolores
+Hornets	3250	Boys 3 3/A	4	6	0	0	12	23	32	-9	Dana Cooney	Amanda Waldron
+Swarm	30663	Boys 3 4/C	1	8	1	0	4	10	23	-13	Jason Hinton	Marianne Murphy
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:30:48
+TOWN: MAN | SEASON: Spring 2022
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hornets I	3155	Girls 8 1/A	7	2	1	0	22	16	5	11	John McPherson	Desmond Doyle
+Hornets II	3159	Girls 8 3/A	3	4	3	0	12	21	24	-3	Jon Leman	Brian Znoj
+Hornets III	3163	Girls 8 3/F	1	8	0	0	3	3	26	-23	Chris Joynes	Jon Lipsky
+Hornets IV	3166	Girls 8 4/G	5	4	1	0	16	18	15	3	Paul Flynn	Sergio Martin
+Hornets I	3170	Girls 6 2/A	4	1	5	0	17	16	8	8	Mark Powers	Amanda Waldron
+Hornets II 	3171	Girls 6 3/A	3	3	4	0	13	10	11	-1	Tony Troilo	Mark Nappa
+Hornets III 	3173	Girls 6 3/H	3	4	3	0	12	8	14	-6	Will Reynolds	Paul Hebard Jr.
+Hornets I	3175	Girls 5 2/A	4	3	3	0	15	20	19	1	Douglas Robinson	Doug LaCamera
+Hornets II	3176	Girls 5 4/B	7	1	2	0	23	25	10	15	Greg DeSista	Brian Levesque
+Hornets I	3188	Girls 4 1/A2	5	4	1	0	16	20	16	4	Jeffrey Ward	Maggie Gentili
+Hornets II	3190	Girls 4 3/C	7	2	1	0	22	26	13	13	Mark McGuire	Matthew Cressy
+Hornets III	3193	Girls 4 3/F	1	9	0	0	3	7	40	-33	Chris Joynes	Dennis Cook
+Green Hornets	3216	Girls 3 2/B	7	2	1	0	22	24	14	10	Chris DiPetrillo	Timothy Eitas
+Hornets	3218	Girls 3 2/B	1	7	2	0	5	23	30	-7	David Kobasa	Paul Miao
+Buzz	3219	Girls 3 3/F	0	9	1	0	1	6	22	-16	Tim Burgess	None
+Hornets	30855	Boys 11 2/A1	5	2	0	1	14	18	10	8	Paul Scholes	Stephen Sheridan
+Hornets I	3222	Boys 8 2/F	3	5	2	0	11	16	17	-1	Teri Fleming	Brian DiVasta
+Hornets II	3226	Boys 8 3/H	3	4	3	0	12	23	23	0	Giampaolo DiGregorio	John Patrinos
+Hornets III 	4410	Boys 8 4/G1	2	4	2	0	8	15	19	-4	Jeff Kobs	Robin O'Brien
+Hornets I	3232	Boys 6 2/A	2	5	3	0	9	12	17	-5	Andre Fernandes	Richard Medeiros
+Hornets II	3233	Boys 6 3/F	7	1	2	0	23	38	17	21	Teri Fleming	Paul Miao
+Hornets III	5301	Boys 6 4/A	1	8	1	0	4	13	43	-30	Josh Curry	Kevin Donovan
+Hornets I	3236	Boys 5 2/B	7	2	1	0	22	33	12	21	Richard Copp	Christian Franco
+Hornets II	3238	Boys 5 3/A	5	4	1	0	16	25	16	9	Danielle Correia	Joshua Correia
+Hornets III	11411	Boys 5 4/E	4	3	1	0	13	24	12	12	Keith Kerr	None
+Hornets I	3239	Boys 4 1/A2	7	0	1	0	22	46	15	31	Daniel Cooper	John McPherson
+Hornets II	3243	Boys 4 3/A	6	4	0	0	18	27	17	10	Richard Jablonski	Joseph Andruzzi
+Hornets III	3245	Boys 4 4/F	6	2	0	0	18	32	15	17	Jeff Kobs	Mark Pozzo
+Green Hornets	3249	Boys 3 2/A	1	7	2	0	5	16	39	-23	Jessica Grey	David Parsons
+Hornets	3250	Boys 3 2/A	2	6	2	0	8	25	38	-13	Mohamed Driss	Meghan Murphy
+Swarm	30663	Boys 3 4/C	6	3	1	0	19	37	17	20	Derek Power	Genevieve Salzsieder
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:30:48
+TOWN: MAN | SEASON: Fall 2021
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hornets I	3155	Girls 8 1/A	6	2	2	0	20	21	14	7	John McPherson	Desmond Doyle
+Hornets II	3159	Girls 8 3/A	3	5	2	0	11	16	15	1	Jon Leman	Matt Zajac
+Hornets III	3163	Girls 8 3/J	4	6	0	0	12	9	17	-8	Chris Joynes	None
+Hornets IV	3166	Girls 8 4/E	6	4	0	0	18	17	25	-8	Paul Flynn	Sergio Martin
+Hornets I	3170	Girls 6 2/C	7	2	1	0	22	27	12	15	Mark Powers	Amanda Waldron
+Hornets II 	3171	Girls 6 3/D	5	1	4	0	19	31	16	15	Tony Troilo	Mark Nappa
+Hornets III 	3173	Girls 6 4/F	10	0	0	0	30	41	3	38	Will Reynolds	Paul Hebard Jr.
+Hornets I	3175	Girls 5 2/C	8	1	1	0	25	32	10	22	Douglas Robinson	Doug LaCamera
+Hornets II	3176	Girls 5 3/F	2	8	0	0	6	4	26	-22	Greg DeSista	Brian Levesque
+Hornets I	3188	Girls 4 2/B	7	0	3	0	24	35	10	25	Jeffrey Ward	Maggie Gentili
+Hornets II	3190	Girls 4 3/F	5	4	1	0	16	15	19	-4	Mark McGuire	Matthew Cressy
+Hornets III	3193	Girls 4 4/B	8	1	1	0	25	40	11	29	Chris Joynes	None
+Hornets	3218	Girls 3 2/B1	2	2	2	0	8	12	14	-2	David Kobasa	Paul Miao
+Green Hornets	3216	Girls 3 3/B	9	1	0	0	27	46	11	35	Chris DiPetrillo	Timothy Eitas
+Buzz	3219	Girls 3 4/B	8	2	0	0	24	31	11	20	Tim Burgess	None
+Hornets I	3222	Boys 8 2/E	3	4	3	0	12	14	14	0	Teri Fleming	Brian DiVasta
+Hornets II	3226	Boys 8 3/G	5	5	0	0	15	22	26	-4	Giampaolo DiGregorio	John Patrinos
+Hornets III 	4410	Boys 8 4/J	0	3	1	0	1	2	14	-12	Jeff Kobs	Robin O'Brien
+Hornets I	3232	Boys 6 2/C	9	0	1	0	28	25	7	18	Andre Fernandes	Richard Medeiros
+Hornets II	3233	Boys 6 3/B	1	7	2	0	5	12	33	-21	Teri Fleming	David Kobasa
+Hornets III	5301	Boys 6 4/A	4	3	3	0	15	17	24	-7	Scott Cummings	Josh Curry
+Hornets I	3236	Boys 5 2/C	6	2	2	0	20	32	18	14	Richard Copp	Christian Franco
+Hornets II	3238	Boys 5 3/D	8	1	1	0	25	30	13	17	Danielle Correia	Joshua Correia
+Hornets III	11411	Boys 5 4/D	5	3	2	0	17	30	16	14	Christopher Conley	Keith Kerr
+Hornets I	3239	Boys 4 2/C1	3	0	1	0	10	18	8	10	John McPherson	Daniel Cooper
+Hornets II	3243	Boys 4 3/A	4	1	1	0	13	17	5	12	Richard Jablonski	Joseph Andruzzi
+Hornets III	3245	Boys 4 4/C	2	7	1	0	7	11	28	-17	Jeff Kobs	Deborah Stratton
+Green Hornets	3249	Boys 3 2/C	5	0	0	0	15	19	6	13	Jessica Grey	David Parsons
+Hornets	3250	Boys 3 3/B	7	2	1	0	22	39	22	17	Mohamed Driss	Meghan Murphy
+Swarm	30663	Boys 3 4/A	0	6	1	0	1	8	30	-22	Derek Power	George Apazidis
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:30:48
+TOWN: MAN | SEASON: Spring 2021
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hornets I	3155	Girls 8 1/A2	4	2	4	0	16	16	15	1	Richard Hart	Kathy McCann
+Hornets II	3159	Girls 8 3/A	5	3	2	0	17	11	11	0
+Hornets III	3163	Girls 8 3/E2	2	5	1	0	7	6	16	-10	Matt Zajac	Jon Leman
+Hornets IV	3166	Girls 8 4/E	4	6	0	0	12	13	25	-12	Paul Flynn	Mark Deckett
+Hornets I	3170	Girls 6 2/A	6	1	3	0	21	28	13	15	Desmond Doyle	Brian Znoj
+Hornets II 	3171	Girls 6 3/D	6	1	3	0	21	26	11	15	Jennifer Norige	Chris Joynes
+Hornets III 	3173	Girls 6 4/A	2	6	1	0	7	15	23	-8		Richard Jablonski
+Hornets I	3175	Girls 5 2/A	4	2	2	0	14	24	15	9	Mark Powers	Tony Troilo
+Hornets II	3176	Girls 5 3/B	6	2	2	0	20	25	12	13	Jeffrey Gardini	Chris DiPetrillo
+Hornets III	3177	Girls 5 4/A1	8	1	1	0	25	37	7	30	Will Reynolds	Sahar Forghan
+Green Hornets 	3188	Girls 4 2/D	9	0	1	0	28	35	7	28	Douglas Robinson	Doug LaCamera
+Hornets	3190	Girls 4 3/F	2	7	0	0	6	9	34	-25	Meg Lanagan	Peter Mirabile
+Buzz	3193	Girls 4 4/B	1	2	2	0	5	8	12	-4	Brian Levesque	Greg DeSista
+Mansfield Hornets	3218	Girls 3 2/B	4	0	1	0	13	18	6	12	Mark McGuire	Brian Roche
+Mansfield Green Hornets	3216	Girls 3 3/A	9	0	1	0	28	50	10	40	Maggie Gentili	Jeffrey Ward
+Mansfield Buzz	3219	Girls 3 4/A	6	4	0	0	18	30	25	5	Chris Joynes	Dennis Cook
+Mansfield Hornets	30854	Boys 12 1/A1	1	4	1	2	2	3	7	-4	Ryan Chambers	None
+Mansfield Hornets	30855	Boys 11 2/B	6	1	0	0	18	25	6	19	Stephen Sheridan	None
+Hornets I	3222	Boys 8 2/C	10	0	0	0	30	43	5	38	Brian Znoj	Desmond Doyle
+Hornets II	3226	Boys 8 3/H1	6	3	1	0	19	35	20	15	Caroline Bruno	Brian DiVasta
+Hornets III 	4410	Boys 8 4/B	1	9	0	0	3	14	47	-33	Giampaolo DiGregorio	Christopher Jones
+Mansfield Hornets I	3232	Boys 6 2/C	5	4	1	0	16	24	23	1	Alexander Nosovitski	Scott Bertolami
+Mansfield Hornets II	3233	Boys 6 3/E	6	1	3	0	21	23	14	9	Dan Bonnyman	None
+Mansfield Hornets III	5301	Boys 6 4/E	1	6	3	0	6	16	32	-16	Robin O'Brien	Jeff Kobs
+Mansfield Hornets I	3236	Boys 5 2/C	2	3	0	0	6	8	7	1	Jessica Grey	Andre Fernandes
+Mansfield Hornets II	3238	Boys 5 3/C	5	4	0	0	15	24	20	4	Teri Fleming	Tom McNeill
+Mansfield Hornets III	11411	Boys 5 4/D	4	5	0	0	12	22	28	-6	David Kobasa	Josh Curry
+Mansfield Green Hornets 	3239	Boys 4 2/D	6	2	2	0	20	38	15	23	Richard Copp	Christian Franco
+Mansfield Hornets 	3243	Boys 4 3/D	7	2	1	0	22	27	11	16	Brian Sexton	Christopher Conley
+Mansfield Buzz	3245	Boys 4 4/C	4	5	1	0	13	22	20	2	Danielle Correia	Steve Schoonveld
+Mansfield Swarm	11162	Boys 4 4/C	3	6	1	0	10	19	34	-15	Keith Kerr	Elizabeth Quersher
+Mansfield Green Hornets	3249	Boys 3 2/C	6	3	1	0	19	33	17	16	Daniel Cooper	Doug LaCamera
+Mansfield Hornets	3250	Boys 3 2/C	6	2	2	0	20	24	17	7	John McPherson	Tim Mullin
+Mansfield Swarm	30663	Boys 3 4/B	8	0	2	0	26	32	11	21	Jeff Kobs	Richard Jablonski
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:44:49
+TOWN: WAL | SEASON: Fall 2025
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Lightning	31936	Girls 8 2/B	6	3	1	0	19	31	17	14	Kathy Martinez	Timothy McElaney
+Power	31937	Girls 8 3/G	8	2	0	0	24	28	11	17	Casey Murphy	Andrew Dooley
+Courage	31938	Girls 8 4/D1	5	0	0	0	15	13	2	11	Shaney Polumbo	Maura Beverly
+Eagles	34494	Girls 8 4/M	4	5	1	0	13	18	20	-2	Patrick Lane	Anissa Ellis
+Storm	31944	Girls 6 2/B	2	2	0	0	6	6	5	1	Morgan Miles	Michael Finocchi
+Hurricane	31945	Girls 6 3/D	2	7	0	0	6	7	35	-28	Margaret Dixon	Jon Kopchick
+Thorns	31946	Girls 6 4/D	7	2	1	0	22	37	21	16	Nick Sordillo	Rick Gibbs
+Aces	31947	Girls 5 1/B	3	2	5	0	14	18	14	4	Jennifer Gosselin	Kellee Senic
+Breakers	31948	Girls 5 2/C	1	6	3	0	6	19	32	-13	Carl Kenney	Thomas Neufeld
+Dash	31949	Girls 5 4/B	6	1	3	0	21	20	7	13	Christopher Maloof	Justin Burdon
+Trouble	31950	Girls 5 4/G	2	8	0	0	6	15	29	-14	Jennifer Dragonetti	Carl Cummings
+Bears	34500	Girls 4 2/B	8	1	1	0	25	39	13	26	Shaun Dolan	James Soares
+Lions	34501	Girls 4 3/C	5	4	1	0	16	21	17	4	Nicholas O'Leary	Adam Cohn
+Tigers	34502	Girls 4 4/E	4	3	3	0	15	20	22	-2	Eli Smith	Mark Price
+Royals	34565	Girls 3 2/B1	6	3	1	0	19	27	14	13	Michael Finocchi	Caitlin Sawyer
+Current	34566	Girls 3 4/A	7	2	1	0	22	38	16	22	Alex Danesco	John Kluza
+Wave	34567	Girls 3 4/B	5	5	0	0	15	21	21	0	Horacio Caneja	Bryan Drake
+Stars	34568	Girls 3 4/D1	2	4	2	0	8	17	25	-8	Erin Pepin	Lindsey Nowak
+Spirit - DROPPED	34569	Girls 3 4/X	0	1	0	1	-1	0	1	-1	Derek Shehata	John Kluza
+Warriors	31992	Boys 8 2/A	2	7	1	0	7	23	34	-11	Dana Niles	Michael Finocchi
+Legends	32035	Boys 8 3/D	3	6	1	0	10	21	26	-5	Seth Hochberg	Matthew Baker
+Force	32847	Boys 8 3/J	6	3	1	0	19	32	19	13	Oscar Butragueno	Dominick Ianno
+Thunder	32037	Boys 8 4/J	6	1	3	0	21	31	9	22	Barton Centauro	Aaron Price
+FC	34724	Boys 8 4/P	0	5	0	0	0	7	25	-18	Jeff Molles	Minelli Tomaszewski
+Revolution	31997	Boys 6 3/C	2	2	6	0	12	19	13	6	Patrick Connors	Rob Hollister
+Galaxy	31994	Boys 6 3/H	7	0	3	0	24	26	10	16	Mark Cianci	Meghan Panteleakos
+Union	34725	Boys 6 4/E	6	3	1	0	19	30	23	7	Michaela Stuart	Halley Lonergan
+Arsenal	32916	Boys 5 2/C	6	2	2	0	20	26	20	6	Adam Meszaros	David Miles
+Chelsea	33410	Boys 5 3/D	4	6	0	0	12	20	28	-8	Jeff Zammett	Benjamin Barrett
+Milan	32919	Boys 5 4/A	2	6	2	0	8	27	35	-8	Brandon McDowall	Ross MacLean
+Dynamo	34124	Boys 5 4/J	1	9	0	0	3	22	49	-27	Jennifer Morrison	Richard Lamb
+Fury	34730	Boys 4 2/B	7	1	2	0	23	37	19	18	Kirk McCaw	Adam Meszaros
+Flames	34731	Boys 4 3/F	7	2	1	0	22	30	19	11	Keri Moses	Jon Kopchick
+Fire	34733	Boys 4 3/K	3	6	1	0	10	20	31	-11	Robert DeGirolamo	Stephen Muzrall
+Crew	34734	Boys 4 4/B	2	8	0	0	6	23	42	-19	Glenn Williams	Nick Zozula
+Legacy	34886	Boys 4 4/B	2	7	1	0	7	18	36	-18	Matt Towers	Kristen McPhee
+United	34735	Boys 3 2/C	8	2	0	0	24	41	17	24	Tim Claus	Andrew Petersen
+Voltage	34736	Boys 3 3/B	3	1	0	0	9	9	5	4	Boris Senic	Jennifer Gosselin
+Independence	34737	Boys 3 3/G	6	4	0	0	18	27	12	15	Jonathan Carroll	Michael Desmarais
+Legion	34739	Boys 3 4/D	3	5	2	0	11	11	23	-12	Dave Lamb	David Mackey
+Pulse	34738	Boys 3 4/F	4	0	0	0	8	22	2	20	Francesco Susi	John Caressimo
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:46:15
+TOWN: WAL | SEASON: Spring 2025
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Legends 	6529	Girls 12 2/A	5	1	0	0	15	25	10	15	Marty White	Brian Horwitz
+Lightning	31936	Girls 8 2/C	4	4	1	0	13	17	15	2	Kathy Martinez	Kate Procaccini
+Power	31937	Girls 8 3/H	6	4	0	0	18	15	13	2	David Miles	Mike Porzelt
+Courage	31938	Girls 8 4/J	3	5	1	0	10	11	20	-9	Becky McCabe	Josh Singer
+Hawks	31940	Girls 6 2/A	4	4	2	0	14	17	14	3	Timothy McElaney	Sarah Madden
+Warriors	31941	Girls 6 3/D	8	2	0	0	24	34	16	18	Jamie Hernon	Mike McDonnell
+Crush	34116	Girls 6 4/F1	7	2	1	0	21	33	19	14	Anissa Ellis	Patrick Lane
+Storm	31944	Girls 5 3/A	9	1	0	0	27	37	9	28	Morgan Miles	Michael Finocchi
+Hurricane	31945	Girls 5 3/G	6	3	1	0	19	22	16	6	Nick Sordillo	Margaret Dixon
+Thorns	31946	Girls 5 4/E	3	4	3	0	12	16	23	-7	Jon Kopchick	Audrey Grace
+Aces	31947	Girls 4 1/B	3	4	3	0	12	18	18	0	Jennifer Gosselin	Kellee Senic
+Breakers	31948	Girls 4 3/C	8	1	1	0	25	31	14	17	John Hurley	Carl Kenney
+Dash	31949	Girls 4 3/G	2	1	1	0	7	6	6	0	Daniel Olohan	Thomas Neufeld
+Trouble	31950	Girls 4 4/H1	3	5	0	0	9	11	17	-6	Colleen Cunningham	Jennifer Dragonetti
+FC	6561	Boys 10 2/B	3	4	0	0	7	26	25	1	Kevin Bock	Jonathan Lowe
+Warriors	31992	Boys 8 2/A	7	2	1	0	22	42	26	16	Paul Foley	Eric Tjonahen
+Legends	32035	Boys 8 4/B	5	3	1	0	16	33	25	8	Horacio Caneja	Keith Jacobsen
+Force	32847	Boys 8 4/F	0	9	1	0	1	7	42	-35	Oscar Butragueno	Aaron Price
+Thunder	32037	Boys 8 4/N	2	8	0	0	6	16	47	-31	Dan O'Driscoll	Frank Michienzi
+Hammers	31998	Boys 6 2/C	2	6	2	0	8	23	28	-5	Muiz Khir	Kristen McPhee
+Juventas	32034	Boys 6 3/F	1	7	2	0	5	28	40	-12	Barton Centauro	Isaias Aguiar
+Roma	32914	Boys 6 4/J	6	2	1	0	19	47	28	19	Jeff Molles	Minelli Tomaszewski
+Revolution	31997	Boys 5 3/A2	3	7	0	0	9	13	31	-18	Patrick Connors	Rob Hollister
+Galaxy	31994	Boys 5 4/C	8	1	1	0	24	39	23	16	Meghan Panteleakos	James Desautels
+Arsenal	32916	Boys 4 2/B	3	5	2	0	11	18	30	-12	Adam Meszaros	Patrick Murray
+Chelsea	33410	Boys 4 3/C	3	4	1	0	10	21	22	-1	Jeff Zammett	Mauro Dellemonache
+Milan	32919	Boys 4 3/G	1	7	2	0	5	10	32	-22	Scott Carpenter	Brandon McDowall
+Dynamo	34124	Boys 4 4/J	3	5	2	0	11	24	32	-8	Oscar Butragueno	Erin Boyd
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:46:15
+TOWN: WAL | SEASON: Fall 2024
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Lightning	31936	Girls 8 2/B	5	1	4	0	19	17	13	4	Kathy Martinez	Kate Procaccini
+Power	31937	Girls 8 3/G	5	2	3	0	18	20	11	9	David Miles	Benjamin Barrett
+Courage	31938	Girls 8 4/H	9	0	1	0	28	33	0	33	Mike Porzelt	Michael Susi
+Eagles	34115	Girls 8 4/J	3	7	0	0	9	14	18	-4	Becky McCabe	None
+Hawks	31940	Girls 6 2/A	6	2	2	0	20	18	12	6	Timothy McElaney	Sarah Madden
+Warriors	31941	Girls 6 3/C	7	1	2	0	23	22	9	13	Jamie Hernon	Mike McDonnell
+Crush	34116	Girls 6 4/C	7	1	2	1	22	27	8	19	Anissa Ellis	Patrick Lane
+Falcons	34117	Girls 6 4/G	6	3	1	0	19	23	17	6	Renee Lamarque	Karen Atkinson
+Storm	31944	Girls 5 2/A	1	2	2	0	5	9	13	-4	Keri Moses	Michael Finocchi
+Hurricane	31945	Girls 5 3/D	2	7	1	0	7	6	19	-13	Dave Lamb	Glenn Williams
+Thorns	31946	Girls 5 4/B	2	2	2	0	7	15	9	6	Nick Sordillo	Jon Kopchick
+Dynamo	34119	Girls 5 4/F	4	4	2	0	14	17	16	1	Nicholas O'Leary	Josh Oteri
+Aces	31947	Girls 4 2/A	6	4	0	0	18	27	18	9	Jennifer Gosselin	Kellee Senic
+Breakers	31948	Girls 4 2/C	0	9	1	0	1	5	36	-31	John Hurley	Carl Kenney
+Dash	31949	Girls 4 3/F	3	6	1	0	10	22	31	-9	Deborah Pedersen	Brian Weisman
+Trouble	31950	Girls 4 3/G	0	9	1	0	1	6	26	-20	Igor Paliy	Lidia Panfilova
+Stars	32995	Girls 4 4/K	3	7	0	0	9	18	30	-12	Eli Smith	Michael Kirby
+Warriors	31992	Boys 8 2/D	8	1	1	0	25	40	17	23	Paul Foley	Dana Niles
+Legends	32035	Boys 8 3/J	1	6	3	0	6	22	40	-18	Horacio Caneja	Seth Hochberg
+Force	32847	Boys 8 4/E	4	1	0	0	12	17	7	10	Keith Jacobsen	Aaron Price
+Thunder	32037	Boys 8 4/K	1	4	1	0	4	9	19	-10	Oscar Butragueno	Frank Michienzi
+Hammers	31998	Boys 6 2/C	4	5	1	0	13	38	43	-5	Glenn Maffei	Muiz Khir
+Juventas	32034	Boys 6 3/J	6	3	1	0	19	36	25	11	Barton Centauro	James Craig Westmoreland
+Roma	32914	Boys 6 4/H2	3	5	2	0	11	35	34	1	Jeff Molles	None
+Revolution	31997	Boys 5 2/E	2	7	1	0	7	15	25	-10	Patrick Connors	Rob Hollister
+Crew	31996	Boys 5 3/H	8	2	0	0	24	41	16	25	Mark Cianci	None
+Galaxy	31994	Boys 5 4/E2	0	3	1	0	1	3	12	-9	Meghan Panteleakos	James Desautels
+Arsenal	32916	Boys 4 1/B	3	7	0	0	9	19	32	-13	Caitlin Sawyer	Adam Meszaros
+Manchester	32918	Boys 4 2/F2	0	4	1	0	1	8	18	-10	David Miles	Mauro Dellemonache
+Chelsea	33410	Boys 4 3/B	2	3	1	0	7	7	15	-8	Jeff Zammett	Benjamin Barrett
+Milan	32919	Boys 4 3/F	4	6	0	0	12	16	22	-6	Aaron Shepherd	Daniel Nauman
+Galaxy	34123	Boys 4 3/H	1	8	1	0	4	17	40	-23	Scott Carpenter	Veronica Marquis
+Dynamo	34124	Boys 4 4/J	1	7	0	0	3	11	32	-21	Brandon McDowall	Balraj Senthilkumar
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:46:15
+TOWN: WAL | SEASON: Spring 2024
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Legends (D1)	6529	Girls 12 1/A	4	2	1	1	12	22	10	12	John Thomsen	Marty White
+Lightning	31936	Girls 8 2/B	7	2	1	0	22	24	10	14	Kathy Martinez	Kate Procaccini
+Power	31937	Girls 8 4/C	8	1	1	0	25	36	13	23	Jon Paul Sydnor	Terry Doherty
+Courage	31938	Girls 8 4/G	3	3	4	0	13	11	10	1	Paul Luongo	Peter Finnerty
+Hawks	31940	Girls 6 2/B	2	7	1	0	7	15	25	-10	Robert DeGirolamo	Benjamin Barrett
+Warriors	31941	Girls 6 4/F	8	1	0	0	24	34	9	25	Beverly Sprague	Heather Baldassari
+Storm	31944	Girls 5 2/B	5	2	3	0	18	20	11	9	Timothy McElaney	Sarah Madden
+Hurricanes	31945	Girls 5 3/D	7	0	3	0	24	34	12	22	Maura Beverly	Jamie Hernon
+Thorns	31946	Girls 5 4/D	6	2	2	0	18	48	22	26	Anissa Ellis	Renee Lamarque
+Aces	31947	Girls 4 2/D	5	3	2	0	17	28	14	14	Keri Moses	Michael Finocchi
+Breakers	31948	Girls 4 3/G	4	4	2	0	14	27	25	2	Bill Hamilton	Glenn Williams
+Dash	31949	Girls 4 4/A	8	0	2	0	26	31	12	19	Nick Sordillo	Margaret Dixon
+Trouble	31950	Girls 4 4/F2	2	4	2	0	8	11	13	-2	Dave Lamb	Jon Kopchick
+Stars	32995	Girls 4 4/F2	1	7	0	0	3	4	23	-19	Nick Zozula	Kirsty DiSipio
+United	6544	Boys 12 2/B	1	5	0	0	3	11	20	-9	Paul McAndrew	Keith Jacobsen
+FC	6561	Boys 10 2/A	0	5	1	0	1	9	32	-23	Kevin Bock	Jim Robertson
+Warriors	31992	Boys 8 3/A	6	1	3	0	21	22	14	8	Jonathan Lowe	Paul Foley
+Legends	32035	Boys 8 3/F	1	9	0	0	3	20	48	-28	Karen Conway	Ethan Fox
+Force	32847	Boys 8 4/F	0	3	1	0	1	6	17	-11	Keith Jacobsen	Brandon McDowall
+Thunder	32037	Boys 8 4/L	4	6	0	0	12	22	43	-21	Jim Robertson	Frank Michienzi
+Spurs	31998	Boys 6 2/B	10	0	0	0	30	45	15	30	Dana Niles	Michael Finocchi
+Barcelona	32034	Boys 6 3/F	3	7	0	0	9	14	32	-18	Oscar Butragueno	Horacio Caneja
+City	32914	Boys 6 4/E	3	7	0	0	9	21	36	-15	Aaron Price	Dan O'Driscoll
+Hammers	31997	Boys 5 2/A	1	5	0	0	3	19	29	-10	Glenn Maffei	Amy Hall
+Juventas	31996	Boys 5 3/E	1	5	0	0	3	12	25	-13	Barton Centauro	Isaias Aguiar
+Roma	31994	Boys 5 4/G	0	10	0	0	0	20	62	-42	Valerie Cameron	Minelli Tomaszewski
+Revolution	32916	Boys 4 2/F	5	4	1	0	16	21	16	5	Patrick Connors	Caitlin Sawyer
+Crew	32918	Boys 4 3/H	4	5	0	0	12	25	25	0	Mark Cianci	John Kluza
+Dynamo	32919	Boys 4 4/B1	4	2	2	0	14	30	15	15	Meghan Panteleakos	James Desautels
+Galaxy	33410	Boys 4 4/G	1	9	0	0	3	25	48	-23	Jeremy Jarvis	Andrea Bartucca
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:48:55
+TOWN: WAL | SEASON: Fall 2023
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Lightning	31936	Girls 8 2/E	7	1	2	0	23	26	9	17	Kathy Martinez	Kate Procaccini
+Power	31937	Girls 8 3/E	2	7	1	0	7	7	20	-13	Jon Paul Sydnor	Heidi Graceffa
+Courage	31938	Girls 8 4/A	8	2	0	0	24	27	11	16	Luis Vazquez	Mike Pagnotta
+Timberwolves	32987	Girls 8 4/H	5	5	0	0	15	13	11	2	Paul Luongo	Mike Porzelt
+Hawks	31940	Girls 6 2/A	6	2	2	0	20	26	22	4	Benjamin Barrett	Robert DeGirolamo
+Warriors	31941	Girls 6 3/B	1	6	0	0	3	13	32	-19	Liz Orlando	Jennifer Adams
+Eagles	31942	Girls 6 4/B	1	9	0	0	3	16	50	-34	Thomas Dietel	Hardik Raval
+Storm	31944	Girls 5 2/C	4	2	4	0	16	15	12	3	Timothy McElaney	Sarah Madden
+Hurricanes	31945	Girls 5 3/B2	3	3	2	0	11	21	16	5	Maura Beverly	Jamie Hernon
+Thorns	31946	Girls 5 3/E	1	7	2	0	5	6	20	-14	Anissa Ellis	David Lazzaro
+Crush	32994	Girls 5 4/C	0	10	0	1	-1	1	47	-46	Karen Atkinson	Renee Lamarque
+Aces	31947	Girls 4 2/D	7	3	0	0	21	25	13	12	Keri Moses	Courtney Kelleher
+Breakers	31948	Girls 4 3/E	3	4	3	0	12	10	13	-3	Glenn Williams	Bill Hamilton
+Dash	31949	Girls 4 4/A	7	3	0	0	21	35	14	21	Nick Sordillo	Margaret Dixon
+Trouble	31950	Girls 4 4/C	0	8	2	0	2	5	45	-40	Jon Kopchick	Shannon Findley
+Stars	32995	Girls 4 4/G	6	1	1	0	19	19	7	12	Dave Lamb	None
+Warriors	31992	Boys 8 2/C	1	9	0	0	3	15	35	-20	Jonathan Lowe	Marc Todisco
+Legends	32035	Boys 8 3/C1	3	3	1	0	10	16	27	-11	Karen Conway	Eric Tjonahen
+Force	32847	Boys 8 4/D	3	5	2	0	11	24	31	-7	Bill Hamilton	Scott Carpenter
+Thunder	32037	Boys 8 4/K	0	10	0	0	0	5	47	-42	Jim Robertson	Keith Jacobsen
+Spurs	31998	Boys 6 2/C	5	3	2	0	17	28	28	0	Dana Niles	Michael Finocchi
+Barcelona	32034	Boys 6 3/C	3	6	1	0	10	21	32	-11	Oscar Butragueno	Horacio Caneja
+City	32914	Boys 6 4/E	4	2	4	0	16	24	20	4	Aaron Price	Dan O'Driscoll
+Hammers	31997	Boys 5 3/A	3	6	1	0	10	35	38	-3	James Craig Westmoreland	John Kerin
+Juventus	31996	Boys 5 3/C	4	1	0	0	12	15	9	6	Ciaran Martyn	Glenn Maffei
+Lightning	32915	Boys 5 4/B	2	7	1	0	7	27	42	-15	Barton Centauro	None
+Roma	31994	Boys 5 4/E	1	9	0	1	2	11	49	-38	Valerie Cameron	Holly Montipagni
+Revolution	32916	Boys 4 2/C	6	4	0	0	18	29	15	14	Patrick Connors	Caitlin Sawyer
+Fire	32917	Boys 4 3/A	2	3	5	0	11	25	32	-7	Mark Cianci	Rob Hollister
+Crew	32918	Boys 4 3/L	4	5	1	0	13	31	20	11	Thomas Benoit	John Kluza
+Dynamo	32919	Boys 4 4/C	6	4	0	0	18	33	38	-5	David Stanton	James Desautels
+Galaxy	33410	Boys 4 4/G1	5	4	1	0	16	30	30	0	Jeremy Jarvis	Saurabh Lele
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:48:55
+TOWN: WAL | SEASON: Spring 2023
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Legends	32870	Girls 12 1/A2	6	0	1	0	19	43	8	35	Kevin Bock	John Thomsen
+Timberwolves (D1)	32871	Girls 10 2/A	4	3	0	0	12	16	8	8	John Thomsen	Marty White
+Spirit	31936	Girls 8 2/C	2	6	2	0	8	15	21	-6	Paul Foley	Kathy Martinez
+Power	31937	Girls 8 3/D	2	6	1	0	7	10	26	-16	Jon Paul Sydnor	Brian Horwitz
+Courage	31938	Girls 8 4/K	8	0	2	0	26	27	4	23	Peter Ellis	Maura Beverly
+Hawks	31940	Girls 6 2/D	1	4	5	0	8	18	22	-4	Kate Procaccini	Courtney Kelleher
+Warriors	31941	Girls 6 3/F	5	2	3	0	18	13	8	5	Heidi Graceffa	Luis Vazquez
+Eagles	31942	Girls 6 4/F	4	5	1	0	13	21	24	-3	Kevin Mason	None
+Storm	31944	Girls 5 1/A	0	8	2	0	2	4	16	-12	Kellee Senic	Daniel Blackstock
+Hurricanes	31945	Girls 5 3/F	8	0	2	0	26	29	10	19	Robert DeGirolamo	Jennifer Adams
+Thorns	31946	Girls 5 4/E	4	3	3	0	15	24	27	-3	Thomas Dietel	CJ Vasani
+Aces	31947	Girls 4 2/B	4	6	0	0	12	14	22	-8	Timothy McElaney	Colleen Campbell
+Breakers	31948	Girls 4 3/B	4	5	1	0	13	13	15	-2	Jamie Hernon	Sarah Madden
+Dash	31949	Girls 4 4/E	8	1	0	0	24	37	12	25	Anissa Ellis	David Lazzaro
+Pride	31950	Girls 4 4/G1	7	0	0	0	21	32	9	23	Andrew Ferguson	None
+United	32872	Boys 12 1/A	0	6	0	0	0	2	27	-25	Paul McAndrew	Al Lessard
+FC	32873	Boys 10 2/A	1	5	1	0	4	10	33	-23	Keith Jacobsen	Jim Robertson
+Warriors	31992	Boys 8 2/E	5	3	2	0	17	19	13	6	Kevin Bock	Nicole Bock
+Legends	32035	Boys 8 3/H	7	3	0	0	21	36	22	14	Alex Danesco	Doug Kennedy
+Force	32847	Boys 8 4/A	6	3	1	0	19	34	17	17	Karen Conway	Marc Todisco
+Thunder	32037	Boys 8 4/J	8	1	1	0	25	27	12	15	Paul Hession	Brandon McDowall
+United	32001	Boys 6 2/B2	2	8	0	0	6	20	34	-14	John Hurley	Paul Foley
+Blackpool	32790	Boys 6 3/E	0	6	4	0	4	15	35	-20	Bill Hamilton	Keith Jacobsen
+Crew	31999	Boys 6 4/G	3	6	1	0	10	16	34	-18	Jim Robertson	Frank Michienzi
+Spurs	31998	Boys 5 2/E	6	4	0	0	18	31	21	10	Dana Niles	Patrick Penza
+Barcelona	32034	Boys 5 3/F	3	7	0	0	9	16	36	-20	Oscar Butragueno	Horacio Caneja
+Hammers	31997	Boys 4 3/B	6	1	3	0	21	31	19	12	Muiz Khir	None
+Juventus	31996	Boys 4 3/K	5	3	2	0	17	28	24	4	James Craig Westmoreland	Khalil Samara
+Roma	31994	Boys 4 4/D	1	9	0	0	3	13	57	-44	Barton Centauro	Erin Athens
+Arsenal	32850	Boys 4 4/E	5	0	1	0	16	32	15	17	Valerie Cameron	None
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:48:55
+TOWN: WAL | SEASON: Fall 2022
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Spirit	31936	Girls 8 2/D2	7	2	1	0	22	23	14	9	Paul Foley	Kathy Martinez
+Power	31937	Girls 8 3/L	8	2	0	0	24	32	13	19	Jon Paul Sydnor	Wayan Suwena
+Courage	31938	Girls 8 4/C	4	3	3	0	15	22	14	8	Brian Horwitz	Terry Doherty
+Reign	31939	Girls 8 4/G2	1	2	5	0	8	7	15	-8	Peter Ellis	Darwin Cevallos
+Hawks	31940	Girls 6 2/B	0	8	2	0	2	9	37	-28	Kate Procaccini	Courtney Kelleher
+Warriors	31941	Girls 6 3/F	6	3	1	0	19	28	15	13	Heidi Graceffa	David Miles
+Eagles	31942	Girls 6 4/C	6	1	3	1	20	22	10	12	Mike Pagnotta	Jeannette Wehrenberg
+Cyclones	31943	Girls 6 4/J	1	9	0	0	3	6	54	-48	Bernie Smith	Thomas Dietel
+Storm	31944	Girls 5 1/B	2	5	2	0	8	12	20	-8	Kellee Senic	Daniel Blackstock
+Hurricanes	31945	Girls 5 3/E	3	4	2	0	11	13	15	-2	Robert DeGirolamo	Jennifer Adams
+Thorns	31946	Girls 5 4/A	2	6	1	0	7	14	34	-20	Brian Flynn	CJ Vasani
+Aces	31947	Girls 4 2/A2	3	4	1	0	10	19	21	-2	Timothy McElaney	Colleen Campbell
+Breakers	31948	Girls 4 2/A2	0	8	0	0	0	4	24	-20	Jamie Hernon	Sarah Madden
+Dash	31949	Girls 4 3/F	4	2	4	0	16	19	11	8	Maura Beverly	Stephanie Ellard
+Pride	31950	Girls 4 4/D2	3	4	1	0	10	10	19	-9	Anissa Ellis	Melody Hugo
+Wave	31951	Girls 4 4/D2	4	2	2	0	14	20	14	6	Kevin Teller	None
+Warriors	31992	Boys 8 2/D	2	2	1	0	7	8	10	-2	Kevin Bock	Seth Hochberg
+Legends	32035	Boys 8 3/F	2	6	2	0	8	15	21	-6	Alex Danesco	None
+Force	32036	Boys 8 4/B	6	0	4	0	22	39	23	16	Karen Conway	Marc Todisco
+Thunder	32037	Boys 8 4/D2	4	1	3	0	15	22	18	4	Robert Grabowy	None
+United	32001	Boys 6 2/A	1	8	1	0	4	13	31	-18	John Hurley	Nicholas Kakas
+Blues	32000	Boys 6 3/H	6	3	1	0	19	30	19	11	Bill Hamilton	Keith Jacobsen
+Crew	31999	Boys 6 4/G	0	9	1	0	1	11	46	-35	Jim Robertson	Frank Michienzi
+Spurs	31998	Boys 5 2/B	1	7	2	0	5	16	34	-18	Dana Niles	Michael Finocchi
+Barcelona	32034	Boys 5 3/D	6	2	2	0	20	31	24	7	Oscar Butragueno	Horacio Caneja
+City	32033	Boys 5 4/C	4	5	0	0	12	26	23	3	Aaron Price	Dan O'Driscoll
+Hammers	31997	Boys 4 2/D	5	3	2	0	17	28	15	13	Muiz Khir	None
+Milan	31995	Boys 4 3/L	0	10	0	0	0	6	35	-29	None	None
+Juventus	31996	Boys 4 3/L	6	3	1	0	19	29	14	15	James Craig Westmoreland	Khalil Samara
+Roma	31994	Boys 4 4/G	7	2	1	0	22	36	17	19	Barton Centauro	None
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:48:56
+TOWN: WAL | SEASON: Spring 2022
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Timberwolves D1	30858	Girls 12 2/A	7	0	0	0	21	38	7	31	Kevin Bock	John Thomsen
+Wolfpack D1	30859	Girls 11 2/A	6	1	0	0	18	26	6	20	Michael St. George	John Thomsen
+Trouble	31037	Girls 8 2/A	7	1	2	0	23	27	13	14	Joe Marerro	Marty White
+Spirit	31034	Girls 8 3/K	3	4	3	0	12	18	20	-2	David Miles	Patrick Connors
+Courage	31035	Girls 8 4/A	5	3	2	0	17	21	16	5	Sean Ahern	David Corbett
+Reign	31036	Girls 8 4/E	6	3	1	0	19	23	8	15	Peter Ellis	Darwin Cevallos
+Lightning	31038	Girls 6 2/C	8	0	2	0	26	38	15	23	Kathy Martinez	Wayan Suwena
+Power	31039	Girls 6 3/D	4	6	0	0	12	20	27	-7	Brian Horwitz	Maura Beverly
+Pride	31040	Girls 6 4/C	5	2	1	0	16	20	14	6	Brad Hickey	Terry Doherty
+Hawks	31041	Girls 5 2/B	0	4	0	0	0	5	13	-8	Kate Procaccini	None
+Warriors	31042	Girls 5 3/G	4	0	0	0	12	11	3	8	Heidi Graceffa	Brooke McMillan
+Eagles	31043	Girls 5 4/B	4	3	2	0	14	15	13	2	Bernie Smith	Matt Feener
+Fire	31044	Girls 4 2/C	6	2	2	0	20	28	19	9	Darwin Cevallos	Daniel Blackstock
+Storm	31045	Girls 4 2/C	6	1	3	0	21	28	16	12	Kellee Senic	Robert DeGirolamo
+Hurricanes	31047	Girls 4 4/A	3	7	0	0	9	15	39	-24	Jennifer Adams	Jim Bunt
+Thorns	31046	Girls 4 4/F	3	6	1	0	10	16	17	-1	Beverly Sprague	Thomas Dietel
+United D1	30860	Boys 11 1/A1	1	5	1	0	4	7	19	-12	Al Lessard	Toar Winter
+Timberwolves D2	30861	Boys 11 2/C1	0	7	0	0	0	2	28	-26	Paul McAndrew	Daniel OConnell
+Warriors	31283	Boys 8 2/E	7	0	3	0	24	24	4	20	Will Graceffa	Seth Hochberg
+Hawks	31284	Boys 8 3/H	5	4	1	0	16	29	19	10	Kevin Bock	Nicole Bock
+Coyotes	31285	Boys 8 4/B	6	1	3	0	21	17	8	9	Jim Robertson	Keith Jacobsen
+Force	31288	Boys 8 4/E	3	6	1	0	10	10	19	-9	Alex Danesco	Jim Keller
+Legends	30793	Boys 6 2/C	4	4	2	0	14	22	26	-4	Jonathan Lowe	Doug Kennedy
+Thunder	31286	Boys 6 4/D	3	7	0	0	9	21	45	-24	Karen Conway	Marc Todisco
+United	31289	Boys 5 2/C	8	1	1	0	25	37	20	17	John Hurley	Paul Foley
+Blues	31290	Boys 5 4/A	7	3	0	0	21	31	20	11	Bill Hamilton	Eric Tjonahen
+Crew	31291	Boys 5 4/F	0	8	2	0	2	11	35	-24	Keith Jacobsen	Jim Robertson
+Spurs	31292	Boys 4 2/D	2	5	3	0	9	20	34	-14	Dana Niles	Michael Finocchi
+Barcelona	31293	Boys 4 3/D	1	3	1	0	4	13	11	2	Patrick Penza	Yathu Gopinath
+City	31295	Boys 4 4/E	7	3	0	0	21	40	22	18	Oscar Butragueno	None
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:48:56
+TOWN: WAL | SEASON: Fall 2021
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Trouble	31037	Girls 8 2/A	6	2	2	0	20	25	15	10	Joe Marerro	Marty White
+Spirit	31034	Girls 8 3/C	1	7	2	0	5	15	24	-9	David Miles	Patrick Connors
+Courage	31035	Girls 8 4/A	4	3	3	0	15	23	19	4	Sean Ahern	David Corbett
+Reign	31036	Girls 8 4/J	7	2	1	0	22	23	5	18	Peter Ellis	Darwin Cevallos
+Lightning	31038	Girls 6 2/E	5	4	1	0	16	24	18	6	Kathy Martinez	Wayan Suwena
+Power	31039	Girls 6 3/E	5	2	1	0	16	15	14	1	Brian Horwitz	Maura Beverly
+Pride	31040	Girls 6 4/D1	5	2	1	0	16	27	14	13	Brad Hickey	Terry Doherty
+Hawks	31041	Girls 5 2/E	3	5	2	0	11	20	32	-12	Kate Procaccini	David Miles
+Warriors	31042	Girls 5 3/F	6	2	2	0	20	29	10	19	Heidi Graceffa	Brooke McMillan
+Eagles	31043	Girls 5 4/D	4	3	3	0	15	20	19	1	Bernie Smith	Amritha Farswani
+Fire	31044	Girls 4 2/B	3	5	2	0	11	16	25	-9	Darwin Cevallos	Daniel Blackstock
+Storm	31045	Girls 4 2/B	4	3	2	0	14	22	18	4	Kellee Senic	Lauren Trotta
+Thorns	31046	Girls 4 4/F	2	5	3	0	9	13	30	-17	Beverly Sprague	Thomas Dietel
+Dash	31047	Girls 4 4/F	7	1	2	0	23	32	10	22	Jennifer Adams	None
+Warriors	31283	Boys 8 2/E	6	2	2	0	20	23	11	12	Will Graceffa	Jonathan Tillinghast
+Hawks	31284	Boys 8 3/G	4	6	0	0	12	20	15	5	Todd Zahurak	Kevin Bock
+Coyotes	31285	Boys 8 4/F	5	0	0	0	15	21	1	20	Jim Robertson	Keith Jacobsen
+Force	31288	Boys 8 4/J	7	2	1	0	22	31	19	12	Alex Danesco	Jim Keller
+Legends	30793	Boys 6 2/C	6	3	1	0	19	24	20	4	Jonathan Lowe	Doug Kennedy
+Thunder	31286	Boys 6 4/A	4	1	0	0	12	22	9	13	Karen Conway	None
+Timberwolves	31287	Boys 6 4/G	0	9	0	0	0	7	56	-49	Robert Grabowy	None
+United	31289	Boys 5 2/C	2	8	0	0	6	29	37	-8	John Hurley	Mathew Roberts
+Blues	31290	Boys 5 3/D	0	9	1	0	1	16	43	-27	Bill Hamilton	Eric Tjonahen
+Crew	31291	Boys 5 4/H	5	5	0	0	15	21	24	-3	Keith Jacobsen	Jim Robertson
+Spurs	31292	Boys 4 2/C1	4	3	1	0	13	20	18	2	Dana Niles	Michael Finocchi
+Barcelona	31293	Boys 4 3/B	1	7	2	0	5	13	31	-18	Horacio Caneja	Seth Hochberg
+Chelsea	31294	Boys 4 4/C	4	3	3	0	15	18	19	-1	Sean Whelan	Richard Mccolgan
+Celtic	31295	Boys 4 4/C	3	5	2	0	11	20	26	-6	Patrick Penza	Yathu Gopinath
+City	31297	Boys 4 4/C	4	5	1	0	13	28	31	-3	Oscar Butragueno	None
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-10 19:48:56
+TOWN: WAL | SEASON: Spring 2021
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Walpole U18 Girls	30858	Girls 12 1/A1	6	0	0	0	18	30	2	28	Kevin Bock	John Thomsen
+Walpole U16 Girls	30859	Girls 12 2/A	6	0	1	0	19	25	2	23	Michael St. George	Paul English
+United	30774	Girls 8 1/A1	3	5	2	0	11	11	25	-14	Marc Schultz	John Thomsen
+Trouble	30775	Girls 8 2/C	5	2	3	0	18	23	19	4	Joe Marerro	Marty White
+Crush	30776	Girls 8 3/C	1	7	0	0	3	13	36	-23	Sandra DAvignon	Paul Connelly
+Twisters	30778	Girls 8 4/B	3	6	1	0	10	9	23	-14	Rita Tyszka	Heather Towery
+Crusaders	30777	Girls 8 4/E	3	1	1	0	10	9	5	4	David Miles	Patrick Connors
+Bandits	30779	Girls 6 2/B	6	4	0	0	18	14	14	0	Paul Foley	Mike McDonnell
+Fire	30780	Girls 6 3/F2	4	3	1	0	13	18	12	6	Sean Ahern	Peter Ellis
+Legends	30781	Girls 6 4/E	6	2	2	0	20	25	14	11	Darwin Cevallos	Maura Beverly
+Power	30782	Girls 5 3/B	2	5	3	0	9	22	31	-9	Jon Paul Sydnor	Brian Horwitz
+Lightning	30783	Girls 5 3/B	4	4	2	0	14	18	20	-2	Kathy Martinez	Terry Doherty
+Hawks	30784	Girls 4 2/E	3	4	3	0	12	12	14	-2	Kate Procaccini	David Miles
+Warriors	30785	Girls 4 3/E	5	5	0	0	15	22	14	8	Heidi Graceffa	Brooke McMillan
+Eagles	30786	Girls 4 4/A1	2	3	3	0	9	10	9	1	Bernie Smith	Amritha Farswani
+Walpole U18 Boys	30860	Boys 12 1/B1	2	3	2	0	8	17	18	-1	Al Lessard
+Walpole U16 Boys	30861	Boys 11 2/B	4	3	0	1	11	17	10	7	Eoin Walsh	John Kerin
+Wildcats	30787	Boys 8 2/A	3	5	2	0	11	18	21	-3	Matt Feener	Mathew Roberts
+Hawks	30788	Boys 8 3/H1	5	4	1	0	16	30	21	9	Daniel OConnell	Todd Zahurak
+Coyotes	30789	Boys 8 4/D	3	7	0	0	9	19	31	-12	Jim Robertson	Keith Jacobsen
+Patriots	30790	Boys 6 2/C	5	4	0	0	15	27	26	1	Will Graceffa	Seth Hochberg
+Warriors	30791	Boys 6 3/C	2	6	2	0	8	20	40	-20	Dana Niles	Kevin Bock
+Force	30792	Boys 6 4/B	5	4	1	0	16	18	20	-2	Alex Danesco	Jim Keller
+Legends	30793	Boys 5 2/B	2	6	2	0	8	13	30	-17	Jonathan Lowe	Manak Ahluwalia
+Thunder	30794	Boys 5 4/A1	0	8	0	0	0	1	44	-43	Karen Conway	Byron Olson
+United	30795	Boys 4 2/C	1	5	3	0	6	21	34	-13	John Hurley	Nicholas Kakas
+Revolution	30796	Boys 4 2/C	2	6	1	0	7	21	38	-17	Paul Foley	Brian Bingham
+Bobcats	30797	Boys 4 3/G	1	7	1	0	4	15	40	-25	Keith Jacobsen	Morgan Miles
+Arsenal	30798	Boys 4 4/B	3	6	1	0	10	22	26	-4	Bill Hamilton	Eric Tjonahen
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-11 20:47:55
+TOWN: MDY | SEASON: Fall 2025
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Mustangs	32003	Girls 8 2/A	5	1	4	0	19	20	9	11	Timothy Gray	John Green
+Mustangs	32004	Girls 8 3/G	0	9	1	0	1	5	32	-27	James Babineau	Michael Taylor
+Mustangs	33075	Girls 6 2/A	3	7	0	0	9	13	21	-8	Alisha Perdue	None
+Mustangs	33076	Girls 6 4/B	6	2	2	0	20	24	13	11	Dennis Morrissey	None
+Mustangs	33712	Girls 5 3/B	6	3	1	0	19	25	17	8	Alexander Tetreault	None
+Mustangs	33713	Girls 5 4/E	4	2	0	0	12	15	7	8	Katelyn Breen	None
+Mustangs	34312	Girls 4 3/B1	5	4	1	0	16	37	24	13	Josiah Herbert	None
+Mustangs	32005	Boys 8 3/A	2	6	2	0	8	24	31	-7	Frank Angelo	None
+Mustangs	32006	Boys 8 4/A	5	3	2	0	17	19	13	6	John Shea	None
+Mustangs	33080	Boys 6 2/E	4	6	0	0	12	16	20	-4	Ryan Hanlon	None
+Mustangs	33081	Boys 6 4/B	0	9	1	0	1	9	40	-31	Alex Carneiro	None
+Mustangs	33714	Boys 5 2/A	4	6	0	0	12	26	26	0	John Alessi	None
+Mustangs	33715	Boys 5 4/A	1	7	2	0	5	19	32	-13	Gregory Pavlov	None
+Mustangs	34313	Boys 4 2/D	2	7	1	0	7	23	36	-13	John Grady	None
+Mustangs	34314	Boys 4 3/G	2	6	2	0	8	16	34	-18	Craig Olsen	None
+Mustangs	34315	Boys 4 4/G	3	1	1	0	10	19	13	6	Ryan Tyndall	None
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-11 20:47:55
+TOWN: MDY | SEASON: Spring 2025
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Mustangs	3309	Girls 8 2/C	3	4	3	0	12	23	25	-2	Daniel Shea	None
+Mustangs	151	Girls 8 4/D	6	2	2	0	20	22	10	12	Timothy Gray	None
+Mustangs	32003	Girls 6 1/B	2	6	2	0	8	12	19	-7	John Grady	None
+Mustangs	32004	Girls 6 3/C	3	4	3	0	12	12	18	-6	Michael Taylor	None
+Mustangs	33075	Girls 5 2/D	7	1	2	0	23	24	13	11	Alisha Perdue	None
+Mustangs	33076	Girls 5 4/C	4	6	0	1	11	10	15	-5	Dennis Morrissey	None
+Mustangs	33712	Girls 4 2/C	3	5	2	0	11	16	27	-11	Alexander Tetreault	None
+Mustangs	33713	Girls 4 4/C	5	3	0	0	15	24	20	4	Katelyn Breen	None
+Mustangs 	11480	Boys 8 3/G	9	1	0	0	26	48	7	41	Jason Weintraub	None
+Mustangs	11195	Boys 8 4/J	6	3	1	0	19	30	12	18	Frank Angelo	None
+Mustangs	32005	Boys 6 3/A	2	8	0	0	6	17	36	-19	John Shea	None
+Mustangs	32006	Boys 6 4/C	2	4	3	1	8	16	22	-6	Garrett Schubert	None
+Mustangs	33080	Boys 5 3/A1	2	1	1	0	7	11	8	3	Ryan Hanlon	None
+Mustangs	33081	Boys 5 4/F2	6	1	1	0	19	36	23	13	Alex Carneiro	None
+Mustangs	33714	Boys 4 2/E	6	1	1	0	19	38	21	17	John Alessi	None
+Mustangs	33715	Boys 4 3/D	1	9	0	0	3	17	47	-30	Gregory Pavlov	None
+Mustangs	33716	Boys 4 4/F	2	5	2	0	8	19	28	-9	James Levasseur	None
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-11 20:47:55
+TOWN: MDY | SEASON: Fall 2024
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Mustangs	3309	Girls 8 2/B	0	3	2	0	2	3	9	-6	Daniel Shea	John Green
+Mustangs	151	Girls 8 4/A	3	4	1	0	10	15	14	1	Timothy Gray	James Babineau
+Mustangs	32003	Girls 6 2/A	6	2	2	0	20	14	7	7	John Grady	John Alessi
+Mustangs	32004	Girls 6 3/D	3	5	2	0	11	22	20	2	Michael Taylor	Gregory Pavlov
+Mustangs	33075	Girls 5 2/D	9	1	0	0	27	23	9	14	Alisha Perdue	Todd Meluski
+Mustangs	33076	Girls 5 4/D	3	3	4	0	13	15	10	5	Dennis Morrissey	None
+Mustangs	33712	Girls 4 2/C	5	4	1	0	16	23	22	1	Jeremy Barstow	None
+Mustangs	33713	Girls 4 4/F	5	5	0	0	15	31	27	4	Katelyn Breen	None
+Mustangs 	11480	Boys 8 3/J	9	1	0	0	27	44	10	34	Jason Weintraub	None
+Mustangs	11195	Boys 8 4/B	2	3	0	0	6	11	19	-8	Frank Angelo	None
+Mustangs	32005	Boys 6 3/A	3	5	2	0	11	23	19	4	John Shea	None
+Mustangs	32006	Boys 6 4/H1	8	0	2	0	26	32	7	25	Garrett Schubert	None
+Mustangs	33080	Boys 5 3/B	4	2	4	0	16	18	17	1	Ryan Hanlon	None
+Mustangs	33081	Boys 5 4/F	1	8	1	0	4	13	38	-25	Alex Carneiro	None
+Mustangs	33714	Boys 4 2/D	4	3	3	0	15	40	33	7	John Alessi	None
+Mustangs	33715	Boys 4 3/F	6	2	2	0	20	23	16	7	Gregory Pavlov	None
+Mustangs	33716	Boys 4 4/E	3	7	0	0	9	21	40	-19	Brian Cowan	None
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-11 20:47:55
+TOWN: MDY | SEASON: Spring 2024
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Mustangs	3309	Girls 8 3/B	5	3	2	0	17	25	17	8	Charlie Diamandis	Colleen Mahan
+Mustangs	151	Girls 8 3/G1	4	6	0	1	11	13	20	-7	Brian Heney	Todd Meluski
+Mustangs	30419	Girls 8 4/F	1	2	1	0	4	4	5	-1	Jeremy Rothschild	Aaron Lipman
+Mustangs	31067	Girls 6 3/A	5	2	3	0	18	25	16	9	John Green	Alisha Perdue
+Mustangs	31068	Girls 6 3/H	3	4	3	0	12	13	12	1	Timothy Gray	James Babineau
+Mustangs	32003	Girls 5 2/B	6	0	4	0	22	27	13	14	John Alessi	John Grady
+Mustangs	32004	Girls 5 3/D	3	7	0	0	9	13	20	-7	Michael Taylor	Gregory Pavlov
+Mustangs	33075	Girls 4 2/B	1	8	1	0	4	10	32	-22	Alisha Perdue	Todd Meluski
+Mustangs	33076	Girls 4 3/E	1	7	2	0	5	18	37	-19	Melissa Babineau	Todd Lundin
+Mustangs	33077	Girls 4 4/F1	1	4	3	0	6	9	16	-7	Andrew Tkowski	None
+Mustangs 	11480	Boys 8 3/D	7	3	0	0	21	32	17	15	Steve Bartha	None
+Mustangs	11195	Boys 8 4/E	1	3	0	0	3	5	9	-4	Scott Lafferty	None
+Mustangs	31065	Boys 6 4/A	3	7	0	1	8	22	39	-17	Frank Angelo	Jason Guilbeault
+Mustangs	32005	Boys 5 3/B	4	2	0	0	12	23	16	7	Kristen Haan	None
+Mustangs	32006	Boys 5 4/D	4	5	1	0	13	33	37	-4	Garrett Schubert	None
+Mustangs	33080	Boys 4 2/D	3	5	2	0	11	20	28	-8	Ryan Hanlon	None
+Mustangs	33081	Boys 4 4/D	1	8	1	0	4	15	48	-33	Alex Carneiro	None
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-11 20:47:55
+TOWN: MDY | SEASON: Fall 2023
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Mustangs	3309	Girls 8 3/B	5	0	0	0	15	11	2	9	Charlie Diamandis	Colleen Mahan
+Mustangs	151	Girls 8 3/J2	3	3	2	0	11	6	6	0	Brian Heney	Todd Meluski
+Mustangs	30419	Girls 8 4/F	3	6	1	0	10	11	18	-7	None	None
+Mustangs	31067	Girls 6 2/B1	3	5	2	0	11	21	19	2	John Green	Josiah Herbert
+Mustangs	31068	Girls 6 4/B	9	1	0	0	27	37	6	31	Timothy Gray	James Babineau
+Mustangs	32003	Girls 5 2/A	2	5	3	0	9	10	22	-12	John Alessi	John Grady
+Mustangs	32004	Girls 5 3/G	6	1	3	0	21	36	9	27	Michael Taylor	Gregory Pavlov
+Mustangs	33075	Girls 4 2/D	8	2	0	0	24	33	7	26	Alisha Perdue	Todd Meluski
+Mustangs	33076	Girls 4 3/G	6	3	1	0	19	30	19	11	Melissa Babineau	Todd Lundin
+Mustangs	33077	Girls 4 4/A	3	6	1	0	10	11	36	-25	Andrew Tkowski	None
+Mustangs	11195	Boys 8 3/C2	3	1	4	0	13	23	14	9	Steve Bartha	Jason Weintraub
+Mustangs 	11480	Boys 8 3/J	0	5	0	0	0	1	27	-26	Kirk Souza	None
+Mustangs	33078	Boys 8 4/G	4	5	1	0	13	12	22	-10	Scott Lafferty	None
+Mustangs	31065	Boys 6 3/C	4	0	1	0	13	24	6	18	Lura Bomfim	Jason Behan
+Mustangs	32005	Boys 5 2/A	4	4	2	0	14	22	31	-9	Kristen Haan	None
+Mustangs	32006	Boys 5 3/F	4	1	0	0	12	17	4	13	John Shea	None
+Mustangs	33079	Boys 5 4/F	0	3	1	0	1	5	18	-13	David Fogaren	Garrett Schubert
+Mustangs	33080	Boys 4 2/C	4	1	0	0	12	17	9	8	Bryan Kelly	None
+Mustangs	33081	Boys 4 4/A	3	4	0	0	9	21	24	-3	Patrick Kelly	None
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-11 20:47:55
+TOWN: MDY | SEASON: Spring 2023
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Mustangs	3309	Girls 8 2/C	3	6	1	0	10	17	23	-6	Charlie Diamandis	None
+Mustangs	151	Girls 8 4/A	3	7	0	0	9	13	27	-14	Michael Calnan	None
+Mustangs	30419	Girls 6 2/E	1	7	2	0	5	8	20	-12	Daniel Shea	None
+Mustangs	32002	Girls 6 4/F	5	4	1	0	16	24	24	0	Brian Heney	None
+Mustangs	31067	Girls 5 2/A	5	3	2	0	17	21	17	4	John Green	None
+Mustangs	31068	Girls 5 3/F	1	6	3	0	6	15	36	-21	Josiah Herbert	Tiffany Duguay
+Mustangs	32003	Girls 4 2/D1	8	0	0	0	24	29	7	22	John Alessi	None
+Mustangs	32004	Girls 4 3/E	2	8	0	0	6	15	39	-24	Michael Taylor	None
+Mustangs	32884	Boys 12 2/A	2	5	0	3	3	10	12	-2	Ricardo Menard	None
+Mustangs	11195	Boys 8 3/C	6	1	3	0	21	26	9	17	Timothy Gray	None
+Mustangs 	11480	Boys 8 4/C	5	5	0	0	15	25	24	1	Tanya Green	None
+Mustangs	31070	Boys 6 3/B	4	4	2	0	14	25	21	4	Jason Weintraub	None
+Mustangs 	11481	Boys 6 4/G	2	7	1	0	7	9	34	-25	Gregory Pavlov	None
+Mustangs	31065	Boys 5 2/E	3	6	1	0	10	19	32	-13	Lura Bomfim	None
+Mustangs 	31066	Boys 5 4/D	1	5	0	0	3	14	31	-17	Lisa Jackey	None
+Mustangs	32005	Boys 4 2/D	8	1	1	0	25	38	18	20	Kristen Haan	None
+Mustangs	32006	Boys 4 3/C	3	7	0	0	9	20	40	-20	Garrett Schubert	None
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-11 20:47:55
+TOWN: MDY | SEASON: Fall 2022
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Mustangs	3309	Girls 8 2/C	3	5	2	0	11	11	19	-8	Charlie Diamandis	Colleen Mahan
+Mustangs	151	Girls 8 3/K	1	9	0	0	3	7	29	-22	Michael Calnan	Erik Booth
+Mustangs	30419	Girls 6 2/E	2	6	2	0	8	7	15	-8	Daniel Shea	Mark Girard
+Mustangs	32002	Girls 6 4/G	5	4	1	0	16	21	19	2	Brian Heney	Todd Meluski
+Mustangs	31067	Girls 5 2/A	4	2	4	0	16	8	4	4	John Green	Erik Booth
+Mustangs	31068	Girls 5 4/F	10	0	0	0	30	42	7	35	Tiffany Duguay	James Babineau
+Mustangs	32003	Girls 4 2/D	7	1	2	0	23	32	17	15	John Alessi	John Grady
+Mustangs	32004	Girls 4 3/J2	4	3	1	0	13	17	13	4	Michael Taylor	Michael Taylor
+Mustangs	11195	Boys 8 3/D	4	2	4	0	16	32	22	10	Timothy Gray	Steve Bartha
+Mustangs 	11480	Boys 8 4/H	6	3	1	0	19	37	18	19	Tanya Green	None
+Mustangs	31070	Boys 6 3/E	6	1	1	0	19	21	8	13	Jason Weintraub	None
+Mustangs 	11481	Boys 6 4/F	1	4	0	0	3	9	27	-18	Gregory Pavlov	None
+Mustangs	31065	Boys 5 3/B	3	1	0	0	9	15	5	10	Lura Bomfim	Jason Behan
+Mustangs	32005	Boys 4 2/D	5	2	3	0	16	38	27	11	Kristen Haan	David Lally
+Mustangs	32006	Boys 4 3/A	1	4	2	0	5	19	21	-2	John Shea	Matt Kelly
+Mustangs	32007	Boys 4 4/E	5	3	2	0	17	26	26	0	Garrett Schubert	None
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-11 20:47:55
+TOWN: MDY | SEASON: Spring 2022
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Mustangs	3309	Girls 8 2/E	8	2	0	0	24	28	9	19	Michael McNeil	Andrew Ruggeri
+Mustangs	151	Girls 8 4/A	1	5	4	0	7	7	13	-6	Brian Heney	Michael Calnan
+Mustangs	11408	Girls 6 2/B	5	4	1	0	16	18	21	-3	Charlie Diamandis	Colleen Mahan
+Mustangs	11409	Girls 6 3/H	8	2	0	0	24	29	15	14	Daniel Curley	Corey O'Connor
+Mustangs	30419	Girls 5 3/C	4	1	3	0	15	10	5	5	Daniel Shea	Brian Heney
+Mustangs	31067	Girls 4 2/B	6	4	0	0	18	23	14	9	John Green	Erik Booth
+Mustangs	31068	Girls 4 4/E	1	2	1	0	4	6	10	-4	Tiffany Duguay	Timothy Gray
+Mustangs	11195	Boys 8 4/B	7	0	3	0	24	34	14	20	Timothy Gray	Tim Williamson
+Mustangs 	11480	Boys 6 2/E	1	8	1	0	4	10	30	-20	Steve Bartha	Michael Billeri
+Mustangs 	11481	Boys 5 3/F	8	2	0	0	24	33	6	27	Carlos Perez	Jason Weintraub
+Mustangs	31070	Boys 5 4/A	1	7	2	0	5	8	40	-32	Kirk Souza	None
+Mustangs	31065	Boys 4 3/A	5	3	2	0	17	27	18	9	Lura Bomfim	None
+Mustangs	31066	Boys 4 4/A	1	7	2	0	5	25	44	-19	Kimberly Dobrowolski	None
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-11 20:47:55
+TOWN: MDY | SEASON: Fall 2021
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Mustangs	3309	Girls 8 2/C	1	5	4	0	7	11	21	-10	Michael McNeil	Andrew Ruggeri
+Mustangs	151	Girls 8 3/J	0	8	2	0	2	3	18	-15	Brian Heney	Lura Bomfim
+Mustangs	11408	Girls 6 2/C	4	3	1	0	13	20	13	7	Charlie Diamandis	Erik Booth
+Mustangs	11409	Girls 6 3/G	4	3	3	0	15	19	14	5	Daniel Curley	Corey O'Connor
+Mustangs	30419	Girls 5 3/F	9	0	1	0	28	24	2	22	Daniel Shea	Mark Girard
+Mustangs	31067	Girls 4 2/B	5	4	1	0	16	26	28	-2	John Green	None
+Mustangs	31068	Girls 4 3/F	2	5	3	0	9	20	24	-4	Timothy Gray	Erik Booth
+Mustangs	31069	Girls 4 4/D	5	6	0	0	15	35	32	3	Tiffany Duguay	None
+Mustangs	11195	Boys 8 4/A2	5	2	3	0	18	34	18	16	Timothy Gray	None
+Medway Mustangs 	11480	Boys 6 2/C	1	8	1	0	4	11	30	-19	Carlos Perez	None
+Mustangs 	11481	Boys 6 4/A	1	2	2	0	5	5	6	-1	Jeremy Barstow	None
+Mustangs	31070	Boys 6 4/F	4	4	2	0	14	13	18	-5	Kirk Souza	None
+Mustangs	31065	Boys 4 2/C2	2	4	2	0	8	9	18	-9	Lura Bomfim	None
+Mustangs	31066	Boys 4 3/E	0	8	1	0	1	12	46	-34	Todd Houle	None
+
+================================================================================
+PASTE TIMESTAMP: 2026-01-11 20:47:55
+TOWN: MDY | SEASON: Spring 2021
+
+================================================================================
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Medway Mustangs	30842	Girls 11 2/A	4	3	0	0	12	19	12	7	Patrick Smith	Rob Condon
+Mustangs	3309	Girls 8 2/E	5	2	3	0	18	22	11	11	Brian Benedetto	Andrew Ruggeri
+Mustangs	151	Girls 8 3/G	3	4	3	0	12	21	29	-8	Jason Steiding	Brian Heney
+Mustangs	11177	Girls 6 2/D	4	0	6	0	18	15	6	9	Lura Bomfim	Michael Calnan
+Mustangs	11408	Girls 5 2/A	3	6	0	0	9	15	23	-8	Charlie Diamandis	Colleen Mahan
+Mustangs	11409	Girls 5 3/G	0	3	2	0	2	2	8	-6	Erik Booth	Daniel Curley
+Mustangs	30419	Girls 4 4/A1	7	0	1	0	22	25	10	15	Brian Heney	Todd Meluski
+Mustangs	11195	Boys 8 3/E	4	1	0	0	12	22	8	14	Mark Girard	Tim Williamson
+Mustangs	11820	Boys 6 4/B	7	3	0	0	21	30	13	17	Timothy Gray	None
+Medway Mustangs 	11480	Boys 5 2/B	6	2	2	0	20	27	14	13	Chris Sheehan	Jason Behan
+Mustangs 	11481	Boys 5 3/D	4	1	0	0	12	16	7	9	Michael Billeri	Jason Weintraub
+Mustangs 	30421	Boys 4 3/D	1	6	3	0	6	13	28	-15	Carlos Perez	Jeremy Barstow

@@ -1,0 +1,31 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hornets I	34657	Girls 8 2/B	4	2	3	0	15	14	15	-1	Jeffrey Ward	Mark McGuire
+Hornets II	34658	Girls 8 3/G	10	0	0	0	30	29	1	28	Jerred Campbell	Jim Stevens
+Hornets III	34659	Girls 8 4/D2	8	0	0	0	24	36	4	32	Chris Joynes	Hank Kurtzman
+Hornets IV	34660	Girls 8 4/K	5	4	1	0	16	24	18	6	Paul Miao	None
+Hornets I	34661	Girls 6 2/A	6	1	3	0	21	17	7	10	Robert Faria	Tina Atallah
+Hornets II	34662	Girls 6 3/D	0	7	3	0	3	7	18	-11	Chris Chery	Sarah Joynes
+Hornets I	34671	Girls 5 3/B	10	0	0	0	30	33	4	29	Meghan Murphy	Robert Faria
+Hornets II	34672	Girls 5 3/C2	2	8	0	0	6	17	29	-12	Paul Hebard Jr.	Will Reynolds
+Hornets III	34885	Girls 5 4/D	4	5	1	0	13	17	20	-3	Erik Woulfe	Rory Flynn
+Hornets I	34677	Girls 4 3/B1	10	0	0	0	30	44	14	30	Bryan Trout	Jen Morse
+Hornets II	34678	Girls 4 3/G	4	0	2	0	14	16	3	13	Betsy Bauler	None
+Hornets	34682	Girls 3 3/C1	8	0	2	0	26	27	15	12	Graham Wilson	None
+Green Hornets	34683	Girls 3 3/C1	6	3	1	0	17	26	11	15	Jaclyn Shavel	Brooke Hernon
+Swarm - DROPPED	34684	Girls 3 4/X	0	0	0	0	0	0	0	0	None	None
+Hornets I	34654	Boys 8 1/B	1	7	2	0	5	13	23	-10	Jessica Grey	Mohamed Driss
+Hornets II	34655	Boys 8 3/H2	4	5	1	0	13	21	28	-7	Brian Levesque	Meghan Murphy
+Hornets III	34656	Boys 8 4/H	0	5	1	0	1	10	30	-20	Jeff Kobs	None
+Hornets IV	34884	Boys 8 4/K	2	7	1	0	7	12	30	-18	Justin Abreu	None
+Hornets I	34663	Boys 6 3/C	3	2	5	0	14	22	15	7	Danielle Correia	Greg DeSista
+Grade 5/6 Hornets	34665	Boys 6 4/G	6	2	0	0	18	35	24	11	John Fitts	Jordin Spolidoro
+Grade 5/6 Hornets - Green DROPPED	34664	Boys 6 4/X	0	0	0	0	0	0	0	0	None	None
+Hornets I	34667	Boys 5 3/B	3	5	2	0	11	22	33	-11	George Apazidis	Derek Power
+Swarm	34670	Boys 5 4/G	10	0	0	0	30	52	19	33	Scott Ames	Bryan Grossi
+Hornets I	34673	Boys 4 3/A	7	2	1	0	22	44	22	22	Stephen Brown	Chris Karanicolas
+Hornets II	34674	Boys 4 3/D	5	0	1	0	16	19	5	14	Kevin Levinson	None
+Hornets III	34675	Boys 4 4/F	6	3	0	0	18	29	16	13	Tina McGrane	Aaron Gallagher
+Hornets IV	34676	Boys 4 4/H	6	3	1	0	19	24	19	5	Patrick Mullen	Philip Quinn
+Hornets	34679	Boys 3 3/D	1	7	2	0	5	17	29	-12	Scott Dunn	None
+Green Hornets	34680	Boys 3 3/D	3	6	1	0	10	19	23	-4	Tom Herrick	David Smith
+Buzz	34681	Boys 3 4/F	3	5	0	0	9	17	23	-6	Katie Emrich	None

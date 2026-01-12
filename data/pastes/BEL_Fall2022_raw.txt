@@ -1,0 +1,10 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hawks	30956	Girls 6 3/G	4	3	3	0	15	16	13	3	Jeremy Rothschild	None
+Blackhawks	31623	Girls 4 3/J2	2	5	1	0	7	7	21	-14	Jonathan Pirrong	Tyler McKinley
+Blackhawks	30538	Boys 8 3/D	1	7	2	0	5	9	37	-28	Andrew Azzinaro	Jonathan Shaw
+Hawks	30955	Boys 8 4/D1	0	4	1	0	1	6	18	-12	Donald Murray	Greg Lewis
+Hammers	30536	Boys 6 3/C	3	6	1	0	10	14	29	-15	Karen Watson	Eric Mounsey
+Blackhawks	30535	Boys 5 3/G	8	0	2	0	26	42	21	21	Tim Hunt	None
+Hawks	30957	Boys 4 3/D	7	1	2	0	23	26	10	16	Mike Drons	Ian Travers
+Blackhawks	32156	Boys 3 3/E	3	7	0	2	7	12	27	-15	Justin Tucker	None
+Hawks	32155	Boys 3 3/G	0	10	0	0	0	9	58	-49	Chris Sughrue	None

@@ -1,0 +1,19 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Clockers	30881	Girls 912 3/A	0	6	0	0	0	15	34	-19	Heather Rogers	Karyn Dann-Barboza
+Cheetahs	10958	Girls 8 3/G	8	2	0	0	24	35	10	25	Amy Letichevsky	Adam Wilen
+Barracuda	10952	Girls 6 2/A	5	4	1	0	16	13	13	0	Tom Reilly (Ashland)	Doug Brown
+Sting Rays	10954	Girls 6 4/C	6	2	2	0	20	34	18	16	Mark Pelletier	Michele Hudak
+Storm	30389	Girls 5 3/A	2	3	0	0	6	11	13	-2	William Curtis	Rob Piantedosi
+Lightning	30390	Girls 5 4/A1	1	7	2	0	5	8	20	-12	Heather Rogers	Kevin Gill
+Falcons	30387	Girls 4 2/E	6	2	2	0	20	26	9	17	Michael Purpura	Rodney Dittenhafer
+Eagles	30388	Girls 4 4/C	8	0	2	0	26	45	9	36	Deepak Bhagia	Allison Forni
+Clockers	30849	Boys 12 2/A	0	5	2	0	2	11	30	-19	Bill Ames	None
+Thunder	950	Boys 8 2/C	1	6	3	0	6	11	28	-17	Kevin Flynn	None
+Wolves	10955	Boys 8 3/G	7	2	1	0	22	28	19	9	Leonidas Rozakeas	None
+Spartans	10956	Boys 8 4/C	8	0	2	0	26	41	12	29	Paul Iarussi	Bill Ames
+Pumas	10949	Boys 6 2/D	4	4	0	1	11	22	14	8	Rubens Segat	Hussam Ishac
+Panthers	10951	Boys 6 4/E	10	0	0	0	30	47	16	31	John Brinegar	Samuel Pease
+Sharks	30385	Boys 5 2/B	0	7	3	0	3	13	24	-11	Jay Culverwell	Christopher McKaughan
+Tigers	30386	Boys 5 4/D	4	4	2	0	14	22	29	-7	Jacob Coolberth	None
+Cobras	30383	Boys 4 3/A	4	5	1	0	13	26	36	-10	Jeremy Ramsey	Jay Katz
+Rattlers	30384	Boys 4 4/D	3	4	3	0	12	35	35	0	Alex Zigotegos	Mansueto Rezende

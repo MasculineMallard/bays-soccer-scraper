@@ -1,0 +1,9 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hawks	30956	Girls 8 3/G	4	5	1	0	13	12	11	1	Brendan Glynn	Tony Cinquegrano
+Blackhawks	31623	Girls 6 3/D	1	0	3	0	6	2	1	1	Michael OSullivan	John Quirk
+Blackhawks	33804	Girls 4 4/C	4	1	1	0	13	20	11	9	Jess Travers	Craig Leger
+Hawks	30538	Boys 8 3/C	3	6	1	0	10	18	31	-13	Tim Hunt	Craig Leger
+Blackhawks	30535	Boys 6 3/D	6	2	2	0	20	29	9	20	Ian Travers	None
+Blackhawks	33069	Boys 5 3/H	4	1	1	0	13	21	8	13	Justin Tucker	None
+Hawks	32155	Boys 4 3/E	2	4	0	0	6	13	21	-8	Tim Hunt	Jonathan Shaw
+Blackhawks	33805	Boys 3 3/G	0	4	1	0	1	6	14	-8	Ava Labouliere	Jeff Dias

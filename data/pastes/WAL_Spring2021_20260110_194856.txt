@@ -1,0 +1,30 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Walpole U18 Girls	30858	Girls 12 1/A1	6	0	0	0	18	30	2	28	Kevin Bock	John Thomsen
+Walpole U16 Girls	30859	Girls 12 2/A	6	0	1	0	19	25	2	23	Michael St. George	Paul English
+United	30774	Girls 8 1/A1	3	5	2	0	11	11	25	-14	Marc Schultz	John Thomsen
+Trouble	30775	Girls 8 2/C	5	2	3	0	18	23	19	4	Joe Marerro	Marty White
+Crush	30776	Girls 8 3/C	1	7	0	0	3	13	36	-23	Sandra DAvignon	Paul Connelly
+Twisters	30778	Girls 8 4/B	3	6	1	0	10	9	23	-14	Rita Tyszka	Heather Towery
+Crusaders	30777	Girls 8 4/E	3	1	1	0	10	9	5	4	David Miles	Patrick Connors
+Bandits	30779	Girls 6 2/B	6	4	0	0	18	14	14	0	Paul Foley	Mike McDonnell
+Fire	30780	Girls 6 3/F2	4	3	1	0	13	18	12	6	Sean Ahern	Peter Ellis
+Legends	30781	Girls 6 4/E	6	2	2	0	20	25	14	11	Darwin Cevallos	Maura Beverly
+Power	30782	Girls 5 3/B	2	5	3	0	9	22	31	-9	Jon Paul Sydnor	Brian Horwitz
+Lightning	30783	Girls 5 3/B	4	4	2	0	14	18	20	-2	Kathy Martinez	Terry Doherty
+Hawks	30784	Girls 4 2/E	3	4	3	0	12	12	14	-2	Kate Procaccini	David Miles
+Warriors	30785	Girls 4 3/E	5	5	0	0	15	22	14	8	Heidi Graceffa	Brooke McMillan
+Eagles	30786	Girls 4 4/A1	2	3	3	0	9	10	9	1	Bernie Smith	Amritha Farswani
+Walpole U18 Boys	30860	Boys 12 1/B1	2	3	2	0	8	17	18	-1	Al Lessard
+Walpole U16 Boys	30861	Boys 11 2/B	4	3	0	1	11	17	10	7	Eoin Walsh	John Kerin
+Wildcats	30787	Boys 8 2/A	3	5	2	0	11	18	21	-3	Matt Feener	Mathew Roberts
+Hawks	30788	Boys 8 3/H1	5	4	1	0	16	30	21	9	Daniel OConnell	Todd Zahurak
+Coyotes	30789	Boys 8 4/D	3	7	0	0	9	19	31	-12	Jim Robertson	Keith Jacobsen
+Patriots	30790	Boys 6 2/C	5	4	0	0	15	27	26	1	Will Graceffa	Seth Hochberg
+Warriors	30791	Boys 6 3/C	2	6	2	0	8	20	40	-20	Dana Niles	Kevin Bock
+Force	30792	Boys 6 4/B	5	4	1	0	16	18	20	-2	Alex Danesco	Jim Keller
+Legends	30793	Boys 5 2/B	2	6	2	0	8	13	30	-17	Jonathan Lowe	Manak Ahluwalia
+Thunder	30794	Boys 5 4/A1	0	8	0	0	0	1	44	-43	Karen Conway	Byron Olson
+United	30795	Boys 4 2/C	1	5	3	0	6	21	34	-13	John Hurley	Nicholas Kakas
+Revolution	30796	Boys 4 2/C	2	6	1	0	7	21	38	-17	Paul Foley	Brian Bingham
+Bobcats	30797	Boys 4 3/G	1	7	1	0	4	15	40	-25	Keith Jacobsen	Morgan Miles
+Arsenal	30798	Boys 4 4/B	3	6	1	0	10	22	26	-4	Bill Hamilton	Eric Tjonahen

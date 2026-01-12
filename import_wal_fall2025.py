@@ -1,0 +1,49 @@
+#!/usr/bin/env python3
+"""Import WAL Fall 2025"""
+
+from universal_import import save_and_import
+
+data = """Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Lightning	31936	Girls 8 2/B	6	3	1	0	19	31	17	14	Kathy Martinez	Timothy McElaney
+Power	31937	Girls 8 3/G	8	2	0	0	24	28	11	17	Casey Murphy	Andrew Dooley
+Courage	31938	Girls 8 4/D1	5	0	0	0	15	13	2	11	Shaney Polumbo	Maura Beverly
+Eagles	34494	Girls 8 4/M	4	5	1	0	13	18	20	-2	Patrick Lane	Anissa Ellis
+Storm	31944	Girls 6 2/B	2	2	0	0	6	6	5	1	Morgan Miles	Michael Finocchi
+Hurricane	31945	Girls 6 3/D	2	7	0	0	6	7	35	-28	Margaret Dixon	Jon Kopchick
+Thorns	31946	Girls 6 4/D	7	2	1	0	22	37	21	16	Nick Sordillo	Rick Gibbs
+Aces	31947	Girls 5 1/B	3	2	5	0	14	18	14	4	Jennifer Gosselin	Kellee Senic
+Breakers	31948	Girls 5 2/C	1	6	3	0	6	19	32	-13	Carl Kenney	Thomas Neufeld
+Dash	31949	Girls 5 4/B	6	1	3	0	21	20	7	13	Christopher Maloof	Justin Burdon
+Trouble	31950	Girls 5 4/G	2	8	0	0	6	15	29	-14	Jennifer Dragonetti	Carl Cummings
+Bears	34500	Girls 4 2/B	8	1	1	0	25	39	13	26	Shaun Dolan	James Soares
+Lions	34501	Girls 4 3/C	5	4	1	0	16	21	17	4	Nicholas O'Leary	Adam Cohn
+Tigers	34502	Girls 4 4/E	4	3	3	0	15	20	22	-2	Eli Smith	Mark Price
+Royals	34565	Girls 3 2/B1	6	3	1	0	19	27	14	13	Michael Finocchi	Caitlin Sawyer
+Current	34566	Girls 3 4/A	7	2	1	0	22	38	16	22	Alex Danesco	John Kluza
+Wave	34567	Girls 3 4/B	5	5	0	0	15	21	21	0	Horacio Caneja	Bryan Drake
+Stars	34568	Girls 3 4/D1	2	4	2	0	8	17	25	-8	Erin Pepin	Lindsey Nowak
+Spirit - DROPPED	34569	Girls 3 4/X	0	1	0	1	-1	0	1	-1	Derek Shehata	John Kluza
+Warriors	31992	Boys 8 2/A	2	7	1	0	7	23	34	-11	Dana Niles	Michael Finocchi
+Legends	32035	Boys 8 3/D	3	6	1	0	10	21	26	-5	Seth Hochberg	Matthew Baker
+Force	32847	Boys 8 3/J	6	3	1	0	19	32	19	13	Oscar Butragueno	Dominick Ianno
+Thunder	32037	Boys 8 4/J	6	1	3	0	21	31	9	22	Barton Centauro	Aaron Price
+FC	34724	Boys 8 4/P	0	5	0	0	0	7	25	-18	Jeff Molles	Minelli Tomaszewski
+Revolution	31997	Boys 6 3/C	2	2	6	0	12	19	13	6	Patrick Connors	Rob Hollister
+Galaxy	31994	Boys 6 3/H	7	0	3	0	24	26	10	16	Mark Cianci	Meghan Panteleakos
+Union	34725	Boys 6 4/E	6	3	1	0	19	30	23	7	Michaela Stuart	Halley Lonergan
+Arsenal	32916	Boys 5 2/C	6	2	2	0	20	26	20	6	Adam Meszaros	David Miles
+Chelsea	33410	Boys 5 3/D	4	6	0	0	12	20	28	-8	Jeff Zammett	Benjamin Barrett
+Milan	32919	Boys 5 4/A	2	6	2	0	8	27	35	-8	Brandon McDowall	Ross MacLean
+Dynamo	34124	Boys 5 4/J	1	9	0	0	3	22	49	-27	Jennifer Morrison	Richard Lamb
+Fury	34730	Boys 4 2/B	7	1	2	0	23	37	19	18	Kirk McCaw	Adam Meszaros
+Flames	34731	Boys 4 3/F	7	2	1	0	22	30	19	11	Keri Moses	Jon Kopchick
+Fire	34733	Boys 4 3/K	3	6	1	0	10	20	31	-11	Robert DeGirolamo	Stephen Muzrall
+Crew	34734	Boys 4 4/B	2	8	0	0	6	23	42	-19	Glenn Williams	Nick Zozula
+Legacy	34886	Boys 4 4/B	2	7	1	0	7	18	36	-18	Matt Towers	Kristen McPhee
+United	34735	Boys 3 2/C	8	2	0	0	24	41	17	24	Tim Claus	Andrew Petersen
+Voltage	34736	Boys 3 3/B	3	1	0	0	9	9	5	4	Boris Senic	Jennifer Gosselin
+Independence	34737	Boys 3 3/G	6	4	0	0	18	27	12	15	Jonathan Carroll	Michael Desmarais
+Legion	34739	Boys 3 4/D	3	5	2	0	11	11	23	-12	Dave Lamb	David Mackey
+Pulse	34738	Boys 3 4/F	4	0	0	0	8	22	2	20	Francesco Susi	John Caressimo"""
+
+save_and_import(data, 'WAL', 2025, 'Fall')

@@ -1,0 +1,19 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Warriors 7/8G-Blue	6345	Girls 8 2/C	7	1	1	0	22	30	12	18	Matthew Monahan	Shawn Higgins
+Warriors 7/8G-Gold	10411	Girls 8 4/D	2	7	1	0	7	15	24	-9	Don Kelloway	None
+Warriors 6G-Blue	10033	Girls 6 4/C	7	1	0	0	21	32	16	16	Khaled Alshara	Vincent Zabbo
+Warriors 5G-Blue	33746	Girls 5 3/A	3	6	1	0	10	16	29	-13	Joe Depasquale 	James Mosesso
+Warriors 4G-Blue	6255	Girls 4 3/G	6	2	2	0	20	18	9	9	Jennifer Lippolis	Jackie D'Andrea
+Warriors 4G-Gold	33040	Girls 4 4/C	2	5	1	0	7	14	22	-8	Matthew Brunell	Keith Fayan
+Warriors 3G-Blue	11129	Girls 3 2/C	7	0	3	0	24	35	13	22	Matthew Monahan	Lorin Bradley
+Warriors 3G-Gold	33042	Girls 3 4/B	1	9	0	0	3	11	44	-33	Brad Sloan	Tim Callahan
+Warriors 7/8B-Blue	6154	Boys 8 4/B	6	2	1	0	19	27	14	13	Matt Griffin	Kevin Atkinson
+Warriors 6B-Blue	32990	Boys 6 2/C	2	6	2	0	8	22	25	-3	Bryan Rose	Matthew Monahan
+Warriors 6B-Gold	32993	Boys 6 4/F	7	2	1	0	22	30	20	10	David Blair	Keith Fayan
+Warriors 5B-Blue	31011	Boys 5 2/B	3	5	1	0	10	19	34	-15	Matthew Houston 	John Greenhalgh
+Warriors 5B-Gold	31012	Boys 5 4/A	2	6	2	1	7	15	19	-4	Andrew Woodward	John Moore
+Warriors 4B-Blue	31797	Boys 4 2/E	2	4	1	1	6	14	21	-7	Chris Leonard	Misael Andrane
+Warriors 4B-Gold	31798	Boys 4 4/C	2	5	3	0	9	19	30	-11	Travis Drake	Peter Varetimos
+Warriors 3B-Blue	33724	Boys 3 2/D	2	6	2	0	8	26	31	-5	Scott Goldberg	Joe Depasquale
+Warriors 3B-Gold	33723	Boys 3 3/H	4	5	1	0	13	27	27	0	Jeff Fritz	Sarah Lord
+Warriors 3B-White	33722	Boys 3 4/E1	1	7	0	0	3	9	38	-29	Robin Thompson	Cristina Munoz Campillo

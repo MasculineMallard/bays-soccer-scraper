@@ -1,0 +1,40 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Breakers	31702	Girls 8 2/D1	2	7	1	0	7	9	30	-21	Frank Fiore	Sarah Hopkins
+G8 Academy	31779	Girls 8 3/E2	4	4	2	0	14	18	18	0	Florent Martin	Iain Martin
+Dynamo	31701	Girls 8 4/F	2	3	0	0	6	8	11	-3	Marc Mauricio	None
+Hawks	31700	Girls 6 3/A	6	2	2	0	20	18	6	12	Bryan Memmelaar	Heather Smith
+G6 Academy	31777	Girls 6 4/C	6	2	2	0	20	27	17	10	Cameron Young	Iain Martin
+Express	31699	Girls 6 4/G	5	5	0	0	15	19	21	-2	Adele Haber	Ray Fryer
+Fire	31698	Girls 5 2/A	3	4	3	0	12	18	18	0	Dave Fine	Gino Spinelli
+Lightning	31697	Girls 5 4/A	0	7	1	0	1	16	41	-25	Nate Repucci	Pradeep Veldurthi
+G5 Academy	31776	Girls 5 4/A	2	2	0	0	6	12	7	5	Iain Martin	Florent Martin
+Power (DROPPED)	31696	Girls 5 4/X	0	0	0	0	0	0	0	0	Adam Feigen	Randy Sanborn
+Junior Storm	31695	Girls 4 2/A2	4	2	2	0	14	15	8	7	Matt Tighe	Ryan Jones
+Hurricanes (G4)	31694	Girls 4 3/C	1	8	1	0	4	9	32	-23	Dave Salerno	None
+G4 Academy	31770	Girls 4 3/H	2	6	2	0	8	11	22	-11	Devin Ramos	Iain Martin
+Fireworks	31693	Girls 4 4/D2	0	4	0	0	0	3	11	-8	Mark Haranas	Kaitlyn Mullen
+Stars (G4)	31692	Girls 4 4/E	2	4	0	1	5	13	16	-3	Jenn Kirkland	Joseph Mercurio
+G3 Academy	31769	Girls 3 2/B2	5	5	0	0	15	25	18	7	Michael Gomes	Iain Martin
+Hurricanes (G3)	31691	Girls 3 3/E	4	6	0	0	12	18	25	-7	Leanna Cockburn	Miranda Ippolito
+Hornets	31690	Girls 3 3/G	4	4	2	0	13	24	18	6	John Gavula	Marissa Gentile
+Stars (G3)	31689	Girls 3 4/B	0	4	1	0	1	7	17	-10	Meaghan Alexander	Jaime Vivian
+Hillers	31765	Boys 8 3/B	8	1	1	0	25	37	7	30	Todd Garron	Gino Spinelli
+Hurricanes (B8)	31764	Boys 8 3/L	9	1	0	0	27	39	14	25	Eric Wieland	Tom Click
+Thunder (B8)	31763	Boys 8 4/D2	3	3	2	0	11	16	15	1	George Selibas	Steven Jackson
+Athletics	31762	Boys 8 4/H	2	8	0	0	6	19	48	-29	Aimee Cole	Laney Hammond
+Galaxy	31761	Boys 6 2/B	5	2	3	0	18	27	21	6	Patrick Morrissey	Shaun Fitzgibbon
+B6 Academy Orange	31790	Boys 6 3/C	4	5	1	1	12	33	22	11	Michael Gomes	Iain Martin
+Rovers	31760	Boys 6 4/C	0	4	2	0	2	8	29	-21	Gayla Langlois	None
+B6 Academy White	31789	Boys 6 4/C	7	2	1	0	20	30	13	17	Devin Ramos	Iain Martin
+United	31759	Boys 5 3/A	5	3	2	0	16	41	21	20	Brian Heaton	Melissa Recos
+Revolution	31758	Boys 5 4/B1	1	6	1	0	4	9	25	-16	Greg Gilson	Patrick Tripp
+Fury	31757	Boys 4 2/C	8	0	2	0	26	42	12	30	Keith Gilbreath	Jarred Sakakeeny
+Hooligans	31755	Boys 4 3/D	4	6	0	0	12	21	30	-9	Patrick Maiella	John Murray
+Junior Hillers	31756	Boys 4 3/D	1	6	3	0	6	10	27	-17	Hugh Gregg	Jason Sweet
+B4 Academy	31788	Boys 4 3/J	7	2	1	0	22	48	22	26	Florent Martin	Iain Martin
+Raptors	31753	Boys 4 3/M	2	7	1	0	7	11	36	-25	Peter Fogg	Dave Holborn
+Avengers	31754	Boys 4 3/M	7	3	0	0	21	30	21	9	Michelle Midkiff	Matt Hodges
+Thunder (B3)	31751	Boys 3 3/B	1	3	0	0	3	7	16	-9	Heath Guay	Mike DeCandia
+B3 Academy	31782	Boys 3 3/B	5	4	1	0	16	41	30	11	Cameron Young	Iain Martin
+Hornets	31752	Boys 3 3/E	5	5	0	0	15	29	26	3	Drew Griffin	Tom St.Pierre
+Lions	31750	Boys 3 3/G	5	5	0	0	15	29	31	-2	Nate Repucci	Jill Spinale

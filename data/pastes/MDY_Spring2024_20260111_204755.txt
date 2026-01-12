@@ -1,0 +1,18 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Mustangs	3309	Girls 8 3/B	5	3	2	0	17	25	17	8	Charlie Diamandis	Colleen Mahan
+Mustangs	151	Girls 8 3/G1	4	6	0	1	11	13	20	-7	Brian Heney	Todd Meluski
+Mustangs	30419	Girls 8 4/F	1	2	1	0	4	4	5	-1	Jeremy Rothschild	Aaron Lipman
+Mustangs	31067	Girls 6 3/A	5	2	3	0	18	25	16	9	John Green	Alisha Perdue
+Mustangs	31068	Girls 6 3/H	3	4	3	0	12	13	12	1	Timothy Gray	James Babineau
+Mustangs	32003	Girls 5 2/B	6	0	4	0	22	27	13	14	John Alessi	John Grady
+Mustangs	32004	Girls 5 3/D	3	7	0	0	9	13	20	-7	Michael Taylor	Gregory Pavlov
+Mustangs	33075	Girls 4 2/B	1	8	1	0	4	10	32	-22	Alisha Perdue	Todd Meluski
+Mustangs	33076	Girls 4 3/E	1	7	2	0	5	18	37	-19	Melissa Babineau	Todd Lundin
+Mustangs	33077	Girls 4 4/F1	1	4	3	0	6	9	16	-7	Andrew Tkowski	None
+Mustangs 	11480	Boys 8 3/D	7	3	0	0	21	32	17	15	Steve Bartha	None
+Mustangs	11195	Boys 8 4/E	1	3	0	0	3	5	9	-4	Scott Lafferty	None
+Mustangs	31065	Boys 6 4/A	3	7	0	1	8	22	39	-17	Frank Angelo	Jason Guilbeault
+Mustangs	32005	Boys 5 3/B	4	2	0	0	12	23	16	7	Kristen Haan	None
+Mustangs	32006	Boys 5 4/D	4	5	1	0	13	33	37	-4	Garrett Schubert	None
+Mustangs	33080	Boys 4 2/D	3	5	2	0	11	20	28	-8	Ryan Hanlon	None
+Mustangs	33081	Boys 4 4/D	1	8	1	0	4	15	48	-33	Alex Carneiro	None

@@ -1,0 +1,15 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Warriors 7/8G-Blue	6345	Girls 8 2/A	3	6	1	0	10	12	19	-7	Melissa Maling
+Warriors 7/8G-Gold	10411	Girls 8 3/D	1	7	1	0	4	3	19	-16	John Grace	None
+Warriors 6G-Blue	10033	Girls 6 2/C	4	5	0	0	12	20	19	1	Matthew Quin	Matthew Monahan
+Warriors 6G-Gold	6264	Girls 6 4/E2	1	3	1	0	4	5	9	-4	David Del Pizzo	Don Kelloway
+Warriors 4G-Blue	6255	Girls 4 3/E	2	7	1	0	7	18	37	-19	Matthew Quin	Khaled Alshara
+Warriors 3G-Blue	11129	Girls 3 3/D	3	5	1	0	10	16	26	-10	Brian Compter	David Del Pizzo
+Warriors High School(1)	32920	Boys 912 3/A	1	4	1	1	3	11	13	-2	Isaac Sham	Shane Palmer
+Warriors High School(2)	32921	Boys 912 3/A	0	6	1	5	-4	1	13	-12	Danielle Riley	Jennifer Keen
+Warriors 7/8B-Blue	6154	Boys 8 3/C	1	8	1	0	4	15	33	-18	Brent Ruter	John Devine
+Warriors 6B-Blue	31800	Boys 6 3/G	0	4	1	0	1	5	20	-15	Matt Griffin	None
+Warriors 4B-Blue	31011	Boys 4 2/D	3	4	3	0	12	20	27	-7	Fabio Felix	Gary Luck
+Warriors 4B-Gold	31012	Boys 4 4/A	2	8	0	0	6	15	27	-12	Bryan Rose	David Blair
+Warriors 3B-Blue	31797	Boys 3 2/C	3	5	2	0	11	20	24	-4	James Miller	John Greenhalgh
+Warriors 3B-Gold	31798	Boys 3 4/B1	0	6	1	0	1	10	28	-18	Matthew Houston 	Andrew Woodward

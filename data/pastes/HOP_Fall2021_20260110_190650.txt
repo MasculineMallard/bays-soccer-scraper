@@ -1,0 +1,37 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+G8 Academy Orange	30336	Girls 8 2/C	4	4	2	0	14	15	16	-1	Iain Martin	Michael Gomes
+United (G8)	30992	Girls 8 3/J	7	2	0	0	21	22	10	12	Brad Wilson	Mark Valutkevich
+G8 Academy White	30335	Girls 8 4/A	9	0	1	0	28	26	6	20	Michael Gomes	Iain Martin
+Thunder (G8)	30991	Girls 8 4/H	1	7	2	0	5	10	31	-21	Michelle Midkiff	None
+Hurricanes (G6)	30990	Girls 6 3/B	10	0	0	0	30	31	1	30	Ken Abrahamsen	Martha Godfroy
+G6 Academy Orange	30333	Girls 6 3/F	1	8	0	0	3	16	31	-15	Florent Martin	Iain Martin
+Breakers	30989	Girls 6 4/A	4	4	1	0	13	19	27	-8	Brian Skaff	Tess Hanson
+Hawks	30988	Girls 5 2/C	0	8	2	0	2	8	27	-19	Heather Smith	Eric Gangl
+FC Hillers	30987	Girls 5 4/A1	2	6	2	0	8	15	25	-10	Bryan Memmelaar	Joey Fonseca
+Express	30981	Girls 5 4/E1	0	9	0	0	0	2	25	-23	Carly Seidewand	Jennifer Carter
+Fire	30978	Girls 4 2/D	8	1	1	0	25	28	14	14	Dave Fine	Gino Spinelli
+G4 Academy Orange	30332	Girls 4 3/H	8	0	2	0	26	42	22	20	Steve Patino	Iain Martin
+Honey Badgers	30976	Girls 4 4/A	0	5	1	0	1	11	41	-30	Jennifer Vale	Keith Gilbreath
+Lightning	30977	Girls 4 4/A	3	3	0	0	9	19	14	5	Randy Sanborn	Eric Benson
+Junior Storm	30975	Girls 3 2/A	0	4	2	0	2	4	19	-15	Matt Tighe	Dave Salerno
+Fireworks	30973	Girls 3 3/E	5	0	0	0	15	16	6	10	Dawn McNerney	Marilyn Gibbs
+Stars	30972	Girls 3 3/G	5	5	0	0	15	32	34	-2	Kaitlyn Mullen	Courtney Galvani
+Hurricanes (G3)	30974	Girls 3 3/G	3	6	0	0	9	27	22	5	Louis Boulanger	None
+Hillers (B8)	31006	Boys 8 3/A	5	3	2	0	17	24	22	2	Doug Gordon	Todd Garron
+Athletics	31005	Boys 8 3/H	3	5	2	0	11	27	27	0	Gary Miloscia	Jessica Bruce
+United (B8)	31003	Boys 8 4/A2	1	9	0	0	3	12	49	-37	Nate Repucci	Kevin Stacey
+Thunder (B8)	31004	Boys 8 4/H	1	4	0	0	3	6	12	-6	George Selibas	Stacie Kirkwood
+Hillers (B6)	31002	Boys 6 2/F	7	1	2	0	23	32	14	18	Dave Fine	Jason Pritchard
+B6 Academy Orange	30339	Boys 6 3/E	6	2	2	0	20	32	13	19	Steve Patino	Iain Martin
+B6 Academy White	30924	Boys 6 3/G2	0	8	1	0	1	3	35	-32	Cameron Mullins	Iain Martin
+Revolution (B6)	31001	Boys 6 4/C	1	3	1	0	4	9	15	-6	Anthony Gonzalez	Rob Benson
+Galaxy	31000	Boys 5 2/A	2	5	3	0	9	19	28	-9	Patrick Morrissey	Shaun Fitzgibbon
+Rovers	30999	Boys 5 4/H	3	2	0	0	9	12	7	5	Gayla Langlois	Ted Behrens
+B4 Academy Orange	30338	Boys 4 2/D	2	8	0	0	6	21	43	-22	Florent Martin	Iain Martin
+B4 Academy White	30337	Boys 4 3/J	5	1	0	0	15	18	9	9	Michael Gomes	Iain Martin
+United (B4)	30998	Boys 4 3/J	8	2	0	1	23	39	10	29	Brian Heaton	Matt Colleran
+Revolution (B4)	30997	Boys 4 4/D	0	5	0	0	0	2	24	-22	Greg Gilson	None
+Raptors	30994	Boys 3 3/C	9	0	1	0	28	40	7	33	Peter Fogg	Aico Van Nunen
+Hooligans	30995	Boys 3 3/C	7	3	0	0	21	34	13	21	Jarred Sakakeeny	Hugh Gregg
+Dynamo	30996	Boys 3 3/C	6	3	1	1	18	25	12	13	Keith Gilbreath	Ed O'Donnell
+Avengers	30993	Boys 3 3/H	5	0	0	0	15	12	2	10	Michelle Midkiff	Krystal Avila

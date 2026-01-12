@@ -1,0 +1,197 @@
+{
+  "season": "Fall 2024",
+  "total_teams": 273,
+  "date_collected": "2026-01-10",
+  "teams_per_town": {
+    "ASH": {
+      "count": 25,
+      "age_groups": [
+        "U10",
+        "U12",
+        "U14",
+        "U16",
+        "U8"
+      ],
+      "sample_names": [
+        "Barracuda",
+        "Leopards",
+        "Bobcats"
+      ]
+    },
+    "BEL": {
+      "count": 10,
+      "age_groups": [
+        "U10",
+        "U12",
+        "U14",
+        "U16",
+        "U8"
+      ],
+      "sample_names": [
+        "Hawks Gr8 Girls",
+        "Blackhawks Gr6 Girls",
+        "Hawks Gr4 Girls"
+      ]
+    },
+    "FOX": {
+      "count": 25,
+      "age_groups": [
+        "U10",
+        "U12",
+        "U14",
+        "U16",
+        "U8"
+      ],
+      "sample_names": [
+        "Warriors 7/8G-Blue",
+        "Warriors 7/8G-Gold",
+        "Warriors 6G-Blue"
+      ]
+    },
+    "HOL": {
+      "count": 29,
+      "age_groups": [
+        "U10",
+        "U12",
+        "U14",
+        "U8"
+      ],
+      "sample_names": [
+        "G7/8 Panthers Black",
+        "G7/8 Panthers Red",
+        "G7/8 Panthers White"
+      ]
+    },
+    "HOP": {
+      "count": 39,
+      "age_groups": [
+        "U10",
+        "U12",
+        "U14",
+        "U16",
+        "U8",
+        "U912"
+      ],
+      "sample_names": [
+        "Fire",
+        "Strikers",
+        "Lightning"
+      ]
+    },
+    "MDY": {
+      "count": 16,
+      "age_groups": [
+        "U10",
+        "U12",
+        "U14",
+        "U8"
+      ],
+      "sample_names": [
+        "Mustangs",
+        "Mustangs",
+        "Mustangs"
+      ]
+    },
+    "NOB": {
+      "count": 22,
+      "age_groups": [
+        "U10",
+        "U12",
+        "U14",
+        "U16",
+        "U8"
+      ],
+      "sample_names": [
+        "Girls 7/8 Maroon",
+        "Girls 6 Maroon",
+        "Girls 5 Maroon"
+      ]
+    },
+    "SUD": {
+      "count": 39,
+      "age_groups": [
+        "U10",
+        "U12",
+        "U14",
+        "U16",
+        "U8"
+      ],
+      "sample_names": [
+        "United",
+        "Gunners",
+        "City"
+      ]
+    },
+    "WAL": {
+      "count": 41,
+      "age_groups": [
+        "U10",
+        "U12",
+        "U14",
+        "U16",
+        "U8"
+      ],
+      "sample_names": [
+        "Lightning",
+        "Power",
+        "Courage"
+      ]
+    },
+    "WSB": {
+      "count": 27,
+      "age_groups": [
+        "U10",
+        "U12",
+        "U14",
+        "U16",
+        "U8"
+      ],
+      "sample_names": [
+        "United - G7/8",
+        "Real- G7/8",
+        "United - G5/6"
+      ]
+    }
+  },
+  "age_groups": {
+    "U10": 52,
+    "U12": 47,
+    "U14": 63,
+    "U16": 50,
+    "U8": 60,
+    "U912": 1
+  },
+  "gender_distribution": {
+    "Boys": 161,
+    "Girls": 112
+  },
+  "division_levels": {
+    "1": 7,
+    "2": 51,
+    "3": 92,
+    "4": 123
+  },
+  "stats_ranges": {
+    "wins": {
+      "min": 0,
+      "max": 10,
+      "mean": 4.010989010989011
+    },
+    "losses": {
+      "min": 0,
+      "max": 10,
+      "mean": 4.014652014652015
+    },
+    "goals_for": {
+      "min": 0,
+      "max": 55,
+      "mean": 21.91941391941392
+    },
+    "goals_against": {
+      "min": 1,
+      "max": 55,
+      "mean": 22.542124542124544
+    }
+  },
+  "team_name_samples": {}
+}

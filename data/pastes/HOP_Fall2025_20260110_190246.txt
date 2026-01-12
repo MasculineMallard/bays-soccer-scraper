@@ -1,0 +1,40 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Fire	34490	Girls 8 2/A	3	3	4	0	13	11	14	-3	Dave Fine	Denis Murphy
+Strikers	34344	Girls 8 4/D2	6	2	0	0	18	24	10	14	Marilyn Gibbs	Derek Pszybysz
+Lightning	34491	Girls 8 4/D2	4	4	0	0	12	20	22	-2	Dave Salerno	David Kubiak
+G7/8 Academy	34492	Girls 8 4/E	8	1	1	0	25	34	14	20	Davi Dias	Florent Martin
+G6 United	33668	Girls 6 2/B	6	1	3	0	21	18	8	10	Bryan Memmelaar	Ryan Jones
+G6 Academy	33699	Girls 6 3/C	3	7	0	0	9	12	22	-10	Florent Martin	Davi Dias
+Strikers	33667	Girls 6 4/C2	6	2	2	0	20	23	18	5	Ken O'Toole	Lindsey Baumer
+Havoc	34342	Girls 5 3/A	8	2	0	0	24	31	10	21	Courtney Elsen	Dave Salerno
+Hawks	34343	Girls 5 4/B	3	1	1	0	10	9	6	3	Peter Fogg	Jason DeSisto
+G4 Academy	33697	Girls 4 3/E	4	4	2	0	14	23	18	5	Gabriel Cumplido	Florent Martin
+Hillers	33661	Girls 4 4/C	7	1	2	0	23	36	15	21	John Roach	Liz Roach
+Sparks	34339	Girls 4 4/C	7	1	2	0	23	44	15	29	John Jannino	Jamas LaFreniere
+Legacy FC	34337	Girls 3 3/B	3	0	1	0	10	14	4	10	Anthony Iannone	Aico Van Nunen
+G3 Academy	34338	Girls 3 3/C2	4	3	3	0	15	17	16	1	Stephen Farias	Florent Martin
+Hillcats	34334	Girls 3 4/A	6	3	1	0	19	23	22	1	David Weibe	Emily Lee
+Hillers	34925	Boys 912 3/C	5	2	0	0	15	36	28	8	Michelle Midkiff	None
+United	33696	Boys 8 2/B	3	4	3	1	11	20	22	-2	Kristin Dykstra	Colleen Rommel
+B8 Academy	33711	Boys 8 3/M	6	3	0	0	18	25	18	7	Gabriel Cumplido	Florent Martin
+Avengers	33694	Boys 8 4/H	7	2	1	0	22	36	31	5	Kailey Mulvihill	Matt Hodges
+Galaxy	34088	Boys 8 4/J	3	1	1	0	10	16	11	5	Doug Linn	Bradford Verrecchia
+B6 Hawks	34332	Boys 6 3/B	6	3	1	0	19	30	21	9	Drew Griffin	Liz Fleming
+B6 Academy	34333	Boys 6 3/F	2	6	2	0	8	24	29	-5	Davi Dias	Florent Martin
+B6 Dynamo	34180	Boys 6 4/C	2	7	1	0	7	17	35	-18	Andrew Siber	John DelPrete
+B6 Revolution	33690	Boys 6 4/C	2	4	4	1	9	20	25	-5	Suraj Saraswat	None
+B5 Rebels	34181	Boys 5 3/B	7	3	0	0	21	37	17	20	Jose Laguarta 	Leigh Murray
+B5 Academy	33709	Boys 5 3/C	4	0	1	0	13	19	6	13	Stephen Farias	Florent Martin
+Breakers	33692	Boys 5 4/D	7	3	0	0	21	29	10	19	David Weibe	Josh Burton
+B5 Avengers	33685	Boys 5 4/D	3	7	0	0	9	25	31	-6	Michelle Midkiff	Jonathan Haddad
+B4 Academy	33708	Boys 4 3/A	5	4	1	0	16	30	30	0	Florent Martin	Davi Dias
+Ajax	33679	Boys 4 4/A	2	6	1	0	7	22	39	-17	Grant Van Ranst	Patrick Davis
+B4 Dynamo	34329	Boys 4 4/A	9	1	0	0	27	55	28	27	Pietro Panza	Tim Damianidis
+Bay State Warriors FC	33678	Boys 4 4/B	8	2	0	0	24	44	20	24	Tim Wilson	Daniel Hausermann
+B4 UNITED	34330	Boys 4 4/B	9	1	0	0	27	49	22	27	Erik Wolf	Travis Reed
+FC Orange Crush	33680	Boys 4 4/C	5	4	1	0	16	26	31	-5	Sal Mangano	None
+Real 	34331	Boys 4 4/C	1	6	2	0	5	18	31	-13	Mark Haranas	Miles Cahill
+B3 Academy	34325	Boys 3 2/D	6	0	0	0	18	28	11	17	Juan Lozano	Florent Martin
+Hotspur	34326	Boys 3 3/D	6	0	1	0	19	23	9	14	Sean Gilroy	TJ Paparazzo
+Revs	34327	Boys 3 3/E	4	1	1	0	13	24	15	9	Ken O'Toole	Colleen Rommel
+Rebels	34328	Boys 3 4/B	7	3	0	0	21	41	19	22	Alicia Griesmyer	Bradley Leyshon

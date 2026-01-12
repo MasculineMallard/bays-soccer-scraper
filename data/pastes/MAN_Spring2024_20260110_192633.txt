@@ -1,0 +1,30 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hornets I	3155	Girls 8 2/B	9	1	0	0	27	31	6	25	Mark Powers	Doug LaCamera
+Hornets II	3159	Girls 8 3/B	1	3	1	0	4	3	15	-12	Meg Lanagan	James Morris
+Hornets III	3163	Girls 8 4/G	7	1	2	0	23	18	7	11	Greg DeSista	Will Reynolds
+Hornets I	3170	Girls 6 2/B	5	1	4	0	19	23	15	8	Jeffrey Ward	Mark McGuire
+Hornets II 	3171	Girls 6 3/H	7	2	1	0	22	24	6	18	Christopher Herrick	Dennis Cook
+Hornets III	33590	Girls 6 4/C	5	2	3	0	18	22	20	2	Chris Joynes	Hank Kurtzman
+Hornets I	3175	Girls 5 2/A	1	5	4	0	7	8	21	-13	David Kobasa	Jim Stevens
+Hornets II	3176	Girls 5 3/G	1	8	0	0	3	5	28	-23	Paul Miao	Jessica Mullett
+Hornets I	3188	Girls 4 2/B	2	6	2	0	8	18	23	-5	Dennis Sykes	Robert Faria
+Hornets II	3190	Girls 4 3/B	4	4	2	0	14	25	26	-1	Traci Mazur	Sarah Joynes
+Hornets III	3193	Girls 4 4/C	8	1	1	0	25	34	10	24	Chris Chery	Jamie Mullen
+Green Hornets	3216	Girls 3 2/B	8	1	1	0	25	44	17	27	Robert Faria	Meghan Murphy
+Hornets	3218	Girls 3 3/A	6	3	1	0	19	28	19	9	Mike DAmico	Kyle McMorrow
+Buzz	3219	Girls 3 4/D	1	6	2	0	5	12	23	-11	Paul Hebard Jr.	Brian Sexton
+Hornets I	3222	Boys 8 1/B	3	7	0	1	8	14	18	-4	Jessica Grey	Christian Franco
+Hornets II	3226	Boys 8 3/D	2	7	1	0	7	10	28	-18	Joshua Correia	Teri Fleming
+Hornets III 	4410	Boys 8 3/K	6	3	1	0	19	16	11	5	David Kobasa	Brian Sexton
+Hornets - Green	31748	Boys 8 4/J	1	8	0	0	3	7	42	-35	Josh Curry	Jerred Campbell
+Hornets - White	33179	Boys 8 4/K	5	4	1	0	16	26	21	5	Rick McMaster	Patrick Curley
+Hornets I	3232	Boys 6 1/A	3	7	0	3	6	21	24	-3	Daniel Cooper	Mohamed Driss
+Hornets II	3233	Boys 6 3/D	2	7	1	0	7	18	31	-13	Jeff Kobs	Jaeson Kawadler
+Hornets I	3236	Boys 5 1/B	7	3	0	0	21	33	17	16	Jessica Grey	Mohamed Driss
+Hornets II	3238	Boys 5 3/B	1	6	3	0	6	14	34	-20	Derek Clinton	Brian Levesque
+Hornets III	33183	Boys 5 4/G	5	4	1	0	15	28	25	3	Derek Power	Sanyam Mittal
+Hornets I	3239	Boys 4 3/C	1	7	2	0	5	14	23	-9	Danielle Correia	Greg DeSista
+Hornets II	3243	Boys 4 4/D	4	2	4	0	13	38	26	12	Greg Quinn	Nithin Mohan
+Hornets	3250	Boys 3 2/D	2	4	0	0	6	14	22	-8	George Apazidis	Derek Power
+Green Hornets	3249	Boys 3 3/C1	8	1	0	0	24	42	13	29	Jonathan Holmes	Edward Gardner
+Buzz	33184	Boys 3 4/C	3	1	1	0	10	16	9	7	Joshua Sweeney	John-David McElderry

@@ -1,0 +1,23 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Storm	30389	Girls 8 3/D	8	1	1	0	25	35	8	27	William Curtis	Rob Piantedosi
+Lightning	30390	Girls 8 4/C	4	4	2	0	14	14	12	2	Phil Zachos	Helen Consiglio
+Barracuda	10952	Girls 6 3/A	8	0	2	0	26	28	10	18	Keith Elwell	Michael Kotch
+Blue Rays	32970	Girls 6 4/E	4	4	2	0	14	37	32	5	Karyn Dann-Barboza	Rachel Hutter
+Leopards	32154	Girls 5 3/D	6	1	3	0	21	29	13	16	Caitlin Jacques	Michael Abasciano
+Bobcats	32096	Girls 5 3/F	0	8	2	1	1	11	30	-19	Jay Katz	Steven "Andy" Umina
+Renegades	32979	Girls 4 4/F1	5	0	3	0	18	20	9	11	Matthew Meade	Ryan Sullivan
+Cyclones	32981	Girls 3 3/A	3	6	1	0	10	17	25	-8	Pam McQuillan	Tessa Piantedosi
+Clockers Blue	54	Boys 12 2/B	6	0	1	0	17	34	6	28	Bill Ames	Paul Iarussi
+Clockers White	66	Boys 10 2/B	5	1	1	0	16	31	7	24	Bill Ames	Paul Iarussi
+Tiger Sharks 	32973	Boys 8 3/A	5	1	4	0	19	20	15	5	Jay Culverwell	Jacob Coolberth
+Spartans	10956	Boys 8 4/L	10	0	0	0	30	36	4	32	Shaun Adamec	David Noah
+Pumas	10949	Boys 6 2/C	6	2	2	0	20	32	15	17	Alan Walsh	Jason Brown
+Pythons	31324	Boys 6 4/D	9	0	0	0	27	47	13	34	Sean Gilhooly 	Richard Deibler
+Heat	31303	Boys 5 3/A	7	1	2	0	23	40	13	27	Ryan Garnick	Christopher Brown
+Lions	32100	Boys 5 4/F	6	3	1	0	19	36	34	2	Colin Weymouth	Sai Varadharaj
+Lynx	32153	Boys 5 4/F	6	4	0	0	18	30	24	6	James Cole	Sara Cole
+Raptors	32104	Boys 4 3/C	7	2	1	0	22	34	18	16	Scott Romano	Juan Flores
+Hawks	32102	Boys 4 4/A	5	4	0	0	15	31	31	0	Adil Baqhum	Ryan Ewell
+Knights	32982	Boys 4 4/J	4	6	0	0	12	27	36	-9	Ed Fellenbaum	None
+Titans	32984	Boys 3 2/A	2	7	1	0	7	24	47	-23	Alan Galiwango	Justin Pryce
+Outlaws	32985	Boys 3 4/A	8	1	0	0	24	45	21	24	Chris Ramsey	John Heming

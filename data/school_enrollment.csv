@@ -1,0 +1,10 @@
+town_code,town_name,enrollment,school_year,source_url
+FOX,Foxborough,2485,2024-25,https://www.usnews.com/education/k12/massachusetts/districts/foxborough-108068
+ASH,Ashland,2909,2024-25,https://profiles.doe.mass.edu/profiles/student.aspx?orgtypecode=5&fycode=2025&orgcode=00140000
+BEL,Bellingham,1990,2023-24,https://profiles.doe.mass.edu/profiles/student.aspx?orgtypecode=5&fycode=2024&orgcode=00250000
+HOL,Holliston,2810,2024-25,https://www.usnews.com/education/k12/massachusetts/districts/holliston-102638
+HOP,Hopkinton,4187,2024,https://profiles.doe.mass.edu/profiles/student.aspx?orgtypecode=5&fycode=2024&orgcode=01390000
+MAN,Mansfield,3243,2025-26,https://profiles.doe.mass.edu/profiles/student.aspx?orgcode=01670000&orgtypecode=5
+WAL,Walpole,3565,2024-25,https://profiles.doe.mass.edu/profiles/student.aspx?orgtypecode=5&fycode=2025&orgcode=03070000
+WSB,Westborough,3887,2024-25,https://profiles.doe.mass.edu/profiles/student.aspx?orgtypecode=5&fycode=2025&orgcode=03210000
+MDY,Medway,2040,2024-25,https://profiles.doe.mass.edu/profiles/student.aspx?orgtypecode=5&fycode=2025&orgcode=01690000

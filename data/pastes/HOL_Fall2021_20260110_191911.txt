@@ -1,0 +1,22 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hammers G7/8	11057	Girls 8 2/A	2	8	0	0	6	12	25	-13	Kevin Fitzgerald	Heather Sipsma
+G7/8 Laingen	10297	Girls 8 3/F	4	4	2	0	14	10	9	1	Karl Laingen	Michael Kaufman
+United G7/8 	11056	Girls 8 4/A	2	4	4	0	10	11	16	-5	Samir Kailani	Alan Plante
+G7/8 DCordon	11640	Girls 8 4/A	3	6	1	0	10	9	16	-7	Derek Cordon	Kathryn Thompson
+Predators G6	11054	Girls 6 1/A	4	6	0	0	12	15	21	-6	Brendan Malvey	Rich Mancuso
+Hornets G6	11639	Girls 6 3/D	1	7	2	1	4	4	35	-31	Oisin McAuley	Brian McShane
+FC G5	11630	Girls 5 2/A2	2	6	2	0	8	15	18	-3	Andy Downin	Charles Kerchner
+G5 Cohen	30970	Girls 5 3/B	0	8	2	0	2	10	34	-24	Dave Cohen	Jason Dufault
+G5 Anastasia	30971	Girls 5 4/D	1	5	4	0	7	10	22	-12		Dan Himick
+United G4	30969	Girls 4 2/A	7	2	0	0	21	14	6	8	Steve Bigelow	
+B7/8 MacLeod	30350	Boys 8 2/A2	6	2	0	0	18	32	13	19	Brad MacLeod	Jeremy Cordon
+B7/8 Dufault	30351	Boys 8 3/F	5	3	2	0	17	27	20	7	Jason Dufault	Matthew Pollard
+B7/8 Scaramella	31056	Boys 8 4/C	6	3	1	0	19	25	23	2	Jed Scaramella	John McFadyen
+B6 McDonald/Dupuis	30355	Boys 6 2/A	7	2	1	0	22	31	11	20	Jay Dupuis	Ben McDonald
+B6 Ross	30356	Boys 6 3/B	2	6	2	0	8	14	20	-6	Jamie Ross	Nicole Downin
+B6 Capela	30488	Boys 6 4/D	3	6	1	0	10	20	26	-6	Anthony Capela	Tod Pierce
+B5 Fioravanti	30357	Boys 5 2/A	4	6	0	0	12	13	20	-7	Anthony Fioravanti	Stephen Peters
+B5 Peterson	30358	Boys 5 3/A	1	7	2	1	4	16	26	-10	Mark Peterson	AJ Hemaratne
+B5 Venkatachalam	31058	Boys 5 4/D	2	8	0	0	6	14	32	-18	Karthi Venkatachalam	Stephen Bukow
+B4 Stanley	31057	Boys 4 2/A	6	4	0	0	18	44	26	18	Jason Stanley	Anthony Porciello
+B4 Morrissey	31059	Boys 4 3/E	2	8	0	0	6	17	38	-21	Jason Morrissey	Kevin Secaur

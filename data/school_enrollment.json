@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "source": "Massachusetts Department of Education",
+    "school_year": "2024-25",
+    "last_updated": "2026-01-10",
+    "notes": "K-12 public school enrollment data for BAYS soccer comparison towns"
+  },
+  "towns": {
+    "FOX": {
+      "town_name": "Foxborough",
+      "enrollment": 2485,
+      "source_url": "https://www.usnews.com/education/k12/massachusetts/districts/foxborough-108068",
+      "notes": "Foxborough school district enrollment"
+    },
+    "ASH": {
+      "town_name": "Ashland",
+      "enrollment": 2909,
+      "source_url": "https://profiles.doe.mass.edu/profiles/student.aspx?orgtypecode=5&fycode=2025&orgcode=00140000",
+      "notes": "Ashland school district enrollment, 2024-25"
+    },
+    "BEL": {
+      "town_name": "Bellingham",
+      "enrollment": 1990,
+      "source_url": "https://profiles.doe.mass.edu/profiles/student.aspx?orgtypecode=5&fycode=2024&orgcode=00250000",
+      "notes": "Bellingham school district enrollment, 2023-24"
+    },
+    "HOL": {
+      "town_name": "Holliston",
+      "enrollment": 2810,
+      "source_url": "https://www.usnews.com/education/k12/massachusetts/districts/holliston-102638",
+      "notes": "Holliston school district, 4 schools, 2,810 students"
+    },
+    "HOP": {
+      "town_name": "Hopkinton",
+      "enrollment": 4187,
+      "source_url": "https://profiles.doe.mass.edu/profiles/student.aspx?orgtypecode=5&fycode=2024&orgcode=01390000",
+      "notes": "Hopkinton school district, 6 schools, 2024 enrollment (nearly 4,300 reported in 2023-24)"
+    },
+    "SUD": {
+      "town_name": "Sudbury",
+      "enrollment": 2529,
+      "source_url": "https://profiles.doe.mass.edu/profiles/student.aspx?orgtypecode=5&fycode=2025&orgcode=02880000",
+      "notes": "Sudbury Public Schools only (does NOT include Lincoln-Sudbury Regional HS), 2024-25"
+    },
+    "WAL": {
+      "town_name": "Walpole",
+      "enrollment": 3565,
+      "source_url": "https://profiles.doe.mass.edu/profiles/student.aspx?orgtypecode=5&fycode=2025&orgcode=03070000",
+      "notes": "Walpole school district, 8 schools, 2024-25"
+    },
+    "WSB": {
+      "town_name": "Westborough",
+      "enrollment": 3887,
+      "source_url": "https://profiles.doe.mass.edu/profiles/student.aspx?orgtypecode=5&fycode=2025&orgcode=03210000",
+      "notes": "Westborough school district, 6 schools, 2024-25"
+    }
+  },
+  "summary": {
+    "total_towns": 8,
+    "total_enrollment": 24362,
+    "average_enrollment": 3045,
+    "largest_district": "HOP (4,187 students)",
+    "smallest_district": "BEL (1,990 students)"
+  }
+}

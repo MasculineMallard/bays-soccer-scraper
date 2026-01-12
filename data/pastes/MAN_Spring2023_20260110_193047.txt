@@ -1,0 +1,30 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hornets I	3155	Girls 8 2/A	8	1	1	0	25	30	10	20	Desmond Doyle	Brian Znoj
+Hornets II	3159	Girls 8 3/A	2	8	0	0	6	9	21	-12	Chris Joynes	Mark Powers
+Hornets III	3163	Girls 8 3/H	1	4	0	0	3	7	12	-5	Sergio Martin	Edward Cosgrove
+Hornets IV	3166	Girls 8 4/K	5	3	2	0	17	21	9	12	Will Reynolds	Sahar Forghan
+Hornets I	3170	Girls 6 2/A	6	2	2	0	20	16	9	7	Douglas Robinson	Nancy Cremins
+Hornets II 	3171	Girls 6 4/D	7	1	2	0	23	30	7	23	Greg DeSista	Brian Levesque
+Hornets I	3175	Girls 5 1/AA	2	1	2	0	8	9	7	2	Maggie Gentili	Jeffrey Ward
+Hornets II	3176	Girls 5 3/C	1	7	1	1	3	9	25	-16	Matthew Cressy	Dennis Cook
+Hornets III	31747	Girls 5 3/F	1	6	3	0	6	19	33	-14	Chris Joynes	Hank Kurtzman
+Hornets I	3188	Girls 4 2/B	3	5	2	0	11	13	22	-9	David Kobasa	Ryan Shanahan
+Hornets II	3190	Girls 4 3/A	5	2	3	0	18	12	9	3	Chris DiPetrillo	Nicole Mannarino
+Hornets III	3193	Girls 4 4/B	2	6	2	0	8	15	19	-4	Sergio Martin	Paul Miao
+Green Hornets	3216	Girls 3 3/B	2	8	0	0	6	20	32	-12	Robert Faria	None
+Hornets	3218	Girls 3 3/B	4	4	2	0	14	20	22	-2	Traci Mazur	None
+Buzz	3219	Girls 3 4/B	6	4	0	0	18	31	23	8	Dennis Sykes	Chris Chery
+Hornets I	3222	Boys 8 2/E	6	2	2	0	20	24	15	9	Teri Fleming	Alexander Nosovitski
+Hornets II	3226	Boys 8 3/C	3	5	2	0	11	13	25	-12	Paul Miao	None
+Hornets III 	4410	Boys 8 3/H	3	5	2	0	11	12	23	-11	David Kobasa	Scott Dunn
+Hornets IV	31748	Boys 8 4/J	5	5	0	0	15	36	20	16	Scott O'Connor	Jeff Kobs
+Hornets I	3232	Boys 6 2/B2	8	1	1	0	25	27	12	15	Christian Franco	Richard Copp
+Hornets II	3233	Boys 6 3/F1	8	1	1	0	25	39	12	27	Christopher Conley	Joshua Correia
+Hornets III	5301	Boys 6 4/G	6	3	1	1	18	45	20	25	Patrick Curley	None
+Hornets I	3236	Boys 5 1/AA	5	3	2	0	17	23	15	8	John McPherson	Daniel Cooper
+Hornets II	3238	Boys 5 3/B	2	7	1	0	7	25	37	-12	Jeff Kobs	Jaeson Kawadler
+Hornets I	3239	Boys 4 1/A1	6	2	2	0	20	26	14	12	Jessica Grey	Mohamed Driss
+Hornets II	3243	Boys 4 3/K	4	6	0	0	12	27	32	-5	Derek Clinton	Genevieve Salzsieder
+Hornets III	3245	Boys 4 4/G	1	9	0	0	3	11	42	-31	Derek Power	Joseph Agnello
+Green Hornets	3249	Boys 3 3/C	1	8	1	0	4	20	42	-22	Danielle Correia	Jose Dolores
+Hornets	3250	Boys 3 3/C	2	6	1	1	6	14	27	-13	Amanda Waldron	None

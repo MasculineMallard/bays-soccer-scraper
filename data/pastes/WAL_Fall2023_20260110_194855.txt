@@ -1,0 +1,33 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Lightning	31936	Girls 8 2/E	7	1	2	0	23	26	9	17	Kathy Martinez	Kate Procaccini
+Power	31937	Girls 8 3/E	2	7	1	0	7	7	20	-13	Jon Paul Sydnor	Heidi Graceffa
+Courage	31938	Girls 8 4/A	8	2	0	0	24	27	11	16	Luis Vazquez	Mike Pagnotta
+Timberwolves	32987	Girls 8 4/H	5	5	0	0	15	13	11	2	Paul Luongo	Mike Porzelt
+Hawks	31940	Girls 6 2/A	6	2	2	0	20	26	22	4	Benjamin Barrett	Robert DeGirolamo
+Warriors	31941	Girls 6 3/B	1	6	0	0	3	13	32	-19	Liz Orlando	Jennifer Adams
+Eagles	31942	Girls 6 4/B	1	9	0	0	3	16	50	-34	Thomas Dietel	Hardik Raval
+Storm	31944	Girls 5 2/C	4	2	4	0	16	15	12	3	Timothy McElaney	Sarah Madden
+Hurricanes	31945	Girls 5 3/B2	3	3	2	0	11	21	16	5	Maura Beverly	Jamie Hernon
+Thorns	31946	Girls 5 3/E	1	7	2	0	5	6	20	-14	Anissa Ellis	David Lazzaro
+Crush	32994	Girls 5 4/C	0	10	0	1	-1	1	47	-46	Karen Atkinson	Renee Lamarque
+Aces	31947	Girls 4 2/D	7	3	0	0	21	25	13	12	Keri Moses	Courtney Kelleher
+Breakers	31948	Girls 4 3/E	3	4	3	0	12	10	13	-3	Glenn Williams	Bill Hamilton
+Dash	31949	Girls 4 4/A	7	3	0	0	21	35	14	21	Nick Sordillo	Margaret Dixon
+Trouble	31950	Girls 4 4/C	0	8	2	0	2	5	45	-40	Jon Kopchick	Shannon Findley
+Stars	32995	Girls 4 4/G	6	1	1	0	19	19	7	12	Dave Lamb	None
+Warriors	31992	Boys 8 2/C	1	9	0	0	3	15	35	-20	Jonathan Lowe	Marc Todisco
+Legends	32035	Boys 8 3/C1	3	3	1	0	10	16	27	-11	Karen Conway	Eric Tjonahen
+Force	32847	Boys 8 4/D	3	5	2	0	11	24	31	-7	Bill Hamilton	Scott Carpenter
+Thunder	32037	Boys 8 4/K	0	10	0	0	0	5	47	-42	Jim Robertson	Keith Jacobsen
+Spurs	31998	Boys 6 2/C	5	3	2	0	17	28	28	0	Dana Niles	Michael Finocchi
+Barcelona	32034	Boys 6 3/C	3	6	1	0	10	21	32	-11	Oscar Butragueno	Horacio Caneja
+City	32914	Boys 6 4/E	4	2	4	0	16	24	20	4	Aaron Price	Dan O'Driscoll
+Hammers	31997	Boys 5 3/A	3	6	1	0	10	35	38	-3	James Craig Westmoreland	John Kerin
+Juventus	31996	Boys 5 3/C	4	1	0	0	12	15	9	6	Ciaran Martyn	Glenn Maffei
+Lightning	32915	Boys 5 4/B	2	7	1	0	7	27	42	-15	Barton Centauro	None
+Roma	31994	Boys 5 4/E	1	9	0	1	2	11	49	-38	Valerie Cameron	Holly Montipagni
+Revolution	32916	Boys 4 2/C	6	4	0	0	18	29	15	14	Patrick Connors	Caitlin Sawyer
+Fire	32917	Boys 4 3/A	2	3	5	0	11	25	32	-7	Mark Cianci	Rob Hollister
+Crew	32918	Boys 4 3/L	4	5	1	0	13	31	20	11	Thomas Benoit	John Kluza
+Dynamo	32919	Boys 4 4/C	6	4	0	0	18	33	38	-5	David Stanton	James Desautels
+Galaxy	33410	Boys 4 4/G1	5	4	1	0	16	30	30	0	Jeremy Jarvis	Saurabh Lele

@@ -1,0 +1,30 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+G7/8 Panthers Black	34295	Girls 8 1/B	2	7	1	0	7	6	17	-11	Brendan Malvey	Danielle Charlot
+G7/8 Panthers Red	34296	Girls 8 3/E	6	2	2	0	20	12	10	2	Tim Howden	Ryan Ferguson
+G7/8 Panthers White	34297	Girls 8 4/A	4	4	2	0	14	18	11	7	Jessica Black	Gabe Huseman
+G7/8 Panthers Gray	34298	Girls 8 4/G	1	8	1	0	4	8	31	-23	Ella Coughlin	Joseph Gelzhiser
+G6 Panthers Black 	32106	Girls 6 2/B	1	4	3	0	6	6	16	-10	Peter Guellnitz	Chris King
+G6 Panthers Red	32947	Girls 6 3/C	5	4	1	0	16	22	18	4	Daniel Gonzalez	Rick Gallimore
+G6 Panthers White	32107	Girls 6 4/F	7	2	1	0	22	36	17	19	Dan Brainerd	John Matz
+G5 Panthers Black	32946	Girls 5 2/B	7	0	3	0	24	22	8	14	Chris Levasseur	Paul DellaRocca
+G5 Panthers Red	33817	Girls 5 3/E	1	8	1	0	4	7	29	-22	Patrick Donohue	John Swift
+G4 Panthers Black	33816	Girls 4 2/B	8	1	1	0	25	28	17	11	Craig Worby	Chris King
+G4 Panthers Red	34293	Girls 4 3/E	3	2	5	0	14	16	18	-2	Dan Kane	Michelle Skeldon
+G4 Panthers White	34294	Girls 4 4/F	3	5	2	0	11	19	32	-13	Mike Marien	Brian Simons
+B 7/8 (Stanley)	30355	Boys 8 1/A	6	2	2	0	20	28	20	8	Jason Stanley	None
+B 7/8 (Looney/Aldredge)	30356	Boys 8 3/D	1	3	1	0	4	5	10	-5	Alissa Looney	Tyler Aldredge
+Hotspur	34801	Boys 8 3/K	1	3	0	0	3	4	20	-16	Jason Morrissey	None
+B 7/8 (Catherine & Ann)	33748	Boys 8 4/L	8	1	1	0	25	42	19	23	Mary Catherine Savard	Ann Polack
+B 7/8 (Tony & Duvan)	31056	Boys 8 4/N	3	5	2	0	11	13	15	-2	Tony Fortunato	Duvan Ramirez
+Mayhem	33095	Boys 6 2/C	5	4	1	0	16	25	23	2	Dave Cohen	Ben Pratt
+Strikers	33096	Boys 6 3/E	2	8	0	0	6	14	29	-15	Drew Wagner	None
+Hydra 	33749	Boys 6 4/D	1	9	0	0	3	20	48	-28	Drew Kennedy	Chris Carson
+Panthers	33750	Boys 5 2/B	7	3	0	0	21	30	21	9	Duvan Ramirez	Chris Alexis
+FC	33751	Boys 5 3/D	6	2	2	1	19	39	16	23	Lee Mottard	None
+B5 (Lisi)	34784	Boys 5 3/G	2	7	1	0	7	20	40	-20	Margo Lisi	Michael Alessi
+B5 (Peterson)	34786	Boys 5 4/D	0	9	1	0	1	14	48	-34	Mark Peterson	Sinhara Silva
+B4 (Roberts)	34795	Boys 4 2/B	5	2	3	0	18	32	16	16	Charlie Roberts	Peter Guellnitz
+Fury	34796	Boys 4 2/D	2	8	0	0	6	26	37	-11	Anthony Fioravanti	Lukasz Jaroszewicz
+Red Storm	34797	Boys 4 3/B	3	5	2	0	11	20	31	-11	Eric Higgens	Taylor Lehman
+Black Flames	34798	Boys 4 4/E	4	5	0	0	12	22	25	-3	Charles Bronner	None
+Shadows	34800	Boys 4 4/H	4	6	0	0	12	15	26	-11	Melissa Bendixsen	Allyson Watson

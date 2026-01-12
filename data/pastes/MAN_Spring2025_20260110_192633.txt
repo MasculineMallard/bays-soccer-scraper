@@ -1,0 +1,30 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Hornets I	3170	Girls 8 1/B	7	1	2	0	23	21	12	9	Doug LaCamera	Jeffrey Ward
+Hornets II 	3171	Girls 8 3/E	4	1	2	0	14	14	6	8	James Morris	Matthew Cressy
+Hornets III	3163	Girls 8 4/A	4	3	3	0	15	16	14	2	Greg DeSista	Brian Levesque
+Hornets IV	33590	Girls 8 4/K	4	4	1	0	13	13	10	3	Traci Mazur	Chris Joynes
+Hornets I	3175	Girls 6 1/B	1	7	2	0	5	13	26	-13	David Kobasa	Nicole Mannarino
+Hornets II	3176	Girls 6 3/C	0	10	0	0	0	3	36	-33	Paul Miao	Sergio Martin
+Hornets I	3188	Girls 5 2/A	5	5	0	0	15	11	15	-4	Dennis Sykes	Robert Faria
+Hornets II	3190	Girls 5 3/D	2	6	0	0	6	11	22	-11	Chris Chery	Jamie Mullen
+Hornets I	3216	Girls 4 1/A	2	6	2	0	8	17	31	-14	Jennifer Urso	Robert Faria
+Hornets II	3218	Girls 4 3/C	6	3	1	0	19	28	16	12	Stephanie Fennell	Mike DAmico
+Hornets III	3219	Girls 4 4/B	2	3	5	0	11	23	23	0	Paul Hebard Jr.	Will Reynolds
+Hornets IV	33612	Girls 4 4/H1	1	7	0	0	3	5	22	-17	Erik Woulfe	Rory Flynn
+Hornets	33610	Girls 3 3/A	3	6	1	0	10	14	28	-14	Hank Kurtzman	Jen Morse
+Green Hornets	33611	Girls 3 3/A	4	3	3	0	15	26	20	6	Bryan Trout	Betsy Bauler
+Hornets I	3222	Boys 8 1/A	1	5	4	0	7	17	20	-3	Richard Copp	Christian Franco
+Hornets II	3226	Boys 8 3/C2	4	3	1	1	12	20	7	13	Joshua Correia	Danielle Correia
+Hornets III 	4410	Boys 8 3/E	3	5	2	0	11	12	19	-7	Rick McMaster	None
+Hornets IV	31748	Boys 8 4/K	6	4	0	0	18	26	25	1	Jeff Kobs	Patrick Curley
+Hornets I	3236	Boys 6 1/B	4	4	2	0	14	27	24	3	Jessica Grey	Mohamed Driss
+Hornets II	3238	Boys 6 4/B	1	7	2	0	5	13	36	-23	Derek Power	Scott Dunn
+Hornets I	3239	Boys 5 3/D	8	1	1	0	25	33	17	16	Danielle Correia	Greg DeSista
+Hornets II	3243	Boys 5 4/F2	2	4	1	0	7	21	21	0	Dana Cooney	None
+Hornets I	3250	Boys 4 2/A	7	3	0	0	21	48	37	11	George Apazidis	Edward Gardner
+Hornets II	3249	Boys 4 3/D	4	6	0	0	12	32	34	-2	John Fitts	Graham Wilson
+Hornets III	33184	Boys 4 4/F	4	6	0	0	12	25	28	-3	Mohamed Suraij Mohamed Rousdeen	Scott Ames
+Hornets	33606	Boys 3 3/A	7	0	3	0	24	35	24	11	Stephen Brown	Andrew Kastanotis
+Green Hornets	33607	Boys 3 3/A	2	8	0	0	6	21	35	-14	Chris Karanicolas	Christopher Conley
+Buzz	33608	Boys 3 4/C	3	6	1	0	10	18	22	-4	Patrick Mullen	None
+Swarm	33609	Boys 3 4/C	2	7	1	0	7	19	35	-16	Philip Quinn	Tina McGrane

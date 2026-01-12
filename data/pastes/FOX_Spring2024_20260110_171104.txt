@@ -1,0 +1,17 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Warriors 7/8G-Blue	6345	Girls 8 2/A	4	4	2	0	14	15	24	-9	Melissa Maling	Matthew Monahan
+Warriors 7/8G-Gold	10411	Girls 8 4/C	3	6	1	0	10	15	29	-14	Don Kelloway	David Del Pizzo
+Warriors 6G-Blue	10033	Girls 6 4/A	2	5	3	0	9	14	23	-9	Peter Varetimos	Khaled Alshara
+Warriors 6G Gold	33592	Girls 6 4/C	3	2	4	0	13	22	17	5	Vincent Zabbo	Evan Crockford
+Warriors 4G-Blue	6255	Girls 4 2/E	1	8	1	0	4	12	32	-20	Joe Depasquale 	James Mosesso
+Warriors 4G-Gold	33040	Girls 4 4/C	2	6	2	0	8	4	13	-9	Mark Whitehouse 	Brin Cox
+Warriors 3G-Blue	11129	Girls 3 3/E	0	10	0	1	-1	9	38	-29	Jennifer Lippolis	Jackie D'Andrea
+Warriors 3G-Gold	33042	Girls 3 3/F2	2	6	2	0	8	6	20	-14	Danielle LaCivita	Mark Hannon
+Warriors 7/8B-Blue	6154	Boys 8 3/D	8	1	1	0	25	28	11	17	Brent Ruter	John Devine
+Warriors 6B-Blue	31800	Boys 6 3/D	5	2	3	0	18	36	29	7	Mike Fitzgerald	Seth Ferguson
+Warriors 5B-Blue	32990	Boys 5 2/B	1	9	0	0	3	9	40	-31	Bryan Rose	Fabio Felix
+Warriors 5B-Gold	32993	Boys 5 4/B	5	3	2	0	17	35	28	7	Joseph Borges	David Blair
+Warriors 4B-Blue	31011	Boys 4 3/C	9	0	1	0	28	47	17	30	James Miller	John Greenhalgh
+Warriors 4B-Gold	31012	Boys 4 4/G	10	0	0	0	30	36	13	23	Andrew Woodward	Karlmarx Balakrishnan
+Warriors 3B-Blue	31797	Boys 3 3/A	8	1	1	0	25	34	12	22	Chris Leonard	Adam Green
+Warriors 3B-Gold	31798	Boys 3 4/A	4	4	1	0	13	26	30	-4	Misael Andrane	Travis Drake

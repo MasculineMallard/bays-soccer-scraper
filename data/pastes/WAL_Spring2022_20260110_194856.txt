@@ -1,0 +1,31 @@
+Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
+Timberwolves D1	30858	Girls 12 2/A	7	0	0	0	21	38	7	31	Kevin Bock	John Thomsen
+Wolfpack D1	30859	Girls 11 2/A	6	1	0	0	18	26	6	20	Michael St. George	John Thomsen
+Trouble	31037	Girls 8 2/A	7	1	2	0	23	27	13	14	Joe Marerro	Marty White
+Spirit	31034	Girls 8 3/K	3	4	3	0	12	18	20	-2	David Miles	Patrick Connors
+Courage	31035	Girls 8 4/A	5	3	2	0	17	21	16	5	Sean Ahern	David Corbett
+Reign	31036	Girls 8 4/E	6	3	1	0	19	23	8	15	Peter Ellis	Darwin Cevallos
+Lightning	31038	Girls 6 2/C	8	0	2	0	26	38	15	23	Kathy Martinez	Wayan Suwena
+Power	31039	Girls 6 3/D	4	6	0	0	12	20	27	-7	Brian Horwitz	Maura Beverly
+Pride	31040	Girls 6 4/C	5	2	1	0	16	20	14	6	Brad Hickey	Terry Doherty
+Hawks	31041	Girls 5 2/B	0	4	0	0	0	5	13	-8	Kate Procaccini	None
+Warriors	31042	Girls 5 3/G	4	0	0	0	12	11	3	8	Heidi Graceffa	Brooke McMillan
+Eagles	31043	Girls 5 4/B	4	3	2	0	14	15	13	2	Bernie Smith	Matt Feener
+Fire	31044	Girls 4 2/C	6	2	2	0	20	28	19	9	Darwin Cevallos	Daniel Blackstock
+Storm	31045	Girls 4 2/C	6	1	3	0	21	28	16	12	Kellee Senic	Robert DeGirolamo
+Hurricanes	31047	Girls 4 4/A	3	7	0	0	9	15	39	-24	Jennifer Adams	Jim Bunt
+Thorns	31046	Girls 4 4/F	3	6	1	0	10	16	17	-1	Beverly Sprague	Thomas Dietel
+United D1	30860	Boys 11 1/A1	1	5	1	0	4	7	19	-12	Al Lessard	Toar Winter
+Timberwolves D2	30861	Boys 11 2/C1	0	7	0	0	0	2	28	-26	Paul McAndrew	Daniel OConnell
+Warriors	31283	Boys 8 2/E	7	0	3	0	24	24	4	20	Will Graceffa	Seth Hochberg
+Hawks	31284	Boys 8 3/H	5	4	1	0	16	29	19	10	Kevin Bock	Nicole Bock
+Coyotes	31285	Boys 8 4/B	6	1	3	0	21	17	8	9	Jim Robertson	Keith Jacobsen
+Force	31288	Boys 8 4/E	3	6	1	0	10	10	19	-9	Alex Danesco	Jim Keller
+Legends	30793	Boys 6 2/C	4	4	2	0	14	22	26	-4	Jonathan Lowe	Doug Kennedy
+Thunder	31286	Boys 6 4/D	3	7	0	0	9	21	45	-24	Karen Conway	Marc Todisco
+United	31289	Boys 5 2/C	8	1	1	0	25	37	20	17	John Hurley	Paul Foley
+Blues	31290	Boys 5 4/A	7	3	0	0	21	31	20	11	Bill Hamilton	Eric Tjonahen
+Crew	31291	Boys 5 4/F	0	8	2	0	2	11	35	-24	Keith Jacobsen	Jim Robertson
+Spurs	31292	Boys 4 2/D	2	5	3	0	9	20	34	-14	Dana Niles	Michael Finocchi
+Barcelona	31293	Boys 4 3/D	1	3	1	0	4	13	11	2	Patrick Penza	Yathu Gopinath
+City	31295	Boys 4 4/E	7	3	0	0	21	40	22	18	Oscar Butragueno	None
