@@ -17,9 +17,16 @@ st.set_page_config(
     layout="wide"
 )
 
-# Disable zoom on mobile
+# Disable zoom on mobile and remove interactivity from chart elements
 st.markdown("""
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<style>
+@media (max-width: 768px) {
+    .modebar {
+        display: none !important;
+    }
+}
+</style>
 """, unsafe_allow_html=True)
 
 # Load data
@@ -38,7 +45,7 @@ enrollment_map = dict(zip(enrollment_df['town_code'], enrollment_df['enrollment'
 # Town configuration
 towns = ['FOX', 'ASH', 'BEL', 'HOP', 'HOL', 'MAN', 'WAL', 'MDY']
 town_names = {
-    'FOX': 'Foxborough',
+    'FOX': 'Foxboro',
     'ASH': 'Ashland',
     'BEL': 'Bellingham',
     'HOP': 'Hopkinton',
@@ -130,7 +137,7 @@ with tab2:
 
     st.markdown("### 🏘️ Comparable Towns")
     st.markdown("""
-    Foxborough is compared to **7 similar Massachusetts towns** selected based on:
+    Foxboro is compared to **7 similar Massachusetts towns** selected based on:
     - **Population size** (13,000 - 25,000 residents)
     - **Demographics** (suburban communities, similar socioeconomic profiles)
     - **Geographic proximity** (all within BAYS league)
@@ -236,7 +243,7 @@ with tab2:
     3. **Enrollment Data**: K-12 public school enrollment from 2024-25 school year (does not include private school students)
     4. **Season Division**: Each year has Fall and Spring seasons
     5. **Ranking Method**: Lower rank number is better (1 is best, 8 is worst)
-    6. **League Average**: Calculated as mean of the 7 comparison towns (excludes Foxborough)
+    6. **League Average**: Calculated as mean of the 7 comparison towns (excludes Foxboro)
     7. **Population Data**: Based on 2020 U.S. Census
     8. **Ties in Win %**: Ties count as 0.5 wins (standard soccer convention)
     9. **Division Levels**: BAYS assigns teams to divisions 1-4, with 1 being most competitive
@@ -392,10 +399,10 @@ with tab1:
     # Color coding function
     def get_bar_colors(df, town_col='Town'):
         colors = []
-        fox_rank = df[df[town_col] == 'Foxborough']['rank'].values[0] if 'Foxborough' in df[town_col].values else None
+        fox_rank = df[df[town_col] == 'Foxboro']['rank'].values[0] if 'Foxboro' in df[town_col].values else None
     
         for _, row in df.iterrows():
-            if row[town_col] == 'Foxborough':
+            if row[town_col] == 'Foxboro':
                 if fox_rank <= 2:
                     colors.append('green')  # Top 2
                 elif fox_rank >= len(df) - 2:
@@ -407,7 +414,7 @@ with tab1:
         return colors
     
     # Main metrics overview - organized by the three key questions
-    st.markdown("<h3 style='margin-bottom: 10px; margin-top: 5px;'>📊 Key Performance Indicators - Foxborough</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='margin-bottom: 10px; margin-top: 5px;'>📊 Key Performance Indicators - Foxboro</h3>", unsafe_allow_html=True)
     
     # Calculate metrics and comparisons
     fox_metrics = metrics_df.loc['FOX']
@@ -823,7 +830,7 @@ with tab1:
     
     # Multi-metric time series
     st.markdown("<h2 style='margin-top: 10px; margin-bottom: 10px;'>🎯 Performance Trends Over Time</h2>", unsafe_allow_html=True)
-    st.caption("Foxborough vs League Average (7 Comparable Towns)")
+    st.caption("Foxboro vs League Average (7 Comparable Towns)")
     
     # Calculate metrics by year
     years = sorted(filtered_metrics_data['season_year'].unique())
@@ -841,7 +848,7 @@ with tab1:
     for year in years:
         year_data = filtered_metrics_data[filtered_metrics_data['season_year'] == year]
     
-        # Calculate Foxborough metrics for this year
+        # Calculate Foxboro metrics for this year
         fox_year = year_data[year_data['town_code'] == 'FOX']
         if len(fox_year) > 0:
             total_games = fox_year['wins'].sum() + fox_year['losses'].sum() + fox_year['ties'].sum()
@@ -861,7 +868,7 @@ with tab1:
         else:
             fox_win_pct = fox_gd = fox_gf = fox_ga = fox_part = fox_ret = None
     
-        # Calculate league average for this year (excluding Foxborough)
+        # Calculate league average for this year (excluding Foxboro)
         other_year = year_data[year_data['town_code'] != 'FOX']
         if len(other_year) > 0:
             avg_win_pct = 0
@@ -931,7 +938,7 @@ with tab1:
     
     # Win %
     fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Win %']['Fox'],
-                                   name='Foxborough', mode='lines+markers',
+                                   name='Foxboro', mode='lines+markers',
                                    line=dict(color='rgba(155, 89, 230, 0.9)', width=3),
                                    hovertemplate='%{y:.1f}%<extra></extra>',
                                    showlegend=True), row=1, col=1)
@@ -943,7 +950,7 @@ with tab1:
 
     # Goal Diff
     fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Goal Diff']['Fox'],
-                                   name='Foxborough', mode='lines+markers',
+                                   name='Foxboro', mode='lines+markers',
                                    line=dict(color='rgba(155, 89, 230, 0.9)', width=3),
                                    hovertemplate='%{y:+.1f}<extra></extra>',
                                    showlegend=False), row=1, col=2)
@@ -955,7 +962,7 @@ with tab1:
 
     # Goals For
     fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Goals For']['Fox'],
-                                   name='Foxborough', mode='lines+markers',
+                                   name='Foxboro', mode='lines+markers',
                                    line=dict(color='rgba(155, 89, 230, 0.9)', width=3),
                                    hovertemplate='%{y:.1f}<extra></extra>',
                                    showlegend=False), row=2, col=1)
@@ -967,7 +974,7 @@ with tab1:
 
     # Goals Against (inverted - lower is better)
     fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Goals Against']['Fox'],
-                                   name='Foxborough', mode='lines+markers',
+                                   name='Foxboro', mode='lines+markers',
                                    line=dict(color='rgba(155, 89, 230, 0.9)', width=3),
                                    hovertemplate='%{y:.1f}<extra></extra>',
                                    showlegend=False), row=2, col=2)
@@ -979,7 +986,7 @@ with tab1:
 
     # Participation Rate
     fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Participation Rate']['Fox'],
-                                   name='Foxborough', mode='lines+markers',
+                                   name='Foxboro', mode='lines+markers',
                                    line=dict(color='rgba(155, 89, 230, 0.9)', width=3),
                                    hovertemplate='%{y:.1f}<extra></extra>',
                                    showlegend=False), row=3, col=1)
@@ -991,7 +998,7 @@ with tab1:
 
     # Retention %
     fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Retention %']['Fox'],
-                                   name='Foxborough', mode='lines+markers',
+                                   name='Foxboro', mode='lines+markers',
                                    line=dict(color='rgba(155, 89, 230, 0.9)', width=3),
                                    hovertemplate='%{y:.1f}%<extra></extra>',
                                    showlegend=False), row=3, col=2)
@@ -1162,12 +1169,12 @@ with tab1:
             diff = 50 - fox_metrics['Win %']
             concerns.append({
                 'title': '🏆 Win Percentage Below 50%',
-                'detail': f"Foxborough's {fox_metrics['Win %']:.1f}% win rate {rank_txt}. Teams are losing more than winning by {diff:.1f} percentage points. This suggests competitive struggles that may impact player confidence and retention."
+                'detail': f"Foxboro's {fox_metrics['Win %']:.1f}% win rate {rank_txt}. Teams are losing more than winning by {diff:.1f} percentage points. This suggests competitive struggles that may impact player confidence and retention."
             })
         elif fox_metrics['Win %'] < avg_metrics['Win %']:
             concerns.append({
                 'title': '🏆 Win % Below Average',
-                'detail': f"At {fox_metrics['Win %']:.1f}%, Foxborough is {avg_metrics['Win %'] - fox_metrics['Win %']:.1f}% below the league average and ranks #{win_rank} of 8. Consider reviewing coaching strategies and player development programs."
+                'detail': f"At {fox_metrics['Win %']:.1f}%, Foxboro is {avg_metrics['Win %'] - fox_metrics['Win %']:.1f}% below the league average and ranks #{win_rank} of 8. Consider reviewing coaching strategies and player development programs."
             })
     
         # Goal Differential Analysis
@@ -1200,7 +1207,7 @@ with tab1:
             diff = avg_metrics['Participation Rate'] - fox_metrics['Participation Rate']
             concerns.append({
                 'title': '📈 Below-Average Participation',
-                'detail': f"At {fox_metrics['Participation Rate']:.1f} teams per 100 students, Foxborough trails the average by {diff:.1f}. Marketing efforts and community outreach could help increase awareness and enrollment."
+                'detail': f"At {fox_metrics['Participation Rate']:.1f} teams per 100 students, Foxboro trails the average by {diff:.1f}. Marketing efforts and community outreach could help increase awareness and enrollment."
             })
     
         # Growth Analysis
@@ -1232,7 +1239,7 @@ with tab1:
         if gender_dist <= 5:
             strengths.append({
                 'title': '⚖️ Excellent Gender Balance',
-                'detail': f"With {fox_metrics['Gender Balance']:.1f}% girls, Foxborough has nearly perfect 50/50 gender balance. This diversity creates a welcoming environment for all players and demonstrates broad community appeal."
+                'detail': f"With {fox_metrics['Gender Balance']:.1f}% girls, Foxboro has nearly perfect 50/50 gender balance. This diversity creates a welcoming environment for all players and demonstrates broad community appeal."
             })
         elif gender_dist <= 10:
             strengths.append({
@@ -1257,7 +1264,7 @@ with tab1:
             diff = fox_metrics['Participation Rate'] - avg_metrics['Participation Rate']
             strengths.append({
                 'title': '📈 Above-Average Participation',
-                'detail': f"At {fox_metrics['Participation Rate']:.1f} teams per 100 students (rank #{part_rank}), Foxborough exceeds the average by {diff:.1f}. Strong community engagement with soccer demonstrates effective outreach and program appeal."
+                'detail': f"At {fox_metrics['Participation Rate']:.1f} teams per 100 students (rank #{part_rank}), Foxboro exceeds the average by {diff:.1f}. Strong community engagement with soccer demonstrates effective outreach and program appeal."
             })
     
         # Win % Strength
