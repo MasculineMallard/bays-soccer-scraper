@@ -32,12 +32,13 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Plotly config to disable interactions on mobile
+# Plotly config to disable all interactions - make charts completely static
 plotly_config = {
     'displayModeBar': False,
-    'staticPlot': False,
+    'staticPlot': True,  # Makes the plot completely static - no interactions at all
     'doubleClick': False,
     'scrollZoom': False,
+    'displaylogo': False,
     'modeBarButtonsToRemove': ['zoom2d', 'pan2d', 'select2d', 'lasso2d', 'zoomIn2d', 'zoomOut2d', 'autoScale2d', 'resetScale2d']
 }
 
