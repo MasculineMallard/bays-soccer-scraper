@@ -146,8 +146,8 @@ with tab2:
     All participation-related metrics are **normalized by school enrollment** (teams per 100 students) to enable fair comparison between towns of different sizes. This ensures that differences in participation reflect program engagement rather than simply town size. Competitive performance metrics (Win %, Goal Differential, etc.) measure quality of play and are intentionally not size-normalized.
 
     **Important Finding:**
-    Analysis of the data shows that **town/school size has no correlation to competitive performance**. Win %, Goal Differential, and Average Division show near-zero correlation with enrollment, meaning smaller towns compete just as effectively as larger towns. Success is driven by program quality, not town size.
-    """)
+    Analysis of the data shows that **town/school size has no correlation to competitive performance**. Win %, Goal Differential, and Average Division show near-zero correlation with enrollment, meaning smaller towns compete just as effectively as larger towns. <span style='background-color: #90EE90;'>Success is driven by program quality, not town size.</span>
+    """, unsafe_allow_html=True)
 
     st.markdown("---")
     st.markdown("### 📊 Metric Definitions")
