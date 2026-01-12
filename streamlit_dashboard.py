@@ -253,10 +253,10 @@ with tab2:
     st.markdown("---")
     st.markdown("### 📊 Data Sources")
     st.markdown("""
-    - **Team Performance Data**: BAYS (Bay State Youth Soccer League) records, 2021-2025
-    - **School Enrollment**: Massachusetts Department of Elementary and Secondary Education, 2024-25
-    - **Population Data**: U.S. Census Bureau, 2020 Census
-    """)
+    - **Team Performance Data**: [BAYS (Bay State Youth Soccer League)](https://bays.org) records, 2021-2025
+    - **School Enrollment**: [Massachusetts Department of Elementary and Secondary Education](https://profiles.doe.mass.edu/), 2024-25
+    - **Population Data**: [U.S. Census Bureau](https://www.census.gov/), 2020 Census
+    """, unsafe_allow_html=True)
 
 # Sidebar - Filters (outside tabs, always visible)
 st.sidebar.header("Filter Options")
@@ -930,60 +930,72 @@ with tab1:
     fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Win %']['Fox'],
                                    name='Foxborough', mode='lines+markers',
                                    line=dict(color='rgba(155, 89, 230, 0.9)', width=3),
+                                   hovertemplate='%{y:.1f}%<extra></extra>',
                                    showlegend=True), row=1, col=1)
     fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Win %']['Avg'],
                                    name='League Avg', mode='lines+markers',
                                    line=dict(color='lightgray', width=2, dash='dash'),
+                                   hovertemplate='%{y:.1f}%<extra></extra>',
                                    showlegend=True), row=1, col=1)
-    
+
     # Goal Diff
     fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Goal Diff']['Fox'],
                                    name='Foxborough', mode='lines+markers',
                                    line=dict(color='rgba(155, 89, 230, 0.9)', width=3),
+                                   hovertemplate='%{y:+.1f}<extra></extra>',
                                    showlegend=False), row=1, col=2)
     fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Goal Diff']['Avg'],
                                    name='League Avg', mode='lines+markers',
                                    line=dict(color='lightgray', width=2, dash='dash'),
+                                   hovertemplate='%{y:+.1f}<extra></extra>',
                                    showlegend=False), row=1, col=2)
-    
+
     # Goals For
     fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Goals For']['Fox'],
                                    name='Foxborough', mode='lines+markers',
                                    line=dict(color='rgba(155, 89, 230, 0.9)', width=3),
+                                   hovertemplate='%{y:.1f}<extra></extra>',
                                    showlegend=False), row=2, col=1)
     fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Goals For']['Avg'],
                                    name='League Avg', mode='lines+markers',
                                    line=dict(color='lightgray', width=2, dash='dash'),
+                                   hovertemplate='%{y:.1f}<extra></extra>',
                                    showlegend=False), row=2, col=1)
-    
+
     # Goals Against (inverted - lower is better)
     fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Goals Against']['Fox'],
                                    name='Foxborough', mode='lines+markers',
                                    line=dict(color='rgba(155, 89, 230, 0.9)', width=3),
+                                   hovertemplate='%{y:.1f}<extra></extra>',
                                    showlegend=False), row=2, col=2)
     fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Goals Against']['Avg'],
                                    name='League Avg', mode='lines+markers',
                                    line=dict(color='lightgray', width=2, dash='dash'),
+                                   hovertemplate='%{y:.1f}<extra></extra>',
                                    showlegend=False), row=2, col=2)
-    
+
     # Participation Rate
     fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Participation Rate']['Fox'],
                                    name='Foxborough', mode='lines+markers',
                                    line=dict(color='rgba(155, 89, 230, 0.9)', width=3),
+                                   hovertemplate='%{y:.1f}<extra></extra>',
                                    showlegend=False), row=3, col=1)
     fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Participation Rate']['Avg'],
                                    name='League Avg', mode='lines+markers',
                                    line=dict(color='lightgray', width=2, dash='dash'),
+                                   hovertemplate='%{y:.1f}<extra></extra>',
                                    showlegend=False), row=3, col=1)
-    
+
     # Retention %
     fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Retention %']['Fox'],
                                    name='Foxborough', mode='lines+markers',
                                    line=dict(color='rgba(155, 89, 230, 0.9)', width=3),
+                                   hovertemplate='%{y:.1f}%<extra></extra>',
                                    showlegend=False), row=3, col=2)
     fig_time.add_trace(go.Scatter(x=years, y=time_series_data['Retention %']['Avg'],
                                    name='League Avg', mode='lines+markers',
                                    line=dict(color='lightgray', width=2, dash='dash'),
+                                   hovertemplate='%{y:.1f}%<extra></extra>',
                                    showlegend=False), row=3, col=2)
     
     fig_time.update_layout(
@@ -1037,6 +1049,9 @@ with tab1:
     display_df = filtered_metrics.copy()
     # Remove any blank rows
     display_df = display_df.dropna(how='all')
+    # Remove Enrollment column
+    if 'Enrollment' in display_df.columns:
+        display_df = display_df.drop(columns=['Enrollment'])
     
     # Apply gradient styling (gentle heatmap based on average)
     def highlight_vs_avg(s, col_name):
@@ -1301,25 +1316,23 @@ with tab1:
     with col1:
         st.markdown("#### **Program Leadership & Development**")
         st.markdown("""
-        - **Director of Coaching**: Hire a dedicated Director of Coaching to oversee player development curriculum, coach training, and program quality standards across all age groups
-        - **Coach Education**: Provide ongoing training for volunteer and paid coaches in age-appropriate coaching methods and player-centered approaches
-        - **Player Assessment**: Move beyond win-loss records to evaluate player growth using observable skills and development milestones
-        - **Training Quality**: Increase training-to-match ratio (recommended 3:1) with structured practice plans focused on ball skills and tactical understanding
+        - **Coach Education**: Provide ongoing training for volunteer and paid coaches in age-appropriate coaching methods and player-centered approaches, including offering to pay for coaching certifications and licenses
+        - **Player Assessment**: Evaluate player growth through a combination of coach assessments and modern evaluation tools focused on observable skills and development milestones, moving beyond win-loss records
+        - **Structured Practice Plans**: Implement consistent, age-appropriate practice plans developed by professional coaches that focus on technical skills, tactical understanding, and progressive development
         """)
     
         st.markdown("#### **Community Accessibility**")
         st.markdown("""
-        - **Financial Support**: Work with town officials to explore scholarship programs, equipment lending, and fee assistance to reduce cost barriers for families
-        - **Local Facilities**: Partner with school district and parks department for field access and facility-sharing agreements
         - **Family Engagement**: Conduct annual satisfaction surveys to understand family experience and identify improvement opportunities
         - **Marketing & Outreach**: Strengthen presence at community events, schools, and social media to increase program awareness and enrollment
+        - **Communication**: Improve transparency around program goals, team placements, and season expectations to build trust and engagement
         """)
     
     with col2:
         st.markdown("#### **Player-Centered Programming**")
         st.markdown("""
-        - **Age-Appropriate Focus**: Prioritize fun and skill development in younger ages (U8-U10) before introducing competitive pressure in older divisions
-        - **Development Pathways**: Create clear progression from recreational to travel teams with transparent criteria and supportive transitions
+        - **Age-Appropriate Focus**: Emphasize fundamental skill development and technical training in younger ages (U8-U10) through structured practice and positive reinforcement
+        - **Developmental Opportunities**: Expand training sessions, clinics, and skill-specific workshops to supplement game play and accelerate player improvement
         - **Positive Environment**: Emphasize sportsmanship, teamwork, and personal growth alongside competitive results
         - **Retention Strategies**: Survey families who don't return between seasons to understand barriers and implement targeted improvements
         """)
@@ -1359,7 +1372,7 @@ with tab1:
         short_term_priorities.append("Invest in coach education and tactical training to improve competitive outcomes")
     
     # Ongoing priorities
-    ongoing_priorities.append("Implement regular player assessment using Quality of Play metrics beyond wins/losses")
+    ongoing_priorities.append("Implement regular player assessment using modern Quality of Play metrics")
     ongoing_priorities.append("Build partnerships with schools and community organizations to reduce access barriers")
     
     # Combine and display in time order
@@ -1388,7 +1401,7 @@ with tab1:
     st.markdown("---")
     st.markdown("### 📊 Data Sources")
     st.markdown("""
-    - **Team Performance Data**: BAYS (Bay State Youth Soccer League) records, 2021-2025
-    - **School Enrollment**: Massachusetts Department of Elementary and Secondary Education, 2024-25
-    - **Population Data**: U.S. Census Bureau, 2020 Census
-    """)
+    - **Team Performance Data**: [BAYS (Bay State Youth Soccer League)](https://bays.org) records, 2021-2025
+    - **School Enrollment**: [Massachusetts Department of Elementary and Secondary Education](https://profiles.doe.mass.edu/), 2024-25
+    - **Population Data**: [U.S. Census Bureau](https://www.census.gov/), 2020 Census
+    """, unsafe_allow_html=True)
