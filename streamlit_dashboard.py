@@ -108,10 +108,16 @@ def calculate_metrics(filtered_metrics_input, towns_list):
         girls = len(town_df[town_df['gender'] == 'Girls'])
         girls_pct = (girls / total * 100) if total > 0 else 50
 
-        # Growth Rate (Fall 2021 → Fall 2025)
-        fall2021 = len(town_df[(town_df['season_year'] == 2021) & (town_df['season_period'] == 'Fall')])
-        fall2025 = len(town_df[(town_df['season_year'] == 2025) & (town_df['season_period'] == 'Fall')])
-        growth_pct = round(((fall2025 - fall2021) / fall2021) * 100, 1) if fall2021 > 0 else 0
+        # Growth Rate (dynamic based on filtered years)
+        years_in_data = sorted(town_df['season_year'].unique())
+        if len(years_in_data) >= 2:
+            baseline_year = min(years_in_data)
+            current_year = max(years_in_data)
+            fall_baseline = len(town_df[(town_df['season_year'] == baseline_year) & (town_df['season_period'] == 'Fall')])
+            fall_current = len(town_df[(town_df['season_year'] == current_year) & (town_df['season_period'] == 'Fall')])
+            growth_pct = round(((fall_current - fall_baseline) / fall_baseline) * 100, 1) if fall_baseline > 0 else 0
+        else:
+            growth_pct = 0
 
         metrics[town] = {
             'Town': town_names[town],
@@ -147,7 +153,10 @@ with col_logo:
     except:
         st.markdown("⚽")
 with col_title:
-    st.markdown("<h1 style='margin-bottom: 5px; margin-top: 0px; display: flex; align-items: center; height: 80px;'>Foxboro Youth Soccer Analytics</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='margin-bottom: 0px; margin-top: 0px; display: flex; align-items: center; height: 80px;'>Foxboro Youth Soccer Analytics</h1>", unsafe_allow_html=True)
+
+# Years included label (to be updated after filters are applied)
+years_label_placeholder = st.empty()
 
 # Create tabs
 tab1, tab2, tab3, tab4 = st.tabs(["📊 Dashboard", "📈 Trends Over Time", "📖 Definitions & Assumptions", "📋 Appendix"])
@@ -283,14 +292,31 @@ with tab3:
 # Sidebar - Filters (outside tabs, always visible)
 st.sidebar.header("Filter Options")
 
-# Year filter
+# Year filter - Range selector
 st.sidebar.subheader("📅 Year Filter")
 all_years = sorted(df['season_year'].unique())
-selected_years = st.sidebar.multiselect(
-    "Select Years",
-    options=all_years,
-    default=all_years
+year_range = st.sidebar.slider(
+    "Select Year Range",
+    min_value=int(min(all_years)),
+    max_value=int(max(all_years)),
+    value=(int(min(all_years)), int(max(all_years))),
+    step=1
 )
+# Convert range to list of selected years
+selected_years = [year for year in all_years if year_range[0] <= year <= year_range[1]]
+
+# Update years label under main title
+if selected_years:
+    year_min = min(selected_years)
+    year_max = max(selected_years)
+    if year_min == year_max:
+        years_text = f"{year_min}"
+    else:
+        years_text = f"{year_min} - {year_max}"
+    years_label_placeholder.markdown(
+        f"<p style='color: #808080; font-size: 14px; margin-top: -5px; margin-left: 85px; margin-bottom: 10px;'>Analysis Period: {years_text}</p>",
+        unsafe_allow_html=True
+    )
 
 # Include both Fall and Spring (no season filter)
 all_periods = ['Fall', 'Spring']
@@ -607,7 +633,9 @@ with tab1:
         st.plotly_chart(fig_ret, use_container_width=True, config=plotly_config)
     
     # Growth chart spanning full width
-    st.subheader("📊 Growth Rate (2021 → 2025)")
+    baseline_year = min(selected_years)
+    current_year = max(selected_years)
+    st.subheader(f"📊 Growth Rate ({baseline_year} → {current_year})")
     
     growth_sorted = filtered_metrics.sort_values('Growth %', ascending=False).reset_index(drop=True)
     growth_sorted['rank'] = range(1, len(growth_sorted) + 1)
@@ -800,7 +828,10 @@ with tab1:
         )
         fig_gb.add_hline(y=50, line_dash="dash", line_color="gray")
         st.plotly_chart(fig_gb, use_container_width=True, config=plotly_config)
-    
+
+        # Note about declining trend
+        st.markdown("<p style='color: #808080; font-size: 14px; margin-top: -30px;'>⚠️ <em>Note: Foxboro's gender balance percentage is decreasing over time. See Trends Over Time tab for details.</em></p>", unsafe_allow_html=True)
+
     with col2:
         st.subheader("🏅 Competitive Level (Avg Division)")
     
@@ -918,7 +949,8 @@ with tab1:
             })
     
         if concerns:
-            for concern in concerns:
+            # Limit to top 3 concerns
+            for concern in concerns[:3]:
                 with st.expander(concern['title'], expanded=True):
                     st.markdown(concern['detail'])
         else:
@@ -933,13 +965,13 @@ with tab1:
         gender_dist = abs(fox_metrics['Gender Balance'] - 50)
         if gender_dist <= 5:
             strengths.append({
-                'title': '⚖️ Excellent Gender Balance',
-                'detail': f"With {fox_metrics['Gender Balance']:.1f}% girls, Foxboro has nearly perfect 50/50 gender balance. This diversity creates a welcoming environment for all players and demonstrates broad community appeal."
+                'title': '⚖️ Excellent Gender Balance (Historical)',
+                'detail': f"With {fox_metrics['Gender Balance']:.1f}% girls overall, Foxboro has demonstrated strong gender balance over the 5-year period. However, this percentage is declining over time and fell below the league average in 2025. See Trends Over Time tab for the downward trajectory."
             })
         elif gender_dist <= 10:
             strengths.append({
-                'title': '⚖️ Good Gender Balance',
-                'detail': f"At {fox_metrics['Gender Balance']:.1f}% girls, the program maintains healthy gender diversity. Continue promoting inclusivity to maintain this balance."
+                'title': '⚖️ Good Gender Balance (Declining)',
+                'detail': f"At {fox_metrics['Gender Balance']:.1f}% girls overall, the program maintains reasonable gender diversity. However, this percentage is declining over time and is now below the league average. See Trends Over Time tab to monitor this trend."
             })
     
         # Growth Strength
@@ -1000,7 +1032,8 @@ with tab1:
             })
     
         if strengths:
-            for strength in strengths:
+            # Limit to top 3 strengths
+            for strength in strengths[:3]:
                 with st.expander(strength['title'], expanded=True):
                     st.markdown(strength['detail'])
         else:
@@ -1094,7 +1127,7 @@ with tab1:
 # Tab 2: Trends Over Time
 with tab2:
     st.markdown("<h2 style='margin-top: 10px; margin-bottom: 10px;'>📈 Performance Trends Over Time</h2>", unsafe_allow_html=True)
-    st.caption("Foxboro vs League Average (7 Comparable Towns)")
+    st.markdown("<p style='color: gray; font-size: 14px; margin-bottom: 20px;'>Foxboro vs League Average (7 Comparable Towns)</p>", unsafe_allow_html=True)
 
     # Calculate metrics by year
     years = sorted(filtered_metrics_data['season_year'].unique())
@@ -1239,6 +1272,116 @@ with tab2:
         time_series_data['Gender Balance']['Avg'].append(avg_gender)
         time_series_data['Avg Division']['Fox'].append(fox_div)
         time_series_data['Avg Division']['Avg'].append(avg_div)
+
+    # AI-Generated Trend Summary (Concise)
+    if len(years) >= 2:
+        first_year = min(years)
+        last_year = max(years)
+
+        st.markdown("---")
+        st.markdown(f"<h3 style='margin-bottom: 5px;'>📊 Key Trends ({first_year}–{last_year})</h3>", unsafe_allow_html=True)
+        st.markdown("<p style='color: grey; font-size: 0.85em; margin-top: 0;'>(AI Generated)</p>", unsafe_allow_html=True)
+
+        col1, col2, col3 = st.columns(3)
+
+        with col1:
+            st.write("**👥 Participation & Growth**")
+            bullets = []
+
+            # Participation trend (threshold: 0.5 per 100 students)
+            part_change = time_series_data['Participation Rate']['Fox'][-1] - time_series_data['Participation Rate']['Fox'][0]
+            if abs(part_change) >= 0.5:
+                if part_change > 0:
+                    bullets.append(f"↑ Participation up {part_change:+.1f} per 100 students")
+                else:
+                    bullets.append(f"↓ Participation down {part_change:.1f} per 100 students")
+
+            # Retention trend (threshold: 2%)
+            ret_change = time_series_data['Retention %']['Fox'][-1] - time_series_data['Retention %']['Fox'][0]
+            if abs(ret_change) >= 2.0:
+                if ret_change > 0:
+                    bullets.append(f"↑ Retention up {ret_change:+.1f}%")
+                else:
+                    bullets.append(f"↓ Retention down {ret_change:.1f}%")
+
+            # Growth (threshold: 3%)
+            growth = time_series_data['Growth %']['Fox'][-1]
+            if abs(growth) >= 3.0:
+                if growth > 0:
+                    bullets.append(f"↑ Program grew {growth:+.1f}%")
+                else:
+                    bullets.append(f"↓ Program shrunk {growth:.1f}%")
+
+            if not bullets:
+                bullets.append("→ Stable metrics")
+
+            for bullet in bullets:
+                st.markdown(f"- {bullet}")
+
+        with col2:
+            st.write("**🏆 Competitive Performance**")
+            bullets = []
+
+            # Win % trend (threshold: 2 percentage points)
+            win_change = time_series_data['Win %']['Fox'][-1] - time_series_data['Win %']['Fox'][0]
+            if abs(win_change) >= 2.0:
+                if win_change > 0:
+                    bullets.append(f"↑ Win % up {win_change:+.1f} points")
+                else:
+                    bullets.append(f"↓ Win % down {win_change:.1f} points")
+
+            # Goal Diff trend (threshold: 0.3)
+            gd_change = time_series_data['Goal Diff']['Fox'][-1] - time_series_data['Goal Diff']['Fox'][0]
+            if abs(gd_change) >= 0.3:
+                if gd_change > 0:
+                    bullets.append(f"↑ Goal diff improved {gd_change:+.1f}")
+                else:
+                    bullets.append(f"↓ Goal diff declined {gd_change:.1f}")
+
+            # Overall assessment (only if significant changes)
+            significant_changes = len(bullets) > 0
+            if significant_changes:
+                if win_change > 0 and gd_change > 0:
+                    bullets.append("↑ Teams more competitive")
+                elif win_change < 0 or gd_change < 0:
+                    bullets.append("↓ Competitive challenges")
+
+            if not bullets:
+                bullets.append("→ Stable metrics")
+
+            for bullet in bullets:
+                st.markdown(f"- {bullet}")
+
+        with col3:
+            st.write("**⚖️ Program Balance**")
+            bullets = []
+
+            # Gender balance trend (threshold: 3% absolute change)
+            gender_first = time_series_data['Gender Balance']['Fox'][0]
+            gender_last = time_series_data['Gender Balance']['Fox'][-1]
+            gender_change = gender_last - gender_first
+
+            if abs(gender_change) >= 3.0:
+                if gender_change > 0:
+                    bullets.append(f"↑ Gender balance improving ({gender_change:+.1f}% change)")
+                else:
+                    bullets.append(f"↓ Gender balance declining ({gender_change:.1f}% change)")
+
+            # Division trend (threshold: 0.2 division levels)
+            div_change = time_series_data['Avg Division']['Fox'][-1] - time_series_data['Avg Division']['Fox'][0]
+            if abs(div_change) >= 0.2:
+                if div_change < 0:
+                    bullets.append(f"↑ Higher divisions (avg {time_series_data['Avg Division']['Fox'][-1]:.1f})")
+                else:
+                    bullets.append(f"↓ Lower divisions (avg {time_series_data['Avg Division']['Fox'][-1]:.1f})")
+
+            if not bullets:
+                bullets.append("→ Stable metrics")
+
+            for bullet in bullets:
+                st.markdown(f"- {bullet}")
+
+        st.markdown("---")
 
     # Section 1: Participation & Growth (Light Orange)
     st.markdown("<div style='background-color: rgba(255, 200, 150, 0.3); padding: 15px; border-radius: 8px; margin-top: 15px; margin-bottom: 15px;'>", unsafe_allow_html=True)
@@ -1418,12 +1561,12 @@ with tab2:
     fig_balance.add_trace(go.Scatter(x=years, y=time_series_data['Avg Division']['Fox'],
                                    name='Foxboro', mode='lines+markers',
                                    line=dict(color='rgba(150, 100, 200, 0.9)', width=3),
-                                   hovertemplate='%{y:.2f}<extra></extra>',
+                                   hovertemplate='%{y:.1f}<extra></extra>',
                                    showlegend=False), row=1, col=2)
     fig_balance.add_trace(go.Scatter(x=years, y=time_series_data['Avg Division']['Avg'],
                                    name='League Avg', mode='lines+markers',
                                    line=dict(color='lightgray', width=2, dash='dash'),
-                                   hovertemplate='%{y:.2f}<extra></extra>',
+                                   hovertemplate='%{y:.1f}<extra></extra>',
                                    showlegend=False), row=1, col=2)
 
     fig_balance.update_layout(dragmode=False,

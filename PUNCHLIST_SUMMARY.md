@@ -154,3 +154,34 @@ Consider adding to TECHNICAL_NOTES.md:
 ## Completion Status
 
 ✅ All 23 punchlist items completed successfully!
+
+---
+
+## Post-Punchlist Updates (2026-01-12)
+
+### Trends Over Time Tab Enhancements
+
+1. **Expanded Metrics Coverage**:
+   - Added all 9 core metrics to Trends Over Time tab
+   - Organized into 3 color-coded category sections
+
+2. **Category Color Scheme**:
+   - **Participation & Growth** (Light Orange): Participation Rate, Spring Retention, Growth %
+     - Background: `rgba(255, 200, 150, 0.3)`
+     - Header/Lines: `rgba(230, 120, 50, 1)` / `rgba(230, 120, 50, 0.9)`
+   - **Competitive Performance** (Light Blue): Win %, Goal Differential, Goals Scored, Goals Allowed
+     - Background: `rgba(173, 216, 230, 0.3)`
+     - Header/Lines: `rgba(70, 130, 180, 1)` / `rgba(70, 130, 180, 0.9)`
+     - Goals Allowed uses light red `rgba(255, 100, 100, 0.9)` to indicate higher is bad
+   - **Program Balance** (Light Purple): Gender Balance, Average Division
+     - Background: `rgba(200, 180, 230, 0.2)`
+     - Header/Lines: `rgba(150, 100, 200, 1)` / `rgba(150, 100, 200, 0.9)`
+
+3. **Layout Improvements**:
+   - Fixed title/legend overlap issues by adjusting margins and legend positioning
+   - Increased top margin from 40px to 60px
+   - Adjusted legend y position to prevent overlap with subplot titles
+
+4. **Header/Logo Alignment**:
+   - Centered main title vertically on logo axis using flexbox
+   - Title now aligns with 80px logo height for balanced appearance

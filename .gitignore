@@ -71,3 +71,8 @@ bays_cache.sqlite
 # Environment variables
 .env
 .env.local
+
+# Documentation - exclude notes, include only official docs
+TECHNICAL_NOTES.md
+WINNING_SEASONS_ANALYSIS.md
+DASHBOARD_REVIEW.md
