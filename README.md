@@ -85,18 +85,4 @@ Data was collected manually from bays.org using a paste + import workflow (autom
 
 See [CURRENT_STATUS.md](CURRENT_STATUS.md) for detailed per-town breakdowns and metrics.
 
-## Key Findings (Preliminary)
-
-- **Foxborough has the lowest participation rate** among similar-population peers (10.37 teams/1,000 residents)
-- **Hopkinton leads** at 18.71 teams/1,000 (+80% vs Foxborough)
-- **Foxborough has the worst Spring retention** — 30.7% drop vs Mansfield's -1.3% (Spring actually higher)
-
-## Next Steps
-
-1. Run full analysis across all 7 key metrics
-2. Build Streamlit dashboard for interactive comparison
-3. Generate final report for Foxborough Youth Soccer board
-
-## License
-
 Personal use only. Data from bays.org — respect robots.txt.
