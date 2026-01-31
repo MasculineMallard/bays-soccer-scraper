@@ -1,34 +1,45 @@
 # BAYS Soccer Scraper & Analysis
 
-Compare Foxborough Youth Soccer performance against 10 peer towns over multiple seasons.
+Compare Foxborough Youth Soccer performance against 7 peer towns over 10 seasons.
 
 ## Project Overview
 
-This project scrapes historical soccer data from bays.org to analyze:
+This project collects and analyzes historical soccer data from bays.org to compare:
+- Participation rates (teams per 1,000 residents)
+- Spring participation retention
 - Win percentages by division level (1, 2, 3, 4)
 - Goal differential and goals scored
 - Program strength (% of teams in higher vs lower divisions)
 - Lag indicators (trends showing improvement/decline vs peers)
-- Population-normalized metrics for fair comparison
 
-**Target Towns:** 11 total (Foxborough + 10 peer towns)
-**Data Scope:** All available seasons, all age groups (U8-U19), both genders
+## Data Status: COMPLETE
+
+**1,846 teams** across **8 towns × 10 seasons** (Spring 2021 – Fall 2025)
+
+| Town | Code | Population | Teams |
+|------|------|-----------|-------|
+| Foxborough | FOX | 18,618 | 193 |
+| Ashland | ASH | 18,832 | 220 |
+| Bellingham | BEL | 16,945 | 101 |
+| Holliston | HOL | 15,494 | 209 |
+| Hopkinton | HOP | 18,758 | 351 |
+| Mansfield | MAN | 25,067 | 302 |
+| Medway | MDY | 13,115 | 158 |
+| Walpole | WAL | 24,070 | 312 |
 
 ## Quick Start
 
 ### 1. Setup Environment
 
 ```bash
-# Create virtual environment
 python -m venv venv
 
-# Activate (Windows)
+# Windows
 venv\Scripts\activate
 
-# Activate (Mac/Linux)
+# Mac/Linux
 source venv/bin/activate
 
-# Install dependencies
 pip install -r requirements.txt
 ```
 
@@ -36,43 +47,56 @@ pip install -r requirements.txt
 
 ```
 bays-soccer-scraper/
-├── config/              # Configuration files
-│   ├── towns_config.py  # Town codes and population data
-│   └── csv_schema.py    # CSV schema definition
-├── src/                 # Source code
-├── data/                # Data storage
-│   ├── raw/            # Raw scraped data
-│   ├── processed/      # Processed/aggregated data
-│   └── bays_teams.csv  # Main data file
-├── logs/                # Scraping logs
-├── docs/                # Documentation
-└── requirements.txt     # Python dependencies
+├── config/                # Configuration
+│   ├── towns_config.py    # Town codes, names, populations
+│   └── csv_schema.py      # CSV column definitions
+├── src/                   # Core source code
+│   └── csv_manager.py     # CSV operations (append, load, dedup)
+├── data/
+│   ├── bays_teams.csv     # Primary database (1,846 teams)
+│   └── school_enrollment.csv
+├── analysis/              # Analysis scripts
+│   ├── analyze_9_metrics.py
+│   ├── compare_to_fox.py
+│   ├── fox_coach_rankings.py
+│   └── ...
+├── docs/                  # Reference documentation
+│   ├── CORE_METRICS.md
+│   ├── participation_analysis_notes.md
+│   └── site_structure.md
+├── archive/               # Historical data & retired code
+│   ├── pastes/            # Raw paste data (all 80 seasons)
+│   ├── raw_html/          # Scraped HTML backups
+│   ├── import_scripts/    # One-off import scripts
+│   ├── scrapers/          # Selenium/BS4 scrapers (blocked by CF)
+│   ├── backups/           # CSV backups
+│   └── docs/              # Old planning & status docs
+├── streamlit_dashboard.py # Interactive dashboard
+├── universal_import.py    # Standard data import tool
+├── check_complete.py      # Data completeness checker
+├── KEY_METRICS.md         # 7 key analysis metrics
+├── CURRENT_STATUS.md      # Project status & data summary
+└── requirements.txt       # Python dependencies
 ```
 
 ## Data Collection
 
-See [REQUIREMENTS_SUMMARY.md](REQUIREMENTS_SUMMARY.md) for detailed requirements.
+Data was collected manually from bays.org using a paste + import workflow (automated scraping blocked by Cloudflare). All raw data is preserved in `archive/pastes/`.
 
-Data collection will be done using Claude Code Agents due to Cloudflare protection on bays.org.
+See [CURRENT_STATUS.md](CURRENT_STATUS.md) for detailed per-town breakdowns and metrics.
 
-## Analysis
+## Key Findings (Preliminary)
 
-Population-normalized metrics include:
-- Teams per 1000 residents
-- Win % controlling for division level
-- Program strength indicator
-- Trend analysis and lag indicators
+- **Foxborough has the lowest participation rate** among similar-population peers (10.37 teams/1,000 residents)
+- **Hopkinton leads** at 18.71 teams/1,000 (+80% vs Foxborough)
+- **Foxborough has the worst Spring retention** — 30.7% drop vs Mansfield's -1.3% (Spring actually higher)
 
-## Dashboard
+## Next Steps
 
-Interactive Streamlit dashboard with:
-- Division level rankings
-- Foxboro vs peers comparison
-- Program strength visualization
-- Lag indicators and alerts
-- Gender-specific breakdowns
-- Historical trends
+1. Run full analysis across all 7 key metrics
+2. Build Streamlit dashboard for interactive comparison
+3. Generate final report for Foxborough Youth Soccer board
 
 ## License
 
-Personal use only. Data from bays.org - respect robots.txt.
+Personal use only. Data from bays.org — respect robots.txt.

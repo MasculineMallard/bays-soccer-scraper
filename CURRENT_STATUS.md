@@ -1,61 +1,141 @@
 # BAYS Soccer Scraper - Current Status
 
-**Last Updated:** 2026-01-10
-**Data Collection Method:** Manual import with auto-save to dump file
-**Total Teams:** 514 teams across 30 seasons (3 complete towns)
+**Last Updated:** 2026-01-31
+**Data Collection:** COMPLETE
+**Total Teams:** 1,846 across 80 seasons (8 towns × 10 seasons each)
 
 ---
 
-## Data Collection Status
+## Data Collection Status — ALL COMPLETE
 
-### ✅ COMPLETE - Foxborough (10 seasons)
-- Fall 2025: 25 teams
-- Spring 2025: 18 teams
-- Fall 2024: 22 teams
-- Spring 2024: 16 teams
-- Fall 2023: 22 teams
-- Spring 2023: 14 teams
-- Fall 2022: 22 teams
-- Spring 2022: 17 teams
-- Fall 2021: 23 teams
-- Spring 2021: 14 teams
+| Town | Code | Population | Teams | Seasons | Avg Fall | Avg Spring |
+|------|------|-----------|-------|---------|----------|------------|
+| Foxborough | FOX | 18,618 | 193 | 10 | 22.8 | 15.8 |
+| Ashland | ASH | 18,832 | 220 | 10 | 23.6 | 20.4 |
+| Bellingham | BEL | 16,945 | 101 | 10 | 10.2 | 9.8 |
+| Holliston | HOL | 15,494 | 209 | 10 | 22.2 | 19.6 |
+| Hopkinton | HOP | 18,758 | 351 | 10 | 40.2 | 30.0 |
+| Mansfield | MAN | 25,067 | 302 | 10 | 30.0 | 30.4 |
+| Medway | MDY | 13,115 | 158 | 10 | 16.4 | 15.2 |
+| Walpole | WAL | 24,070 | 312 | 10 | 33.0 | 29.4 |
 
-**Total:** 193 teams across 10 complete seasons
+**Season Range:** Spring 2021 – Fall 2025
 
-### ✅ COMPLETE - Ashland (10 seasons)
-- Fall 2025: 25 teams
-- Spring 2025: 21 teams
-- Fall 2024: 25 teams
-- Spring 2024: 22 teams
-- Fall 2023: 25 teams
-- Spring 2023: 20 teams
-- Fall 2022: 23 teams
-- Spring 2022: 21 teams
-- Fall 2021: 20 teams
-- Spring 2021: 18 teams
+---
 
-**Total:** 220 teams across 10 complete seasons
+### Per-Town Season Detail
 
-### ✅ COMPLETE - Bellingham (10 seasons)
-- Fall 2025: 10 teams
-- Spring 2025: 11 teams
-- Fall 2024: 17 teams
-- Spring 2024: 11 teams
-- Fall 2023: 8 teams
-- Spring 2023: 10 teams
-- Fall 2022: 8 teams
-- Spring 2022: 10 teams
-- Fall 2021: 8 teams
-- Spring 2021: 8 teams
+#### FOX — Foxborough Youth Soccer (193 teams)
+| Season | Teams |
+|--------|-------|
+| Fall 2025 | 25 |
+| Spring 2025 | 18 |
+| Fall 2024 | 22 |
+| Spring 2024 | 16 |
+| Fall 2023 | 22 |
+| Spring 2023 | 14 |
+| Fall 2022 | 22 |
+| Spring 2022 | 17 |
+| Fall 2021 | 23 |
+| Spring 2021 | 14 |
 
-**Total:** 101 teams across 10 complete seasons
+#### ASH — Ashland Youth Soccer (220 teams)
+| Season | Teams |
+|--------|-------|
+| Fall 2025 | 25 |
+| Spring 2025 | 21 |
+| Fall 2024 | 25 |
+| Spring 2024 | 22 |
+| Fall 2023 | 25 |
+| Spring 2023 | 20 |
+| Fall 2022 | 23 |
+| Spring 2022 | 21 |
+| Fall 2021 | 20 |
+| Spring 2021 | 18 |
 
-### ❌ TODO - Remaining 5 Towns
-- [ ] HOL (Holliston)
-- [ ] HOP (Hopkinton)
-- [ ] SUD (Sudbury)
-- [ ] WAL (Walpole)
-- [ ] WSB (Westborough)
+#### BEL — Bellingham Soccer Association (101 teams)
+| Season | Teams |
+|--------|-------|
+| Fall 2025 | 10 |
+| Spring 2025 | 11 |
+| Fall 2024 | 17 |
+| Spring 2024 | 11 |
+| Fall 2023 | 8 |
+| Spring 2023 | 10 |
+| Fall 2022 | 8 |
+| Spring 2022 | 10 |
+| Fall 2021 | 8 |
+| Spring 2021 | 8 |
+
+#### HOL — Holliston Youth Soccer Association (209 teams)
+| Season | Teams |
+|--------|-------|
+| Fall 2025 | 29 |
+| Spring 2025 | 22 |
+| Fall 2024 | 22 |
+| Spring 2024 | 19 |
+| Fall 2023 | 20 |
+| Spring 2023 | 19 |
+| Fall 2022 | 19 |
+| Spring 2022 | 20 |
+| Fall 2021 | 21 |
+| Spring 2021 | 18 |
+
+#### HOP — Hopkinton Youth Soccer (351 teams)
+| Season | Teams |
+|--------|-------|
+| Fall 2025 | 39 |
+| Spring 2025 | 34 |
+| Fall 2024 | 41 |
+| Spring 2024 | 31 |
+| Fall 2023 | 46 |
+| Spring 2023 | 32 |
+| Fall 2022 | 39 |
+| Spring 2022 | 31 |
+| Fall 2021 | 36 |
+| Spring 2021 | 22 |
+
+#### MAN — Mansfield Youth Soccer (302 teams)
+| Season | Teams |
+|--------|-------|
+| Fall 2025 | 30 |
+| Spring 2025 | 29 |
+| Fall 2024 | 29 |
+| Spring 2024 | 29 |
+| Fall 2023 | 30 |
+| Spring 2023 | 29 |
+| Fall 2022 | 31 |
+| Spring 2022 | 31 |
+| Fall 2021 | 30 |
+| Spring 2021 | 34 |
+
+#### MDY — Medway Youth Soccer (158 teams)
+| Season | Teams |
+|--------|-------|
+| Fall 2025 | 16 |
+| Spring 2025 | 17 |
+| Fall 2024 | 17 |
+| Spring 2024 | 17 |
+| Fall 2023 | 19 |
+| Spring 2023 | 17 |
+| Fall 2022 | 16 |
+| Spring 2022 | 13 |
+| Fall 2021 | 14 |
+| Spring 2021 | 12 |
+
+#### WAL — Walpole Youth Soccer Association (312 teams)
+| Season | Teams |
+|--------|-------|
+| Fall 2025 | 41 |
+| Spring 2025 | 28 |
+| Fall 2024 | 33 |
+| Spring 2024 | 30 |
+| Fall 2023 | 32 |
+| Spring 2023 | 30 |
+| Fall 2022 | 30 |
+| Spring 2022 | 30 |
+| Fall 2021 | 29 |
+| Spring 2021 | 29 |
 
 ---
 
@@ -67,82 +147,61 @@
 
 **Formula:** `(Total teams / Town population) * 1000`
 
-**Current Results:**
-- **Foxborough (FOX)**: 1.04 teams/1,000 (baseline)
-- **Ashland (ASH)**: 1.17 teams/1,000 (+12.5% vs FOX)
-
-**For Remaining Towns:** Calculate `+/- %` compared to Foxborough baseline
-
----
+| Town | Teams | Population | Teams/1,000 | vs FOX |
+|------|-------|-----------|-------------|--------|
+| HOP | 351 | 18,758 | 18.71 | +80.4% |
+| WAL | 312 | 24,070 | 12.96 | +25.0% |
+| HOL | 209 | 15,494 | 13.49 | +30.1% |
+| MDY | 158 | 13,115 | 12.05 | +16.2% |
+| MAN | 302 | 25,067 | 12.05 | +16.2% |
+| ASH | 220 | 18,832 | 11.68 | +12.7% |
+| **FOX** | **193** | **18,618** | **10.37** | **baseline** |
+| BEL | 101 | 16,945 | 5.96 | -42.5% |
 
 ### Metric 2: Spring Participation Drop (Consistency)
 
 **Purpose:** Measure year-round participation consistency
 
-**Formula:** `((Fall teams - Spring teams) / Spring teams) * 100`
+**Formula:** `((Avg Fall teams - Avg Spring teams) / Avg Fall teams) * 100`
 
-**Interpretation:**
-- Lower % = Better Spring retention
-- Higher % = Larger seasonal drop-off
-
-**Current Results:**
 | Town | Avg Fall | Avg Spring | Spring Drop % |
 |------|----------|------------|---------------|
-| ASH  | 23.2     | 20.0       | **16.1%**     |
-| FOX  | 22.5     | 16.0       | **44.2%**     |
+| MAN | 30.0 | 30.4 | **-1.3%** (Spring higher!) |
+| BEL | 10.2 | 9.8 | **3.9%** |
+| MDY | 16.4 | 15.2 | **7.3%** |
+| HOL | 22.2 | 19.6 | **11.7%** |
+| WAL | 33.0 | 29.4 | **10.9%** |
+| ASH | 23.6 | 20.4 | **13.6%** |
+| HOP | 40.2 | 30.0 | **25.4%** |
+| **FOX** | **22.8** | **15.8** | **30.7%** |
 
-**Key Finding:** Foxborough loses 44% of teams in Spring vs Ashland's 16% drop
-
-**For Remaining Towns:** Calculate Spring Drop % to compare consistency
+**Key Finding:** Foxborough has the largest Spring drop-off (30.7%). Most peer towns retain Spring participation much better, with Mansfield actually growing in Spring.
 
 ---
 
 ## Data Files
 
 ### Primary Database
-- `data/bays_teams.csv` - **514 teams** (FOX + ASH + BEL complete historical data)
+- `data/bays_teams.csv` — **1,846 teams** (all 8 towns, 10 seasons each)
+- `data/school_enrollment.csv` — School enrollment data for normalization
 
-### Paste Files (Raw Data Storage)
-All pasted data saved to TWO locations:
+### Archive (Historical Data)
+- `archive/pastes/` — Raw paste data for all 80 seasons + chronological dump file
+- `archive/raw_html/` — Scraped HTML backups from bays.org
+- `archive/backups/` — CSV backup snapshots
+- `archive/import_scripts/` — One-off import scripts used during collection
+- `archive/scrapers/` — Selenium/BS4 scrapers (blocked by Cloudflare)
+- `archive/docs/` — Old planning, status, and analysis docs
 
-1. **Dump File (Universal Backup):**
-   - `data/pastes/paste_dump.txt` - Chronological backup of ALL pastes with timestamps
-   - Auto-saved on every paste
-   - Used to recover missing seasons
-
-2. **Individual Paste Files:**
-   - `data/pastes/{TOWN}_{SEASON}{YEAR}_raw.txt` - Clean season-specific files
-   - FOX: 10 seasons (Fall 2025 - Spring 2021)
-   - ASH: 10 seasons (Fall 2025 - Spring 2021)
-   - BEL: 10 seasons (Fall 2025 - Spring 2021)
-
-### Import Scripts
-- `universal_import.py` - **HARDCODED STANDARD** for all imports (Ashland format)
-  - Auto-saves to dump file
-  - Auto-saves to individual paste file
-  - Imports to CSV database
-- `auto_save_pastes.py` - Dump file manager
-  - Check for missing seasons
-  - Import from dump file
-  - List all pastes
-- `check_complete.py` - Verify all towns have 10 seasons
-
-### Analysis Documentation
-- `docs/participation_analysis_notes.md` - Metric definitions and future analysis checklist
-- `docs/PASTE_WORKFLOW.md` - Complete paste workflow documentation
-- `KEY_METRICS.md` - All 7 key metrics with current data
+### Active Scripts
+- `universal_import.py` — Standard import for all towns (Ashland format)
+- `check_complete.py` — Verify all towns have 10 seasons
+- `analysis/` — Analysis scripts (metrics, comparisons, rankings)
 
 ---
 
-## Data Quality
+## Data Standards (Ashland Format - Universal)
 
-### Duplicates Cleaned
-- Removed 8 duplicates (MDY and SUD Fall 2024)
-- Removed 46 FOX Fall 2024 duplicates
-- Re-imported FOX Fall 2024 cleanly: 22 teams
-- **Final count:** 568 teams (clean)
-
-### Data Standards (Ashland Format - Universal)
 **Column Order (MANDATORY):**
 1. Team name
 2. Team number
@@ -164,91 +223,14 @@ All pasted data saved to TWO locations:
 - Other grades → "Grade {number}"
 
 **Division Parsing:**
-- "3/E" splits to:
-  - `division_level` = 3
-  - `division_tier` = E
-  - `division_full` = "Division 3E"
-
----
-
-## Important Rules
-
-### Data Collection Rules
-1. ✅ **Auto-save to dump file** - Every paste automatically saved to `paste_dump.txt`
-2. ✅ **Always save to individual paste files** - Specific season files in `data/pastes/`
-3. ✅ **Use Ashland format** for all imports (universal standard)
-4. ✅ **Capture assistant coaches** (don't forget this field)
-5. ✅ **Separate division level and tier** (not combined)
-6. ✅ **Use actual school grades** (not age groups)
-7. ✅ **Check dump for missing seasons** - Run `auto_save_pastes.py` regularly
-
-### Automation Status
-- ❌ **Web scraping BLOCKED** - Cloudflare protection too aggressive
-- ✅ **Manual collection WORKING** - Using paste + import method
-- ✅ **Universal import STANDARDIZED** - All towns use same format
+- "3/E" splits to: `division_level` = 3, `division_tier` = E, `division_full` = "Division 3E"
 
 ---
 
 ## Next Steps
 
-### Immediate (User Decision Required)
-1. Decide on approach for collecting 6 remaining towns:
-   - Manual collection (paste method like FOX/ASH)
-   - Contact BAYS for data export
-   - Other approach
-
-### When Data Collection Complete
-1. Run participation analysis for all 8 towns
-2. Calculate Teams/1,000 vs FOX (+/- %) for each town
-3. Calculate Spring Drop % for each town
-4. Build comparative visualizations
-5. Identify trends and insights
-
----
-
-## Town Population Data
-
-| Code | Town          | Population |
-|------|---------------|------------|
-| ASH  | Ashland       | 18,832     |
-| BEL  | Bellingham    | TBD        |
-| FOX  | Foxborough    | 18,618     |
-| HOL  | Holliston     | TBD        |
-| HOP  | Hopkinton     | TBD        |
-| SUD  | Sudbury       | TBD        |
-| WAL  | Walpole       | TBD        |
-| WSB  | Westborough   | TBD        |
-
-**Note:** Need to collect population data for 6 remaining towns
-
----
-
-## Historical Context
-
-### Previous Issues (Resolved)
-1. ✅ Automated scraping blocked by Cloudflare
-2. ✅ Wrong column parsing in initial imports
-3. ✅ Missing assistant coach data
-4. ✅ Division parsing combining level/tier incorrectly
-5. ✅ Not saving data to files before processing
-6. ✅ Wrong grade mapping (was using age groups)
-7. ✅ Duplicate data in CSV
-
-### Current Approach
-**Manual collection with auto-save safety net:**
-1. User pastes data from BAYS website
-2. System auto-saves to `paste_dump.txt` with timestamp (BACKUP)
-3. System saves to specific paste file (e.g., `ASH_Spring2024_raw.txt`)
-4. `universal_import.py` parses using Ashland format
-5. Data appended to `data/bays_teams.csv`
-6. If season missed, recover from dump file using `auto_save_pastes.py`
-
-**Benefits:**
-- Never lose pasted data
-- Can detect missing seasons automatically
-- Chronological audit trail of all pastes
-- Works reliably, no Cloudflare issues
-
----
-
-**Status:** 3 towns complete (FOX, ASH, BEL). Ready to collect remaining 5 towns (HOL, HOP, SUD, WAL, WSB).
+1. Run full participation analysis for all 8 towns
+2. Calculate all 7 key metrics across towns
+3. Build comparative visualizations (Streamlit dashboard)
+4. Identify trends and insights
+5. Generate final report for Foxborough Youth Soccer board

@@ -160,6 +160,8 @@ with col_title:
 years_label_placeholder = st.empty()
 
 # Create tabs
+# NOTE: Competitive Intelligence tab temporarily disabled - still under development with new Hopkinton/Walpole data
+# tab1, tab2, tab3, tab4, tab5 = st.tabs(["📊 Dashboard", "📈 Trends Over Time", "📖 Definitions & Assumptions", "📋 Appendix", "🔍 Competitive Intelligence"])
 tab1, tab2, tab3, tab4 = st.tabs(["📊 Dashboard", "📈 Trends Over Time", "📖 Definitions & Assumptions", "📋 Appendix"])
 
 with tab3:
@@ -1702,3 +1704,245 @@ with tab4:
     - [Massachusetts Department of Elementary and Secondary Education](https://profiles.doe.mass.edu/) - School enrollment data, 2024-25
     - [U.S. Census Bureau](https://www.census.gov/) - Population data, 2020 Census
     """)
+
+# Tab 5: Competitive Intelligence - TEMPORARILY DISABLED
+# NOTE: This tab is being updated with new comprehensive Hopkinton and Walpole data
+# Will be re-enabled once analysis file is complete
+# with tab5:
+#    st.markdown("## 🔍 Competitive Intelligence")
+#    st.markdown("<p style='color: grey; font-size: 0.85em; margin-top: -10px;'>Analysis of 7 Comparable BAYS Towns</p>", unsafe_allow_html=True)
+#    st.markdown("<p style='color: grey; font-size: 0.80em; font-style: italic;'>Research conducted January 2026 via web research of publicly available program information</p>", unsafe_allow_html=True)
+
+#    # Executive Summary
+#    st.markdown("### 📋 Executive Summary")
+#    st.markdown("""
+#    This analysis examines how Foxboro's youth soccer program compares to 7 peer towns in the BAYS league:
+#    **Ashland, Bellingham, Hopkinton, Holliston, Mansfield, Walpole, and Medway**.
+
+#    **Key Finding:** Foxboro operates a solid, middle-of-the-pack program. The biggest opportunities lie in:
+#    - Professional coaching partnerships (like Hopkinton's Revolution Academy)
+#    - Transparent evaluation systems (like Holliston)
+#    - Enhanced coach development resources
+#    - Published pricing and program transparency
+#    """)
+
+#    # Comparison Table
+#    st.markdown("### 📊 Quick Comparison")
+
+#    comparison_data = {
+#        'Town': ['Foxboro', 'Ashland', 'Bellingham', 'Hopkinton', 'Holliston', 'Mansfield', 'Walpole', 'Medway'],
+#        'Professional Coaching': ['❌', '❌', '❌', '✅ Rev Academy', '❌', '❌', 'Partial (K-2)', '❌'],
+#        'Practice Frequency': ['2x/week', 'Unknown', 'Unknown', '1x + Pro', 'Varies', 'Unknown', '2x/week', '2x/week'],
+#        'Public Pricing': ['❌', '❌', '❌', '❌', '✅ $150-175', '❌', '❌', '❌'],
+#        'Coach Development': ['Basic', 'Basic', 'Basic', '⭐ Mentorship', '⭐⭐⭐ Resources', 'Basic', 'Basic', 'Formal'],
+#        'Player Evaluation': ['Unclear', 'Unclear', 'Scoring', 'Pro Assessment', '⭐ Documented', 'Unclear', 'Unclear', 'Evaluations']
+#    }
+
+#    comp_df = pd.DataFrame(comparison_data)
+#    st.dataframe(comp_df, use_container_width=True, hide_index=True)
+
+#    st.markdown("**Legend**: ✅ = Yes/Strong | ⭐ = Excellent | ❌ = No/Weak")
+
+#    # Five Key Questions
+#    st.markdown("---")
+#    st.markdown("### 🎯 Five Key Questions Answered")
+
+#    with st.expander("1️⃣ How is their training and coaching structured?", expanded=False):
+#        st.markdown("""
+#        **Common Pattern:** All towns rely on parent-volunteer coaches with MYSA/USSF certification requirements.
+
+#        **Standout Programs:**
+#        - **Hopkinton** 🥇: New England Revolution Academy partnership provides professional coaches, practice plans, and structured curriculum
+#        - **Holliston** 🥈: Extensive coach resource library with training plans, tactical resources, and first-time coach guides
+#        - **Walpole** 🥉: Hybrid model with professional coaches for K-2nd grade
+
+#        **Foxboro Gap:** No professional coaching partnership or extensive resource library visible on public-facing materials.
+#        """)
+
+#    with st.expander("2️⃣ How often do they practice?", expanded=False):
+#        st.markdown("""
+#        **Standard:** Most competitive travel teams (grades 3-8) practice **2x per week**
+
+#        **Practice Frequency by Town:**
+#        - Walpole, Medway, Foxboro: 2x per week
+#        - Hopkinton: 1x per week + Revolution Academy sessions
+#        - Holliston: Varies based on field availability
+#        - Others: Not specified
+
+#        **Insight:** Hopkinton's model trades fewer team practices for structured professional sessions. Foxboro's "at coach's discretion"
+#        approach may create inconsistency.
+#        """)
+
+#    with st.expander("3️⃣ Developmental opportunities for coaches?", expanded=False):
+#        st.markdown("""
+#        **Tier 1 - Comprehensive (Holliston):**
+#        - Structured development pathway
+#        - Extensive resource library (training plans, tactical guides)
+#        - Access to both USSF and NSCAA licenses
+#        - First-time coach support
+
+#        **Tier 2 - Professional Mentorship (Hopkinton):**
+#        - Revolution Academy coaches as resources
+#        - Professional observation at practices
+#        - Pre-made practice plans
+
+#        **Tier 3 - Formal Training (Medway, Ashland):**
+#        - MA Youth Soccer instructor-led courses
+#        - Standard USSF/NSCAA offerings
+
+#        **Tier 4 - Basic (Foxboro, Bellingham, Walpole, Mansfield):**
+#        - MYSA certification requirements
+#        - SafeSport/Concussion training
+#        - Limited ongoing development
+
+#        **Gap for Foxboro:** No structured development pathway or professional mentorship program visible.
+#        """)
+
+#    with st.expander("4️⃣ Developmental opportunities for players?", expanded=False):
+#        st.markdown("""
+#        **Most Structured Programs:**
+
+#        **Hopkinton** 🥇:
+#        - Revolution Academy Partnership with professional coaches
+#        - Structured curriculum across all levels
+#        - Two weekly practices (Academy level)
+#        - Preseason training + tournaments
+
+#        **Holliston** 🥈:
+#        - Formal player evaluation system
+#        - Age-specific training plans
+#        - Clear progression pathway (K through 12th grade)
+#        - Equal emphasis on skill and character development
+
+#        **Walpole** 🥉:
+#        - Professional-supervised skills clinics for K-2nd grade
+#        - Strong early development focus
+
+#        **Foxboro Strengths:**
+#        - ✅ Futsal program (8-week, U8-U12)
+
+#        **Foxboro Gaps:**
+#        - ❌ No professional coaching partnership
+#        - ❌ No formal player evaluation system
+#        - ❌ Limited early development (vs. Walpole)
+#        """)
+
+#    with st.expander("5️⃣ Other interesting findings", expanded=False):
+#        st.markdown("""
+#        **Notable Best Practices:**
+
+#        🏆 **Hopkinton - Revolution Academy Partnership**
+#        - Professional development path for serious players
+#        - Quality assurance regardless of volunteer coach experience
+
+#        📚 **Holliston - Transparency Champion**
+#        - Only town with public pricing
+#        - Documented evaluation system
+#        - Multi-child discounts
+#        - Extensive online resources
+
+#        ⚽ **Medway - Inclusion Focus**
+#        - "Equal playing time regardless of ability" guarantee
+#        - Reduces parent complaints
+#        - Participation-focused philosophy
+
+#        👥 **Walpole - Smart Hybrid Model**
+#        - Professional coaches for youngest ages (K-2)
+#        - Volunteer coaches for older groups
+#        - Balances quality and cost
+
+#        🏅 **Mansfield - Scale & Events**
+#        - Largest program (1,000+ players)
+#        - Hosts annual Columbus Cup tournament
+#        - Potential revenue generator
+
+#        **Missing from ALL Programs:**
+#        - ❌ Published performance metrics
+#        - ❌ Coach qualification details
+#        - ❌ Long-term development plans
+#        - ❌ Parent education resources
+#        """)
+
+#    # Key Recommendations
+#    st.markdown("---")
+#    st.markdown("### 💡 Key Recommendations for Foxboro")
+
+#    col1, col2 = st.columns(2)
+
+#    with col1:
+#        st.markdown("**🔴 Immediate Actions (0-3 months)**")
+#        st.markdown("""
+#        1. **Publish registration costs** on website
+#        2. **Document evaluation criteria** for travel teams
+#        3. **Create coach resource library**
+#        """)
+
+#        st.markdown("**🟡 Short-term (3-6 months)**")
+#        st.markdown("""
+#        4. **Establish coach mentorship program**
+#        5. **Standardize practice frequency** (remove "discretion" ambiguity)
+#        6. **Create parent communication plan**
+#        """)
+
+#    with col2:
+#        st.markdown("**🟢 Medium-term (6-12 months)**")
+#        st.markdown("""
+#        7. **Explore professional coaching partnership**
+#        8. **Develop structured player pathway**
+#        9. **Plan Foxboro tournament** (revenue + recruitment)
+#        10. **Hire professional coaches** for K-2nd grade clinics
+#        """)
+
+#        st.markdown("**🔵 Long-term (1-2 years)**")
+#        st.markdown("""
+#        11. **Track and publish success metrics**
+#        12. **Build comprehensive digital platform**
+#        13. **Become model program** for BAYS league
+#        """)
+
+#    # Competitive Advantage Analysis
+#    st.markdown("---")
+#    st.markdown("### 🎯 Foxboro's Competitive Position")
+
+#    col1, col2 = st.columns(2)
+
+#    with col1:
+#        st.markdown("**✅ Current Strengths**")
+#        st.markdown("""
+#        - Rotating programming offered
+#        - Good website infrastructure
+#        - Modern AdminSports platform
+#        - Strong community support potential
+#        - On par with practice frequency (2x/week)
+#        """)
+
+#    with col2:
+#        st.markdown("**❌ Key Gaps vs. Leaders**")
+#        st.markdown("""
+#        - No professional coaching support (vs. Hopkinton)
+#        - Limited coach resources (vs. Holliston)
+#        - No transparent evaluation (vs. Holliston/Bellingham)
+#        - Missing pricing transparency (vs. Holliston)
+#        - Unclear player development pathway
+#        """)
+
+#    # Data Sources
+#    st.markdown("---")
+#    st.markdown("### 📚 Research Sources")
+#    st.markdown("""
+#    **Town Websites Researched:**
+#    - [Ashland Youth Soccer](https://www.ashlandyouthsoccer.org/)
+#    - [Bellingham Soccer Association](https://bellinghamsoccer.org/)
+#    - [Hopkinton Youth Soccer](https://hopkintonsoccer.org/)
+#    - [Holliston Youth Soccer](https://hollistonsoccer.org/)
+#    - [Mansfield Youth Soccer](https://mansfieldyouthsoccer.com/)
+#    - [Walpole Youth Soccer](https://walpolesoccer.org/)
+#    - [Medway Youth Soccer](https://medwaysoccer.com/)
+#    - [Foxboro Youth Soccer](https://foxborosoccer.org/)
+
+#    **Additional Context:**
+#    - [Boston Area Youth Soccer (BAYS)](https://bays.org/)
+#    - [Massachusetts Youth Soccer](https://mayouthsoccer.org/)
+
+#    *Note: Some websites had access restrictions (403 errors) limiting data collection. Information presented is based on publicly available content as of January 2026.*
+#    """)

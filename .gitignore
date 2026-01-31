@@ -8,25 +8,9 @@ env/
 venv/
 ENV/
 build/
-develop-eggs/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
 *.egg
-
-# Virtual environments
-venv/
-ENV/
-env/
 
 # IDE
 .vscode/
@@ -35,30 +19,39 @@ env/
 *.swo
 *~
 
-# Data files (don't commit scraped data)
-data/raw/*.json
-data/raw/*.html
-data/processed/*.csv
-*.db
+# Archive - local only, not in git
+archive/
 
-# Allow essential CSV files for dashboard
-!data/bays_teams.csv
-!data/school_enrollment.csv
+# Analysis scripts - local only
+analysis/
 
-# Ignore backup files
+# Config/src - not needed for dashboard
+config/
+src/
+
+# Docs - local reference only
+docs/
+
+# Utility scripts - not needed for dashboard
+universal_import.py
+check_complete.py
+
+# Data files - only allow dashboard essentials
+data/raw/
+data/processed/
+data/pastes/
 data/*BACKUP*.csv
 data/*_old.csv
+data/*.json
+data/*.txt
+*.db
 
 # Logs
-logs/*.log
-logs/*.txt
+logs/
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Jupyter
-.ipynb_checkpoints/
 
 # Streamlit
 .streamlit/secrets.toml
@@ -72,7 +65,5 @@ bays_cache.sqlite
 .env
 .env.local
 
-# Documentation - exclude notes, include only official docs
-TECHNICAL_NOTES.md
-WINNING_SEASONS_ANALYSIS.md
-DASHBOARD_REVIEW.md
+# Jupyter
+.ipynb_checkpoints/

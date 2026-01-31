@@ -1,9 +1,0 @@
-Team	Team#	GADS	W	L	T	F	PTS	GF	GA	+/-	Coach	A. Coach
-Lightning	30532	Girls 8 3/C	5	5	0	0	15	24	26	-2	Mike Drons	Patricia Trumm
-Jaguars	30533	Girls 6 3/F1	3	4	1	0	10	16	16	0	Andrew Azzinaro	None
-Hawks	30534	Girls 4 4/A2	4	3	1	0	13	18	17	1	Mohit Mehrotra	Jeremy Rothschild
-Knights	30539	Boys 8 3/A	5	2	3	0	18	30	21	9	Mike Drons	Jonathan Shaw
-Blackhawks	30538	Boys 6 3/B	1	8	1	0	4	25	43	-18	Craig Bartelloni	None
-Blackhawks	30537	Boys 5 4/A1	1	3	1	0	4	8	18	-10	Donald Conaghan	None
-Hammers	30536	Boys 4 3/A	6	3	1	0	19	21	14	7	Michael Andrewartha	None
-Blackhawks	30535	Boys 4 4/D	2	3	0	0	6	12	25	-13	Tim Hunt	None
