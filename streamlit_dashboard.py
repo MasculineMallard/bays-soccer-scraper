@@ -483,7 +483,7 @@ with tab1:
             margin=dict(t=30, b=30, l=40, r=40),
             font=dict(size=14)
         )
-        st.plotly_chart(fig_part, use_container_width=True, config=plotly_config)
+        st.plotly_chart(fig_part, width="stretch", config=plotly_config)
     
     with col2:
         st.subheader("🔄 Spring Retention Rate")
@@ -512,7 +512,7 @@ with tab1:
             margin=dict(t=30, b=30, l=40, r=40),
             font=dict(size=14)
         )
-        st.plotly_chart(fig_ret, use_container_width=True, config=plotly_config)
+        st.plotly_chart(fig_ret, width="stretch", config=plotly_config)
     
     # Growth chart spanning full width
     baseline_year = min(selected_years)
@@ -543,7 +543,7 @@ with tab1:
         font=dict(size=14)
     )
     fig_growth.add_hline(y=0, line_dash="dash", line_color="black")
-    st.plotly_chart(fig_growth, use_container_width=True, config=plotly_config)
+    st.plotly_chart(fig_growth, width="stretch", config=plotly_config)
     
     st.markdown("---")
     
@@ -578,7 +578,7 @@ with tab1:
         font=dict(size=14)
     )
     fig_win.add_hline(y=50, line_dash="dash", line_color="gray")
-    st.plotly_chart(fig_win, use_container_width=True, config=plotly_config)
+    st.plotly_chart(fig_win, width="stretch", config=plotly_config)
     
     # Three columns for competitive metrics
     col1, col2, col3 = st.columns(3)
@@ -610,7 +610,7 @@ with tab1:
             font=dict(size=14)
         )
         fig_gd.add_hline(y=0, line_dash="dash", line_color="black")
-        st.plotly_chart(fig_gd, use_container_width=True, config=plotly_config)
+        st.plotly_chart(fig_gd, width="stretch", config=plotly_config)
     
     with col2:
         st.subheader("⚽ Goals Scored (Avg per Team)")
@@ -639,7 +639,7 @@ with tab1:
             margin=dict(t=30, b=30, l=40, r=40),
             font=dict(size=14)
         )
-        st.plotly_chart(fig_gf, use_container_width=True, config=plotly_config)
+        st.plotly_chart(fig_gf, width="stretch", config=plotly_config)
     
     with col3:
         st.subheader("🛡️ Goals Allowed (Avg per Team)")
@@ -669,7 +669,7 @@ with tab1:
             margin=dict(t=30, b=30, l=40, r=40),
             font=dict(size=14)
         )
-        st.plotly_chart(fig_ga, use_container_width=True, config=plotly_config)
+        st.plotly_chart(fig_ga, width="stretch", config=plotly_config)
     
     st.markdown("---")
     
@@ -709,7 +709,7 @@ with tab1:
             font=dict(size=14)
         )
         fig_gb.add_hline(y=50, line_dash="dash", line_color="gray")
-        st.plotly_chart(fig_gb, use_container_width=True, config=plotly_config)
+        st.plotly_chart(fig_gb, width="stretch", config=plotly_config)
 
         # Note about declining trend
         st.markdown("<p style='color: #808080; font-size: 14px; margin-top: -30px;'>⚠️ <em>Note: Foxboro's gender balance percentage is decreasing over time. See Trends Over Time tab for details.</em></p>", unsafe_allow_html=True)
@@ -742,7 +742,7 @@ with tab1:
             margin=dict(t=30, b=30, l=40, r=40),
             font=dict(size=14)
         )
-        st.plotly_chart(fig_div, use_container_width=True, config=plotly_config)
+        st.plotly_chart(fig_div, width="stretch", config=plotly_config)
 
     st.markdown("---")
     
@@ -1330,7 +1330,7 @@ with tab2:
         ticktext=['2021', '2022', '2023', '2024', '2025']
     )
 
-    st.plotly_chart(fig_participation, use_container_width=True, config=plotly_config)
+    st.plotly_chart(fig_participation, width="stretch", config=plotly_config)
     st.markdown("</div>", unsafe_allow_html=True)
 
     # Section 2: Competitive Performance (Light Blue)
@@ -1410,7 +1410,7 @@ with tab2:
         ticktext=['2021', '2022', '2023', '2024', '2025']
     )
 
-    st.plotly_chart(fig_competitive, use_container_width=True, config=plotly_config)
+    st.plotly_chart(fig_competitive, width="stretch", config=plotly_config)
     st.markdown("</div>", unsafe_allow_html=True)
 
     # Section 3: Program Balance (Light Purple)
@@ -1472,7 +1472,7 @@ with tab2:
     # Reverse y-axis for Average Division (lower is better)
     fig_balance.update_yaxes(autorange="reversed", row=2, col=1)
 
-    st.plotly_chart(fig_balance, use_container_width=True, config=plotly_config)
+    st.plotly_chart(fig_balance, width="stretch", config=plotly_config)
     st.markdown("</div>", unsafe_allow_html=True)
 
 # KPI Summary Tab
@@ -1679,7 +1679,7 @@ with tab4:
         if col != 'Enrollment':
             styled_df = styled_df.apply(highlight_vs_avg, col_name=col, subset=[col])
 
-    st.dataframe(styled_df, use_container_width=True, height=350)
+    st.dataframe(styled_df, width="stretch", height=350)
 
     st.markdown("---")
 
@@ -1737,7 +1737,7 @@ with tab4:
 #    }
 
 #    comp_df = pd.DataFrame(comparison_data)
-#    st.dataframe(comp_df, use_container_width=True, hide_index=True)
+#    st.dataframe(comp_df, width="stretch", hide_index=True)
 
 #    st.markdown("**Legend**: ✅ = Yes/Strong | ⭐ = Excellent | ❌ = No/Weak")
 
