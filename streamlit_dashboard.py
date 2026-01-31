@@ -162,7 +162,7 @@ years_label_placeholder = st.empty()
 # Create tabs
 # NOTE: Competitive Intelligence tab temporarily disabled - still under development with new Hopkinton/Walpole data
 # tab1, tab2, tab3, tab4, tab5 = st.tabs(["📊 Dashboard", "📈 Trends Over Time", "📖 Definitions & Assumptions", "📋 Appendix", "🔍 Competitive Intelligence"])
-tab1, tab2, tab3, tab4 = st.tabs(["📊 Dashboard", "📈 Trends Over Time", "📖 Definitions & Assumptions", "📋 Appendix"])
+tab1, tab2, tab_kpi, tab3, tab4 = st.tabs(["📊 Dashboard", "📈 Trends Over Time", "📊 KPI Summary", "📖 Definitions & Assumptions", "📋 Appendix"])
 
 with tab3:
     st.markdown("## 📖 Definitions & Assumptions")
@@ -450,127 +450,6 @@ with tab1:
             else:
                 colors.append('lightgray')
         return colors
-    
-    # Main metrics overview - organized by the three key questions
-    st.markdown("<h3 style='margin-bottom: 10px; margin-top: 5px;'>📊 Key Performance Indicators - Foxboro</h3>", unsafe_allow_html=True)
-    
-    # Calculate metrics and comparisons
-    fox_metrics = metrics_df.loc['FOX']
-    numeric_cols = ['Participation Rate', 'Win %', 'Goal Diff', 'Retention %',
-                    'Goals For', 'Goals Against', 'Avg Division', 'Gender Balance',
-                    'Growth %']
-    avg_metrics = metrics_df.drop('FOX')[numeric_cols].mean()
-    
-    # Helper function to get rank color
-    def get_rank_color(rank):
-        if rank <= 2:
-            return "green"
-        elif rank <= 5:
-            return "orange"
-        else:
-            return "red"
-
-    # Participation & Growth Section
-    st.markdown("<h4 style='margin-bottom: 5px;'>👥 Participation & Growth</h4>", unsafe_allow_html=True)
-    col1, col2, col3 = st.columns(3)
-
-    with col1:
-        part_rate = fox_metrics['Participation Rate']
-        part_rank = (metrics_df['Participation Rate'] >= part_rate).sum()
-        rank_color = get_rank_color(part_rank)
-        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
-        <p style='margin-bottom: 0px;'><strong>Participation Rate <span style='color: {rank_color};'>#{part_rank}</span></strong></p>
-        <h2 style='margin-top: 0; margin-bottom: 0;'>{part_rate:.1f}</h2>
-        <p style='margin: 0; font-size: 10px; color: gray;'>per 100 students</p>
-        </div>""", unsafe_allow_html=True)
-
-    with col2:
-        retention = fox_metrics['Retention %']
-        ret_rank = (metrics_df['Retention %'] >= retention).sum()
-        rank_color = get_rank_color(ret_rank)
-        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
-        <p style='margin-bottom: 0px;'><strong>Spring Retention <span style='color: {rank_color};'>#{ret_rank}</span></strong></p>
-        <h2 style='margin-top: 0; margin-bottom: 0;'>{retention:.1f}%</h2>
-        </div>""", unsafe_allow_html=True)
-
-    with col3:
-        growth = fox_metrics['Growth %']
-        growth_rank = (metrics_df['Growth %'] >= growth).sum()
-        rank_color = get_rank_color(growth_rank)
-        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
-        <p style='margin-bottom: 0px;'><strong>Growth <span style='color: {rank_color};'>#{growth_rank}</span></strong></p>
-        <h2 style='margin-top: 0; margin-bottom: 0;'>{growth:+.1f}%</h2>
-        </div>""", unsafe_allow_html=True)
-
-    # Competitive Performance Section
-    st.markdown("<h4 style='margin-top: 10px; margin-bottom: 5px;'>🏆 Competitive Performance</h4>", unsafe_allow_html=True)
-    col1, col2, col3, col4 = st.columns(4)
-
-    with col1:
-        win_pct = fox_metrics['Win %']
-        fox_rank = (metrics_df['Win %'] >= win_pct).sum()
-        rank_color = get_rank_color(fox_rank)
-        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
-        <p style='margin-bottom: 0px;'><strong>Win % <span style='color: {rank_color};'>#{fox_rank}</span></strong></p>
-        <h2 style='margin-top: 0; margin-bottom: 0;'>{win_pct:.1f}%</h2>
-        </div>""", unsafe_allow_html=True)
-
-    with col2:
-        gd = fox_metrics['Goal Diff']
-        gd_rank = (metrics_df['Goal Diff'] >= gd).sum()
-        rank_color = get_rank_color(gd_rank)
-        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
-        <p style='margin-bottom: 0px;'><strong>Goal Differential <span style='color: {rank_color};'>#{gd_rank}</span></strong></p>
-        <h2 style='margin-top: 0; margin-bottom: 0;'>{gd:+.1f}</h2>
-        <p style='margin: 0; font-size: 10px; color: gray;'>avg per team</p>
-        </div>""", unsafe_allow_html=True)
-
-    with col3:
-        gf = fox_metrics['Goals For']
-        gf_rank = (metrics_df['Goals For'] >= gf).sum()
-        rank_color = get_rank_color(gf_rank)
-        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
-        <p style='margin-bottom: 0px;'><strong>Goals Scored <span style='color: {rank_color};'>#{gf_rank}</span></strong></p>
-        <h2 style='margin-top: 0; margin-bottom: 0;'>{gf:.1f}</h2>
-        <p style='margin: 0; font-size: 10px; color: gray;'>avg per team</p>
-        </div>""", unsafe_allow_html=True)
-
-    with col4:
-        ga = fox_metrics['Goals Against']
-        ga_rank = (metrics_df['Goals Against'] <= ga).sum()  # Lower is better
-        rank_color = get_rank_color(ga_rank)
-        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
-        <p style='margin-bottom: 0px;'><strong>Goals Allowed <span style='color: {rank_color};'>#{ga_rank}</span></strong></p>
-        <h2 style='margin-top: 0; margin-bottom: 0;'>{ga:.1f}</h2>
-        <p style='margin: 0; font-size: 10px; color: gray;'>avg per team</p>
-        </div>""", unsafe_allow_html=True)
-
-    # Program Balance Section
-    st.markdown("<h4 style='margin-top: 10px; margin-bottom: 5px;'>⚖️ Program Balance</h4>", unsafe_allow_html=True)
-    col1, col2, col3, col4 = st.columns(4)
-    
-    with col1:
-        gb = fox_metrics['Gender Balance']
-        def distance_from_50(val):
-            return abs(val - 50)
-        fox_dist = distance_from_50(gb)
-        gb_rank = (metrics_df['Gender Balance'].apply(distance_from_50) <= fox_dist).sum()
-        rank_color = get_rank_color(gb_rank)
-        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
-        <p style='margin-bottom: 0px;'><strong>% Girls <span style='color: {rank_color};'>#{gb_rank}</span></strong></p>
-        <h2 style='margin-top: 0; margin-bottom: 0;'>{gb:.1f}%</h2>
-        </div>""", unsafe_allow_html=True)
-    
-    with col2:
-        div = fox_metrics['Avg Division']
-        div_rank = (metrics_df['Avg Division'] <= div).sum()  # Lower is better
-        rank_color = get_rank_color(div_rank)
-        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
-        <p style='margin-bottom: 0px;'><strong>Avg Division <span style='color: {rank_color};'>#{div_rank}</span></strong></p>
-        <h2 style='margin-top: 0; margin-bottom: 0;'>{div:.1f}</h2>
-        </div>""", unsafe_allow_html=True)
-    
-    st.markdown("---")
     
     # Are kids participating and having fun?
     st.markdown("<h2 style='margin-top: 10px; margin-bottom: 10px;'>🎉 Are Kids Participating and Having Fun?</h2>", unsafe_allow_html=True)
@@ -1391,9 +1270,9 @@ with tab2:
     st.markdown("<h3 style='margin-top: 0; color: rgba(230, 120, 50, 1);'>👥 Participation & Growth</h3>", unsafe_allow_html=True)
 
     fig_participation = make_subplots(
-        rows=1, cols=3,
+        rows=3, cols=1,
         subplot_titles=('Participation Rate (per 100 students)', 'Spring Retention Rate (%)', 'Growth Rate (%)'),
-        horizontal_spacing=0.10
+        vertical_spacing=0.12
     )
 
     # Participation Rate
@@ -1413,27 +1292,27 @@ with tab2:
                                    name='Foxboro', mode='lines+markers',
                                    line=dict(color='rgba(230, 120, 50, 0.9)', width=3),
                                    hovertemplate='%{y:.1f}%<extra></extra>',
-                                   showlegend=False), row=1, col=2)
+                                   showlegend=False), row=2, col=1)
     fig_participation.add_trace(go.Scatter(x=years, y=time_series_data['Retention %']['Avg'],
                                    name='League Avg', mode='lines+markers',
                                    line=dict(color='lightgray', width=2, dash='dash'),
                                    hovertemplate='%{y:.1f}%<extra></extra>',
-                                   showlegend=False), row=1, col=2)
+                                   showlegend=False), row=2, col=1)
 
     # Growth %
     fig_participation.add_trace(go.Scatter(x=years, y=time_series_data['Growth %']['Fox'],
                                    name='Foxboro', mode='lines+markers',
                                    line=dict(color='rgba(230, 120, 50, 0.9)', width=3),
                                    hovertemplate='%{y:+.1f}%<extra></extra>',
-                                   showlegend=False), row=1, col=3)
+                                   showlegend=False), row=3, col=1)
     fig_participation.add_trace(go.Scatter(x=years, y=time_series_data['Growth %']['Avg'],
                                    name='League Avg', mode='lines+markers',
                                    line=dict(color='lightgray', width=2, dash='dash'),
                                    hovertemplate='%{y:+.1f}%<extra></extra>',
-                                   showlegend=False), row=1, col=3)
+                                   showlegend=False), row=3, col=1)
 
     fig_participation.update_layout(dragmode=False,
-        height=350,
+        height=750,
         margin=dict(t=60, b=10, l=10, r=10),
         font=dict(size=11),
         legend=dict(
@@ -1459,10 +1338,9 @@ with tab2:
     st.markdown("<h3 style='margin-top: 0; color: rgba(70, 130, 180, 1);'>🏆 Competitive Performance</h3>", unsafe_allow_html=True)
 
     fig_competitive = make_subplots(
-        rows=2, cols=2,
+        rows=4, cols=1,
         subplot_titles=('Win % (%)', 'Goal Differential (avg per team)', 'Goals Scored (avg per team)', 'Goals Allowed (avg per team)'),
-        vertical_spacing=0.12,
-        horizontal_spacing=0.10
+        vertical_spacing=0.08
     )
 
     # Win %
@@ -1482,39 +1360,39 @@ with tab2:
                                    name='Foxboro', mode='lines+markers',
                                    line=dict(color='rgba(70, 130, 180, 0.9)', width=3),
                                    hovertemplate='%{y:+.1f}<extra></extra>',
-                                   showlegend=False), row=1, col=2)
+                                   showlegend=False), row=2, col=1)
     fig_competitive.add_trace(go.Scatter(x=years, y=time_series_data['Goal Diff']['Avg'],
                                    name='League Avg', mode='lines+markers',
                                    line=dict(color='lightgray', width=2, dash='dash'),
                                    hovertemplate='%{y:+.1f}<extra></extra>',
-                                   showlegend=False), row=1, col=2)
+                                   showlegend=False), row=2, col=1)
 
     # Goals For
     fig_competitive.add_trace(go.Scatter(x=years, y=time_series_data['Goals For']['Fox'],
                                    name='Foxboro', mode='lines+markers',
                                    line=dict(color='rgba(70, 130, 180, 0.9)', width=3),
                                    hovertemplate='%{y:.1f}<extra></extra>',
-                                   showlegend=False), row=2, col=1)
+                                   showlegend=False), row=3, col=1)
     fig_competitive.add_trace(go.Scatter(x=years, y=time_series_data['Goals For']['Avg'],
                                    name='League Avg', mode='lines+markers',
                                    line=dict(color='lightgray', width=2, dash='dash'),
                                    hovertemplate='%{y:.1f}<extra></extra>',
-                                   showlegend=False), row=2, col=1)
+                                   showlegend=False), row=3, col=1)
 
     # Goals Against (light red to indicate higher is bad)
     fig_competitive.add_trace(go.Scatter(x=years, y=time_series_data['Goals Against']['Fox'],
                                    name='Foxboro', mode='lines+markers',
                                    line=dict(color='rgba(255, 100, 100, 0.9)', width=3),
                                    hovertemplate='%{y:.1f}<extra></extra>',
-                                   showlegend=False), row=2, col=2)
+                                   showlegend=False), row=4, col=1)
     fig_competitive.add_trace(go.Scatter(x=years, y=time_series_data['Goals Against']['Avg'],
                                    name='League Avg', mode='lines+markers',
                                    line=dict(color='lightgray', width=2, dash='dash'),
                                    hovertemplate='%{y:.1f}<extra></extra>',
-                                   showlegend=False), row=2, col=2)
+                                   showlegend=False), row=4, col=1)
 
     fig_competitive.update_layout(dragmode=False,
-        height=600,
+        height=900,
         margin=dict(t=60, b=10, l=10, r=10),
         font=dict(size=11),
         legend=dict(
@@ -1540,9 +1418,9 @@ with tab2:
     st.markdown("<h3 style='margin-top: 0; color: rgba(150, 100, 200, 1);'>⚖️ Program Balance</h3>", unsafe_allow_html=True)
 
     fig_balance = make_subplots(
-        rows=1, cols=2,
+        rows=2, cols=1,
         subplot_titles=('Gender Balance (% Girls)', 'Average Division Level'),
-        horizontal_spacing=0.12
+        vertical_spacing=0.15
     )
 
     # Gender Balance
@@ -1565,15 +1443,15 @@ with tab2:
                                    name='Foxboro', mode='lines+markers',
                                    line=dict(color='rgba(150, 100, 200, 0.9)', width=3),
                                    hovertemplate='%{y:.1f}<extra></extra>',
-                                   showlegend=False), row=1, col=2)
+                                   showlegend=False), row=2, col=1)
     fig_balance.add_trace(go.Scatter(x=years, y=time_series_data['Avg Division']['Avg'],
                                    name='League Avg', mode='lines+markers',
                                    line=dict(color='lightgray', width=2, dash='dash'),
                                    hovertemplate='%{y:.1f}<extra></extra>',
-                                   showlegend=False), row=1, col=2)
+                                   showlegend=False), row=2, col=1)
 
     fig_balance.update_layout(dragmode=False,
-        height=350,
+        height=550,
         margin=dict(t=60, b=10, l=10, r=10),
         font=dict(size=11),
         legend=dict(
@@ -1592,10 +1470,130 @@ with tab2:
     )
 
     # Reverse y-axis for Average Division (lower is better)
-    fig_balance.update_yaxes(autorange="reversed", row=1, col=2)
+    fig_balance.update_yaxes(autorange="reversed", row=2, col=1)
 
     st.plotly_chart(fig_balance, use_container_width=True, config=plotly_config)
     st.markdown("</div>", unsafe_allow_html=True)
+
+# KPI Summary Tab
+with tab_kpi:
+    st.markdown("<h2 style='margin-top: 10px; margin-bottom: 5px;'>📊 KPI Summary — Foxboro vs Peers</h2>", unsafe_allow_html=True)
+    st.markdown("<p style='color: gray; font-size: 14px; margin-bottom: 15px;'>Foxboro's rank out of 8 comparable towns across key performance indicators</p>", unsafe_allow_html=True)
+
+    # Calculate metrics and comparisons
+    kpi_fox = metrics_df.loc['FOX']
+
+    # Helper function to get rank color
+    def get_rank_color(rank):
+        if rank <= 2:
+            return "green"
+        elif rank <= 5:
+            return "orange"
+        else:
+            return "red"
+
+    # Participation & Growth Section
+    st.markdown("<h3 style='margin-bottom: 5px;'>👥 Participation & Growth</h3>", unsafe_allow_html=True)
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        part_rate = kpi_fox['Participation Rate']
+        part_rank = (metrics_df['Participation Rate'] >= part_rate).sum()
+        rank_color = get_rank_color(part_rank)
+        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
+        <p style='margin-bottom: 0px;'><strong>Participation Rate <span style='color: {rank_color};'>#{part_rank}</span></strong></p>
+        <h2 style='margin-top: 0; margin-bottom: 0;'>{part_rate:.1f}</h2>
+        <p style='margin: 0; font-size: 10px; color: gray;'>per 100 students</p>
+        </div>""", unsafe_allow_html=True)
+
+    with col2:
+        retention = kpi_fox['Retention %']
+        ret_rank = (metrics_df['Retention %'] >= retention).sum()
+        rank_color = get_rank_color(ret_rank)
+        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
+        <p style='margin-bottom: 0px;'><strong>Spring Retention <span style='color: {rank_color};'>#{ret_rank}</span></strong></p>
+        <h2 style='margin-top: 0; margin-bottom: 0;'>{retention:.1f}%</h2>
+        </div>""", unsafe_allow_html=True)
+
+    with col3:
+        growth = kpi_fox['Growth %']
+        growth_rank = (metrics_df['Growth %'] >= growth).sum()
+        rank_color = get_rank_color(growth_rank)
+        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
+        <p style='margin-bottom: 0px;'><strong>Growth <span style='color: {rank_color};'>#{growth_rank}</span></strong></p>
+        <h2 style='margin-top: 0; margin-bottom: 0;'>{growth:+.1f}%</h2>
+        </div>""", unsafe_allow_html=True)
+
+    # Competitive Performance Section
+    st.markdown("<h3 style='margin-top: 15px; margin-bottom: 5px;'>🏆 Competitive Performance</h3>", unsafe_allow_html=True)
+    col1, col2, col3, col4 = st.columns(4)
+
+    with col1:
+        win_pct = kpi_fox['Win %']
+        fox_rank = (metrics_df['Win %'] >= win_pct).sum()
+        rank_color = get_rank_color(fox_rank)
+        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
+        <p style='margin-bottom: 0px;'><strong>Win % <span style='color: {rank_color};'>#{fox_rank}</span></strong></p>
+        <h2 style='margin-top: 0; margin-bottom: 0;'>{win_pct:.1f}%</h2>
+        </div>""", unsafe_allow_html=True)
+
+    with col2:
+        gd = kpi_fox['Goal Diff']
+        gd_rank = (metrics_df['Goal Diff'] >= gd).sum()
+        rank_color = get_rank_color(gd_rank)
+        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
+        <p style='margin-bottom: 0px;'><strong>Goal Differential <span style='color: {rank_color};'>#{gd_rank}</span></strong></p>
+        <h2 style='margin-top: 0; margin-bottom: 0;'>{gd:+.1f}</h2>
+        <p style='margin: 0; font-size: 10px; color: gray;'>avg per team</p>
+        </div>""", unsafe_allow_html=True)
+
+    with col3:
+        gf = kpi_fox['Goals For']
+        gf_rank = (metrics_df['Goals For'] >= gf).sum()
+        rank_color = get_rank_color(gf_rank)
+        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
+        <p style='margin-bottom: 0px;'><strong>Goals Scored <span style='color: {rank_color};'>#{gf_rank}</span></strong></p>
+        <h2 style='margin-top: 0; margin-bottom: 0;'>{gf:.1f}</h2>
+        <p style='margin: 0; font-size: 10px; color: gray;'>avg per team</p>
+        </div>""", unsafe_allow_html=True)
+
+    with col4:
+        ga = kpi_fox['Goals Against']
+        ga_rank = (metrics_df['Goals Against'] <= ga).sum()
+        rank_color = get_rank_color(ga_rank)
+        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
+        <p style='margin-bottom: 0px;'><strong>Goals Allowed <span style='color: {rank_color};'>#{ga_rank}</span></strong></p>
+        <h2 style='margin-top: 0; margin-bottom: 0;'>{ga:.1f}</h2>
+        <p style='margin: 0; font-size: 10px; color: gray;'>avg per team</p>
+        </div>""", unsafe_allow_html=True)
+
+    # Program Balance Section
+    st.markdown("<h3 style='margin-top: 15px; margin-bottom: 5px;'>⚖️ Program Balance</h3>", unsafe_allow_html=True)
+    col1, col2, col3, col4 = st.columns(4)
+
+    with col1:
+        gb = kpi_fox['Gender Balance']
+        def distance_from_50(val):
+            return abs(val - 50)
+        fox_dist = distance_from_50(gb)
+        gb_rank = (metrics_df['Gender Balance'].apply(distance_from_50) <= fox_dist).sum()
+        rank_color = get_rank_color(gb_rank)
+        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
+        <p style='margin-bottom: 0px;'><strong>% Girls <span style='color: {rank_color};'>#{gb_rank}</span></strong></p>
+        <h2 style='margin-top: 0; margin-bottom: 0;'>{gb:.1f}%</h2>
+        </div>""", unsafe_allow_html=True)
+
+    with col2:
+        div = kpi_fox['Avg Division']
+        div_rank = (metrics_df['Avg Division'] <= div).sum()
+        rank_color = get_rank_color(div_rank)
+        st.markdown(f"""<div style='border: 1px solid #d3d3d3; padding: 8px; border-radius: 5px;'>
+        <p style='margin-bottom: 0px;'><strong>Avg Division <span style='color: {rank_color};'>#{div_rank}</span></strong></p>
+        <h2 style='margin-top: 0; margin-bottom: 0;'>{div:.1f}</h2>
+        </div>""", unsafe_allow_html=True)
+
+    st.markdown("---")
+    st.markdown("<p style='color: gray; font-size: 12px;'>Rankings are out of 8 towns. <span style='color: green;'>Green</span> = Top 2, <span style='color: orange;'>Orange</span> = Middle, <span style='color: red;'>Red</span> = Bottom 3.</p>", unsafe_allow_html=True)
 
 # Tab 4: Appendix
 with tab4:

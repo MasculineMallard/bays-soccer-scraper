@@ -1,18 +1,8 @@
-# BAYS Soccer Scraper & Analysis
+# Foxboro Youth Soccer Analytics Dashboard
 
-Compare Foxborough Youth Soccer performance against 7 peer towns over 10 seasons.
+Interactive Streamlit dashboard comparing Foxborough Youth Soccer against 7 peer towns over 10 seasons.
 
-## Project Overview
-
-This project collects and analyzes historical soccer data from bays.org to compare:
-- Participation rates (teams per 1,000 residents)
-- Spring participation retention
-- Win percentages by division level (1, 2, 3, 4)
-- Goal differential and goals scored
-- Program strength (% of teams in higher vs lower divisions)
-- Lag indicators (trends showing improvement/decline vs peers)
-
-## Data Status: COMPLETE
+## Data: COMPLETE
 
 **1,846 teams** across **8 towns × 10 seasons** (Spring 2021 – Fall 2025)
 
@@ -27,62 +17,32 @@ This project collects and analyzes historical soccer data from bays.org to compa
 | Medway | MDY | 13,115 | 158 |
 | Walpole | WAL | 24,070 | 312 |
 
-## Quick Start
-
-### 1. Setup Environment
+## Setup
 
 ```bash
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-
-# Mac/Linux
-source venv/bin/activate
-
 pip install -r requirements.txt
+streamlit run streamlit_dashboard.py
 ```
 
-### 2. Project Structure
+## Repo Contents
 
 ```
 bays-soccer-scraper/
-├── config/                # Configuration
-│   ├── towns_config.py    # Town codes, names, populations
-│   └── csv_schema.py      # CSV column definitions
-├── src/                   # Core source code
-│   └── csv_manager.py     # CSV operations (append, load, dedup)
+├── streamlit_dashboard.py   # Dashboard app
 ├── data/
-│   ├── bays_teams.csv     # Primary database (1,846 teams)
+│   ├── bays_teams.csv       # Primary database (1,846 teams)
 │   └── school_enrollment.csv
-├── analysis/              # Analysis scripts
-│   ├── analyze_9_metrics.py
-│   ├── compare_to_fox.py
-│   ├── fox_coach_rankings.py
-│   └── ...
-├── docs/                  # Reference documentation
-│   ├── CORE_METRICS.md
-│   ├── participation_analysis_notes.md
-│   └── site_structure.md
-├── archive/               # Historical data & retired code
-│   ├── pastes/            # Raw paste data (all 80 seasons)
-│   ├── raw_html/          # Scraped HTML backups
-│   ├── import_scripts/    # One-off import scripts
-│   ├── scrapers/          # Selenium/BS4 scrapers (blocked by CF)
-│   ├── backups/           # CSV backups
-│   └── docs/              # Old planning & status docs
-├── streamlit_dashboard.py # Interactive dashboard
-├── universal_import.py    # Standard data import tool
-├── check_complete.py      # Data completeness checker
-├── KEY_METRICS.md         # 7 key analysis metrics
-├── CURRENT_STATUS.md      # Project status & data summary
-└── requirements.txt       # Python dependencies
+├── fox-logo_3.png           # Dashboard logo
+├── requirements.txt         # Python dependencies
+└── README.md
 ```
 
-## Data Collection
+## Analysis Highlights
 
-Data was collected manually from bays.org using a paste + import workflow (automated scraping blocked by Cloudflare). All raw data is preserved in `archive/pastes/`.
+- **Foxborough has the lowest participation rate** among peers (10.37 teams/1,000 residents)
+- **Hopkinton leads** at 18.71 teams/1,000 (+80% vs Foxborough)
+- **Foxborough has the worst Spring retention** — 30.7% drop vs Mansfield's -1.3%
 
-See [CURRENT_STATUS.md](CURRENT_STATUS.md) for detailed per-town breakdowns and metrics.
+## Data Source
 
-Personal use only. Data from bays.org — respect robots.txt.
+Collected manually from bays.org. Personal use only — respect robots.txt.
